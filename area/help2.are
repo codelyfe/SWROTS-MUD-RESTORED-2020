@@ -1,0 +1,426 @@
+#HELPS
+
+1 ADD_PATROL ELITE_GUARD GATHER_INTELLIGENCE GEMCUTTING MASS_PROPEGANDA SCRIBE SEDUCE SPECIAL_FORCES "TRACTOR BEAMS"~
+
+These commands are not currently in operation.
+~
+
+
+1 BRIBE~
+Syntax : bribe <mob> <ammount>
+
+Increases support for your government through bribery. Only works on planets
+governed by your clan.
+~
+
+1 "HEIGHTENED ACCURACY"~
+
+Syntax : heightened accuracy
+
+Increases your hitroll for a limited period.
+~
+
+1 JAIL~
+
+Syntax : jail <player>
+
+Sends a stunned player to your clan's jail.
+~
+
+1 LIMBER~
+
+Syntax : limber
+
+Increase your dexterity for a limited period.
+~
+
+1 MAKEARMOR~
+Syntax : makearmor <wear location> <armor name>
+
+This allows you to create armor for yourself and others using some material and
+a sewing kit(reuseable).
+~
+
+1 MAKEBLADE~
+Syntax : makeblade <blade name>
+
+This allows you to make a vibro-blade using a toolkit(reuseable), some durasteel, a
+battery and an oven (reuseable).
+~
+
+1 MAKEBLASTER~
+Syntax : makeblaster <blaster name>
+
+This allows you to make a blaster using a toolkit(reuseable), some durasteel, a battery,
+an oven (reuseable), some circuitry and some sort of conductor.
+~
+
+1 MAKECOMLINK~
+Syntax : makecomlink <comlink name>
+
+This allows you to make a comlink using a toolkit(reuseable), a battery, some circuitry
+and a crystal.
+~
+
+1 MAKEFLASHLIGHT~
+Syntax : makeflashlight <light name>
+
+This allows you to make a light using a toolkit(reuseable), a battery, a lens, some
+circuitry and some chemicals.
+~
+
+1 MAKEGRENADE~
+Syntax : makegrenade <grenade name>
+
+This allows you to make a grenade suing a toolkit(reuseable), a drink container, a battery,
+some circuitry and some chemicals.
+~
+
+1 MAKEJEWELRY~
+Syntax : makejewelry <wear location> <name>
+
+This makes jewelry that can be sold for a profit from some precious metal.
+A toolkit and an oven are also needed.
+~
+
+1 MAKELANDMIND~
+Syntax : makelandmine <mine name>
+
+This makes a landmine using a toolkit(reuseable), a drink container, a battery, some
+circuitry and some chemicals.
+~
+
+1 MAKESHIELD~
+Syntax : makeshield <shield name>
+
+This makes an energy shield using a toolkit(reuseable), a battery, some circuitry, a
+conductor and a crytsal.
+~
+
+1 MINE~
+Syntax : mine <object>
+
+Allows you to place a landmine using a shovel.
+~
+
+101 "POST GUARD"~
+Syntax : post guard
+
+This command needs to be modified to post a clan guard if player is in a clan with a
+guard clan as currently this command is only useful for the empire/republic and only
+against the other.
+~
+
+1 "POST GUARD"~
+Syntax : post guard
+
+This posts a guard at your location.
+~
+
+1 PROPEGANDA~
+Syntax : propeganda <mob>
+
+This increases your clan's popular support if they control the planet or decreases
+the current control's support if they don't.
+~
+
+1 REINFORCEMENTS~
+Syntax : reinforcements
+
+This calls some troopers to follow you.
+~
+
+1 "SHIP MAINTENANCE"~
+
+This provides you with the skill REPAIRSHIP.
+
+See REPAIRSHIP.
+~
+
+1 SMALLTALK~
+Syntax : smalltalk <mob>
+
+Increases support for your clan on planets they control.
+~
+
+1 "SPICE REFINING"~
+
+This command allows you to make spice from unrefined spice using MAKESPICE.
+
+See MAKESPICE.
+~
+
+1 BOWCASTERS "FORCE PIKES" LIGHTSABERS VIBRO-BLADES VIBRO-BLADE LIGHTSABER "FORCE PIKE" BOWCASTER~
+
+These skills allow you to successfully wield some of the weapons found in the
+Galaxy.
+~
+
+1  "AFFECT MIND"~
+
+Syntax : feel "affect mind" <victim>
+
+This attempts to control a person, if successful they will follow you for a
+limited period.
+~
+
+1 ALERTNESS~
+
+Syntax : feel alertness
+
+This makes you more alert for a period.
+~
+
+1 BEAUTY~
+
+Syntax : feel beauty <target>
+
+Increases the charisma of target for a limited period.
+~
+
+1 "CREATE FIRE"~
+
+Syntax : feel "create fire"
+
+Creates a small contained fire in the room.
+~
+
+1 "CURE BLINDNESS"~
+
+Syntax : feel "cure blindness" <target>
+
+Cures blindness of target.
+~
+
+1 "CURE CRITICAL" CURE "CURE LIGHT" "CURE SERIOUS" HEAL~
+Syntax : feel <type of healing> <target>
+
+Heals the target, strength depends on ability, cure light does very
+little, heal does alot.
+~
+
+1 "CURE POISON"~
+Syntax : feel "cure poison" <target>
+
+Removes poison from targets blood.
+~
+
+1 "DETECT DARKNESS" "DETECT FORCE" "DETECT INTENT" "DETECT MASKING" "DETECT POISON" "DETECT TRAPS"~
+Syntax : feel "detect (ability)"
+
+These abilities allow you to detect what they say. Intent gives you a
+rough idea about your alignment.
+~
+
+1 "DISPEL DARK"~
+Syntax : feel "dispel dark" <target>
+
+Damages characters aligned with the dark side.
+~
+
+1 "DISPEL FORCE"~
+Syntax : feel "dispel force" <target>
+
+Removes any force affecting the victim.
+~
+
+1 "DRAIN ESSENCE"~
+Syntax : feel "drain essence" <victim>
+
+Drains XP, MANA and HP from victim.
+User gains HP.
+~
+
+1 EARTHQUAKE~
+Syntax : feel earthquake
+
+Damages all players in the room on the ground.
+~
+
+1 FARSIGHT~
+Syntax : feel farsight <victim>
+
+Gives a room description of victims location.
+~
+
+1 FATIGUE~
+Syntax : feel fatigue <victim>
+
+Makes victim more susceptable.
+~
+
+1 FEEBLENESS~
+Syntax : feel feebleness <victim>
+
+Makes victim more susceptable.
+~
+
+1 FIREBALL~
+Syntax : feel fireball <victim>
+
+Sends a fireball at victim.
+~
+
+1 "FORCE BOLT"~
+Syntax : feel "force bolt" <victim>
+
+Sends a bolt of force at the victim.
+~
+
+1 "FORCE BUBBLE" "FORCE SHIELD"~
+Syntax : feel "force bubble"
+Syntax : feel "force shield"
+
+Creates a force bubble/shield that lowers AC and increase resistance.
+~
+
+1 "FORCE FUNNEL"~
+Syntax : feel "force funnel" <victim>
+
+Makes victim more susceptable.
+~
+
+1 "FORCE LIGHTNING"~
+Syntax : feel "force lightning" <victim>
+
+Sends bolts of lightning into victim.
+~
+
+1 "FORCE SIGHT"~
+Syntax : feel "force sight"
+
+Allows user to see in the dark.
+~
+
+1 "FORCE SPRAY"~
+Syntax : feel "force spray" <victim>
+
+Cause minor damage to victim.
+~
+
+1 FORETHOUGHT~
+Syntax : feel forethought
+
+Increases wisdom for a limited period.
+~
+
+1 "GOOD FORTUNE"~
+Syntax : feel "good fortune"
+
+Increase hitroll and improves saving roll against the force.
+~
+
+1 "GROUP MASKING"~
+Syntax : feel "group masking"
+
+Masks all those in your group (including you).
+~
+
+1 "HAND OF DARKNESS"~
+Syntax : feel "hand of darkness" <victim>
+
+Cause heavy damage to target.
+~
+
+1 HARM~
+
+Syntax : feel harm <victim>
+
+Causes damage to victim.
+~
+
+1 "HEIGHTENED AWARENESS"~
+Syntax : feel "heightened awareness"
+
+Allows user to detect characters sneaking around.
+~
+
+1 ILLUMINATE~
+Syntax : feel illuminate
+
+Creates a ball of force light.
+~
+
+1 "INNER FORTRESS"~
+Syntax : feel "inner fortress"
+
+Improves constitution for a limited period.
+~
+
+1 "INVADE ESSENCE"~
+Syntax : feel "invade essence" <victim>
+
+Causes damage to victim.
+~
+
+1 "KNOW ESSENCE"~
+Syntax : feel "know essence" <target>
+
+Dispels information on target.
+~
+
+1 MASK~
+Syntax : feel mask
+
+Masks User for a limited period.
+~
+
+1 "PROTECTION FROM DARKNESS"~
+Syntax : feel "protection from darkness"
+
+Protect users from the darkside for a limited period.
+~
+
+1 "REMOVE MASKING"~
+Syntax : feel "remove masking" <victim>
+
+Makes victim visible.
+~
+
+1 "REMOVE TRAP"~
+Syntax : feel "remove trap" <target>
+
+Remove trap.
+~
+
+1 "RESTORATION"~
+Syntax : feel "restoration"
+
+Requires two people to cast and heals one target.
+~
+
+1 "SCORCHING SURGE"~
+Syntax : feel "scorching surge" <victim>
+
+Cause great harm to victim.
+~
+
+1 "SHOCKING GRASP"~
+Syntax : feel "shocking grasp" <victim>
+
+Send small lightning bolts through victim from your hands.
+~
+
+1 SLEEP~
+Syntax : sleep <victim>
+
+Sends victim to sleep for a limited period.
+~
+
+1 "UNRAVEL DEFENSE"~
+Syntax : feel "unravel defense" <victim>
+
+Makes victim more susceptable.
+~
+
+1 "FORCE BLAST"~
+Syntax : feel "force blast"
+
+Require THREE people and causes heavy damage to all in the room,
+and then blinds everyone, including casters.
+~ 
+
+0 $~
+
+
+#$

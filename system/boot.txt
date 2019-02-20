@@ -1,0 +1,2 @@
+[*****] BOOT: ---------------------[ Boot Log ]--------------------
+[*****] BOOT: Fix_exits: room 107, exit north leads to bad vnum (666)

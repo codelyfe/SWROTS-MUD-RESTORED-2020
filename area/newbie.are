@@ -1,0 +1,2479 @@
+#AREA   Newbie1~
+
+
+
+#AUTHOR Manteiv~
+
+#RANGES
+0 36 0 36
+$
+
+#RESETMSG Blaster fire from the Fifth Floor echos throughout the Academy.~
+
+#FLAGS
+0 1
+
+#ECONOMY -1 996836819
+
+#MOBILES
+#115
+low_mob~
+an A7L9 Greeting droid~
+A copper A7L9 greeting droid is here registering new cadets.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 3
+say Greetings, welcome to RotS.
+mpsleep 4
+if hasquest($n) newbie
+say I see you are already registered with the Academy, please see the Admiral before you leave.
+else
+say Please wait one moment while I register you with the Academy.
+mpsleep 4
+mpechoat $n An A7L9 greeting droid presses a few buttons on a datapad.
+mpquest $n newbie
+mpsleep 3
+say You are all set, good luck in your adventures.
+endif
+~
+|
+#116
+jedi teacher~
+an old male human Jedi Master~
+An old male human Jedi Master stands here speaking about the Force.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+11 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 3
+bow $n
+mpsleep 3
+say Welcome to RotS.
+mpsleep 4
+say Force is open to all characters here, though it is strongly suggested that players unfamiliar with our systems steer clear of it.
+mpsleep 5
+say Force-Using classes bring great power, but also require many hours of roleplaying and vast knowledge of the Force.
+mpsleep 3
+say Or I fear you will easily fall prey to the Dark Side.
+~
+|
+#117
+tutor droid~
+a well polished tutor droid~
+A well polished droid is here tutoring new cadets.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 4
+say RotS utilizes the introduction system, suchthat, you only know other characters after you have met them.
+mpsleep 3
+say The exception of this is, when you achieve higher rankings of Reputation, characters will automatically know you.
+mpsleep 4
+say This can often be a hinderance and a benefit, depending if you wish to be found.
+~
+|
+#118
+sleeping cadet cerean female~
+a drowsy female cerean~
+A drowsy female cerean is here sleeping between classes.
+~
+~
+3 0 0 Z
+1 0 10 1d8+8 1d3+1
+10 0
+4 8 2
+12 11 9 14 13 11 10
+0 0 0 0 0
+3 0 0 0 9 8 0
+1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#119
+male cadet~
+a male miralukian cadet~
+A male Miraluka is here chatting about galactic politics.
+~
+~
+3 0 0 Z
+3 0 10 3d8+10 1d3+2
+15 0
+8 8 1
+14 14 9 12 13 12 10
+0 0 0 0 0
+17 0 0 0 65537 65537 0
+3 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#120
+muun doctor~
+a Muun doctor~
+A female Muun doctor is here seeing to the Academy's wounded.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+19 0 0 0 262145 262145 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 3
+mpechoat $n A Muun doctor looks up as you enter.
+mpsleep 4
+say Are you wounded? Do you need assistance?
+~
+> speech_prog p no~
+mpsleep 3
+mpechoat $n A Muun doctor looks at you, slightly annoyed.
+mpsleep 5
+say Then please leave, this isn't a place to goof off.
+~
+> speech_prog p yes~
+mpsleep 3
+say Please follow me then.
+mpsleep 4
+mpechoat $n A Muun doctor opens a door to the west and shows you to a small bacta tank.
+mpechoaround $n $n is lead to the west by the doctor.
+mpopenpassage 146 148 3
+mpforce $n west
+mpclosepassage 146 3
+~
+|
+#121
+medical droid~
+a medical droid~
+A medical droid is here sell medical supplies to cadets.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 3
+mpechoat $n A medical droid beeps slightly as you enter.
+mpsleep 5
+say Greetings Cadet, may I interest you in some supplies?
+~
+|
+#122
+Damaya Guru~
+Damaya Guru~
+A tall Miraluka male is here tending to his shop.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+17 0 0 0 65537 65536 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 4
+mpechoat $n Damaya Guru appears as if he doesn't see you enter.
+mpsleep 7
+say Welcome to my shop Cadet, may I offer you some fine weapons?
+~
+> speech_prog p yes~
+mpsleep 4
+mpechoat $n Damaya Guru peers around behind a pair of dark shades.
+mpsleep 7
+say Use the 'list' command to see what I have to offer.
+~
+> speech_prog p no~
+mpsleep 5
+mpechoat $n Damaya Guru goes back to ignoring you.
+~
+|
+#123
+chandra hobat~
+Chandra Hobat~
+Chandra Hobat, a short, obese Ubese, is here peddleing his wares.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+30 0 0 0 268435457 268435456 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#124
+sloor~
+Sloor~
+A short Drall male is here selling protective clothing.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+7 0 0 0 257 256 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#125
+Baniss Keeg~
+Baniss Keeg~
+Baniss Keeg, a large Ho'din female, is here trying to satisfy customers.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+10 0 0 0 1025 1024 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog ~
+mpsleep 4
+mpechoat $n Baniss Keeg looks up as you enter.
+mpsleep 6
+say I hope you find everything you're looking for.
+~
+> all_greet_prog 100~
+mpsleep 4
+mpechoat $n Baniss Keeg looks up as you enter.
+mpsleep 6
+say I hope you find everything you're looking for.
+~
+|
+#126
+SoroSuub droid~
+a SoroSuub droid~
+A SoroSuub droid is here selling engineering goods.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 5
+say SoroSuub welcomes you to the Academy.
+mpsleep 6
+say Would you be interested in renting our workshop?
+~
+> speech_prog p yes~
+mpsleep 4
+say That will cost 100 credits.
+~
+> bribe_prog 100~
+mpsleep 5
+say Thank you, right this way.
+mpsleep 4
+mpechoat $n A SoroSuub droid leads you to a workshop to the north.
+mpechoaround $n $n is lead to a workshop to the north.
+mpsleep 3
+mpopenpassage 156 157 0
+mpforce $n north
+mpclosepassage 156 0
+~
+|
+#127
+level 1~
+a Level 1 Combat Droid~
+A Level 1 Combat Droid is here for combat.
+~
+~
+3 0 0 Z
+1 0 0 1d10+6 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#128
+level 2~
+a Level 2 Combat Droid~
+A Level 2 Combat Droid stands here scanning the room.
+~
+~
+3 0 0 Z
+1 0 0 2d10+7 1d6+1
+0 0
+8 8 0
+10 10 10 12 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+2 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#129
+level 3~
+a Level 3 Combat Droid~
+A Level 3 Combat Droid appears very aggressive.
+~
+~
+35 0 0 Z
+3 0 10 3d10+10 1d8+0
+0 0
+9 8 0
+12 10 10 12 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+3 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpkill $n
+~
+|
+#130
+level 4~
+a Level 4 Combat Droid~
+A Level 4 Combat Droid appears very aggressive.
+~
+~
+35 0 0 Z
+4 0 10 4d10+10 1d10+2
+0 0
+9 8 0
+14 10 10 14 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+4 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpkill $n
+~
+|
+#131
+level 5~
+a Level 5 Combat Droid~
+A Level 5 Combat Droid is here being aggressive.
+~
+~
+35 0 0 Z
+5 0 10 5d10+12 2d4+1
+0 0
+8 8 0
+14 10 10 16 10 10 10
+0 0 0 0 0
+8 0 0 0 5 4 0
+5 1 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpkill $n
+~
+|
+#132
+control engineer~
+an Anomid engineer~
+An Anomid engineer is here maintaining the simulator.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+if level($n) > 5
+say $n you are too powerful for this simulator.
+mpforce $n north
+endif
+~
+|
+#133
+boarding guard~
+a newbie boarding guard~
+A boarding guard is here checking cadet's clearance prior to departure.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+18 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 5
+mpechoaround $n A newbie boarding guard looks up at $n approaches.
+mpechoat $n A newbie boarding guard looks up as you approach.
+mpsleep 4
+say Are you prepared to depart from the Academy cadet?
+~
+> speech_prog p yes~
+mpsleep 4
+say Lets see if you are on my list cadet $n.
+mpsleep 5
+mpecho A newbie boarding guard looks over a list displayed on his datapad.
+mpsleep 4
+if quest($n) newbie
+say It would appear you are not on my list Cadet. Perhaps you should see the General on the seventh floor.
+else
+say You are cleared for departure Cadet. Goodluck in your travels.
+mpechoaround $n $n is allowed through the gate to the east.
+mpechoat $n You are cleared through the gate to the east
+mpsleep 4
+mptransfer $n 170
+endif
+~
+> speech_prog p no~
+mpsleep 4
+mpecho A newbie boarding guard calls the next cadet in line.
+~
+|
+#134
+hanger commander~
+the hanger commander~
+The Hanger Commander is here showing people to the buses.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+18 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 4
+mpechoat $n The hanger commander looks up as you enter within the hanger.
+mpechoaround $n The hanger commander looks over at $n as $e enters.
+mpsleep 5
+say Are you prepared to depart Cadet?
+~
+> speech_prog p yes~
+mpsleep 4
+mpechoat $n The hanger commander shows you to the next available bus.
+mpechoaround $n The hanger commander shows $n to the next available bus.
+mpsleep 3
+mptransfer $n 901
+~
+> speech_prog p no~
+mpsleep 4
+say Then leave my hanger, you're taking up space.
+~
+|
+#135
+zeltron secretary~
+the General's secretary~
+The General's secretary is here schedualing appointments.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+36 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 4
+mpechoat $n The General's secretary looks up as you approach the desk.
+mpsleep 4
+say Are you here to see the General?
+~
+> speech_prog p no~
+mpsleep 4
+mpechoat $n The General's secretary eyes you for a moment, then goes back to reading a book.
+~
+> speech_prog p yes~
+mpsleep 4
+say Let me check for your appointment Cadet $n.
+mpsleep 3
+mpechoat $n The General's secretary scans over a list of appointments for today.
+mpsleep 6
+say I don't seem to have you schedualed.
+mpsleep 4
+say But I may be able to squeeze you in if you can locate some papers I seemed to have lost.
+~
+> give_prog lost work orders~
+mpsleep 5
+say Yes, these are what I'm missing.
+mpsleep 6
+say I can get you in to see the General right now.
+mpsleep 3
+smile $n
+mpsleep 4
+mpechoaround $n &w&W$n is shown into the office to the &Ynorth&w&W.
+mpopenpassage 175 176 0
+mpforce $n north
+mpclosepassage 175 0
+mpat 1 drop all
+mpat 1 purge
+~
+|
+#136
+general h'onus~
+General H'onus~
+General H'onus is here attending to some overdue paperwork.
+~
+~
+2051 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+11 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 4
+mpechoat $n General H'onus looks up from his paperwork as you enter.
+mpsleep 4
+say Ah another Cadet, looking for departure clearance are we?
+~
+> speech_prog p yes~
+if quest($n) newbie
+mpsleep 3
+mpechoat $n General H'onus types some words into a computer located on his desk.
+mpsleep 3
+mpquestcomplete $n newbie
+say You are all set, goodluck Cadet.
+else
+say You are already cleared for departure Cadet.
+endif
+~
+> speech_prog p no~
+mpsleep 4
+glare $n
+mpsleep 4
+say Then leave, I am far too busy for games Cadet.
+mpsleep 3
+mpforce $n south
+~
+|
+#190
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1073741825 0 0 Z
+1 0 15 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#115
+academy robes~
+&w&Wa set of robes embroidered with the &BAcademy &w&Wseal~
+&w&WA set of embroidered robes has been dropped here.~
+~
+9 0 9
+0 0 0 0
+1 0 0
+#116
+datapad~
+&w&Wan ancient datapad~
+&w&WAn old datapad has been misplaced here.~
+~
+89 0 16385
+0 0 0 0
+1 0 0
+#117
+jedi robes~
+&Oa set of Jedi Master robes&w&W~
+&OA set of robes bareing the mark of the &CJedi Order&O lies here.~
+~
+9 0 9
+0 0 0 0
+1 0 0
+#118
+bunk beds~
+a set of stacked bunk beds~
+Dozens of stacked bunk beds are cluttered about this room.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#119
+pajama bottoms~
+&Bblue pajama bottoms, covered in spaceships&w&W~
+&BA set of pajama bottoms, covered in spaceships, has been left here.&w&W~
+~
+9 0 33
+0 0 0 0
+1 0 0
+#120
+pajama top~
+&Bblue pajama top, covered in spaceships~
+&BA blue pajama top, covered in space ships, looks like it could be cleaned.&w&W~
+~
+9 0 9
+0 0 0 0
+1 0 0
+#121
+button~
+a Turbolift button~
+A button to call the Turbolift is mounted on the wall.~
+~
+39 0 0
+0 0 0 0
+1 0 0
+> push_prog 100~
+mpsleep 2
+if hasquest($n) newbie
+mpechoat $n You push a button and instantly hear the Turbolift hum to life.
+mpechoaround $n $n pushes a button to call the Turbolift.
+mpsleep 3
+mpechoat $n The humming stops and the doors open, allowing you enterance to the Turbolift.
+mpsleep 2
+mpopenpassage 127 128 0
+mpforce $n north
+mpclosepassage 127 0
+pull button
+else
+mpechoat $n A voice comes over the intercom 'You must register with the Academy before you may enter.'
+pull button
+endif
+~
+|
+#122
+storage locker~
+a durasteel storage locker~
+A DuraSteel storage locker belonging to the Academy, rests against an unmade bunk.~
+~
+15 0 0
+100 13 123 10
+1 0 0
+#123
+locker key~
+a locker key~
+A locker key is here.~
+~
+18 0 16385
+0 0 0 0
+1 0 0
+#124
+academy training pistol~
+&w&Wan &BAcademy&w&W training pistol~
+&w&WA pistol baring the &BAcademy's&w&W insignia has been carelessly dropped here.~
+~
+5 0 24577
+10 1 4 3 500 500
+2 45 4
+#125
+cup of soup~
+a cup of soup~
+A steaming cup of soup is slowly getting cold~
+~
+19 0 16385
+3 0 0 0
+1 0 0
+#126
+bantha steak~
+a slice of bantha steak~
+A thin slice of bantha meat has been dropped here.~
+~
+19 0 16385
+6 0 0 0
+1 0 0
+#127
+canteen~
+an academy canteen~
+A canteen bareing the Academy insignia has been left here.~
+~
+17 0 16385
+6 6 0 0
+2 0 0
+#128
+bandage cloth~
+a cheap looking bandage~
+A short, narrow strip of cloth has been dropped here.~
+~
+73 0 16385
+0 0 0 0
+1 10 1
+#129
+diagnostics datapad~
+a medical diagnostics datapad~
+A datapad is here collecting dust.~
+~
+89 0 16385
+0 0 0 0
+2 1250 125
+A
+8 4
+#130
+atlatl club gungan~
+a Gungan Atlatl~
+A small club-like weapon, crafted by fine Gungans, has been left here.~
+~
+5 0 24577
+100 2 4 7
+2 50 5
+#131
+spear~
+a long wooden spear~
+A long wooden spear has been stabbed into the ground here.~
+~
+5 0 24577
+100 1 8 7
+2 65 6
+#132
+vibroblade blade~
+a dangerous looking vibroblade~
+A poorly crafter vibroblade has carelessly been left here.~
+~
+5 0 0
+100 2 12 1 500 500
+3 250 25
+#133
+holdout blaster pistol~
+a hold-out blaster pistol~
+A small, pocket-sized, blaster pistol has been left here.~
+~
+5 0 24577
+100 2 4 3 300 300
+2 450 45
+#134
+boots~
+&Oa pair of suede boots&w&W~
+&OA pair of suede boots have some obveous wear.&w&W~
+~
+9 0 16449
+0 0 0 0
+2 35 3
+#135
+thermal stockings~
+&Oa pair of skin-tight thermal stockings&w&W~
+&OA pair of thermal stockings have been left here.&w&W~
+~
+9 0 16417 1
+0 0 0 0
+1 24 2
+#136
+shirt~
+&Ba long sleeved shirt&w&W~
+&BA long sleeved flannel shirt has been carlessly misplaced.&w&W~
+~
+9 0 16393 1
+0 0 0 0
+3 30 3
+#137
+jacket~
+&ca sporty Academy jacket&w&W~
+&cA flight jacket, bareing the Academy's insignia, has been dropped here.&w&W~
+~
+9 0 17409 128
+0 0 0 0
+2 60 6
+#138
+robes~
+&rlong flowing red robes&w&W~
+&rA set of long red robes are here clumped in a pile.&w&W~
+~
+9 0 17409 128
+0 0 0 0
+4 39 3
+#139
+cadet rank insignia~
+&pthe Academy rank of Cadet&w&W~
+&pAn Academy ranking of &BCadet&p has been dropped here.&w&W~
+~
+9 0 16641 139
+0 0 0 0
+1 15 1
+#140
+breastplate~
+&BAcademy issued breatplate&w&W~
+&BA standard issued Academy breastplate is here collecting dust.&w&W~
+~
+9 0 16393 64
+1 1 1 0
+5 250 25
+#141
+flight helmet~
+&w&Wbottom-of-the-line flight helmet~
+&w&WA cheap looking flight helmet has been discarded here.~
+~
+9 0 16401
+0 0 1 0
+2 125 12
+#142
+sleeves~
+&Glightly armored sleeves&w&W~
+&GA set of lightly armored combat sleeves lay here in a pile.&w&W~
+~
+9 0 16641 64
+1 1 1 0
+1 200 20
+#143
+combat suit~
+a protective combat suit~
+A suit of armor, worthy of combat, lies here unused.~
+~
+9 0 16393 64
+4 4 2 0
+7 550 55
+#144
+shell necklace~
+&Ca necklace made of sea shells&w&W~
+&cA long necklace, made of various sea shells, has been dropped here.&w&W~
+~
+9 0 16389
+0 0 0 0
+1 22 2
+#145
+fake opal ring~
+&w&Wa fake opal ring~
+&w&WA &Ygold&w&W ring with an opal mounted on its center lies here.~
+~
+9 0 16387
+0 0 0 0
+1 35 3
+#146
+battery~
+a small battery~
+A small battery has been dropped here.~
+~
+65 0 16385
+0 0 0 0
+1 19 1
+#147
+toolkit~
+a basic engineering toolkit~
+A cheap looking toolkit lies here.~
+~
+66 0 16385
+0 0 0 0
+3 180 18
+#148
+circuitry wires~
+a small piece of circuitry~
+Some short pieces of wires clutter the floor here.~
+~
+70 0 16385
+0 0 0 0
+1 22 2
+#149
+oven~
+an engineering oven~
+An oven, used in making tools, is here collecting dust.~
+~
+68 0 0
+0 0 0 0
+6 200 20
+#150
+durasteel~
+a sheet of durasteel~
+A sheet of durasteel has been left here.~
+~
+67 0 16385
+0 0 0 0
+5 75 7
+#151
+trash can~
+a large trash can~
+A large aluminium trash can is here ensuring the cafeteria is free of clutter.~
+~
+15 0 0
+300 0 0 0
+1 0 0
+#152
+lost work orders~
+some lost work orders~
+Some work orders have been lost here.~
+~
+47 0 16385
+0 0 0 0
+1 0 0
+#153
+secretary desk~
+a secretary's desk~
+A durasteel desk sits clear of clutter and papers.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#154
+generals desk~
+the general's desk~
+A glass topped desk, belonging to the General, is covered in work.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#155
+lightsaber~
+a jedi lightsaber~
+A lightsaber has carelessly been left here.~
+~
+5 0 24577
+100 2 8 2 1000 1000
+2 1000 100
+#156
+dress~
+&Ra seductive dress&w&W~
+&RA seductive dress is lieing here in a heap.&w&W~
+~
+9 0 16393
+0 0 0 0
+1 0 0
+#157
+military uniform~
+&Ga military uniform&w&W~
+&GA military uniform has been dropped here.&w&W~
+~
+9 0 16393
+0 0 0 0
+1 0 0
+#158
+general rank~
+&Ga General's ranking&w&W~
+&GA ranking depicting a General has been left here.&w&W~
+~
+9 0 16641
+0 0 0 0
+1 0 0
+#159
+datapad~
+a hi-tech datapad~
+A hi-tech datapad has been set here.~
+~
+89 0 16385
+0 0 0 0
+1 0 0
+#190
+hi_obj~
+a hi_obj~
+A hi_obj is here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#115
+&CWelcome To &RReturn Of The Sith&C!~
+&w&WLets start out by saying &YWELCOME!&w&W Now that is out of
+the way, this game is obveously based upon Star Wars. If that
+is not your forte, we understand and goodluck at whatever game
+you settle on. You still here? Good. If you are looking for
+your typical stock &rSWR MUD&w&W, then you too may as well depart
+and keep searching. We here at &RSW:RotS&w&W have worked countless
+hours to create a world for you that is original and unique.Most
+of the commands you may be use to have been changed or removed
+completely. All of these you will learn as you progress through
+our &BNewbie Academy&w&W. We highly suggest taking your time
+through the Academy as there is a lot of new information there
+to learn.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 126
+S
+#116
+&GGaining Levels~
+&w&WGaining levels here at &RSW:RotS&w&W is a little different
+then what most players have encountered before. During your
+character creation, you selected your first level. For each
+level after, you will be required to use the &BLevel&w&W command.Just
+typeing &BLevel&w&W alone, will display all different classes
+we have here. To gain a level in a specific class simply type
+&BLevel <class name>&w&W. Be advised some classes have specific
+requirements that must be met prior to you being able to gain
+a level in it. Also, some clans have specific classes that will
+now show up on the Level list until you belong to that clan.
+We highly suggest you read the help files on all the classes
+prior to choosing them as you will only be  able to acquire
+30 levels.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 117
+D2
+~
+~
+0 -1 126
+S
+#117
+&GSkills~
+&w&WWe have done away with the &BPractice&w&W command. To view
+a list of the current skills implemented here at &RSW&r:&RRotS&w&W,
+use the &BSkills&w&W command. Each time you level you will acquire
+a certain number of &Yskillpoints&w&W which is displayed under
+your &BScore&w&W command. In order to gain a skill, simply type
+&BSkills learn <skill name> <points to add>&w&W. Doing so  will
+add a number of skillpoints to that skill. The final number
+is how many &YRanks&w&W you have within that skill. You may
+not have more then your current level + 3 ranks in any skill.
+Force-using character also have access to &GForce Skills&w&W.
+To view these, simply use the &BFskills&w&W command, and they
+are learned the same way. Force Skills are limited to your current
+level + 3 + a force bonus determined at character creation.
+Do not bother asking us what your force bonus is, I have not
+given my Immortals the power to view them.
+
+The fractions after the skill name and ranks show how close you are
+to raising that skill through natural use. This is the only way to raise
+a skill above its max.
+~
+0 1073741832 1 0 0 0 5704
+D2
+~
+~
+0 -1 116
+D6
+~
+~
+0 -1 118
+S
+#118
+&BThe Force~
+&w&WThe Force is an energy field generated by all living things.
+It surrounds and penetrates everything, binding the galaxy together.
+There are two sides to the Force. Peace, serenity, and knowledge
+form the light side, while the dark side consists of aggression,
+anger, and fear. The universe is a place of balance: life and
+death, creation and destruction, love and hate. As such, both
+sides of the Force are part of the natural order.
+~
+0 1073741832 1 0 0 0 5704
+D6
+~
+~
+0 -1 119
+D9
+~
+~
+0 -1 117
+S
+#119
+&rDark Points~
+&w&WDark Side Points measure the corrupting force that the dark
+side of the Force has over any individual. Only characters with
+the Force-Sensitive feat can gain Dark Side Points. Once a character's
+Dark Side Points are greater then half his &YWisdom&w&W, he
+is considered Tainted by the dark side of the Force. When the
+Dark Side Points equal, or are greather than, the character's
+&YWisdom&w&W, he has fallen completely to the dark side. For
+more information on Dark Side Points,  see &rHelp Darkpoints&w&W.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 120
+D9
+~
+~
+0 -1 118
+S
+#120
+&GFeats~
+&w&WA feat is a special feature that either gives your character
+a new capability or improves one he or she already has. Unlike
+a skill, a feat has no ranks. A character either has the feat
+or doesn't have it. You can use the &BFeats&w&W command to see
+a list of feats. &BFfeats&w&W command will enable you to see
+any Force Feats you may take. To obtain feats, you must have
+free feat points, which are displayed on your &YScore&w&W. To
+gain a feat use the following syntax: &GFeat <feat name> &w&W
+or &GFfeat <force feat name>&w&W. Once you have chosen a feat,
+you may not remove it. Choose wisely.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 121
+D2
+~
+~
+0 -1 119
+S
+#121
+&CLanguages~
+&w&WMany of the species within the Star Wars universe have their
+own language. You can see a list of the current languages with
+the &BLanguage&w&W command. To become fluent in a new language,
+you must first put ranks in the &YSpeak Language&w&W skill.
+For each point in Speak Language you may use the following syntax
+to obtain a new language: &GLanguage <language name>&w&W.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 122
+D2
+~
+~
+0 -1 120
+S
+#122
+&GTraining~
+&w&WEvery four levels you gain an attribute train. These trains
+may only be used with specific trainers. You may find these
+trainers throughout the universe, though some a more difficult
+to find then others.
+
+A small &Rsign&w&W has been mounted on the eastern wall.
+~
+0 1073741832 1 0 0 0 5704
+D2
+~
+~
+0 -1 121
+D7
+~
+~
+0 -1 123
+E
+sign~
+&w&WMounted on the eastern wall is a small marble slab. Engraved upon it:
+
+  &cAlways be on the lookout for artifacts and powerful items that
+   bestow additional trains upon your character. Many of these
+    may only be found through questing.&w&W
+~
+S
+#123
+&GReputation~
+&w&WEvery character has a reputation of one sort or another.
+As a character advances in levels, he or she gains a Reputation
+bonus that can be used with certain Charisma-based skills. There
+are a number of ways and situations that Reputation  comes into
+play. In general, a high Reputation bonus benefits a character.
+Those who recognize the character are more likely to help him.
+However, a high reputation also makes it difficult for a character
+to mask his identity which can be a hindrance if someone is
+looking for him or he's trying to go unnoticed.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 124
+D8
+~
+~
+0 -1 122
+S
+#124
+&pRULES~
+&RREAD THE RULES&W&w... see &rHelp Rules&w&W. Ignorance is no
+excuse for violating the rules.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 125
+D2
+~
+~
+0 -1 123
+S
+#125
+&YPlanetary Atmosphere~
+&w&WEach planet has a set atmospheric condition. Each of the
+atmospheres, with the exception of &YNormal&w&W, have side effects
+if a character is not prepared to encounter them. For example,
+a character who is exposed to a &YToxic&w&W atmosphere without
+wearing a gasmask will suffer continuous damage. See &rHelp
+Atmosphere&w&W for a list of current atmosphereic conditions.
+You may see what conditions a planet is set at by using the
+&BShowplanet&w&W command.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 127
+D2
+~
+~
+0 -1 124
+S
+#126
+&zRegistering With The Academy~
+&w&WA shiny silver droid stands in the middle of a long hallway
+that leads within the &BNewbie Academy&w&W. As students pass
+the droid, it registers them for participation within the Academy.
+Excitement begins to build within you, as your dreams of adventure
+and excitement are soon to be realized.
+~
+0 1073741832 1 0 0 0 5704
+D0
+~
+~
+0 -1 116
+D2
+~
+~
+0 -1 115
+S
+#127
+&w&WBefore A &BTurbolift&w&W~
+&w&WBefore you looms the great &BNewbie Academy&w&W, where all
+great adventurers begin their quests. A large button has been
+mounted onto the wall here, which will call the &BTurbolift&w&W
+to come allow you entrance into the Academy. Only registered
+cadets may be allowed beyond this point.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 125
+S
+#128
+&BTurbolift~
+&w&WThis turbolift is large enough to hold about a dozen Academy
+students. The durasteel walls are lined with tan soft foam to
+about waist high. There is a small &Rsign&w&W written in a half
+dozen different languages detailing each floor the  turbolift
+stops on. Just above the &Rsign&w&W is a small microphone used
+to operate the turbolift.
+~
+0 1073741836 1 0 0 0 5704
+E
+sign~
+&gSimply say the floor you wish to be transported to:
+
+&w&WFloor 1 &g- &w&WAcademy Barracks
+&w&WFloor 2 &g- &w&WAcademy Caffeteria
+&w&WFloor 3 &g- &w&WMedical Bay
+&w&WFloor 4 &g- &w&WShopping Center
+&w&WFloor 5 &g- &w&WTraining Center
+&w&WFloor 6 &g- &w&WHanger
+&w&WFloor 7 &g- &w&WAdministration
+~
+> speech_prog 100 'floor 1'~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift&w&W doors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n &w&W$n steps off the &BTurbolift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTurbolift&w&W.
+mptransfer $n 129
+~
+> speech_prog 100 'floor 2'~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift &w&Wdoors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n &w&W$n steps off the &BTurbolift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTurbolift&w&W.
+mptransfer $n 134
+~
+> speech_prog 100 'floor 3'~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift &w&Wdoors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n $n steps off of the &BTuroblift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTuroblift&w&W.
+mptransfer $n 144
+~
+> speech_prog 100 'floor 4'~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift&w&W doors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n &w&W$n steps off of the &BTurbolift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTurbolift&w&W.
+mptransfer $n 149
+~
+> speech_prog 100 'floor 5'~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift&w&W doors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n &w&W$n steps off of the &BTurbolift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTurbolift&w&W.
+mptrans $n 158
+~
+> speech_prog p floor 6~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift&w&W doors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n &w&W$n steps off of the &BTurbolift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTurbolift&w&W.
+mptransfer $n 167
+~
+> speech_prog p floor 7~
+mpsleep 3
+mpechoat $n &w&WThe &BTurbolift &w&Wdoors slide closed.
+mpsleep 2
+mpechoat $n &w&WThe &BTurbolift&w&W shudders slightly as it hums to life.
+mpsleep 4
+mpechoat $n &w&WSome soft &Ymusic&w&W begins to play from a speaker in the ceiling.
+mpsleep 5
+mpechoat $n &w&WThe &Ymusic&w&W comes to an end as the &BTurbolift&w&W comes to a halt.
+mpsleep 3
+mpechoaround $n $n steps off of the &BTurbolift&w&W.
+mpechoat $n &w&WThe doors open and you step off of the &BTurbolift&w&W.
+mptransfer $n 172
+~
+|
+S
+#129
+&YFirst Floor&w&W~
+&w&WYou stand before a large &BTurbolift&w&W on the first floor
+of the &BNewbie Academy&w&W. Many young cadets take up residence
+on this floor. Due to a heavy work load and the cramped living
+conditions, many students avoid spending much time on this floor.
+~
+0 0 1 0 0 0 5704
+D1
+~
+~
+0 -1 130
+D3
+~
+~
+0 -1 128
+> speech_prog healme~
+mprestore $n 1000
+~
+|
+S
+#130
+&w&WA Poorly &OLit &w&WHallway~
+&w&WThis dimly lit passageway has been darkened out of respect
+for those sleeping in the barracks ahead. Cadets are rarely
+seen down here, as their training takes up much of there time.
+To the &YWest&w&W lies the &BTurbolift&w&W, which will connect
+you to the rest of the Academy.
+~
+0 0 1 0 0 0 5704
+D1
+~
+~
+0 -1 131
+D3
+~
+~
+0 -1 129
+S
+#131
+&w&WBefore Two Barracks~
+&w&WThe hallways ends suddenly, allowing you to only go &YNorth&w&W
+and &YSouth&w&W. In both directions lies two large rooms used
+as sleeping quarters for the students of the Academy. Though
+sleep is something lacking within the Academy, its still nice
+to know you have a bed to callapse into.
+~
+0 0 1 0 0 0 5704
+D0
+~
+~
+0 -1 132
+D2
+~
+~
+0 -1 133
+D3
+~
+~
+0 -1 130
+S
+#132
+&w&WA Large &CBarracks&w&W Chamber~
+&w&WThis large room is the primary housing for most of the Academy.
+Dozens of bunks, stacked two high, fill this room. Each bunk
+is accompanied by a footlocker, used to store the cadets belongings
+while not in use. 
+~
+0 8388608 1 0 0 0 5704
+D2
+~
+~
+0 -1 131
+S
+#133
+&w&WA Large &CBarracks&w&W Chamber~
+&w&WThis large room is the primary housing for most of the Academy.
+Dozens of bunks, stacked two high, fill this room. Each bunk
+is accompanied by a footlocker, used to store the cadets belongings
+while not in use. 
+~
+0 8388608 1 0 0 0 5704
+D0
+~
+~
+0 -1 131
+S
+#134
+&YSecond Floor~
+&w&WMost of the free time possessed by cadets is spent on this
+floor. Whether it is used to feed nutrious cravings or to catch
+up on past due studying, there is always a free seat found someplace
+on this floor. To the &YWest&w&W lies the &BTurbolift&w&W that
+connects this floor to the rest of the &BAcademy&w&W.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 135
+D3
+~
+~
+0 -1 128
+S
+#135
+&w&WA &zShallow&w&W Hallway~
+&w&WThis short hallways is the only connection the students within
+the &BAcademy&w&W have to a source of food. The fusion lamps
+mounted on the ceiling put off an excessive amount of light.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 136
+D3
+~
+~
+0 -1 134
+S
+#136
+&w&WBefore A Large Cafeteria~
+&w&WThe hallway curve to the &YNorth&w&W as it meets the entrance
+of the cafeteria. Students huddle is small herds, segregating
+themselves from the rest of the students. A quick glance into
+the cafeteria gives you a strange feeling of being back in high
+school.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 137
+D3
+~
+~
+0 -1 135
+S
+#137
+&BAcademy Cafeteria&w&W~
+&w&WThe &BAcademy&w&W Cafeteria is bustleing with activity. 
+Be it studying, debating the future of the war with the &RSith&w&W,
+or simply catching a bite to eat before their schedualed time
+in the combat simulator, this area quickly becomes the favorite
+relaxation spot of most students. Just like the conversation,
+even the food is free to students.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 138
+D2
+~
+~
+0 -1 136
+S
+#138
+&w&WBefore A Buffet~
+&w&WThe smells coming from the buffet ahead, swirl and mix together
+forming a powerful force. This Super Scent sends strange sensations
+through you that make you feel either really hungry or as if
+you're going to be suddenly ill. The food beyond is free to
+students, they just ask you take it in moderation as the &BAcademy&w&W
+is free to anyone whom wishes to join, they must attempt to
+keep costs down by any means.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 139
+D2
+~
+~
+0 -1 137
+D3
+~
+~
+0 -1 143
+S
+#139
+&w&WA Buffet Line~
+&w&WThe smells coming from the buffet ahead, swirl and mix together
+forming a powerful force. This Super Scent sends strange sensations
+through you that make you feel either really hungry or as if
+you're going to be suddenly ill. The food beyond is free to
+students, they just ask you take it in moderation as the &BAcademy&w&W
+is free to anyone whom wishes to join, they must attempt to
+keep costs down by any means.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 140
+D3
+~
+~
+0 -1 138
+S
+#140
+&YSoup &w&WStation~
+&w&WThe smells coming from the buffet ahead, swirl and mix together
+forming a powerful force. This Super Scent sends strange sensations
+through you that make you feel either really hungry or as if
+you're going to be suddenly ill. The food beyond is free to
+students, they just ask you take it in moderation as the &BAcademy&w&W
+is free to anyone whom wishes to join, they must attempt to
+keep costs down by any means.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 139
+D3
+~
+~
+0 -1 141
+S
+#141
+&YMeat &w&WStation~
+&w&WThe smells coming from the buffet ahead, swirl and mix together
+forming a powerful force. This Super Scent sends strange sensations
+through you that make you feel either really hungry or as if
+you're going to be suddenly ill. The food beyond is free to
+students, they just ask you take it in moderation as the &BAcademy&w&W
+is free to anyone whom wishes to join, they must attempt to
+keep costs down by any means.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 140
+D3
+~
+~
+0 -1 142
+S
+#142
+&YDrink &w&WStation~
+&w&WThe smells coming from the buffet ahead, swirl and mix together
+forming a powerful force. This Super Scent sends strange sensations
+through you that make you feel either really hungry or as if
+you're going to be suddenly ill. The food beyond is free to
+students, they just ask you take it in moderation as the &BAcademy&w&W
+is free to anyone whom wishes to join, they must attempt to
+keep costs down by any means.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 141
+D2
+~
+~
+0 -1 143
+S
+#143
+&w&WEnd Of A Buffet~
+&w&WThe smells coming from the buffet ahead, swirl and mix together
+forming a powerful force. This Super Scent sends strange sensations
+through you that make you feel either really hungry or as if
+you're going to be suddenly ill. The food beyond is free to
+students, they just ask you take it in moderation as the &BAcademy&w&W
+is free to anyone whom wishes to join, they must attempt to
+keep costs down by any means.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 142
+D1
+~
+~
+0 -1 138
+S
+#144
+&YThird Floor~
+&w&WThe &YThird Floor&w&W have a very sterile scent to it. Home
+to the &BMedical Facilities&w&W here at the Academy, this floor
+is typically filled with the wounded from the combat simulator,
+but with one of the simulators being down for repairs, this
+floor appears almost empty. &w&WTo the &YWest&w&W lies the &BTurbolift&w&W
+that is often used to carry the wounded to the &OBacta Tanks&w&W
+to the &YEast&w&W.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 145
+D3
+~
+~
+0 -1 128
+S
+#145
+&w&WBefore A &BMedical Bay~
+&w&WThe bright fusion lamps mounted to the ceiling reflect off
+the pure white walls and floor. You find this reflection almost
+blinding as you make your way to the end of the hallway. The
+&BMedical Bay&w&W opens to the &YNorth&w&W, if you find yourself
+in need of treatment, there are service droids to aid you.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 146
+D3
+~
+~
+0 -1 144
+S
+#146
+&BAcademy Medical Bay~
+&w&WVarious medical equipment and tools litter this large room.
+Half a dozen well made beds are built into each wall. There
+are two doors to the &YEast &w&Wand &YWest&w&W leading to more
+private rooms. The smell of &OBacta&w&W fills this room, yet
+there is no evidence of &OBacta Tanks&w&W.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 147
+D2
+~
+~
+0 -1 145
+S
+#147
+A Medical Storage Closet~
+&w&WThis small room houses most of the equipment used within
+the &BAcademy&w&W. Needless to say, they attempt to keep this
+area well stocked. There is a small droid stationed within this
+room, offering to sell you different medical supplies.
+~
+0 1073741836 1 0 0 0 5704
+D3
+~
+~
+0 -1 146
+S
+#148
+&w&WA Small &YBacta&w&W Tank~
+&w&WA large &OBacta Tank&w&W rests in the center of this room.
+These medical services are free to all students, though many
+other similar facilities exist within the universe, for a fee.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 146
+> rand_prog 100~
+mpechoat $n &w&WThe healing warmth of the &Obacta&w&W eases your sore muscles.
+mprestore $n 15
+~
+|
+S
+#149
+&YFourth Floor~
+&w&WHere on the &YFourth Floor&w&W, cadets within the Academy
+find the necessary shops to outfit themselves for their adventures
+after graduation. This floor is typically filled with students
+trying to purchase any materials they will need for their lessons,
+but being this late in the semester, most students have what
+they require. To the &YWest&w&W lies a &BTurbolift&w&W that
+connects this floor with the rest of the complex.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 150
+D3
+~
+~
+0 -1 128
+S
+#150
+&w&WA Well Monitored Hallway~
+&w&WSecurity cameras have been mounted on each corner of the
+ceiling, ensuring no over-ambitious student attempts to run
+away with more then they paid for. Signs are mounted above each
+shop, detailing the shop's name and a small symbol representing
+its chosen trade. Old classical &Ymusic&w&W can be heard playing
+softly over a hidden speaker system.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 151
+D1
+~
+~
+0 -1 153
+D2
+~
+~
+0 -1 152
+D3
+~
+~
+0 -1 149
+S
+#151
+&CDamaya Guru's Weapons Supply~
+&w&WThis large store room is filled with &cglass&w&W enclosed
+cases. Each of these cases hold a variety of weapons, only a
+few of which you are familiar with. There is a door to the &YNorth&w&W
+that appears quite heavy, as does the man behind the counter.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 150
+S
+#152
+&CClothes And More~
+&w&WMany tall stands and boxes fill this storeroom. The strong
+smell of leather fills the air as new merchandise replaces those
+those already sold.  Custom tailoring is available, but Cadets
+will pay dearly for them. 
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 150
+S
+#153
+&w&WA Well Monitored Hallway~
+&w&WSecurity cameras have been mounted on each corner of the
+ceiling, ensuring no over-ambitious student attempts to run
+away with more then they paid for. Signs are mounted above each
+shop, detailing the shop's name and a small symbol representing
+its chosen trade. Old classical &Ymusic&w&W can be heard playing
+softly over a hidden speaker system.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 154
+D1
+~
+~
+0 -1 156
+D2
+~
+~
+0 -1 155
+D3
+~
+~
+0 -1 150
+S
+#154
+&CAcademy Accessories~
+&w&WVarious foreign objects adorn this room. Jewelry of all types
+lie in various boxes and containers. Necklaces hang from walls
+and the smell of perfume fills the small shop. This is one of
+few rooms that has had carpet installed, definitly aimed for
+comfort, it gives off the impression that Baniss rarely leaves.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 153
+S
+#155
+&CSloor's Armory~
+&w&WSuits of protective armor line the walls of this shop. Many
+of them come in various sizes, though some are more species
+specific. Unfortunitly, your student discount does not apply
+within this store, as much of the goods found within must be
+custom made.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 153
+S
+#156
+&CSoroSuub Sponsored Workshop~
+&w&WThis shop, sponsored by SoroSuub Industries, appears well
+maintained and well stocked. A shiney droid stands in the middle
+of the shop dispencing various goods. A door leading to the
+&Ynorth&w&W is labeled &PWorkshop&w&W. Many talented engineers
+find good jobs working for SoroSuub.
+~
+0 1073741836 1 0 0 0 5704
+D3
+~
+~
+0 -1 153
+S
+#157
+&w&WA Maintained Workshop~
+&w&WThis workshop is nearly empty. All supplies and tools must
+be provided by the engineer. There is a small &rsign&w&W covered
+by many layers of dust, no doubt from years of this workshop
+being used. A door the the &YSouth&w&W leads back to the store
+room and the rest of the Academy.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 156
+E
+sign~
+&rSoroSuub, this shop and the Academy, are not responsible for
+any damage done to equipment or engineer. The engineer takes
+full responsibility for any damage to property or person. All
+equipment and tools must be provided by the engineer, SoroSuub
+agrees to maintain this workshop to a functioning standard.
+~
+S
+#158
+&YFifth Floor~
+&w&WThe loudest of all the Academy floors, this floor houses
+the many combat simulators used in training young cadets. While
+they maintain a constant operation, they are only ever shut
+down for maintanence. These simulators are free for all registered
+cadets, but you may find others like it within the universe
+that may be rented.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 159
+D3
+~
+~
+0 -1 128
+S
+#159
+&w&WA Barren Hallway~
+&w&WThis long hallway is void of anything with the exception
+of maintanence ports located along the southern wall. The once
+pure white walls and floor have now turned a light gray with
+age.  Upon close examination, you may still find spots of dried
+blood from "accidents" within the simulators.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 160
+D3
+~
+~
+0 -1 158
+S
+#160
+&w&WA Barren Hallway~
+&w&WThe hallway ends here, before two automated blast doors located
+to the &YSouth&w&W. Mounted upon the blast doors is a &rsign&w&W.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+134217731 -1 161
+D3
+~
+~
+0 -1 159
+E
+sign~
+&GEnter At Your Own Risk&w&W
+~
+S
+#161
+&w&WAbove The &YTraining Simulator~
+&w&WFrom here you may return through the blast doors to the &YNorth&w&W
+and head back into the Academy or you may brave the dangers
+of the simulator and climb the small ladder &Ydown&w&W. To the
+&YSouth&w&W is where the academy professors and other students
+gather to watch and judge combatants.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+134742019 -1 160
+D2
+~
+~
+0 -1 166
+D5
+~
+~
+0 -1 162
+S
+#162
+&w&WOn A Sturdy Ladder~
+This small, narrow ladder is surprisingly sturdy. Mounted to
+the durasteel walls of the Academy, you feel it could handle
+much more weight then you possess.
+~
+0 1073741836 1 0 0 0 5704
+D4
+~
+~
+0 -1 161
+D5
+~
+~
+0 -1 163
+S
+#163
+&w&WBefore A &YControl Room~
+&w&WAt the bottom of the ladder you can see the Control Room
+of the simulator to the &YSouth&w&W. Your hands begin to shake
+as the realism of your situation is coming to life. You may
+die from this.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 164
+D4
+~
+~
+0 -1 162
+S
+#164
+&w&WA &YSimulator &w&WControl Room~
+&w&WThe Control Room is filled with many computer terminals and
+one microphone mounted to the ceiling. Some &rinstructions&w&W
+are hanging from the ceiling on two long metal wires. Two large
+blast doors are located to the &Ysouth&w&W.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 163
+D2
+~
+~
+134217731 -1 165
+E
+instructions~
+&w&WThis simulator contains combat droids ranging from combat
+level 1 to combat level 5.
+
+To activate the simulator, speak the level of droid you wish to
+combat.
+
+&GExample: say level 1&w
+~
+> speech_prog p level 1~
+mpsleep 3
+mpechoat $n &GA voice comes over a speaker, "&w&WLoading a Level 1 Combat Droid.&G"&w
+mpsleep 5
+mpat 165 mpmload 127
+mpechoat $n &GThe voice returns, "&w&WLoading complete. Goodluck Cadet.&G"&w
+~
+> speech_prog p level 2~
+mpsleep 3
+mpecho &GA voice comes over a speaker, "&w&WLoading a Level 2 Combat Droid.&G"&w
+mpsleep 5
+mpat 165 mpmload 128
+mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet.&G"&w
+~
+> speech_prog p level 3~
+mpsleep 3
+mpecho &GA voice comes over a speaker, "&w&WLoading a Level 3 Combat Droid.&G"
+mpsleep 5
+mpat 165 mpmload 129
+mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet.&G"&w&W
+~
+> speech_prog p level 4~
+mpsleep 4
+mpecho &GA voice comes over a speaker, "&w&WLoading a Level 4 Combat Droid.&G"&w
+mpsleep 5
+mpat 165 mpmload 130
+mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet, this Droid is very Aggressive.&G"&w
+~
+> speech_prog p level 5~
+mpsleep 4
+mpecho &GA voice comes over a speak, "&w&WLoading a level 5 Combat Droid.&G"&w
+mpsleep 5
+mpat 165 mpmload 131
+mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet, this Droid is very aggressive.&G"&w
+~
+|
+S
+#165
+&w&WA &YTraining Simulator~
+&w&WThis large dome houses the Academy's combat simulator. While
+its name is mildly incorrect, the combat done within is quite
+real. Many students have lost appendages and lives within the
+simulator. All of these "incidents" in the history of the Academy
+were skillfully covered up and never heard of to majority of
+the galacitc population.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+134217731 -1 164
+S
+#166
+&w&WA Viewing Platform~
+&w&WEncased in thick blaster-proof glass, this viewing platform
+enables anyone standing within it to view the excitement below.
+A few blaster bolts have left signs of their presence upon the
+glass.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 161
+D2
+~
+~
+33554432 -1 165
+S
+#167
+&YSixth Floor~
+&w&WThe sixth floor of the Newbie Academy is the last place cadets
+see before venturing forth into the great unknown of space.
+Many friendships are ended here as cadets determine if they
+shall take up arms with the Republic or seek fortune and power
+with the invading armies of the Sith Empire.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 168
+D3
+~
+~
+0 -1 128
+S
+#168
+&w&WBefore The Boarding Guard~
+&w&WFurther to the &Yeast&w&W lies the hanger boarding guard.
+All departing cadets must have been cleared to depart from the
+Academy's General. He can be found on the seventh floor, though
+getting past his secretary can be often difficult to get passed.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 169
+D3
+~
+~
+0 -1 167
+S
+#169
+&w&WThe Boarding Guard~
+&w&WA large gate stands between you and ultimate freedom in the
+galaxy. Only one more obstacle stands before you. You must be
+granted clearance before you may proceed.
+~
+0 1073741836 1 0 0 0 5704
+D3
+~
+~
+0 -1 168
+S
+#170
+&w&WBefore The &BAcademy Hanger&w&W~
+&w&WA large hanger open up before you to the &Yeast&w&W, while
+the academy you are departing lies to the &Ywest&w&W. This is
+your final chance to say goodbye to the academy that has been
+your home for many months.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 171
+D3
+~
+~
+0 -1 169
+S
+#171
+&BAcademy Hanger~
+&w&WMany shuttle transports are docked within this large hanger,
+unfortunitly they are not available to cadets. All cadets are
+given a bus pass and sent on their way.
+~
+0 1073741836 1 0 0 0 5704
+D3
+~
+~
+0 -1 170
+S
+#172
+&YSeventh Floor~
+&w&WThis floor houses all of the office used to maintain the
+operations of the Academy. The head of the Academy, General
+H'onus's office is located on this floor. While back to the
+&Ywest&w&W lies the &BTurbolift&w&W which is the backbone of
+the entire complex.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 173
+D3
+~
+~
+0 -1 128
+S
+#173
+&w&WA Well Decorated Hallway~
+&w&WMany office branch off from this lavishly decorated hallway.
+The hallway continues to extend to the &Yeast&w&W and &Ywest&w&W.
+~
+0 1073741836 1 0 0 0 5704
+D1
+~
+~
+0 -1 174
+D3
+~
+~
+0 -1 172
+S
+#174
+&w&WBefore A Large &CReception&w&W Area~
+&w&WBefore you to the &Ynorth&w&W lies the reception area for
+the General of the Academy. Though he is often busy, if you
+can con his secretary into allowing you to enter his office,
+he may spare a few moments of his time for you.
+~
+0 1073741836 1 0 0 0 5704
+D0
+~
+~
+0 -1 175
+D3
+~
+~
+0 -1 173
+S
+#175
+&w&WA Large &CReception &w&WArea~
+&w&WThis well decorated reception area is home to many plush
+chairs and couches. Potted plants adorn the corners of this
+room and there is a large wooden door behind the secretary's
+desk to the &Ynorth&w&W. Her desk is remarkably clear of clutter,
+making you wonder what it is that she does all day.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 174
+S
+#176
+The &BGeneral's&w&W Office~
+&w&WThis office is surprisingly clean with the exception of the
+General's desk, which is cluttered with papers and datapads.
+A middle aged human sits behind the desk attending to the daily
+activities of the Academy.
+~
+0 1073741836 1 0 0 0 5704
+D2
+~
+~
+0 -1 175
+S
+#177
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#178
+&W&wFloating in a void~
+~
+0 1073741836 1 4 0 0 5704
+> speech_prog p I am ready~
+mpechoat $n Colonel Jentric salutes you, and escorts you onto a shuttle.
+mpechoat $n You sit down, and the shuttle lifts off.
+mpsleep 18
+mpechoat $n After a short trip, you arrive at Bulova Spaceport.
+mptransfer $n 1050
+mpat $n mpforce $n look
+mpecho $n leaves on a shuttle headed for Coruscant.
+mpat $n mpechoaround $n $n steps off a shuttle.
+~
+|
+S
+#179
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#180
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#181
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+> greet_prog 100~
+if level($n) >= 10
+mea $n You are whisked away to the newbie hanger.
+mpechoaround $n $n is whisked away to the newbie hanger.
+mptransfer $n 178
+mpat 178 mpforce $n look
+else
+endif
+~
+|
+S
+#182
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#183
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#184
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#185
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#186
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#187
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#188
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#189
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#190
+&W&wFloating in a void~
+~
+0 1073741836 1 0 0 0 5704
+S
+#0
+
+
+#RESETS
+M 1 190 1 190
+M 1 117 1 123
+M 1 115 1 126
+E 1 116 1 17
+O 1 121 1 127
+M 1 118 1 132
+E 1 120 1 5
+E 1 119 1 7
+O 1 122 1 133
+O 1 125 1 140
+O 1 126 1 141
+O 1 127 1 142
+M 1 119 1 137
+G 1 123 1
+M 1 120 1 146
+M 1 121 1 147
+G 1 128 1
+G 1 129 1
+M 1 122 1 151
+G 1 130 1
+G 1 131 1
+G 1 132 1
+G 1 133 1
+M 1 123 1 152
+G 1 134 1
+G 1 135 1
+G 1 136 1
+G 1 137 1
+G 1 138 1
+G 1 139 1
+M 1 124 1 155
+G 1 140 1
+G 1 141 1
+G 1 142 1
+G 1 143 1
+M 1 125 1 154
+G 1 144 1
+G 1 145 1
+M 1 126 1 156
+G 1 3 1
+G 1 146 1
+G 1 147 1
+G 1 148 1
+G 1 149 1
+G 1 150 1
+D 0 161 0 1
+M 1 132 1 164
+D 0 164 2 1
+M 1 133 1 169
+M 1 134 1 171
+O 1 151 1 138
+M 1 116 1 118
+E 1 117 1 5
+E 1 155 1 16
+E 1 134 1 8
+M 1 136 1 176
+E 1 157 1 5
+E 1 158 1 10
+O 1 154 1 176
+M 1 135 1 175
+E 1 156 1 5
+E 1 159 1 17
+O 1 153 1 175
+S
+
+
+#SHOPS
+ 121    0  0  0  0  0   120  90         0 23    ; a medical droid
+ 122    5  0  0  0  0   120  90         0 23    ; Damaya Guru
+ 123    9  0  0  0  0   120  90         0 23    ; Chandra Hobat
+ 124    9  0  0  0  0   120  90         0 23    ; Sloor
+ 125    9  0  0  0  0   120  90         0 23    ; Baniss Keeg
+ 126    0  0  0  0  0   120  90         0 23    ; a SoroSuub droid
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

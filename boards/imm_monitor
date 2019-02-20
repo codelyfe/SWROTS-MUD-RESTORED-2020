@@ -1,0 +1,268 @@
+Sender  Nevanessys~
+Date    Tue Mar 30 17:42:20 2004~
+To      ADMIN/BUILDERS~
+Subject MOBS/OBJS~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+ALL MOBs/OBJs are to have descriptions. No exceptions. Above
+and beyond this, ALL MOBs are to be equipped and/or dressed.Remember,
+we are striving to be far more unique, original, and advanced
+than any other SWR that has existed. Furthermore, it doesn't
+quite make sense to attempt a realistic look at every aspect
+of the MUD and then leave the 'citizens' (MOBs) naked and unarmed.As
+far as descriptions go, if you create an object such as a rock...it
+needs a description. Describe it's shape, what it may be made
+of, it's age, color, texture, blah blah blah. More advanced
+OBJs (technologically speaking) should be of course, much more
+discriptive than a rock or something similiar. A weapon? State
+that the marks along it's handle imply that it was made by so
+and so.You get the gist. Any questions, ask. If you've got writer's-block
+and can't quite come up w/ anything, ask. I'll be more than
+happy to help.
+~
+
+Sender  Nevanessys~
+Date    Wed Mar 31 19:28:17 2004~
+To      ADMIN/BUILDERS~
+Subject Employment Opps~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I'm looking for ideas concerning what should/should not be put into the Coruscant
+(and other planet's) Employment Opportunities Centers. I want to steer away from the 
+typical stock options that you see on most SWRs. Let me know what you think.
+~
+
+Sender  Manteiv~
+Date    Wed Mar 31 21:06:30 2004~
+To      Nevanessys~
+Subject Senate Seats~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Planet         Race
+Yablari        Anomid
+Cerea          Cerean
+Champala       Chagrian
+Urkupp         Dashade
+Drall          Drall
+Falleen        Falleen
+Iktotch        Iktotchi
+Dorin          Kel Dor
+Alpheridies    Miraluka
+Mon Calamari   Mon Calamari
+Muunilinst     Muun
+Rodia          Rodian
+Skye           S'kytri
+Sullust        Sullustan
+Uba 111        Ubese
+Umbara         Umbaran
+Roche Asteroid Verpine
+Kashyyyk       Wookiees
+Woostri        Woostoid
+Naboo          Humans
+Corellia       Many races
+Alderaan       Many races
+
+More if you like, got TONS of them
+~
+
+Sender  Manteiv~
+Date    Thu Apr  1 22:27:06 2004~
+To      ADMIN/BUILDERS~
+Subject New Mud Prog If Checks~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+The following has been added for mudprog if checks
+
+senator ($n) == planet    ( don't put a space between 'senator' and '($n)' )
+Example
+if senator ($n) == Kashyyyk
+will return true if character is senator, assistant1 or assistant2 of Kashyyyk
+
+if council($n)
+will return true if character is on the jedi council or set as an investigator by a council member
+
+Any further questions feel free to ask
+
+Manteiv
+~
+
+Sender  Manteiv~
+Date    Mon Apr  5 18:12:26 2004~
+To      ADMIN / BUILDERS~
+Subject Senate rprogs~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+if senator($n) == Falleen
+{
+mpsleep 3
+mpecho Voice Authenticity in progress.
+mpsleep 5
+mpecho Access Granted.
+mpsleep 2
+mpopenpassage 1337 1339 2
+mpforce $n south
+mpclosepassage 1337 2
+}
+else
+{
+mpecho Voice Authenticity in progress.
+mpsleep 5
+mpecho Access Denied.
+}
+endif
+
+-- the syntax for mpopenpassage is: mpopenpassage (vnum of room in) (destination vnum) (direction code)
+-- the syntax for mpclosepassage is: mpclosepassage (vnum of room in) (direction code )
+-- direction codes are as follows
+  North - 0
+  East  - 1
+  South - 2
+  West  - 3
+  Up    - 4
+  Down  - 5
+  NE    - 6
+  NW    - 7
+  SE    - 8
+  SW    - 9
+~
+
+Sender  Manteiv~
+Date    Wed Apr  7 15:36:35 2004~
+To      Nevanessys~
+Subject Coruscant~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I changed all the rprogs for senator doors.
+~
+
+Sender  Manteiv~
+Date    Thu Apr  8 21:04:11 2004~
+To      ALL IMMORTALS~
+Subject Clan Bonuses~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+&WThe following commands have been created to penalize and to reward clans for good RP.
+
+clanbestow - used to reward clans for good rp
+penalizeclan - used to penalize clans for bad rp
+
+Clans now utilize clan rppoints to upgrade their bonuses. Currently we only have 4 bonuses,
+New ideas for more bonuses are always welcome.
+
+We have the following bonuses:
+Hitroll
+Damroll
+Armor
+Experience
+~
+
+Sender  Nevanessys~
+Date    Tue Apr 13 14:15:29 2004~
+To      Manteiv~
+Subject Coruscant PLU~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Coruscant PLU stop vnum is 1006
+~
+
+Sender  Nevanessys~
+Date    Wed Apr 14 22:29:51 2004~
+To      Manteiv~
+Subject 'scant~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+I'm thinking we should add 'scant to the senate. The level of
+Supreme Chancellor seems (it really is) an elected position
+of ALL the senators. Thus, 'scant MUST have a Senator. Agree,
+disagree? 
+~
+
+Sender  Manteiv~
+Date    Mon Apr 19 18:06:59 2004~
+To      Nevanessys~
+Subject Autoclose~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+new exit flag, Autoclose
+redit exflag exit dir autoclose
+~
+
+Sender  Nevanessys~
+Date    Sun Apr 25 21:52:50 2004~
+To      Manteiv~
+Subject hangershipcommand~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+1492 goes to 1495. 1491 goes to 1496. If possible (if it's too
+much work, screw it) can you make the ships go THROUGH another
+vnum or two? like actually traveling there instead of just being
+transferred there? it'd be more realistic, plus, if you're in
+one of those rooms, you'd see 'A ship is transported in from
+the west' or something, then 'A ship is transported to the east'
+blahblahblah. lemme know.
+~
+
+Sender  Nevanessys~
+Date    Sun Apr 25 21:55:10 2004~
+To      Manteiv~
+Subject hangershipcommand~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+if you can do so, the path is from 1492, to 1498, to 1494, then
+finally to the hanger at 1495. the 2nd is from 1491 to 1490
+to 1497 to finally, 1496.
+~
+
+Sender  Manteiv~
+Date    Mon May 31 19:58:41 2004~
+To      All~
+Subject crystaltypes~
+Voting 0
+Yesvotes ~
+Novotes ~
+Abstentions ~
+Text
+Help Crystaltypes
+
+This file will show you the various crystals we have implemented, more will come as I have
+ideas or as they are suggested. You cannot vary from the way they are set, just set the color
+and the code will do the rest. Only 1 type of each crystal may be used and one of the 3 crystals used
+MUST be a color crystal or else it will be destroyed and the crystals will be lost.
+~
+

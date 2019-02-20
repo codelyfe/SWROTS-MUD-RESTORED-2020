@@ -1,0 +1,310 @@
+Wed Feb 20 16:00:52 2019 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Wed Feb 20 16:00:52 2019 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Wed Feb 20 16:00:52 2019 :: Loading commands
+Wed Feb 20 16:00:52 2019 :: Loading sysdata configuration...
+Wed Feb 20 16:00:52 2019 :: Loading socials
+Wed Feb 20 16:00:52 2019 :: Loading skill table
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell do_backstab
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell reserved
+Wed Feb 20 16:00:52 2019 :: Sorting skill table...
+Wed Feb 20 16:00:52 2019 :: Loading herb table
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Wed Feb 20 16:00:52 2019 :: Making wizlist
+Wed Feb 20 16:00:52 2019 :: Initializing request pipe
+Wed Feb 20 16:00:52 2019 :: Loading force
+Wed Feb 20 16:00:52 2019 :: Loading force skills...
+Wed Feb 20 16:00:52 2019 ::  Done force skills 
+Wed Feb 20 16:00:52 2019 :: Loading force helps...
+Wed Feb 20 16:00:52 2019 ::  Done force helps 
+Wed Feb 20 16:00:52 2019 :: Loading ship prototypes
+Wed Feb 20 16:00:52 2019 :: Loading ship prototypes...
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Load_prototype_header: no match: Type
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Load_prototype_header: no match: 1
+Wed Feb 20 16:00:52 2019 ::  Done ship prototypes 
+Wed Feb 20 16:00:52 2019 :: Initializing random number generator
+Wed Feb 20 16:00:52 2019 :: Setting time and weather
+Wed Feb 20 16:00:52 2019 :: Assigning gsn's
+ASSIGN_GSN: Skill addpatrol not found.
+ASSIGN_GSN: Skill true sight not found.
+ASSIGN_GSN: Skill ship design not found.
+ASSIGN_GSN: Skill shieldwork not found.
+ASSIGN_GSN: Skill detrap not found.
+ASSIGN_GSN: Skill enhanced damage not found.
+ASSIGN_GSN: Skill parry not found.
+ASSIGN_GSN: Skill fourth attack not found.
+ASSIGN_GSN: Skill fifth attack not found.
+ASSIGN_GSN: Skill feed not found.
+ASSIGN_GSN: Skill bite not found.
+ASSIGN_GSN: Skill claw not found.
+ASSIGN_GSN: Skill sting not found.
+ASSIGN_GSN: Skill tail not found.
+ASSIGN_GSN: Skill brew not found.
+ASSIGN_GSN: Skill fireball not found.
+ASSIGN_GSN: Skill chill touch not found.
+ASSIGN_GSN: Skill force bolt not found.
+ASSIGN_GSN: Skill aqua breath not found.
+ASSIGN_GSN: Skill blindness not found.
+ASSIGN_GSN: Skill affect mind not found.
+ASSIGN_GSN: Skill curse not found.
+ASSIGN_GSN: Skill mask not found.
+ASSIGN_GSN: Skill group masking not found.
+ASSIGN_GSN: Skill sleep not found.
+ASSIGN_GSN: Skill possess not found.
+ASSIGN_GSN: Skill arkanian not found.
+ASSIGN_GSN: Skill cerean not found.
+ASSIGN_GSN: Skill chagri not found.
+ASSIGN_GSN: Skill dashadi not found.
+ASSIGN_GSN: Skill dosh not found.
+ASSIGN_GSN: Skill drallish not found.
+ASSIGN_GSN: Skill ho'din not found.
+ASSIGN_GSN: Skill huttese not found.
+ASSIGN_GSN: Skill iktotchese not found.
+ASSIGN_GSN: Skill kel dor not found.
+ASSIGN_GSN: Skill miralukese not found.
+ASSIGN_GSN: Skill mon calamarian not found.
+ASSIGN_GSN: Skill muun not found.
+ASSIGN_GSN: Skill rodese not found.
+ASSIGN_GSN: Skill ryn not found.
+ASSIGN_GSN: Skill shyriiwook not found.
+ASSIGN_GSN: Skill skytric not found.
+ASSIGN_GSN: Skill sriluurian not found.
+ASSIGN_GSN: Skill sullustes not found.
+ASSIGN_GSN: Skill togruti not found.
+ASSIGN_GSN: Skill ubese not found.
+ASSIGN_GSN: Skill umbaran not found.
+ASSIGN_GSN: Skill lekku not found.
+ASSIGN_GSN: Skill droid not found.
+ASSIGN_GSN: Skill makeempgrenade not found.
+Wed Feb 20 16:00:52 2019 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     1 - 99    Objs:     2 - 99    Mobs:     1 - 99
+omni_complex  : Rooms:   100 - 114   Objs:   100 - 114   Mobs:   100 - 114
+misc.are      : Rooms:   700 - 899   Objs:   700 - 799   Mobs:   700 - 899
+coruscant.are : Rooms:  1000 - 2000  Objs:  1000 - 2000  Mobs:  1000 - 2000
+newbie.are    : Rooms:   115 - 190   Objs:   115 - 190   Mobs:   115 - 190
+byss.are      : Rooms:  2501 - 4449  Objs:  2501 - 4499  Mobs:  2501 - 4449
+coruscant3.are: Rooms:  7500 - 7650  Objs:  7500 - 7650  Mobs:  7500 - 7650
+OrdMantell.are: Rooms:  9000 - 9500  Objs:  9000 - 9500  Mobs:  9000 - 9500
+calamari.are  : Rooms:  9701 - 10000 Objs:  9701 - 10000 Mobs:  9701 - 10000
+korriban.are  : Rooms:  7651 - 7999  Objs:  7655 - 7999  Mobs:  7653 - 7999
+ossus.are     : Rooms:   191 - 399   Objs:   191 - 399   Mobs:   191 - 399
+bespin.are    : Rooms: 29000 - 29999 Objs: 29000 - 29999 Mobs: 29000 - 29999
+shipvnum.are  : Rooms: 12000 - 18000 Objs: 12000 - 18000 Mobs: 12000 - 18000
+pubtrans.are  : Rooms:   900 - 999   Objs:   900 - 999   Mobs:   900 - 999
+prison.are    : Rooms:  2001 - 2100  Objs:  2001 - 2100  Mobs:  2001 - 2100
+Wed Feb 20 16:00:52 2019 :: Fixing exits
+Wed Feb 20 16:00:52 2019 :: [*****] FILE: $ LINE: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Get_room_index: bad vnum 666.
+Wed Feb 20 16:00:52 2019 :: [*****] BOOT: Fix_exits: room 107, exit north leads to bad vnum (666)
+Wed Feb 20 16:00:52 2019 :: [*****] FILE: $ LINE: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Deleting north exit in room 107
+Wed Feb 20 16:00:52 2019 :: Initializing economy
+Wed Feb 20 16:00:52 2019 :: Loading buildlist
+Wed Feb 20 16:00:52 2019 :: ../gods/User
+Wed Feb 20 16:00:52 2019 :: Loading boards
+Wed Feb 20 16:00:52 2019 :: ../boards/student.board
+Wed Feb 20 16:00:52 2019 :: ../boards/imm_monitor
+Wed Feb 20 16:00:52 2019 :: ../boards/quest.board
+Wed Feb 20 16:00:52 2019 :: ../boards/galactic_net
+Wed Feb 20 16:00:52 2019 :: ../boards/mail_net
+Wed Feb 20 16:00:52 2019 :: ../boards/hyperterminal
+Wed Feb 20 16:00:52 2019 :: ../boards/1141
+Wed Feb 20 16:00:52 2019 :: ../boards/contest.board
+Wed Feb 20 16:00:52 2019 :: ../boards/imperialboard.board
+Wed Feb 20 16:00:52 2019 :: ../boards/builders board
+Wed Feb 20 16:00:52 2019 :: ../boards/imperial.brd
+Wed Feb 20 16:00:52 2019 :: Loading clans
+Wed Feb 20 16:00:52 2019 :: Loading clans...
+Wed Feb 20 16:00:52 2019 :: republic.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: antarian.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: jedi.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: blacksun.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: sienar.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: sorosuub.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: bounty.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: sith.clan
+Wed Feb 20 16:00:52 2019 :: Storeroom not found
+Wed Feb 20 16:00:52 2019 :: $
+Wed Feb 20 16:00:52 2019 ::  Done clans
+Sorting clans....
+Wed Feb 20 16:00:52 2019 ::  Done sorting
+Wed Feb 20 16:00:52 2019 :: Loading senate
+Wed Feb 20 16:00:52 2019 :: Loading bans
+Wed Feb 20 16:00:52 2019 :: Loading corpses
+Wed Feb 20 16:00:52 2019 :: Loading space
+Wed Feb 20 16:00:52 2019 :: Loading space...
+Wed Feb 20 16:00:52 2019 ::  Done starsystems 
+Wed Feb 20 16:00:52 2019 :: Loading ships
+Wed Feb 20 16:00:52 2019 :: Loading ships...
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryType
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryCount
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Rockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Torpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Missilestate
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Simulator
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryType
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryCount
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Rockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Torpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Missilestate
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Simulator
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryType
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryCount
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Rockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Torpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Missilestate
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Simulator
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryType
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: primaryCount
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Rockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Torpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Missilestate
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: Simulator
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Fread_ship: no match: 0
+Wed Feb 20 16:00:52 2019 ::  Done ships 
+Wed Feb 20 16:00:52 2019 :: Loading bounties
+Wed Feb 20 16:00:52 2019 :: Loading disintegrations...
+Wed Feb 20 16:00:52 2019 ::  Done bounties 
+Wed Feb 20 16:00:52 2019 :: Loading governments
+Wed Feb 20 16:00:52 2019 :: Loading planets...
+Wed Feb 20 16:00:52 2019 :: omni_complex
+Wed Feb 20 16:00:52 2019 :: coruscant.pl
+Wed Feb 20 16:00:52 2019 :: ossus.pl
+Wed Feb 20 16:00:52 2019 :: korriban.pl
+Wed Feb 20 16:00:52 2019 :: $
+Wed Feb 20 16:00:52 2019 ::  Done planets 
+Wed Feb 20 16:00:52 2019 :: Resetting areas
+Resetting: limbo.are
+Resetting: omni_complex
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: Read_object: vnum 108 bad type.
+Wed Feb 20 16:00:52 2019 :: [*****] BUG: ------------------------>     
+Resetting: misc.are
+Resetting: coruscant.are
+Resetting: newbie.are
+Resetting: byss.are
+Resetting: coruscant3.are
+Resetting: OrdMantell.are
+Resetting: calamari.are
+Resetting: korriban.are
+Resetting: ossus.are
+Resetting: bespin.are
+Resetting: shipvnum.are
+Resetting: pubtrans.are
+Resetting: prison.are
+Wed Feb 20 16:00:52 2019 :: Making new blackmarket list.
+Wed Feb 20 16:00:52 2019 :: Initializing socket
+Wed Feb 20 16:00:52 2019 :: SWRotS ready on port 1111.
+Resetting: newbie.are
+tar: Removing leading `../' from member names
+tar: ../player/pfiles.tar: file is the archive; not dumped
+Wed Feb 20 16:00:52 2019 :: Automated pfile cleanup beginning....
+Wed Feb 20 16:00:52 2019 :: Pfile cleanup completed.
+Wed Feb 20 16:00:52 2019 :: Total pfiles scanned: 1
+Wed Feb 20 16:00:52 2019 :: Total pfiles deleted: 0
+Wed Feb 20 16:00:52 2019 :: Total pfiles remaining: 1
+Wed Feb 20 16:00:59 2019 :: Sock.sinaddr:  192.168.1.4, port -6124.
+Resetting: newbie.are
+Wed Feb 20 16:02:34 2019 :: Sock.sinaddr:  192.168.1.4, port -5994.
+Resetting: newbie.are
+Wed Feb 20 16:03:39 2019 :: Lyfe@192.168.1.4 new Wookiee.
+Wed Feb 20 16:03:44 2019 ::  Lyfe has entered the game.
+Wed Feb 20 16:04:13 2019 :: Pending authorizations:
+ Lyfe@192.168.1.4 new Wookiee
+
+Resetting: newbie.are
+Wed Feb 20 16:05:29 2019 :: Pending authorizations:
+ Lyfe@192.168.1.4 new Wookiee
+
+Resetting: newbie.are
+Wed Feb 20 16:06:50 2019 :: Pending authorizations:
+ Lyfe@192.168.1.4 new Wookiee
+
+Resetting: newbie.are
+Wed Feb 20 16:07:46 2019 :: Pending authorizations:
+ Lyfe@192.168.1.4 new Wookiee
+
+Wed Feb 20 16:08:17 2019 :: Lyfe has quit.
+Wed Feb 20 16:08:21 2019 :: Sock.sinaddr:  192.168.1.4, port -5521.
+Wed Feb 20 16:08:29 2019 :: User@192.168.1.4: Invalid password.
+Wed Feb 20 16:08:29 2019 :: Closing link to User.
+Resetting: newbie.are
+Wed Feb 20 16:08:42 2019 :: Sock.sinaddr:  192.168.1.4, port -5488.
+Wed Feb 20 16:08:48 2019 :: User@192.168.1.4: Invalid password.
+Wed Feb 20 16:08:48 2019 :: Closing link to User.
+Wed Feb 20 16:09:06 2019 :: Sock.sinaddr:  192.168.1.4, port -5453.
+Wed Feb 20 16:09:11 2019 :: User@192.168.1.4: Invalid password.
+Wed Feb 20 16:09:11 2019 :: Closing link to User.
+Resetting: newbie.are
+Resetting: newbie.are
+Resetting: newbie.are

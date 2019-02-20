@@ -1,0 +1,2523 @@
+#AREA   Apprentice Area~
+
+
+
+#AUTHOR Apprentices~
+
+#RANGES
+0 36 0 36
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 848643270
+
+#MOBILES
+#7653
+The Trainer~
+The Trainer~
+The Trainer is here helping someone do curlups.
+~
+General Rock stands about 6'3" and is grinning from cheak to cheak. He is
+wearing a standard imperial officers uniform. A vivid scar stands out on
+his left cheak extending from just below to the eye to the chin. He is of
+a very muscular build.
+~
+515 0 0 Z
+25 0 37 20d45+250 15d50+2
+0 0
+8 8 1
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 72 0 0 0
+0 0 0 0 0 0 0 0
+#7664
+creature~
+Multi-Eyed Creature~
+A Multi-eyed Creature is in a Hovel here.
+~
+This creature is unlike any seen in any holomuseums before. It's
+a work of evolution before your eyes.Many years of subteranian
+living have forced this creature to develope many eye's to take
+in as much light as it can as well as it's claws and Tail to
+fight off bigger beasts.
+~
+1073745953 0 0 Z
+1 0 -100 0d0+0 0d0+0
+100 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+6 6 2 0 0 0 32 0
+0 0 0 0 0 0 0 0
+#7665
+wookiee observer~
+a wookiee observer~
+An observative wookiee stands here, scanning the area for undesirables.
+~
+A rather large Wookiee stands his ground on the landing pad,
+looking over the crowds.Occasionally he flexes his claws, usually
+startling non-Wookiees near him away.
+~
+1207992399 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+1 0 0 0 3 2 3
+6 6 0 0 0 0 2 2
+0 0 0 0 0 0 0 0
+#7666
+wookiee technician~
+a wookiee technician~
+A wookie technician bustles about the area
+~
+Brimming with hydrospanners and other various tools, this energetic
+Wookiee scrambles from ship to ship, fixing malfunctions and
+refueling those that are low.
+~
+1073741891 0 0 Z
+10 0 75 2d10+100 1d4+2
+15 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+1 0 0 0 3 2 1
+2 2 0 0 0 0 2 0
+0 0 0 0 0 0 0 0
+#7667
+netcaster~
+a vicious netcaster~
+A vicious netcaster prowls the nets here, searching for prey
+~
+Arachnid and quite large, this beastly netcaster is common to
+Kashyyyk, and very feared.It is considered very dangerous and
+highly aggressive, so most visitors spotting it flee in terror.
+~
+1207963755 0 0 Z
+23 0 42 4d10+230 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+4 4 0 0 0 0 8 2
+0 0 0 0 0 0 0 0
+#7668
+trandoshan saboteur~
+a trandoshan saboteur~
+Caught in an act of sabotage, a trandoshan is being interrogated here
+~
+Twisting and turning uncomfortably, this battered trandoshan
+seems ready to collapse.Constant barrages of questions from
+a nearby speaker system have set him in a panic.His bulging
+eyes roll around, seeking any solace from the onslaught.
+~
+1090519147 0 0 Z
+17 0 57 3d10+170 1d4+2
+50 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+13 0 0 0 4194305 4194304 2
+3 3 0 0 0 0 17 0
+0 0 0 0 0 0 0 0
+#7669
+kroyie~
+a swooping kroyie~
+A kroyie swoops down from the skies to catch bugs here
+~
+Shrieking wildly as it dives towards large fluttering insects,
+this kroyie brushes alarmingly close to passerby.Its brightly-colored
+plumage streaks into a blur as it races around the area.
+~
+1207959627 0 0 Z
+5 0 87 1d10+50 0d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 1
+1 1 0 0 0 0 1 0
+0 0 0 0 0 0 0 0
+#7700
+A Terrified Woman~
+A Terrified Woman~
+A Terrified Woman is standing here with her children.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+emote wraps her arms around her children pulling them close.
+say We're all going to die! Someone help us! Save us all! Heeeeelp!
+~
+|
+#7701
+A terrified child~
+A terrified child~
+A terrified child stands her clinging to his mother.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+emote clutches to his mother, terrified, with tears streaming out of his eyes.
+say Mommy! Mommy! Help me! Make it stop mommy!
+~
+|
+#7702
+A muscular man~
+A muscular man~
+A muscular man stands here manning the door controls.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+emote looks scaredly at the ground outside the bunker as a turbolaser blasts the soil.
+say Is that everyone?
+~
+|
+#7703
+A crying child~
+A crying child~
+A crying child is here looking for his mother.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+emote walks up to you crying.
+say Have you seen my mommy? Have you seen my mommy?
+emote starts wailing and crying.
+say WAHHHHHHHHHHH!
+~
+|
+#7704
+A computer technician~
+A computer technician~
+A computer technician sits here, gazing in awe at the screen.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 90~
+emote looks at you, sad. "This was our home. And now it's gone"
+emote turns his head back to the screen before screaming out.
+say NOOOOOOOOOOOOOOOOOOOO!
+~
+|
+#7800
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7801
+&BImmigration and Customs Agent~
+&BImmigration and Customs Agent~
+&BImmigration and Customs Agent
+~
+&B This customs agent has a spick and span uniform, he must have
+not ever seen any real action.  He looks quite tired so be vary
+very quite!
+~
+67 0 0 Z
+7 0 82 1d10+70 0d4+2
+15 0
+4 3 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+4 0 0 0 1 16 0
+1 1 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> speech_prog 75~
+wake customs
+~
+|
+#7802
+Weequay Guard~
+A weequay guard~
+A strong weequay guard
+~
+~
+3 0 0 Z
+23 0 -132 4d10+230 2d4+2
+0 0
+8 8 1
+23 13 15 10 11 10 10
+0 0 0 0 0
+45 0 0 0 1768847727 1768847727 0
+4 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7803
+XR71D~
+XR71D~
+A janitor droid
+~
+~
+68158469 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+21 0 0 0 1 16 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say HEY, I JUST MOPPED THERE!
+~
+|
+#7804
+&Rtraining remote~
+&RTraining Remote~
+&RA Training Remote
+~
+~
+134218755 0 0 Z
+25 0 -100 5d10+250 2d4+2
+0 0
+8 8 0
+25 10 10 25 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+5 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7805
+Chef Sergio~
+Chef Sergio~
+Master Chef Sergio stands here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 17 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog filet 100~
+mpoload 7804
+give filet $n
+~
+> speech_prog menu 100~
+say I serve Filet of Bantha.
+say and Iced Cafe
+~
+> speech_prog cafe 100~
+mpoload 7805
+give cafe $n
+~
+|
+#7806
+Banker~
+&pA banker stands behind a counter.~
+&pA banker stands behind a counter.
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Hello $n, what can I do for you today?
+~
+|
+#7807
+Smuggler~
+A smuggler~
+A smuggler sits in the shadow.
+~
+~
+3 0 0 Z
+36 0 10 7d10+360 3d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+4 0 0 0 1 16 0
+7 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say *pssss* c'meer
+say Can ya do me a fava'?
+~
+> speech_prog yes 100~
+say I need ya to pick meh up sumpin at da Dirtie Huttt Dizco
+say Just go to da bouncah an say 'Where are the human strippers?'
+~
+> give_prog Private Package~
+Say Ahh this is what i needed to complete my shipment!
+mpwithdraw 500
+give 500 credits $n
+mpadvance $n 4 2500
+mpat 101 drop package
+mpat 101 mppurge
+~
+|
+#7808
+Bouncer~
+A bouncer~
+A strong bouncer is here
+~
+~
+3 0 0 Z
+36 0 -234 7d10+360 3d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+16 0 0 0 65538 65536 0
+7 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog Where are the human strippers~
+say Ah, follow me.
+mptransfer $n 7864
+mptransfer self 7864
+mpforce $n look
+say Take that package over there, it should be what you're looking for.
+w
+~
+|
+#7809
+til~
+A t'landa~
+A t'landa til stripper
+~
+~
+3 0 0 Z
+4 0 90 0d10+40 0d4+2
+0 0
+8 8 2
+10 10 10 10 10 10 10
+0 0 0 0 0
+4 0 0 0 1 16 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7810
+Innkeeper~
+An Innkeeper~
+An Innkeeper is here
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Care for a room?  Only 25 credits.
+~
+> bribe_prog 25 100~
+say Ahh here you go
+mptransfer $n 7848
+~
+|
+#7811
+shop1~
+dealer~
+A weapons dealer
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+4 0 0 0 1 16 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7812
+bar tender~
+A bar tender~
+A bar tender washes a glass
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7813
+Nalba~
+Nalba~
+Nalba the Hutt
+~
+~
+3 0 0 Z
+13 0 67 2d10+130 1d4+2
+0 0
+8 8 0
+25 10 10 25 10 10 10
+0 0 0 0 0
+4 0 0 0 1 16 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7814
+Hutt Citizen~
+A hutt citizen~
+A hutt citizen walks around.
+~
+~
+5 0 0 Z
+4 0 0 0d10+40 0d4+2
+3 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+4 0 0 0 1 16 0
+0 0 0 0 0 0 0 0
+128 0 0 0 0 0 0 0
+#7815
+EG150~
+EG150~
+EG150 stands here
+~
+~
+3 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 25 10 10 10
+0 0 0 0 0
+21 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7816
+Smith~
+BS18103~
+BS18103 the smithing droid
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7817
+EG128~
+EG128~
+EG128 a sales droid
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 25 10 10 10
+0 0 0 0 0
+21 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7818
+Trainer~
+A smuggler~
+A smuggling trainer sits here
+~
+~
+1049601 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+24 24 24 24 24 20 10
+0 0 0 0 0
+0 0 0 0 3 1 0
+6 6 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7819
+hologram~
+A hologram~
+A hologram of Mara Jade
+~
+~
+1 0 0 Z
+25 0 -45 5d10+250 2d4+2
+0 0
+8 8 0
+24 16 19 21 10 16 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+5 5 0 0 0 0 0 2
+0 0 0 0 0 0 0 0
+> rand_prog 100~
+rpecho The hologram of Mara Jade flickers.
+~
+|
+#7820
+Wandering Twi'lek~
+Twi'lek~
+A wandering twi'lek looks around
+~
+~
+1 0 0 Z
+14 0 65 2d10+140 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7900
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#7999
+hi_obj~
+a newly created hi_obj~
+Some god abandoned a newly created hi_obj here.
+~
+~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#7655
+money man~
+a money man~
+A money man is here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#7661
+Torch~
+A Torch~
+A Torch~
+~
+1 1073741824 0
+0 0 0 0
+1 0 0
+#7662
+Burn Barrel~
+a Burn Barrel~
+A Burn Barrel sits here smoldering in low light~
+~
+15 1073741824 0
+10 0 0 0
+1 0 0
+E
+Burn Barrel~
+A Burn barrel sits here smoldering. Inside the embers are glowing
+a dull red. perhaps you should get some light before you go
+on. This appears to be the last source of light for awhile on.
+~
+#7663
+Pile of Bones~
+a Pile of Bones~
+A Pile of bones lay here in a heap~
+~
+15 1073741824 0
+10 0 0 0
+1 0 0
+#7664
+Tatterd shirt~
+a Tatterd shirt~
+A Tatterd shirt is here.~
+~
+9 1073741824 9 2
+0 20 20 0
+1 0 0
+#7665
+crystal gem~
+a glimmering crystal~
+Twinkling brightly, a mephite gem lies here~
+~
+63 1610612737 0
+4 0 0 0
+1 0 0
+E
+crystal gem~
+Found amidst a trash-laden safety net, this crystal might have
+some use to it other than looking stunning.
+~
+#7700
+A charred doll~
+A charred doll.~
+A charred doll lies here.~
+~
+13 0 16384
+0 0 0 0
+1 0 0
+E
+A charred doll~
+A stuffed ewok doll that was charred during the bombardment. A child once loved this.
+~
+#7701
+A small plastic ring.~
+A small plastic ring.~
+A small plastic ring lies here.~
+~
+9 0 2
+0 -1 0 0
+1 0 0
+#7702
+A family hologram~
+A family hologram.~
+A family hologram stands here on its stand.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+A family hologram~
+A picture of a man, his wife, and their two children. All of whom are now dead, or dying, in their house outside of the bunker.
+~
+#7703
+A fallen piece of Duracrete~
+A piece of duracrete.~
+A piece of duracrete from the ceiling is here.~
+~
+13 0 0
+0 0 0 0
+150 0 0
+E
+A fallen piece of Duracrete~
+A heavy piece of Duracrete that fell from the ceiling during the bombardment is here.
+~
+#7704
+A computer screen~
+A computer screen~
+A computer screen is mounted here displayed the planet's onslaught.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+E
+A computer screen~
+~
+E
+A computer screen~
+This screen shows 3 capital ships in orbit of the planet steadily hammering away with its turbolaser batteries. Emerald beams of destruction lance through the atmosphere and destroy all the touch.
+~
+#7800
+Fountain~
+a Fountain~
+A Fountain is here.~
+~
+25 1073741824 0
+0 0 0 0
+1 0 0
+#7801
+&BA dirty toilet~
+a &BA dirty toilet~
+&BA dirty toilet is here.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#7802
+Toilet~
+&BA nice toilet~
+&BA hutt-sized toilet is mounted to the floor.~
+~
+12 0 0
+0 0 0 0
+1 0 0
+#7803
+&BA bath~
+&BA bath is here.~
+&BA bath is full of water.~
+~
+25 0 0
+0 0 0 0
+1 0 0
+#7804
+Filet of Bantha~
+&rA Filet~
+&rA Filet of Bantha~
+~
+19 0 1
+0 2 2 0
+1 0 0
+#7805
+Iced Cafe~
+Iced Cafe~
+&CA glass of Iced Cafe.~
+~
+17 8192 1
+2 25 0 0
+1 2 0
+#7806
+Private Package~
+A package~
+A package marked &RPRIVATE&w~
+~
+8 0 1
+0 0 0 0
+1 0 0
+#7807
+watch~
+A watch~
+A broken watch flashes &R12:00~
+~
+18 8192 4097
+0 0 0 0
+2 0 0
+#7808
+speaker~
+A speaker~
+A speaker on the wall~
+~
+12 0 0
+0 0 0 0
+1 0 0
+> speech_prog 'key please' 100~
+if clan($n) == Gladius Umbrae
+mpoload watch
+else
+mpecho Sorry $n you are not a member of Gladius Umbrae, guards will be called in at once.
+endif
+~
+|
+#7899
+Sabre~
+&R<===========&z::&Z[lightsabre&z::~
+&R<===========&z::&Z[lightsabre&z:: lies here~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#7900
+hi_obj~
+a hi_obj~
+A hi_obj is here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#7999
+hi_obj~
+a hi_obj~
+A hi_obj is here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#7651
+Outside of the crashed Starcruiser~
+You are just outside of the large crashed Starcruiser.You can
+see where the impact of the ship has cratered a trail far to
+the south of here.To the north you see the hatch that has evidently
+been blown off for some reason or the other.
+~
+0 1073741828 1 0
+S
+#7660
+Coruscant Underground~
+The Streets are dark And dirty Here. The smell of sulfur wafts
+through the air. not much is to be seen through the dimlit area's
+that are clear enough to walk through.Speeders with no longer
+working repulsar devices are husked out shells with little more
+to offer then an Obstical in the way.A trash Barrel Burns to
+the north. The only sorce of light to Be seen in at least 20
+meters.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7661
+S
+#7661
+Along the Underground~
+It Gets no cleaner walking through here. The ground seems to
+have been disturbed here recently. A few canisters sit off to
+the side of a curb.The smell of sulfur turns to one of smoke.
+A Hazey mist is starting to fill the area from the fire pit
+just up ahead. More light is given into an otherwise desolet
+area.Scraps of metal litter the area now. A rawk-bat flys over
+head almost dangerously close. Who new they flew this low? 
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7662
+D2
+~
+~
+0 -1 7660
+S
+#7662
+Source of Light~
+Upon Entering the area of the burn barrel it seems even more
+desolet.The smoke has cleared away. Little bits of paper lay
+next to the burn Barrel as do empty ration wrappers.No visable
+Clue's can be seen as to who or what has been here except maybe
+that Manhole cover. It does seem to be ajar abit.
+~
+0 1073742848 1 0
+D2
+~
+~
+0 -1 7661
+D10
+~
+manhole~
+657408 -1 7663
+S
+#7663
+Sewers~
+The sewers Being long dry from years of not being used still
+have an odd smell about them.There is a Moisture in the air
+that could have only been inplace recently.Odd Scraping a wheezing
+sounds are heard from the southwest. Odd footprints can be seen
+in the dust as well as the draging lines of two feet. Two Human
+feet.Perhaps it may not be such a good idea to go down that
+way.
+~
+0 1073741828 1 0
+D4
+~
+~
+0 -1 7662
+D9
+~
+~
+0 -1 7664
+S
+#7664
+Dank Pit~
+Here in the dank pit the wheezing sounds grow audibly louder.
+The moisture turns into a smell of almost wet dog.
+~
+0 1073741825 1 0
+D6
+~
+~
+0 -1 7663
+S
+#7665
+A Roughly-Hewn Wroshyr Platform~
+One of the massive wroshyr trees populating the jungle ecosystem
+of the planet Kashyyyk has been split horizontally and used
+as a makeshift landing platform.  The thick, palpable scent of
+tree sap pushes at the senses, causing a temporary override
+to motor skills, but thankfully there are vine nets surrounding
+the edge, preventing a disasterous fall.  Wookiee technicians
+meander about, tinkering with ships and ordering those entering
+the vicinity to preset areas.
+~
+0 1073741848 3 0
+D1
+~
+~
+3 -1 7667
+D5
+~
+~
+128 -1 7666
+D8
+~
+~
+0 -1 7668
+S
+#7666
+Underneath the Platform~
+Hideously tangled among the vine nets gathered underneath the
+landing zone lies an motley assortment of items.  Amidst the various
+junk there may exist something worthwhile, but it would take an
+extensive search that would be both time-consuming and precarious.
+Fluttering bits of web intertwine the nets, capturing more useless
+objects than creatures of real nutritional value.
+~
+0 1073741825 3 0
+D4
+~
+~
+128 -1 7665
+S
+#7667
+Confinement Center~
+Here is where questionable individuals are escorted from the
+landing pad.  If a stranger acts in a suspicious manner, they
+are surrounded quickly by Wookiee guards and placed here for
+observation and questioning.  The Wookiee people, having learned
+from the past mistake of trusting too easily, work now to prevent
+sabotage and malignancy from invading their home.
+~
+0 1073741824 1 0
+D3
+~
+~
+3 -1 7665
+S
+#7668
+Traversing the Wroshyr Branch~
+Slender, as far wroshyr branches are considered, this avenue
+stretches only fifty meters across.  The traffic is sparse, and
+the few Wookiees that do take it upon themselves to travel here
+vary in greatly size, shape and color.  Tufts of fog curl around
+the edges of the branch, making for difficult peripheral vision.
+~
+0 1073741888 3 0
+D1
+~
+~
+0 -1 7669
+D7
+~
+~
+0 -1 7665
+S
+#7669
+Outskirts of Lyynark~
+As the Wookiee city looms closer, the flow of traffic increases.
+From this distance, the three levels of populated wroshyr can be
+seen clearly through occasional wisps of fog.  For a minor city
+on Kashyyyk, Lyynark seems to be thriving.  Wookiee citizens crawl
+up and down the branches between levels, using vine elevators
+for non-arboreal beings and supplies.
+~
+0 1073741892 3 0
+D3
+~
+~
+0 -1 7668
+S
+#7670
+Entranceway of the Incom X-29 Space Barge $SN$~
+This ship was obviously made for the height of efficiency. Cold
+steel everywhere and quite empty. A rather heavy looking door
+leads north while to the south is the cargo bay.
+~
+0 536870920 1 0
+D0
+~
+~
+1 -1 7671
+D2
+~
+~
+0 -1 7672
+S
+#7671
+Cockpit of the $SN$~
+Entering the ships cockpit you realize it wasn't really meant
+for combat. A large viewscreen surrounds the cockpit, showing
+the areas outside of the ship. The displays show nothing but
+a meager laser, some small shielding to ward off debris, and
+a tractor beam.
+~
+0 536870920 1 0
+D2
+~
+~
+67108865 -1 7670
+S
+#7672
+A Large Cargo Bay~
+This is the paramount of the ships resposibilities. This cargo
+bay seems to be larger than the rest of the entire ship combined,
+probably enough room for 3-4 starfighters easily. To the north
+is the entrance. 
+~
+0 536870920 1 0
+D0
+~
+~
+0 -1 7670
+S
+#7700
+Center of a Bunker~
+This is the central room of a wartime bunker. This bunker was
+obviously civilian made as it lacks the armor and shielding
+military bunkers usually posses. It still serves it prupose,
+to protect those inside.
+~
+0 1073741832 0 0
+D0
+~
+~
+0 -1 7701
+D2
+~
+~
+0 -1 7702
+> rand_prog 25~
+The room quakes form the bombardment.
+&RDuracrete rains down on your from overhead&W
+~
+|
+S
+#7701
+Exit of a Bunker~
+This is the heavily reinforced entrance to the bunker. Once shut
+it will only be opened from the inside. It was built for times
+of great need and though it was built to take a lot of punishment
+it seems old and disrepaired.
+~
+0 1073741832 0 0
+D2
+~
+~
+0 -1 7700
+S
+#7702
+Rear of a Bunker~
+This is the back of the bunker. In the corner of the room is
+a turbolift that goes down to the observation center where people
+may watch what is happening in orbit via a camera on the near
+moon.
+~
+0 1073741832 0 0
+D0
+~
+~
+0 -1 7700
+D2
+~
+~
+0 -1 7703
+> rand_prog 25~
+recho &RBOOOM! &WA you are showered with concrete from the ceiling.
+~
+|
+S
+#7703
+Turbolift~
+A list on the wall reads:
+&RFloor 1: upper Bunker&W
+&RFloor 2: Observation Room&W
+&P(&YOOC&P)&RSay 1 or 2 to move between floors.
+&W
+~
+0 1073741828 1 0
+> speech_prog 1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Level 1. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 7702
+mpat 7702 mer $n $n gets off the turbolift.
+~
+> speech_prog 2~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Level 2. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 7704
+mpat 7704 mer $n $n gets off the turbolift.
+~
+|
+S
+#7704
+Observation Room~
+Around the room are monitors showing the onslaught that is happening
+from the moon. Three capital vessels lie in orbit brutally pounding
+the planet with their turolaser batteries.
+~
+0 1073741832 0 0
+D2
+~
+Turbolift to Upper Level~
+0 -1 7703
+> rand_prog 25~
+recho The room suddenly quakes from the bombardment.
+recho &CA group of people screams out load.&W
+~
+|
+S
+#7705
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#7768
+Traversing the Wroshyr Branch~
+~
+0 1073741828 1 0
+S
+#7800
+Hostel~
+~
+0 1082164232 1 0
+D1
+~
+~
+0 -1 7870
+S
+#7801
+New Hutt Landing Pad~
+&YThis spaceport looked like it was once quite beautiful.  The
+floor is made of cracked marble and there were once decorative
+pillars that now lay in ruins on the perimeter of the landing
+pad.There are oversized muddy tracks head north out of the port.
+The air reeks of industrial waist and a thick &zgrey &Yfog hovers
+close to the ground.
+~
+0 32816 1 4
+D0
+~
+~
+0 -1 7802
+D6
+~
+~
+0 -1 7803
+S
+#7802
+Evocii Street~
+&Y Evocii Street was named after the original planet that the
+hutt species cane from.  Hutts were never a very clean species
+and Evocii Street looks nearly as bad as the planet which it
+was named after.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7804
+D1
+~
+~
+0 -1 7803
+D2
+~
+~
+0 -1 7801
+S
+#7803
+Galactic Immigration and Customs Office~
+&Y This customs office has expensive looking scanner equipment
+however it seems to be scavenged several years ago.The only
+thing that is in somewhat good condition is a reclining chair
+off in the corner.  In the center of the office is a dusty crate
+marked &RCONTRABAND&Y unfortunately for the smuggler passing
+through, it is empty.
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 7802
+D7
+~
+~
+0 -1 7804
+D9
+~
+~
+0 -1 7801
+S
+#7804
+Palace Drive and Evocii Street~
+&Y Durga's Palace lies due west of this location.  The building
+rises vertically nearly 100 meters and is 40 or so meters in
+width.The walls were &wwhite-washed &Yat one point but the &Ob&zr&Oo&zw&On&zi&Os&zh&O-&zg&Or&ze&Oy&Y
+air has stained the building.  To the south-east is a ram shackled
+customs office and Evocii Street runs north and south.
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 7806
+D2
+~
+~
+0 -1 7802
+D3
+~
+~
+0 -1 7805
+D8
+~
+~
+0 -1 7803
+S
+#7805
+Extravagant Hallway~
+&Y This is the entrance to Durga's palace. There are the two
+of the ugliest weequay guards in the galaxy keeping out the
+peasants.All you can see past them is a extremely large room
+and a large &Ogold&Y disk.
+~
+0 1073741836 1 0
+D1
+~
+~
+0 -1 7804
+D3
+~
+~
+0 -1 7816
+S
+#7806
+Evocii Street and Garro Street~
+&Y Evocii Street and Garro Street intersect here.  Both are in
+horrible condition and could easily be deemed the worst road
+in the Galaxy.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7807
+D2
+~
+~
+0 -1 7804
+S
+#7807
+Garro Street~
+&Y Garro Street is loaded with garbage and filth.The gutters
+on the side of the road are clogged with wamprat corpses and
+other random rubbish.  The street is also full of foot traffic
+making any land speeder unable to move through them.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7808
+D3
+~
+~
+0 -1 7806
+S
+#7808
+Garro Street and Naj Circle~
+&Y This is the intersection between Naj Circle and Garro Street.To
+the south funky music can be heard.      There is a sign on
+the building which reads &RADULTS ONLY!!&Y 
+~
+0 1073741824 1 0
+D2
+&RADULTS ONLY!!!&W
+~
+&RADULTS ONLY!!&W~
+1 -1 7815
+D3
+~
+~
+0 -1 7807
+D6
+~
+~
+0 -1 7809
+S
+#7809
+Naj Circle~
+&Y Naj Circle is a typical Nal Hutta street.  It is just as dirty
+as all the others.  What a gem of a planet.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7810
+D1
+~
+~
+0 -1 7813
+D3
+~
+~
+0 -1 7870
+D9
+~
+~
+0 -1 7808
+S
+#7810
+Naj Circle~
+&Y Naj Circle is a typical Nal Hutta street.  It is just as dirty
+as all the others.  What a gem of a planet.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7837
+D2
+~
+~
+0 -1 7809
+D7
+~
+~
+0 -1 7811
+S
+#7811
+Naj Circle~
+&Y Naj Circle is a typical Nal Hutta street.  It is just as dirty
+as all the others.  What a gem of a planet.
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 7824
+D3
+~
+~
+0 -1 7812
+D8
+~
+~
+0 -1 7810
+S
+#7812
+Naj Circle~
+&Y This is where Naj Circle comes to a dead end.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7811
+D5
+Grate
+~
+~
+2051 -1 7825
+S
+#7813
+Blasters 'R' Us~
+&Y There is a dirty hutt selling weaposn here.  Maybe he has a good deal.
+~
+0 12 1 0
+D3
+~
+~
+0 -1 7809
+S
+#7814
+Fabric Storage~
+&Y This is where Nalba stores all his fabrics.  He uses EG150
+a shopkeeper droid to keep everything organised. Some of which
+are for sale.
+~
+0 8 1 0
+D1
+~
+~
+0 -1 7824
+S
+#7815
+Dirty Hutt Disco~
+&Y This room is HOPPING!  Music is playing and there is a somewhat
+large stage to the south. In this room you see a strong Shistavanen
+bouncer standing in the shadows of the disco.Strangely this
+room is filled with the males of every species. 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7808
+D2
+~
+~
+0 -1 7840
+S
+#7816
+Palace Foyer~
+&Y The huge room takes up nearly the entire ground floor of Durga's
+palace.There must be a janitor droid because there is no dirt
+or grime on the &Wwhite&Y marble floor.  
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7817
+D1
+~
+~
+0 -1 7805
+D2
+~
+~
+0 -1 7818
+D3
+~
+~
+0 -1 7820
+D7
+~
+~
+0 -1 7821
+D9
+~
+~
+0 -1 7819
+S
+#7817
+Palace Foyer~
+&Y The huge room takes up nearly the entire ground floor of Durga's
+palace.There must be a janitor droid because there is no dirt
+or grime on the &Wwhite&Y marble floor.  
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 7816
+D3
+~
+~
+0 -1 7821
+D9
+~
+~
+0 -1 7820
+S
+#7818
+Palace Foyer~
+&Y The huge room takes up nearly the entire ground floor of Durga's
+palace.There must be a janitor droid because there is no dirt
+or grime on the &Wwhite&Y marble floor.  
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7816
+D3
+~
+~
+0 -1 7819
+D7
+~
+~
+0 -1 7820
+S
+#7819
+Palace Foyer~
+&Y The huge room takes up nearly the entire ground floor of Durga's
+palace.There must be a janitor droid because there is no dirt
+or grime on the &Wwhite&Y marble floor.  
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7820
+D1
+~
+~
+0 -1 7818
+D6
+~
+~
+0 -1 7816
+D7
+~
+~
+0 -1 7822
+S
+#7820
+Palace Foyer~
+&Y This is the center of the foyer.  There is a large&O Golden&Y
+crest inlayed in the marble.  This crest is an overlarge version
+of an Old Republic Credit.  There are many aliens admiring the
+cleanliness of this palace being on the scum pit of Nal Hutta.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7821
+D1
+~
+~
+0 -1 7816
+D2
+~
+~
+0 -1 7819
+D3
+~
+~
+0 -1 7822
+D6
+~
+~
+0 -1 7817
+D8
+~
+~
+0 -1 7818
+S
+#7821
+Palace Foyer~
+&Y The huge room takes up nearly the entire ground floor of Durga's
+palace.There must be a janitor droid because there is no dirt
+or grime on the &Wwhite&Y marble floor.  
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7817
+D2
+~
+~
+0 -1 7820
+D8
+~
+~
+0 -1 7816
+D9
+~
+~
+0 -1 7822
+S
+#7822
+Before the Turbolift~
+&Y This room has &Rred&Y carpeting and a brass rail which runs
+on both walls running to a  turbolift. The walls are wide and
+tall and can fit even the two largest hutts walking side by
+side.
+~
+0 1073741836 1 0
+D1
+~
+~
+0 -1 7820
+D3
+~
+~
+0 -1 7823
+D6
+~
+~
+0 -1 7821
+D8
+~
+~
+0 -1 7819
+S
+#7823
+Turbolift~
+&Y This is a very ornate lift for being on Nal Hutta.  There
+is a monitor on wall next to the sliding doors. The Monitor
+reads &W"Voice Activated Turbolift V.1.2.1- Please say 'list'
+to display floor list."&Y 
+~
+0 1073741836 1 0
+> speech_prog list~
+mpecho Please Chose A Floor From The Following
+mpecho 1st - Main Floor
+mpecho 2nd - Services 
+mpecho 3rd - Rooms
+mpecho 4th - Penthouse
+mpecho 5th - Personal Hanger Bay
+~
+> speech_prog 1~
+mpecho ZZZOOOOOMMMMMMMMMM *Ding*
+mptransfer all 7822
+~
+> speech_prog 2~
+mpecho ZZZOOOOOMMMMMMMMMM *Ding*
+mptransfer all 7841
+~
+> speech_prog 3~
+mpecho ZZZOOOOOMMMMMMMMMM *Ding*
+mptransfer all 7849
+~
+> speech_prog 4~
+mpecho ZZZOOOOOMMMMMMMMMM *Ding*
+mptransfer all 7857
+~
+> speech_prog 5~
+mpecho ZZZOOOOOMMMMMMMMMM *Ding*
+mptransfer all 7865
+~
+|
+S
+#7824
+Shop 'Till You Drop~
+&Y This shop has trash all over the floor.Mud is on the counters
+and the goods for sale are a tad dusty, but look still good.
+~
+0 8 1 0
+D0
+~
+~
+0 -1 7811
+D3
+~
+~
+0 -1 7814
+S
+#7825
+Sewer Pipe~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7827
+D4
+~
+~
+3 -1 7812
+S
+#7826
+Sewer Pipe~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 7825
+S
+#7827
+Sewer Pipe~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 7825
+D5
+~
+~
+8388611 7807 7828
+S
+#7828
+Sewer Pipe~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7829
+D4
+~
+~
+8388611 7807 7827
+S
+#7829
+Sewer Pipe~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7830
+D3
+~
+~
+0 -1 7828
+S
+#7830
+Sewer Pipe~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 7829
+D6
+~
+~
+0 -1 7831
+D8
+~
+~
+0 -1 7834
+S
+#7831
+Sewer Pipe~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7868
+D6
+~
+~
+0 -1 7832
+D9
+~
+~
+0 -1 7830
+S
+#7832
+Sewer Pipe~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7869
+D2
+~
+~
+0 -1 7871
+D6
+~
+~
+0 -1 7833
+D9
+~
+~
+0 -1 7831
+S
+#7833
+Sewer Pipe~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 7838
+D9
+~
+~
+0 -1 7832
+S
+#7834
+Sewer Pipe~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 7839
+D7
+~
+~
+0 -1 7830
+D8
+~
+~
+0 -1 7835
+S
+#7835
+Sewer Pipe~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7871
+D2
+~
+~
+0 -1 7872
+D7
+~
+~
+0 -1 7834
+D8
+~
+~
+0 -1 7836
+S
+#7836
+Sewer Pipe~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7838
+D7
+~
+~
+0 -1 7835
+S
+#7837
+Tavern~
+&B Pull up a seat and order a cold one.
+~
+0 12 1 0
+D3
+~
+~
+0 -1 7810
+S
+#7838
+Open Area~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7833
+D1
+~
+~
+0 -1 7875
+D2
+~
+~
+0 -1 7836
+D3
+~
+~
+0 -1 7871
+S
+#7839
+Supply Depot~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7834
+S
+#7840
+The Stage~
+&Y Mirrors line the southern wall of this stage and thre is a
+solid durabrass pole which is often used by the sexiest female
+t'landa tils in the galaxy.  There are males which line the
+stage with credits in their hands, hoping to get some action.
+~
+0 1073741836 1 0
+D0
+~
+~
+0 -1 7815
+S
+#7841
+Service Level~
+&Y This is the entry to the services level.  There is the personal
+bathhouse, mud pit and bank for Durga and his guests.There is
+a trail of mud coming from the pit trailing on the carpet but
+other then that this room is quite nice especially for being
+on Nal Hutta.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7843
+D3
+~
+~
+0 -1 7823
+D6
+~
+~
+0 -1 7842
+D8
+~
+~
+0 -1 7844
+S
+#7842
+Swamp~
+&Y This swamp is a Hutt's dream.  The mud is quite thick and
+there is a stench of rotting organic waste.  It might be a good
+place to take a nice mudbath.There is however a strange breeze
+of air comeing from the east.
+~
+0 1073741836 1 0
+D1
+~
+~
+2048 -1 7845
+D9
+~
+~
+0 -1 7841
+S
+#7843
+Bathhouse~
+&Y This bathouse has water and mud splashed on the floor.  Hutts
+use it to clean up after they roll around in the swamp.   Over
+to the south an expensive painting drips with water.
+~
+0 1073741832 1 0
+D1
+~
+~
+3 -1 7846
+D3
+~
+~
+0 -1 7841
+S
+#7844
+Durga's Personal Bank~
+&Y Durga often needs his money taken out to the laundry.  He
+had this palace installed with a bank for his personal use but
+he also allows guests utilize its services.  
+~
+0 1073742080 1 0
+D1
+~
+~
+0 -1 7847
+D7
+~
+~
+0 -1 7841
+S
+#7845
+Spicers Hideout~
+&z Wait?! What is this place?  
+~
+0 1073741836 1 0
+D3
+~
+~
+0 -1 7842
+S
+#7846
+Bathhouse Control Room~
+&Y The bathhouse control room is full of switches, levers and
+gauges.  They monitor water pressure, temperature and amount
+of clean water in reserve. This room also controls the swamp
+room.  Please do not touch anything.
+~
+0 1073741832 1 0
+D3
+~
+~
+3 -1 7843
+S
+#7847
+Bank Vault~
+&Y Durga stores his credits in this thick durasteel vault.  The
+credits are kept in a secure locker to prevent stealing.One
+thing hutts love is money and they will do anything to prevent
+its theft.
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 7844
+S
+#7848
+Hostel~
+~
+0 1082164236 1 0
+D1
+~
+~
+0 -1 7870
+S
+#7849
+Hallway Intersection~
+&Y This hallway has a fork that leads east, northeast and southeast.
+Each branch of the hallway goes to a different utility room.
+Find out where each wing goes.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7852
+D3
+~
+~
+0 -1 7823
+D6
+~
+~
+0 -1 7850
+D8
+~
+~
+0 -1 7854
+S
+#7850
+North-East Hallway~
+&Y This hallway leads to a workshop used by Durga to craft weapons
+and armor and whatnot.  There is an extremely LOUD noise coming
+from the east.
+~
+0 1073741832 1 0
+D1
+~
+~
+8389665 7801 7851
+D9
+~
+~
+0 -1 7849
+S
+#7851
+Workshop~
+&Y This room has tools needed to craft equipment needed by nearly
+every profession.  Crates of weapons, armor, ship modifications
+and  datapads scattered around the room.
+~
+0 1140850696 1 0
+D3
+~
+~
+1 7801 7850
+S
+#7852
+Eastern Hallway~
+&Y There is a lot of &zgray&Y smoke coming from the east.  It
+seems that spice can be refined in that smokey room.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7853
+D3
+~
+~
+0 -1 7849
+S
+#7853
+Refinery~
+&z This room is thick with smoke.  There are wooden shelves with
+beakers and burners and other tools needed to refine 
+~
+0 1107296264 1 0
+D3
+~
+~
+0 -1 7852
+S
+#7854
+South-East Hallway~
+&Y This hallway leads to a sparring facility.  Head east for
+a challenge.  
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 7855
+D7
+~
+~
+0 -1 7849
+S
+#7855
+Sparring Facility~
+&Y There is a training remote in here however it is quite strong
+so &RBEWARE 
+~
+0 8 1 0
+D3
+~
+~
+0 -1 7854
+S
+#7856
+Champagne Room~
+This room is lined with shabby beds.  The floor is quite sticky.... GROSS!
+~
+0 1073741828 1 0
+D7
+~
+~
+0 -1 7840
+S
+#7857
+Penthouse Entrance~
+&Y This hallway is lined with &Rred&Y carpet, the walls hang
+expensive art from planets across the galaxy and there is fancy
+carved wood around the door.Durga occupies this penthouse whenever
+he is staying in his palace.
+~
+0 1073741832 0 0
+D1
+~
+~
+0 -1 7858
+D3
+~
+~
+0 -1 7823
+S
+#7858
+&wA Large Penthouse with a sign reading "GO AWAY"~
+~
+0 1083179008 1 0
+D2
+~
+~
+0 -1 7862
+D3
+~
+~
+0 -1 7857
+D6
+~
+~
+0 -1 7859
+D7
+~
+~
+0 -1 7863
+D8
+~
+~
+0 -1 7860
+D9
+~
+~
+0 -1 7861
+S
+#7859
+Bathroom~
+&Y This bathroom is fit for a king.  The toilet, basin and bath
+are hutt-sized but even a jawa would feel nice in here.There
+is a window on the north wall but it is smoked glass so nobody
+can see in.  Just don't forget to flush!
+~
+0 1082130432 1 0
+D9
+~
+~
+0 -1 7858
+S
+#7860
+Personal Bacta Tank~
+&C This bacta tank is large enough to hold a hutt but due to
+the oxygen requirement only one person can be in here at a time.
+Even if more then one could be in at a time, the two could not
+communicate.
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 7858
+> rand_prog 100~
+mpecho &cThe bacta bubbles around you.
+mprestore $n 35
+~
+|
+S
+#7861
+Entertainment Room~
+&Y This room is filled with the latest and greatest entertainment
+equipment.With the receiver tuned to the right frequency one
+could even pick up signals coming from Imperial City.  A HUGE
+sofa lies on the south wall.
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 7858
+S
+#7862
+Kitchen~
+&Y This kitchen has is quite clean and there is a chef who is
+waiting to cook his specialty, Filet of Bantha.Feel free to
+ask the chef for a menu.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 7858
+S
+#7863
+Master Bedroom~
+&Y This room has a lush fore poster bed.  A window lies on the
+northern wall over looking the spaceport.
+~
+0 1073741824 1 0
+D8
+~
+~
+0 -1 7858
+S
+#7864
+A Back Room~
+~
+0 1073741836 1 0
+D3
+~
+~
+0 -1 7815
+S
+#7865
+Hallway to Durga's Hanger~
+&Y This hallway has a duraglass roof and heads east to Durga's
+hanger.  Guests are not normally allowed to use this hanger
+however now that he is on hiatus to Yavin guests use this frequently.
+
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7866
+D3
+~
+~
+0 -1 7823
+S
+#7866
+Before the Hanger~
+&Y The wind blows quite hard as the cover of duraglass is no
+longer overhead. The hanger is one room to the east.  Hopefully
+no guards will be posted since Druga is gone.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7867
+D3
+~
+~
+0 -1 7865
+S
+#7867
+Durga's Personal Hanger~
+&Y Durga uses this landing pad to smuggle his goods off Nal Hutta
+with out the local folk getting too nosy.There is a guard station
+but it has long been deserted.
+~
+0 1073741872 1 0
+D3
+~
+~
+0 -1 7866
+S
+#7868
+Smithy~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 7831
+S
+#7869
+Dormitory~
+~
+0 1082131464 1 0
+D2
+~
+~
+0 -1 7832
+S
+#7870
+Nal Hutta Hotel~
+&B This hotel must have been made from the parts that Durga didn't
+want. There is nothing that is made of quality materials and
+the architect could not have been any smarter then a Gamorrean.
+But you can get a room if you talk to the innkeeper.  
+~
+0 33800 1 0
+D1
+~
+~
+0 -1 7809
+D3
+~
+~
+0 -1 7879
+S
+#7871
+Den~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 7832
+D1
+~
+~
+0 -1 7838
+D2
+~
+~
+0 -1 7835
+S
+#7872
+Workshop~
+~
+0 1174405128 1 0
+D0
+~
+~
+0 -1 7835
+S
+#7875
+Sparring Facility~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 7838
+S
+#7878
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#7879
+The Galactic Mail Center~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 7870
+S
+#7880
+Turbolift~
+~
+0 1073741828 1 0
+S
+#7899
+Interrogation Chambers~
+~
+0 1073741828 1 0
+S
+#7900
+Floating in a void~
+~
+0 4 1 0
+S
+#7999
+Floating in a void~
+~
+0 1073741824 1 0
+S
+#0
+
+
+#RESETS
+O 1 7655 1 7651
+D 0 7665 1 1
+D 0 7667 3 1
+D 0 7670 0 0
+D 0 7671 2 0
+O 1 7702 1 7700
+M 1 7702 1 7701
+O 1 7700 1 7701
+M 1 7703 1 7702
+O 1 7703 1 7702
+M 1 7704 1 7704
+O 1 7704 1 7704
+M 1 7999 1 7999
+O 1 7999 1 7999
+S
+
+
+#SHOPS
+ 7811    9 57  5  0  0   102  15         0 23    ; dealer
+ 7812   19  0  0  0  0   120  40         0 23    ; A bar tender
+ 7813    0  0  0  0  0   330  75         0 23    ; Nalba
+ 7815   74  0  0  0  0   190  90         0 23    ; EG150
+ 7817    5  9 15  0  0    20   1         0 23    ; EG128
+0
+
+
+#REPAIRS
+ 7816    5  9  0           9   1         0 23    ; BS18103
+0
+
+
+#SPECIALS
+M  7801 spec_customs_weapons
+M  7802 spec_police_attack
+M  7803 spec_janitor
+S
+
+
+#$

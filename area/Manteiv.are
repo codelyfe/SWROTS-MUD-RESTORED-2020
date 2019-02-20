@@ -1,0 +1,104 @@
+#AREA   {PROTO} Manteiv's area in progress~
+
+
+
+#AUTHOR Manteiv~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#2001
+low_mob~
+a newly created low_mob~
+Some god abandoned a newly created low_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2100
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#2001
+low_obj~
+a low_obj~
+A low_obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#2100
+hi_obj~
+a hi_obj~
+A hi_obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#2001
+&W&wFloating in a void~
+~
+0 0 1 0 0 0 0 0 0 0 0 0 0 0
+S
+#2100
+&W&wFloating in a void~
+~
+0 0 1 0 0 0 0 0 0 0 0 0 0 0
+S
+#0
+
+
+#RESETS
+M 1 2001 1 2001
+O 1 2001 1 2001
+M 1 2100 1 2100
+O 1 2100 1 2100
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

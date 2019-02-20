@@ -1,0 +1,10799 @@
+#AREA   Coruscant~
+
+
+
+#AUTHOR Nevanessys~
+
+#RANGES
+0 0 0 65
+$
+
+#FLAGS
+0 30
+
+#ECONOMY 0 14393894
+
+#MOBILES
+#1000
+low_mob~
+a newly created low_mob~
+Some god abandoned a newly created low_mob here.
+~
+~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2000
+hi_mob~
+imperial recruit~
+An Imperial Recruit walks past.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#1000
+low_obj~
+a low_obj~
+A low_obj is here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#2000
+hi_obj~
+a canteen~
+A small grey canteen has been drooped here.~
+~
+17 0 1
+40 40 0 0
+1 10 1
+#0
+
+
+#ROOMS
+#1000
+&cMenari Main Landing Pad&w~
+&w&WConstructed in reinforced &zDurasteel&w&W, the Menari Spaceport's
+Main Landing Pad&w&W is sturdy enough to support the massive weight
+of the many ships that take port here on a consistant basis.
+Regardless of the time, day or night, many travelers can always
+be found here, and in the surrounding areas, due to the Spaceport's
+&w&Wrelative proximity to just about everything in &YRepublic City&w&W.
+A foul, unattractive odor clouds the vicinity, no doubt a result
+of the many Ion Engines being engaged and disengaged all about the
+large area.
+~
+0 1073741876 1 0
+D2
+~
+~
+0 -1 1001
+S
+#1001
+&WA Durasteel Road&w~
+&w&WNearly as wide as it is long, this &zDurasteel&w&W reinforced
+road provides access to, and from, the Menari Spaceport Landing
+Pads and the Spaceport itself. Travelers, droids, ship-haulers,
+transport units, and other mechanized equipment flow freely
+&w&Wabout the road conducting their business. The sound of the
+ships above, some coming and some going, echo all about the
+outer Spaceport.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1000
+D1
+~
+~
+0 -1 1003
+D2
+~
+~
+0 -1 1004
+D3
+~
+~
+0 -1 1002
+S
+#1002
+&cMenari Secondary Landing Pad&w~
+&w&WLike the Main Landing Pad, the Secondary Landing Pad is constructed
+in reinforced &zDurasteel&w&W. Beings of just about every race
+within the known &zGalaxy&w&W can be found here at some point,
+coming and going to their respective ships, carrying on about
+whatever business it is that they may have. A Foul, unattractive
+odor clouds the vicinity, no doubt a result of the many Ion
+Engines being constantly engaged and disengaged all about the
+landing area.
+~
+0 1073741876 1 0
+D1
+~
+~
+0 -1 1001
+S
+#1003
+&cMenari Reparations Pad&w~
+&w&WThe high-pitched rattle of the Engineer's Ion-Torch seems
+to drown out just about every sound made here. Like the rest
+of the Spaceport's Landing Pads, this one is constructed in
+reinforced &zDurasteel&w&W in order to support the weight of
+the many visiting ships. However, unlike the others the Menari
+Reparations Pad is well-equipped and well-staffed to repair
+and maintain just about any ship ever made within the &zGalaxy&w&W.
+Engineers emigrate here from just about every known planet,
+each seeking to use the &zGalaxy's&w&W most high-tech equipment
+and partake in the greatest hands-on mechanical reparations
+and maintenance experience the &zGalaxy&w&W has to offer.&w
+
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 1001
+S
+#1004
+&WA Durasteel Road&w~
+&w&WNearly as wide as it is long, this &zDurasteel&w&W reinforced
+road provides access to, and from, the Menari Spaceport Landing
+Pads and the Spaceport itself. Travelers, droids, ship-haulers,
+transport units, and other mechanized equipment flow freely
+&w&Wabout the road conducting their business. The sound of the
+ships above, some coming and some going, echo all about the
+outer Spaceport.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1001
+D2
+~
+~
+0 -1 1005
+S
+#1005
+&WA Durasteel Road&w~
+&w&WNearly as wide as it is long, this &zDurasteel&w&W reinforced
+road provides access to, and from, the Menari Spaceport Landing
+Pads and the Spaceport itself. Travelers, droids, ship-haulers,
+transport units, and other mechanized equipment flow freely
+&w&Wabout the road conducting their business. The sound of the
+ships above, some coming and some going, echo all about the
+outer Spaceport.
+
+&w&WA small &Rred&w&W sign hangs above the southern door.&w
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1004
+D1
+~
+~
+0 -1 1007
+D2
+~
+~
+134217731 -1 1008
+D3
+~
+~
+0 -1 1006
+E
+sign~
+&RALL WEAPONS ARE BANNED UPON CORUSCANT PER SECTION #16033C. ALL SUBJECTS PASSING TO THE
+SPACEPORT ARE SUJECT TO SEARCH. ALL SUBJECTS FOUND TO BE IN VIOLATION ARE SUBJECT TO DETENTION
+AND A REVIEW CONDUCTED BY THE SENATE WEAPONS VIOLATION &RSUBCOMMITTEE.&w.&W
+~
+S
+#1006
+&cMenari Shuttle-Bus Pad&w~
+&w&WIt is said that if you waited here at the Menari Spaceport
+Shuttle-Bus Pad for just one day, you would see a member of
+every race in the known &zGalaxy&w&W. Like the rest of the Spaceport,
+the Shuttle-Bus Pad is constructed in reinforced &zDurasteel&w&W. Due
+to the Shuttle-Bus costing absolutely nothing, regardless of
+which planet you board from, and it's very consistant schedule,
+this Pad is one of the main areas of activity here at Menari
+Spaceport.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1005
+S
+#1007
+&cMenari Maintenance Bay&w~
+&w&WThe Menari Maintenance Bay is home to the many droids and
+other mechanized units that provide service and repair to the
+various ships that frequent the busy spaceport. While the Maintenance
+Bay appears to be quite empty at any given hour, there is usually
+traffic always coming and going on a consistant basis. Between
+the Main and Secondary Landing Pads, as well as the Reparations
+and Shuttle-Bus Pads, there is always work to do for the many
+droids and engineers roaming about the zone.
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 1005
+S
+#1008
+&YAn Airlock&w~
+&w&W&w&WAlthough the atmosphere of &CCoruscant&w&W is breathable
+for most races, certain areas require &Yairlocks&w&W in order to maintain
+a consistant pressure within the various &w&Wbuildings. It is
+here that pressure is equalized to that of either the outside,
+or the Spaceport itself, depending on whether one is exiting
+or entering.
+~
+0 1073741836 1 0
+D0
+~
+~
+134217731 -1 1005
+D2
+~
+~
+134217731 -1 1009
+S
+#1009
+&YA Customs Checkpoint&w~
+&w&WJust within the Menari Spaceport, the &YCustoms Checkpoint&w&W
+stands to provide security to all those visiting, or living
+upon the planet of &CCoruscant&w&W. The air temperature is set
+at a level that provides a relative comfort to most races, however,
+there are always complaints from some. The air smells quite
+fresh for being pressurized, as the Spaceport itself is designed
+to circulate air thoroughly, and ventilation ducts are installed
+roughly every ten meters.
+~
+0 1073741832 1 0
+D0
+~
+~
+134217731 -1 1008
+D2
+~
+~
+0 -1 1010
+S
+#1010
+&WMenari Spaceport Main Lobby&w~
+&w&WThe Main Lobby of the Menari Spaceport is typically
+the most crowded area in all of &CCoruscant&w&W. With various
+travelors, coming and going, security personnel, maintenance
+droids, citizens of &CCoruscant&w&W, and even merchants hawking
+their wares, this massive intersection of corridors can get
+clustered quite quickly, and frequently. Both the floor, and
+walls, are constructed in a &zDurasteel&w&W alloy. The crystal
+clear, glass roof above folds in from all four sides, forming
+a pyramid at the exact center of the area.
+
+&w&WA bright &Ggreen&w&W sign hangs from the tall ceiling above.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1009
+D1
+~
+~
+0 -1 1053
+D2
+~
+~
+0 -1 1018
+D3
+~
+~
+0 -1 1011
+E
+sign~
+&GNorth&w&W - &CLanding Pads
+&GWest&w&W - &C&CMenari Spaceport Hotel&w
+&GSouth&w&W - &CMenari Spaceport/Detention Center&w&w
+&GEast&w&W - &CMenari Spaceport/Menari Apartments&w&w
+~
+S
+#1011
+&WA Durasteel Corridor&w~
+&w&WSmall, and confining, this &zDurasteel&w&W corridor provides
+little room for much traffic. While the entire hallway is windowless,
+large ultraviolet lights illuminate the area from above.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1010
+D3
+~
+~
+0 -1 1012
+S
+#1012
+&WA Durasteel Corridor&w~
+&w&WSmall, and confining, this &zDurasteel&w&W corridor provides
+little room for much traffic. While the entire hallway is windowless,
+large ultraviolet lights illuminate the area from above.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1013
+D1
+~
+~
+0 -1 1011
+D3
+~
+~
+0 -1 1015
+D7
+~
+~
+0 -1 1016
+D9
+~
+~
+0 -1 1017
+S
+#1013
+&gMenari Inn Reception Area&w~
+&w&WCrafted entirly in Kashyyykian wood, the Menari Inn stands
+as one of the finest establishments within all of the Spaceport.
+Various knickknacks from virtually every known planet adorn
+each and every wall. A long, and very worn, wooden reception
+counter nearly divides the room in half. Behind the counter,
+a small set of stairs lead up, most likely to the various rooms
+and suites the Inn has to offer it's guests.&w 
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1012
+D3
+~
+~
+0 -1 1016
+S
+#1014
+&gMenari Inn Sleeping Quarters&w~
+&w&WThe Sleeping Quarters of the Menari Inn are all quite small,
+yet seemingly comfortable at the same time. The small 'rooms'
+are partitioned from the others by simple wooden dividers, each
+standing roughly three meters tall. While the rooms lack in
+privacy, they up for it in their affordibility, as the Menari
+Inn is known throughout &CCoruscant&w&W for being quite the
+bargain.&w 
+~
+0 1082130444 1 0
+D5
+~
+~
+0 -1 1013
+S
+#1015
+&gA Waiting Lounge&w~
+&w&WTall tables and bar stools litter the room all about it's
+fine woodgrain floor. A long &Rred&w&W light, running horizontally
+along the midsection of each wall and continuing to the north
+and south, provides a dim glow for the patrons of the bar and
+restaurant to rest and chatter about in as they await to be
+seated.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1016
+D1
+~
+~
+0 -1 1012
+D2
+~
+~
+0 -1 1017
+S
+#1016
+&gThe Menari Inn's Bar&w~
+&w&WElaborate decorations, some of which seem to have come from
+distant planets located halfway across the &zGalaxy&w&W, line
+the upper and lower sections of each wall. A long &Rred&w&W
+light, running horizontally along the mid-section of each wall,
+provides a dim glow to the many tables and booths placed along
+the edges of the room. The air smells of stale smoke, yet the
+bar appears to be quite clean in comparison to the many others
+on &CCoruscant&w&W.&w 
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1013
+D2
+~
+~
+0 -1 1015
+D8
+~
+~
+0 -1 1012
+S
+#1017
+&gThe Menari Inn's Restaurant&w~
+&w&WWhile soft Corellian Muzak plays in the background, the usual
+chatter and noise of a busy restaurant ring loud. Seating is
+nearly always available (except during peak hours of course)
+as a plethora of tables and chairs are set along the wall, while
+high-tables and bar stools dot the center of the large room.
+A long and narrow, yet vibrant, &Rred&w&W light is fixated horizontally
+along each wall, providing patrons with a dim glow of light.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1015
+D6
+~
+~
+0 -1 1012
+S
+#1018
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1010
+D2
+~
+~
+0 -1 1019
+S
+#1019
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1018
+D2
+~
+~
+0 -1 1020
+S
+#1020
+&WA Durasteel Intersection&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined intersection serves
+as one of the main arteries within the Spaceport. With the intersection
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+
+&w&WBright &Ggreen&w&W exit-indicator lights ^z&Wflash^x&w&W along the upper edge
+of the western, and south-western walls.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1019
+D2
+~
+~
+0 -1 1030
+D3
+~
+~
+0 -1 1022
+D9
+~
+~
+0 -1 1021
+S
+#1021
+&YA Turbolift&w~
+&w&WThe Central Menari &YTurbolift&w&W provides access to every
+floor within the Spaceport, as well as the &CCoruscant&w&W
+underground. Relatively new, and very well kept, the &YTurbolift&w&W
+is little more than a &zDurasteel&w&W box, powered by repulsor
+&w&Wengines.
+
+A &Rlist&w&W, encased in a hard, clear material, is &zdura&w&W-bolted
+to the eastern wall.
+~
+0 1073741836 1 0
+E
+list~
+&w&W(Simply 'Say' which level you desire to travel to.)&w
+
+&CLevel B &W- &gCoruscant Underground&w
+&CLevel 1 &W- &gMenari Spaceport Main Floor&w
+&CLevel 2 &W- &gMenari Spaceport Commercial Floor&w
+&CLevel 3 &W- &gMenari Spaceport Delivery Bays&w
+~
+E
+sign~
+~
+> speech_prog 'level 1' 100~
+mpsleep 2
+mpechoat $n &w&WThe doors close and the Menari &YTurbolift&w&W&w&W comes to life.&w
+mpsleep 5
+mpechoat $n &w&WSoft &YTurbolift&w&W muzak fills the large lift.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W&w &w&Wbegins to slow down, and the soft sound of muzak &w&Wbegins to fade.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W&w&W doors slide open and you step out.&w
+mpsleep 5
+mpopenpassage 1021 1020 6
+mpforce $n northeast
+mpclosepassage 1021 6
+~
+> speech_prog 'level 2' 100~
+mpsleep 2
+mpechoat $n &w&WThe doors close and the Menari &YTurbolift&w&W comes to life.&w
+mpsleep 5
+mpechoat $n &w&WSoft &YTurbolift&w&W muzak fills the large lift.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W begins to slow down, and the soft sound of muzak begins to fade.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W doors slide open and you step out.&w
+mpsleep 5
+mpopenpassage 1021 1165 6
+mpforce $n northeast
+mpclosepassage 1021 6
+~
+> speech_prog 'level 3' 100~
+mpsleep 2
+mpechoat $n &w&WThe doors close and the Menari &YTurbolift&w&W comes to life.&w
+mpsleep 5
+mpechoat $n &w&WSoft &YTurbolift&w&W muzak fills the large lift.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W begins to slow down, and the soft sound of muzak begins to fade.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W doors slide open and you step out.&w
+mpsleep 5
+mpopenpassage 1021 1183 6
+mpforce $n northeast
+mpclosepassage 1021 6
+~
+> speech_prog 'level b' 100~
+mpsleep 2
+mpechoat $n &w&WThe doors close and the Menari &YTurbolift&w&W comes to life.&w
+mpsleep 5
+mpechoat $n &w&WSoft &YTurbolift&w&W muzak fills the large lift.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W begins to slow down, and the soft sound of muzak begins to fade.&w
+mpsleep 5
+mpechoat $n &w&WThe &YTurbolift&w&W doors slide open and you step out.&w
+mpsleep 5
+mpopenpassage 1021 1549 2
+mpforce $n south
+mpclosepassage 1021 2
+~
+|
+S
+#1022
+&WA Durasteel Corridor&w~
+&w&WSmall, and confining, this &zDurasteel&w&W corridor provides
+little room for much traffic. While the entire hallway is windowless,
+large ultraviolet lights illuminate the area from above.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1020
+D3
+~
+~
+0 -1 1023
+S
+#1023
+&WA Durasteel Corridor&w~
+&w&WSmall, and confining, this &zDurasteel&w&W corridor provides
+little room for much traffic. While the entire hallway is windowless,
+large ultraviolet lights illuminate the area from above.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1024
+D1
+~
+~
+0 -1 1022
+D2
+~
+~
+0 -1 1025
+D3
+~
+~
+0 -1 1027
+S
+#1024
+&CMenari Spaceport Office of Security&w~
+&w&WBeing responsible for the safety and security of all those
+within Menari Spaceport, the Security Office is, for the most
+part, quite busy. Portraits of various Security Administrators
+and chiefs line both, the eastern, and western walls. A long
+&wmetallic&w&W counter seperates the many desks and offices
+to the north, from the entrance/exit to the south. It is here,
+at this counter, that people file complaints and grievances,
+or in some cases, simply seek certain information about the
+Spaceport.
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1023
+S
+#1025
+&CMenari Spaceport Detention Center&w~
+&w&WChairs line the eastern wall, while a large &wmetallic&w&W
+counter seperates the rest of the room from the holding cell
+door. Menari Spaceport is relatively free of crime in comparison
+with the Spaceports of most planets, however, due to the ever-increasing
+amount of traffic and visitors, things can get out of hand from time-to-time.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1023
+D3
+~
+~
+0 -1 1026
+S
+#1026
+&CMenari Spaceport Holding Cell&w~
+&w&WRather large and roomy, the Menari Spaceport Holding Cell
+is capable of holding roughly two to three dozen prisoners,
+depending on the race of the confined. While the room is brightly
+lit at all hours of the day for security purposes, most prisoners
+that arrive here rarely stay for more than a &CCoruscant&w&W day
+before they are transported to the &zGalactic&w&W prison located
+on the asteroid Oova Iv.
+~
+0 1073741832 1 256
+D0
+~
+~
+33554432 -1 1027
+D1
+~
+~
+0 -1 1025
+S
+#1027
+&WA Durasteel Corridor&w~
+&w&WSmall, and confining, this &zDurasteel&w&W corridor provides
+little room for much traffic. A sturdy &CDuraglass&w&W window
+spans most of the southern wall, providing a glimpse into the
+Menari Spaceport's Holding Cell. While the window was built
+for security reasons, the prisoners usually find it to be quite
+the embarrassment.&w 
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1023
+D2
+~
+~
+33554432 -1 1026
+D3
+~
+~
+0 -1 1028
+S
+#1028
+&WA Durasteel Corridor&w~
+&w&WSmall, and confining, this &zDurasteel&w&W corridor provides
+little room for much traffic. While the entire hallway is windowless,
+large ultraviolet lights illuminate the area from above.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1027
+D3
+~
+~
+0 -1 1029
+S
+#1029
+&CMenari Spaceport Office of Administration&w~
+&w&WHere is where any major decisions, with the exception of
+laws, are made. The Spaceport Administration is made up of three
+members, each sharing as much power as the others, whom all
+report to the Governor of &CCoruscant&w&W on a daily basis. While
+each of the three Administrative members are in charge of different
+departments, all matters concerning the whole of the Spaceport
+are voted upon. The room itself is decorated quite professionally,
+with various pictures of past Administrators adorning the walls.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1028
+S
+#1030
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1020
+D2
+~
+~
+0 -1 1031
+S
+#1031
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1030
+D1
+~
+~
+0 -1 1032
+D2
+~
+~
+0 -1 1034
+S
+#1032
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1038
+D2
+~
+~
+0 -1 1033
+D3
+~
+~
+0 -1 1031
+S
+#1033
+&pThe Spaceport Limited Engineering Center&w~
+&w&WVarious engineering equipment line the southern wall behind
+a well-worn, wooden counter. The shop appears to be worn and
+aged at first glance, but upon further inspection you realize
+that most of the equipment and tools here are quite advanced,
+technologically speaking. The room is built primarily out of
+some ancient &wmetallic&w&W alloy, however, there are spots
+about the room that appear to have been renovated rather recently.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1032
+S
+#1034
+&GThe Spaceport Grille&w~
+&w&WTall chairs are set along the crescent shaped bar that is
+fixated to the restaurant's crescent shaped grill. The Spaceport
+Grille is infamous for their Bantha Ribs, as well as being able
+to watch them be cooked right in front of you. Curtain booths
+are located throughout the restaurant to provide guests with
+privacy, if they seek it, while they dine.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1031
+D2
+~
+~
+0 -1 1035
+D3
+~
+~
+0 -1 1037
+D9
+~
+~
+0 -1 1036
+S
+#1035
+&GA Curtained Booth&w~
+&w&WQuite large for a typical booth, this table can easily sit
+eight Humans. The &ppurple&w&W, crushed-velvet curtain adds
+a touch of style to the bright &Ggreen&w&W room.The table appears
+to be made of some sort of &wmetallic&w&W alloy, which no doubt
+aids the restaurant employees in cleaning.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1034
+S
+#1036
+&GA Curtained Booth&w~
+&w&WQuite large for a typical booth, this table can easily sit
+eight Humans. The &ppurple&w&W, crushed-velvet curtain adds
+a touch of style to the bright &Ggreen&w&W room.The table appears
+to be made of some sort of &wmetallic&w&W alloy, which no doubt
+aids the restaurant employees in cleaning.
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1034
+S
+#1037
+&GA Curtained Booth&w~
+&w&WQuite large for a typical booth, this table can easily sit
+eight Humans. The &ppurple&w&W, crushed-velvet curtain adds
+a touch of style to the bright &Ggreen&w&W room.The table appears
+to be made of some sort of &wmetallic&w&W alloy, which no doubt
+aids the restaurant employees in cleaning.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1034
+S
+#1038
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1039
+D1
+~
+~
+0 -1 1040
+D3
+~
+~
+0 -1 1032
+S
+#1039
+&pThe Spaceport Public Workshop&w~
+&w&WWith many benches and chairs positioned about the room, there
+is quite a bit of space for a number people to work on their
+respective projects simultaneously. Contstructed almost entirly
+in a &zDurasteel&w&W alloy, most for the room is quite durable,
+as well as sturdy.
+~
+0 1140850696 1 0
+D2
+~
+~
+0 -1 1038
+S
+#1040
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1041
+D3
+~
+~
+0 -1 1038
+S
+#1041
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1040
+D6
+~
+~
+0 -1 1044
+D8
+~
+~
+0 -1 1042
+S
+#1042
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1041
+D8
+~
+~
+134217731 -1 1043
+S
+#1043
+&YAn Airlock&w~
+&w&W&w&WAlthough the atmosphere of &CCoruscant&w&W is breathable
+for most races, certain areas require &Yairlocks&w&W in order to maintain
+a consistant pressure within the various &w&Wbuildings. It is
+here that pressure is equalized to that of either the outside,
+or the Spaceport itself, depending on weather one is exiting
+or entering.
+~
+0 1073741832 1 0
+D7
+~
+~
+134217731 -1 1042
+D8
+~
+~
+134217731 -1 1074
+S
+#1044
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1045
+D9
+~
+~
+0 -1 1041
+S
+#1045
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1046
+D9
+~
+~
+0 -1 1044
+S
+#1046
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1047
+D2
+~
+~
+0 -1 1045
+S
+#1047
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1048
+D1
+~
+~
+0 -1 1657
+D2
+~
+~
+0 -1 1046
+S
+#1048
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1047
+D3
+~
+~
+0 -1 1049
+D6
+~
+~
+0 -1 1072
+S
+#1049
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1048
+D3
+~
+~
+0 -1 1050
+S
+#1050
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1055
+D1
+~
+~
+0 -1 1049
+D3
+~
+~
+0 -1 1051
+S
+#1051
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1050
+D2
+~
+~
+0 -1 1645
+D3
+~
+~
+0 -1 1052
+S
+#1052
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1051
+D3
+~
+~
+0 -1 1053
+S
+#1053
+&WA Durasteel Corridor&w~
+&w&WTall and wide, this &zDurasteel&w&W-lined corridor serves
+as one of the main arteries within the Spaceport. With the corridor
+spanning nearly ten meters wide, along with it's tall, elaborately
+decorated ceilings, just about anything short of a spacecraft
+could easily pass through these halls.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1052
+D2
+~
+~
+0 -1 1054
+D3
+~
+~
+0 -1 1010
+S
+#1054
+&cMenari Spaceport Travelers Shop&w~
+&w&WLocated rather close to the Spaceport's many landing pads,
+the Travelers Shop tends to stay fairly busy during the store's
+operating hours. While the shop tends to sell only a limited
+variety of various necessities many travelers seem to almost
+always typically require, a large amount of over-stock of those
+items are piled about on just about every inch of the large
+room.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1053
+S
+#1055
+&YMenari Spaceport Housing Circle&w~
+&w&WThe Menari Spaceport Housing Circle provides some of the
+most luxurious living quarters that credits can buy, but at
+a fraction of the cost. Known throughout &CCoruscant&w&W as
+being typically inhabited by corporate employees traveling abroad,
+the Circle is home to very few permanent residents. The Corridor
+connecting the Spaceport to the Housing Circle is always well
+lit, clean of any debris or garbage, and oft-patrolled by Spaceport
+Security, making it one of the most clean, and secure, residential
+areas within all of Republic City.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1056
+D2
+~
+~
+0 -1 1050
+S
+#1056
+&YMenari Spaceport Housing Circle&w~
+&w&WThe wide, clean corridors of the Menari Spaceport Housing
+Circle appear to be nothing short of immaculate. Well-kept,
+and very brightly-lit, the hallways are nearly free of any skuffs,
+scrapes, or marks.
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1055
+D6
+~
+~
+0 -1 1057
+D7
+~
+~
+0 -1 1063
+S
+#1057
+&YMenari Spaceport Housing Circle&w~
+&w&WThe wide, clean corridors of the Menari Spaceport Housing
+Circle appear to be nothing short of immaculate. Well-kept,
+and very brightly-lit, the hallways are nearly free of any skuffs,
+scrapes, or marks.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1058
+D1
+~
+~
+0 -1 1068
+D9
+~
+~
+0 -1 1056
+S
+#1058
+&YMenari Spaceport Housing Circle&w~
+&w&WThe wide, clean corridors of the Menari Spaceport Housing
+Circle appear to be nothing short of immaculate. Well-kept,
+and very brightly-lit, the hallways are nearly free of any skuffs,
+scrapes, or marks.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1059
+D1
+~
+~
+0 -1 1067
+D2
+~
+~
+0 -1 1057
+S
+#1059
+&YMenari Spaceport Housing Circle&w~
+&w&WThe wide, clean corridors of the Menari Spaceport Housing
+Circle appear to be nothing short of immaculate. Well-kept,
+and very brightly-lit, the hallways are nearly free of any skuffs,
+scrapes, or marks.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1066
+D2
+~
+~
+0 -1 1058
+D7
+~
+~
+0 -1 1065
+S
+#1060
+&OAn Empty Suite&w~
+&w&WWhile the Apartment appears to have been vacant for some
+time now, it remains clean, and untarnished.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1065
+D2
+~
+~
+0 -1 1064
+S
+#1061
+&YMenari Spaceport Housing Circle&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1062
+D3
+~
+~
+0 -1 1069
+D6
+~
+~
+0 -1 1065
+S
+#1062
+&YMenari Spaceport Housing Circle&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1061
+D2
+~
+~
+0 -1 1063
+D3
+~
+~
+0 -1 1070
+S
+#1063
+&YMenari Spaceport Housing Circle&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1062
+D3
+~
+~
+0 -1 1071
+D8
+~
+~
+0 -1 1056
+S
+#1064
+&OAn Empty Living Room&w~
+&w&WWhile the Apartment appears to have been vacant for some
+time now, it remains clean, and untarnished.
+~
+0 1075838988 1 0
+D0
+~
+~
+0 -1 1060
+D4
+~
+~
+0 -1 1073
+S
+#1065
+&YMenari Spaceport Housing Circle&w~
+&w&WThe wide, clean corridors of the Menari Spaceport Housing
+Circle appear to be nothing short of immaculate. Well-kept,
+and very brightly-lit, the hallways are nearly free of any skuffs,
+scrapes, or marks.
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1060
+D8
+~
+~
+0 -1 1059
+D9
+~
+~
+0 -1 1061
+> speech_prog test~
+mpwait 5
+mpecho test
+~
+|
+S
+#1066
+&OAn Empty Apartment&w~
+&w&WWhile the Apartment appears to have been vacant for some
+time now, it remains clean, and untarnished.
+~
+0 1075838988 1 0
+D3
+~
+~
+0 -1 1059
+S
+#1067
+&OAn Empty Apartment&w~
+&w&WWhile the Apartment appears to have been vacant for some
+time now, it remains clean, and untarnished.
+~
+0 1075838988 1 0
+D3
+~
+~
+0 -1 1058
+S
+#1068
+&OAn Empty Apartment&w~
+&w&WWhile the Apartment appears to have been vacant for some
+time now, it remains clean, and untarnished.
+~
+0 1075838988 1 0
+D3
+~
+~
+0 -1 1057
+S
+#1069
+&OAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D1
+~
+~
+0 -1 1061
+S
+#1070
+&OAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D1
+~
+~
+0 -1 1062
+S
+#1071
+&OAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D1
+~
+~
+0 -1 1063
+S
+#1072
+&O(OOC AREA) &YIdea Room/Writing Area&w~
+&w&YThis area is strictly OOC, and therefore, absolutely NO IC
+discussions/communications are to take place within these walls.
+It was created for the purpose of providing a safe-haven to
+those who find it necessary to enter into writing buffers, whether
+it be a bio, desc, or simply taking advantage of the Idea Board.
+This room has been implemented on a completely trial basis and
+will be removed if it proves to be of any problem.
+~
+0 1073775628 1 0
+D9
+~
+~
+0 -1 1048
+S
+#1073
+&OAn Empty Bedroom&w~
+&w&WWhile the Apartment appears to have been vacant for some
+time now, it remains clean, and untarnished.
+~
+0 1073741832 1 0
+D5
+~
+~
+0 -1 1064
+S
+#1074
+&YA Security Checkpoint&w&W~
+&w&WFor the protection of all who reside within Republic City,
+as well as those merely visiting Menari Spaceport, Security
+Checkpoints have been established in an effort to keep the peace.
+A large table is positioned at the center of the narrow road,
+dividing the traffic between those going northwest and southeast.
+~
+0 1073741824 1 0
+D7
+~
+~
+134217731 -1 1043
+D8
+~
+~
+0 -1 1075
+S
+#1075
+&gIntersection of &w&WNorth-Central &gand &w&WMenari&w~
+&w&W&w&W&w&W&w&WHere, one of the main arteries of the Central District, Menari
+Avenue, and the lesser North-Central Blvd, meet. The road is
+relatively wide, and seemingly well-kept. While incredibly tall
+buildings line every available side of the road, none seem to
+be quite high enough to be labeled skyscrapers, at least by &CCoruscant&w&W
+standards. The open air of the planet seems much more refreshing here
+than that of the many Spaceports dotting Republic City.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1124
+D2
+~
+~
+0 -1 1076
+D7
+~
+~
+0 -1 1074
+> speech_prog 1~
+mpecho The turbolift hums to life.
+mpsleep 6
+mpecho The turbolift slows as it reaches the ground floor.
+mpsleep 3
+mpecho The turbolift doors slide open.
+mptrans $n 1068
+mpat $n mpforce $n l
+mpecho $n steps out of the turbolift.
+~
+> speech_prog 2~
+mpecho The turbolift hums to life.
+mpsleep 6
+mpecho The turbolift slows as it reaches the second floor.
+mpsleep 3
+mpecho The turbolift doors slide open.
+mptrans $n 1076
+mpat $n mpforce $n l
+mpecho $n steps out of the turbolift.
+~
+> speech_prog 3~
+mpecho The turbolift hums to life.
+mpsleep 6
+mpecho The turbolift slows as it reaches the third floor.
+mpsleep 3
+mpecho The turbolift doors slide open.
+mptrans $n 1077
+mpat $n mpforce $n l
+mpecho $n steps out of the turbolift.
+~
+> speech_prog list~
+mpecho ------------------------
+mpecho Coruscant Highlands
+mpecho ------------------------
+mpecho 1 - Lobby
+mpecho 2 - 2nd Floor Apartments
+mpecho 3 - 3rd Floor Apartments
+mpecho ------------------------
+~
+|
+S
+#1076
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1075
+D2
+~
+~
+0 -1 1077
+S
+#1077
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1076
+D2
+~
+~
+0 -1 1078
+S
+#1078
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1077
+D1
+~
+~
+0 -1 1089
+D2
+~
+~
+0 -1 1097
+D3
+~
+~
+0 -1 1079
+S
+#1079
+&CThe Central Pawn Shop&w~
+&w&WAs is the case with most pawn shops across the &zGalaxy&w&W,
+just about anything of value can be sold here, while virtually
+nothing of value can be bought here. Littered with a variety
+of junk, some of which is completely unrecognizable, the shop
+appears to be the classic 'space-trash' pawn shop. Various gadgets
+and items are piled high along the northern, and southern ends
+of the room, creating a path amongst the junk.&w 
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1078
+S
+#1080
+&w&WA Narrow Alley&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1097
+D3
+~
+~
+0 -1 1081
+S
+#1081
+&WA Dead-End&w~
+place gang recruiter or board here.
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1080
+S
+#1082
+&WA Narrow Alleyway&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1083
+D3
+~
+~
+0 -1 1097
+S
+#1083
+&WA Narrow Alleyway&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1084
+D3
+~
+~
+0 -1 1082
+S
+#1084
+&WA Narrow Alleyway&w~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 1085
+D3
+~
+~
+0 -1 1083
+S
+#1085
+&WA Narrow Alleyway&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1084
+D2
+~
+~
+0 -1 1086
+S
+#1086
+&WA Dead-End&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1085
+S
+#1087
+&CThe District Tailor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1096
+S
+#1088
+&CCoruscant Footwear&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1096
+S
+#1089
+&CThe Central Jeweler&w~
+&w&WHere at &CThe Central Jewler&w&W, skilled and professional
+staff strive to provide their customers with both, quality-made,
+and beautiful gem-adorned accessories. Completely devoid of
+any windows, the shop's only access to the &cCoruscant&w&W outdoors
+is through a narrow, &zDurasteel&w&W plated door located upon
+the western wall of the store. The shop is typically protected
+'round the clock by multiple well-armed, and well-trained individuals
+who tend to deter most, if not all, robbery attempts.&w 
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1078
+S
+#1090
+&CArtificial Intelligence Imporium&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1099
+S
+#1091
+&CCoruscant Technology&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1099
+S
+#1092
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1099
+D2
+~
+~
+0 -1 1093
+S
+#1093
+&gIntersection of &w&WMenari &gand &w&WMain&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1092
+D1
+~
+~
+0 -1 1094
+D3
+~
+~
+0 -1 1125
+S
+#1094
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1095
+D3
+~
+~
+0 -1 1093
+S
+#1095
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1100
+D2
+~
+~
+0 -1 1136
+D3
+~
+~
+0 -1 1094
+S
+#1096
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1097
+D1
+~
+~
+0 -1 1088
+D2
+~
+~
+0 -1 1098
+D3
+~
+~
+0 -1 1087
+S
+#1097
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1078
+D1
+~
+~
+0 -1 1082
+D2
+~
+~
+0 -1 1096
+D3
+~
+~
+0 -1 1080
+> custom_prog "put all trash" "put all can" "put all garbage"~
+mea $n You can't put everything in the trash can!
+~
+|
+S
+#1098
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1096
+D2
+~
+~
+0 -1 1099
+S
+#1099
+&WMenari Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1098
+D1
+~
+~
+0 -1 1091
+D2
+~
+~
+0 -1 1092
+D3
+~
+~
+0 -1 1090
+S
+#1100
+&WMain Street&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1149
+D1
+~
+~
+0 -1 1101
+D3
+~
+~
+0 -1 1095
+> greet_prog 100~
+Mpat 1204  Say $n has entered the palace.
+~
+|
+S
+#1101
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1102
+D3
+~
+~
+0 -1 1100
+S
+#1102
+&gIntersection of &w&WRepublic &gand &w&WMain&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1108
+D1
+~
+~
+0 -1 1109
+D3
+~
+~
+0 -1 1101
+S
+#1103
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1104
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1117
+D2
+~
+~
+0 -1 1105
+S
+#1105
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1104
+D2
+~
+~
+0 -1 1106
+S
+#1106
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1105
+D2
+~
+~
+0 -1 1107
+S
+#1107
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1106
+D2
+~
+~
+0 -1 1108
+D3
+~
+~
+0 -1 1147
+S
+#1108
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1107
+D2
+~
+~
+0 -1 1102
+S
+#1109
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1110
+D2
+~
+~
+0 -1 1152
+D3
+~
+~
+0 -1 1102
+S
+#1110
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1111
+D3
+~
+~
+0 -1 1109
+S
+#1111
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1112
+D3
+~
+~
+0 -1 1110
+S
+#1112
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1113
+D3
+~
+~
+0 -1 1111
+S
+#1113
+&gIntersection of &w&WTrailway &gand &w&WMain&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1155
+D1
+~
+~
+0 -1 1114
+D2
+~
+~
+0 -1 1501
+D3
+~
+~
+0 -1 1112
+S
+#1114
+&gIntersection of &w&WBulova &gand &w&WMain&w~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 1113
+D7
+~
+~
+0 -1 1155
+D8
+~
+~
+0 -1 1115
+S
+#1115
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1114
+D8
+~
+~
+0 -1 1116
+S
+#1116
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1115
+D8
+~
+~
+0 -1 1194
+S
+#1117
+&WRepublic Drive&w~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 1118
+D2
+~
+~
+0 -1 1104
+S
+#1118
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1119
+D2
+~
+~
+0 -1 1117
+S
+#1119
+&WRepublic Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1120
+D2
+~
+~
+0 -1 1118
+S
+#1120
+&gIntersection of &w&WRepublic &gand &w&WNorth-Central&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1164
+D2
+~
+~
+0 -1 1119
+D3
+~
+~
+0 -1 1121
+S
+#1121
+&WNorth-Central Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1120
+D3
+~
+~
+0 -1 1122
+S
+#1122
+&WNorth-Central Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1121
+D3
+~
+~
+0 -1 1123
+S
+#1123
+&WNorth-Central Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1122
+D3
+~
+~
+0 -1 1124
+S
+#1124
+&WNorth-Central Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1123
+D3
+~
+~
+0 -1 1075
+S
+#1125
+&WMain Street&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1093
+D3
+~
+~
+0 -1 1126
+S
+#1126
+&gIntersection of &w&WShipping &gand &w&WMain&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1125
+D2
+~
+~
+0 -1 1127
+S
+#1127
+&WShipping Lane&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1126
+D2
+~
+~
+0 -1 1128
+S
+#1128
+&WShipping Lane&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1127
+D2
+~
+~
+0 -1 1129
+> speech_prog trainme~
+mppurge
+mpmload 1111
+~
+|
+S
+#1129
+&WShipping Lane&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1128
+D2
+~
+~
+0 -1 1130
+S
+#1130
+&WShipping Lane&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1129
+D1
+~
+~
+0 -1 1131
+S
+#1131
+&YA Customs Checkpoint&w~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 1130
+D4
+~
+~
+0 -1 1132
+S
+#1132
+&cA Raised Platform&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1133
+D2
+~
+~
+0 -1 1134
+D5
+~
+~
+0 -1 1131
+D7
+~
+~
+0 -1 1135
+S
+#1133
+&cCentral District Primary Landing Bay&w~
+~
+0 1073741876 1 0
+D2
+~
+~
+0 -1 1132
+D3
+~
+~
+0 -1 1135
+S
+#1134
+&cCentral Disctrict Secondary Landing Bay&w~
+~
+0 1073741876 1 0
+D0
+~
+~
+0 -1 1132
+S
+#1135
+&cA Maintenance Bay&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1133
+D8
+~
+~
+0 -1 1132
+S
+#1136
+&gEntrance to the Central Training Center&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1095
+D2
+~
+~
+0 -1 1137
+S
+#1137
+&gCentral Training Center Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1136
+D1
+~
+~
+0 -1 1139
+D2
+~
+~
+0 -1 1151
+D3
+~
+~
+0 -1 1138
+S
+#1138
+&gCentral Training Center Student's Store&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1137
+S
+#1139
+&gBot Training Level 1&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1140
+D3
+~
+~
+0 -1 1137
+S
+#1140
+&gBot Training Level 2&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1141
+D3
+~
+~
+0 -1 1139
+S
+#1141
+&gBot Training Level 3&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1140
+D2
+~
+~
+0 -1 1142
+S
+#1142
+&gBot Training Level 4&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1141
+D1
+~
+~
+0 -1 1143
+S
+#1143
+&gBot Training Level 5&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1144
+D3
+~
+~
+0 -1 1142
+S
+#1144
+&gBot Training Level 6&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1145
+D3
+~
+~
+0 -1 1143
+S
+#1145
+&gBot Training Level 7&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1144
+D3
+~
+~
+0 -1 1146
+S
+#1146
+&gBot Training Level 8&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1145
+S
+#1147
+&cCoruscant Medical&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1107
+D2
+~
+~
+0 -1 1148
+S
+#1148
+&cA Bacta Tank&w~
+insert bacta here
+~
+0 1073741836 1 0
+D0
+~
+~
+0 -1 1147
+S
+#1149
+&pThe Central Inn&w~
+this seems to be flagged as bacta....plus make mprog for inn to 1150
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1100
+S
+#1150
+&pA Resting Area&w~
+~
+0 1082130440 1 0
+D1
+~
+~
+0 -1 1149
+S
+#1151
+&gA Physical Training Area&w~
+put str/dex/con trainer here.
+~
+0 1073775624 1 0
+D0
+~
+~
+0 -1 1137
+S
+#1152
+&OCoruscant Central Library&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1109
+D2
+~
+~
+0 -1 1154
+D3
+~
+~
+0 -1 1153
+S
+#1153
+&OThe Intellectual's Learning Center&w~
+put int/wis/cha trainer here
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1152
+S
+#1154
+&OLanguage Instruction Room&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1152
+S
+#1155
+&gIntersection of &w&WBulova &gand &w&WMountain&w~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 1113
+D7
+~
+~
+0 -1 1156
+D8
+~
+~
+0 -1 1114
+S
+#1156
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1157
+D8
+~
+~
+0 -1 1155
+S
+#1157
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1158
+D8
+~
+~
+0 -1 1156
+S
+#1158
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1159
+D8
+~
+~
+0 -1 1157
+S
+#1159
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1160
+D2
+~
+~
+0 -1 1158
+S
+#1160
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1161
+D2
+~
+~
+0 -1 1159
+S
+#1161
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1162
+D2
+~
+~
+0 -1 1160
+S
+#1162
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1163
+D2
+~
+~
+0 -1 1161
+S
+#1163
+&gIntersection of &w&WBulova &gand &w&WNorth-Central&w~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 1162
+D3
+~
+~
+0 -1 1164
+S
+#1164
+&WNorth-Central Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1163
+D3
+~
+~
+0 -1 1120
+S
+#1165
+&WA Dimly Lit Corridor&w~
+&w&WThe activity within the upper levels of Menari Spaceport
+varies, depending on the state of the &zGalaxie's&w&W economy,
+the time of day, and even what month it happens to be. Built
+to hold a number of shops and outlets, as well as civilians
+and shoppers, this level of Menari Spaceport has relatively
+few of either. Store fronts are blocked off by large &zDurasteel&w&W
+fencing simply because there are not many store-owners who are
+able to afford the luxory of possessing a shop within the Spaceport
+itself.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1166
+D9
+~
+~
+0 -1 1021
+S
+#1166
+&WA Dimly Lit Corridor&w~
+&w&WThe corridors of the Menari Spaceport's Business Level have
+been constructed wide, and tall, to accomodate a vast number of beings.
+Due to the current state of decline upon the floor, the energy
+provided to power the &Ylights&w&W has been reduced to conserve
+energy where it does not seem to be needed. Large, grated &zDurasteel&w&W
+fencing covers the entrance to both the eastern, and western,
+rentals.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1167
+D2
+~
+~
+0 -1 1165
+S
+#1167
+&CAn Intersection of Corridors&w~
+&w&WThe intersection here provides access, in virtually all directions,
+to the few shops still in existence upon the Menari Spaceport's
+Business Floor. Due to the current state of decline upon the
+floor, the energy provided to power the &Ylights&w&W has been
+reduced to conserve power where it does not seem to be needed.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1174
+D1
+~
+~
+0 -1 1171
+D2
+~
+~
+0 -1 1166
+D3
+~
+~
+0 -1 1168
+S
+#1168
+&WA Dimly Lit Corridor&w~
+&w&WThe lights above flicker steadily, on and off. Lined
+entirely in an old &zdurasteel&w&W alloy, the hallway appears
+to have been constructed to support far more people than the few
+that are currently roaming these corridors.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1167
+D3
+~
+~
+0 -1 1169
+S
+#1169
+&WA Dimly Lit Corridor&w~
+&w&WThe lights above flicker steadily, on and off. Lined
+entirely in an old &zdurasteel&w&W alloy, the hallway appears
+to have been constructed to support far more people than the few
+that are currently roaming these corridors.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1168
+D2
+~
+~
+0 -1 1170
+S
+#1170
+&gM&Ge&gn&Ga&gr&Gi &gM&Gi&gl&Gi&gt&Ga&gr&Gy &gW&Ge&ga&Gr&w~
+&w&WBattle gear from virtually every corner of the &zGalaxy&w&W
+line the southern wall behind the shop's long, wooden counter.
+Like the rest of the Business floor, the room has been contstructed
+entirely out of &zDurasteel&w&W, with the exception of the wooden
+counter that seperates the northern entrance of the shop, from
+the back.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1169
+S
+#1171
+&WA Dimly Lit Corridor&w~
+&w&WThe lights above flicker steadily, on and off. Lined
+entirely in an old &zdurasteel&w&W alloy, the hallway appears
+to have been constructed to support far more people than the few
+that are currently roaming these corridors.&w
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1172
+D3
+~
+~
+0 -1 1167
+S
+#1172
+&WA Dimly Lit Corridor&w~
+&w&WThe lights above flicker steadily, on and off. Lined
+entirely in an old &zdurasteel&w&W alloy, the hallway appears
+to have been constructed to support far more people than the few
+that are currently roaming these corridors.&w
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1173
+D3
+~
+~
+0 -1 1171
+S
+#1173
+&GMenari Defensive LTD&w~
+&w&WThis shop is suspected throughout &cCoruscant&w&W as being
+involved in illegal arms smuggling operations. While the establishment's
+current owners have yet to be charged with any crime at all,
+the shop is almost certainly under some sort of surveillance.
+It comes as no surprise that the authorities are interested
+in the 'behind-the-counter' activities, for not only is the
+shop well-kept, but unlike the rest of the business floor, it
+is quite modern, with a variety of expensive, high-tech gadgets
+lying about the store.&w 
+
+&w&WA small &Rred&w&W sign is fixated upon the southern wall.&w
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1172
+E
+sign~
+&RALL WEAPONS ARE BANNED UPON CORUSCANT PER SECTION #16033C. ALL DEFENSIVE PURPOSED WEAPONS
+&RPURCHASED HERE MUST BE HOLSTERED OR OTHERWISE STOWED AWAY. &RABSOLUTELY NO BUYING/SELLING/TRADING
+OF MILITARY GRADE WEAPONS. ALL SUBJECTS FOUND TO BE IN VIOLATION ARE SUBJECT TO DETENTION
+AND A REVIEW CONDUCTED BY THE SENATE WEAPONS VIOLATION SUBCOMMITTEE.&w
+~
+S
+#1174
+&WA Dimly Lit Corridor&w~
+&w&WThe corridors of the Menari Spaceport's Business Level have
+been constructed wide, and tall, to accomodate a vast number of beings.
+Due to the current state of decline upon the floor, the energy
+provided to power the &Ylights&w&W has been reduced to conserve
+energy where it does not seem to be needed. Large, grated &zDurasteel&w&W
+fencing covers the entrance to both the eastern, and western,
+rentals.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1175
+D2
+~
+~
+0 -1 1167
+S
+#1175
+&WA Dimly Lit Corridor&w~
+&w&WThe corridors of the Menari Spaceport's Business Level have
+been constructed wide, and tall, to accomodate a vast number of beings.
+Due to the current state of decline upon the floor, the energy
+provided to power the &Ylights&w&W has been reduced to conserve
+energy where it does not seem to be needed. Large, grated &zDurasteel&w&W
+fencing covers the entrance to both the eastern, and western,
+rentals.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1176
+D2
+~
+~
+0 -1 1174
+S
+#1176
+&WA Dimly Lit Corridor&w~
+&w&WHere, the lights flicker every few moments, then stop, making
+it virtually impossible to navigate these corridors due to the
+temporary loss of light. If it wasn't for the occassional flash
+of light from the long, thin lamps above, the entire area would
+be pitch &zblack&w&W.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1180
+D2
+~
+~
+0 -1 1175
+D3
+~
+~
+0 -1 1177
+S
+#1177
+&WA Dimly Lit Corridor&w~
+&w&WHere, the lights flicker every few moments, then stop, making
+it virtually impossible to navigate these corridors due to the
+temporary loss of light. If it wasn't for the occassional flash
+of light from the long, thin lamps above, the entire area would
+be pitch &zblack&w&W.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1176
+D3
+~
+~
+0 -1 1178
+S
+#1178
+&WA Dimly Lit Corridor&w~
+&w&WHere, the lights flicker every few moments, then stop, making
+it virtually impossible to navigate these corridors due to the
+temporary loss of light. If it wasn't for the occassional flash
+of light from the long, thin lamps above, the entire area would
+be pitch &zblack&w&W.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1177
+D2
+~
+~
+0 -1 1179
+S
+#1179
+&OMenari Business Lounge&w~
+&w&WThis room consists of little more than a variety of tables,
+and chairs, scattered all about. While a number of vending machines
+here provide cheap, unhealthy junk-food, and drinks to the few
+shoppers that still frequent these parts, this lounge is typically
+only used by store employees, and owners, during in-store meetings,
+or those with product distributors.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1178
+S
+#1180
+&WA Dimly Lit Corridor&w~
+&w&WHere, the lights flicker every few moments, then stop, making
+it virtually impossible to navigate these corridors due to the
+temporary loss of light. If it wasn't for the occassional flash
+of light from the long, thin lamps above, the entire area would
+be pitch &zblack&w&W.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1181
+D3
+~
+~
+0 -1 1176
+S
+#1181
+&WA Dimly Lit Corridor&w~
+&w&WHere, the lights flicker every few moments, then stop, making
+it virtually impossible to navigate these corridors due to the
+temporary loss of light. If it wasn't for the occassional flash
+of light from the long, thin lamps above, the entire area would
+be pitch &zblack&w&W.
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1182
+D3
+~
+~
+0 -1 1180
+S
+#1182
+&WAn Empty Shop&w~
+&w&WThe air seems thick and stagnant. It appears that this room
+hasn't been used, nor even visited, in quite some time.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1181
+S
+#1183
+&WA Brightly Lit Corridor&w~
+&w&W&w&WWhile wide enough for one to haul materials on a pallet one
+way, and one to pass alongside the other in the opposite direction,
+these hallways are by no means to be considered 'large'. Since
+most of the arriving materials from the northern shipping bays
+are transported throughout the Spaceport by adjoining repulsor-lifts,
+the corridors were not built to accommodate a heavy amount of
+civilians and cargo. While these corridors were sturdily construced
+in reinforced &zDurasteel&w&W, the halls are amongst the narrowest
+of all those within Menari Spaceport.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1184
+D9
+~
+~
+0 -1 1021
+S
+#1184
+&WA Brightly Lit Corridor&w~
+&w&WNarrow, and brightly lit, virtually all but the blind would
+be able to see whatever it is that occurs within these corridors.
+Droids occasionally ferry small amounts of new materials and
+products from the northern shipping bays to the Menari Spaceport's
+Main &YTurbolift&w&W to the south, but the activity upon this
+floor appears to be limited to a visiting ship's wandering captain
+and crew, and typically not much more.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1185
+D2
+~
+~
+0 -1 1183
+S
+#1185
+&WA Brightly Lit Corridor&w~
+&w&W&w&WWhile wide enough for one to haul materials on a pallet one
+way, and one to pass alongside the other in the opposite direction,
+these hallways are by no means to be considered 'large'. Since
+most of the arriving materials from the northern shipping bays
+are transported throughout the Spaceport by adjoining repulsor-lifts,
+the corridors were not built to accommodate a heavy amount of
+civilians and cargo. While these corridors were sturdily construced
+in reinforced &zDurasteel&w&W, the halls are amongst the narrowest
+of all those within Menari Spaceport.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+134217731 -1 1192
+D1
+~
+~
+0 -1 1189
+D2
+~
+~
+0 -1 1184
+D3
+~
+~
+0 -1 1186
+S
+#1186
+&WA Brightly Lit Corridor&w~
+&w&W&w&WWhile wide enough for one to haul materials on a pallet one
+way, and one to pass alongside the other in the opposite direction,
+these hallways are by no means to be considered 'large'. Since
+most of the arriving materials from the northern shipping bays
+are transported throughout the Spaceport by adjoining repulsor-lifts,
+the corridors were not built to accommodate a heavy amount of
+civilians and cargo. While these corridors were sturdily construced
+in reinforced &zDurasteel&w&W, the halls are amongst the narrowest
+of all those within Menari Spaceport.&w 
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1185
+D3
+~
+~
+0 -1 1187
+S
+#1187
+&WA Brightly Lit Corridor&w~
+&w&W&w&WWhile wide enough for one to haul materials on a pallet one
+way, and one to pass alongside the other in the opposite direction,
+these hallways are by no means to be considered 'large'. Since
+most of the arriving materials from the northern shipping bays
+are transported throughout the Spaceport by adjoining repulsor-lifts,
+the corridors were not built to accommodate a heavy amount of
+civilians and cargo. While these corridors were sturdily construced
+in reinforced &zDurasteel&w&W, the halls are amongst the narrowest
+of all those within Menari Spaceport.&w 
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1186
+D2
+~
+~
+0 -1 1188
+S
+#1188
+&cOffice of Business Affairs&w~
+&w&WAfter the materials from the many cargo ships passing through
+Menari Spaceport have been unloaded, checked, and certified,
+it is here that the various ships' captains' are paid for their
+loads, and assigned to other tasks. A gigantic schedule-board
+fills just about every inch of the southern wall, permitting
+the staff of this office access to information concerning everything
+from cargo, to the flight-paths and expected arrival date and
+time, of each and every ship that does business within the Spaceport.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1187
+S
+#1189
+&WA Brightly Lit Corridor&w~
+&w&W&w&WWhile wide enough for one to haul materials on a pallet one
+way, and one to pass alongside the other in the opposite direction,
+these hallways are by no means to be considered 'large'. Since
+most of the arriving materials from the northern shipping bays
+are transported throughout the Spaceport by adjoining repulsor-lifts,
+the corridors were not built to accommodate a heavy amount of
+civilians and cargo. While these corridors were sturdily construced
+in reinforced &zDurasteel&w&W, the halls are amongst the narrowest
+of all those within Menari Spaceport.&w 
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1190
+D3
+~
+~
+0 -1 1185
+S
+#1190
+&WA Brightly Lit Corridor&w~
+&w&W&w&WWhile wide enough for one to haul materials on a pallet one
+way, and one to pass alongside the other in the opposite direction,
+these hallways are by no means to be considered 'large'. Since
+most of the arriving materials from the northern shipping bays
+are transported throughout the Spaceport by adjoining repulsor-lifts,
+the corridors were not built to accommodate a heavy amount of
+civilians and cargo. While these corridors were sturdily construced
+in reinforced &zDurasteel&w&W, the halls are amongst the narrowest
+of all those within Menari Spaceport.&w 
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1191
+D3
+~
+~
+0 -1 1189
+S
+#1191
+&cOffice of Shipping and Receiving&w~
+&w&WWith a variety of scheduling-boards scattered along most
+of each wall, it seems obvious that those in this office are
+responsible for the inbound and outgoing space-traffic, and
+goods. Bright &rred&w&W and &bblue&w&W lights flash every so
+often, signaling yet another arriving cargo ship.&w 
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1190
+S
+#1192
+&YAn Airlock&w~
+&w&W&w&WAlthough the atmosphere of &CCoruscant&w&W is breathable
+for most races, certain areas require &Yairlocks&w&W in order to maintain
+a consistant pressure within the various &w&Wbuildings. It is
+here that pressure is equalized to that of either the outside,
+or the Spaceport itself, depending on whether one is exiting
+or entering.
+~
+0 1073741832 1 0
+D0
+~
+~
+134217731 -1 1193
+D2
+~
+~
+134217731 -1 1185
+S
+#1193
+&CMenari Spaceport Shipping Bay&w~
+&w&WBy far the busiest Shipping Bay on all of &cCoruscant&w&W,
+these sets of docking platforms see nearly one hundred ships
+a day, on average. Absolutely no civilian traffic is permitted
+to land, or depart from these bays, for they would almost certainly
+further complicate the already difficult job of maintaining,
+scheduling, and unloading the many commercial ships that conduct
+business here.&w 
+~
+0 1073741824 1 0
+D2
+~
+~
+134217731 -1 1192
+S
+#1194
+&WBulova Avenue&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1116
+D8
+~
+~
+0 -1 1195
+S
+#1195
+&YA Security Checkpoint&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1194
+D8
+~
+~
+0 -1 1196
+S
+#1196
+&gIntersection of &w&WBulova&g, &w&WMemorial&g, and &w&WGovernment&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1211
+D2
+~
+~
+0 -1 1197
+D7
+~
+~
+0 -1 1195
+S
+#1197
+&WGovernment Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1196
+D2
+~
+~
+0 -1 1198
+S
+#1198
+&gIntersection of &w&WGovernment &gand &w&WIndustrial&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1197
+D2
+~
+~
+0 -1 1199
+D3
+~
+~
+0 -1 1249
+S
+#1199
+&WGovernment Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1198
+D2
+~
+~
+0 -1 1200
+S
+#1200
+&gIntersection of &w&WGovernment &gand &w&WIndustrial&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1199
+D1
+~
+~
+0 -1 1201
+D9
+~
+~
+0 -1 1236
+S
+#1201
+&WSoutheast Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1202
+D3
+~
+~
+0 -1 1200
+S
+#1202
+&WSoutheast Blvd&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1203
+D3
+~
+~
+0 -1 1201
+S
+#1203
+&WSoutheast Blvd&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1221
+D1
+~
+~
+0 -1 1204
+D2
+~
+~
+0 -1 1219
+D3
+~
+~
+0 -1 1202
+S
+#1204
+&gIntersection of &w&WSoutheast &gand &w&WSpacedock&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1205
+D3
+~
+~
+0 -1 1203
+D8
+~
+~
+0 -1 1212
+S
+#1205
+&WSpacedock Road&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1206
+D2
+~
+~
+0 -1 1204
+S
+#1206
+&WSpacedock Road&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1207
+D1
+~
+~
+0 -1 1233
+D2
+~
+~
+0 -1 1205
+S
+#1207
+&WSpacedock Road&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1208
+D2
+~
+~
+0 -1 1206
+S
+#1208
+&gIntersection of &w&WMemorial &gand &w&WSpacedock&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1248
+D2
+~
+~
+0 -1 1207
+D3
+~
+~
+0 -1 1209
+D6
+~
+~
+0 -1 1228
+S
+#1209
+&WMemorial Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1232
+D1
+~
+~
+0 -1 1208
+D3
+~
+~
+0 -1 1210
+S
+#1210
+&WMemorial Avenue&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1209
+D3
+~
+~
+0 -1 1211
+S
+#1211
+&WMemorial Avenue&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1643
+D1
+~
+~
+0 -1 1210
+D3
+~
+~
+0 -1 1196
+S
+#1212
+&YA Customs Checkpoint&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1204
+D8
+~
+~
+0 -1 1213
+S
+#1213
+&CA Small Platform&w~
+~
+0 1073741824 1 0
+D7
+~
+~
+0 -1 1212
+D8
+~
+~
+0 -1 1214
+S
+#1214
+&CA Small Platform&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1215
+D7
+~
+~
+0 -1 1213
+S
+#1215
+&CA Small Platform&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1216
+D2
+~
+~
+0 -1 1217
+D3
+~
+~
+0 -1 1214
+D7
+~
+~
+0 -1 1218
+S
+#1216
+&CBulova Spaceport Primary Landing Platform&w~
+~
+0 1073741876 1 0
+D2
+~
+~
+0 -1 1215
+D3
+~
+~
+0 -1 1218
+S
+#1217
+&CBulova Spaceport Secondary Landing Platform&w~
+~
+0 1073741876 1 0
+D0
+~
+~
+0 -1 1215
+S
+#1218
+&CA Maintenance Bay&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1216
+D8
+~
+~
+0 -1 1215
+S
+#1219
+&YBulova Spaceport Inn&w~
+create mprog here tfering victim to vnum 1220
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1203
+S
+#1220
+&YBulova Spaceport Inn Sleeping Quarters&w~
+~
+0 1082130440 1 0
+D5
+~
+~
+0 -1 1219
+S
+#1221
+&CCoruscant Center of Employment Opportunities&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1222
+D2
+~
+~
+0 -1 1203
+S
+#1222
+&WA Dimly Lit Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1221
+D3
+~
+~
+0 -1 1223
+S
+#1223
+&WA Dimly Lit Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1224
+D1
+~
+~
+0 -1 1222
+D3
+~
+~
+0 -1 1227
+S
+#1224
+&WA Dimly Lit Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1225
+D2
+~
+~
+0 -1 1223
+D3
+~
+~
+0 -1 1226
+S
+#1225
+Floating in a void~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1224
+S
+#1226
+Floating in a void~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1224
+S
+#1227
+Floating in a void~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1223
+S
+#1228
+&cCoruscant Cloning Center&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1229
+D9
+~
+~
+0 -1 1208
+S
+#1229
+&cCloning Center Receptionist Office&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1230
+D3
+~
+~
+0 -1 1228
+S
+#1230
+&cCloning Room&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1229
+S
+#1231
+&cCloning Center Recovery Room&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1228
+S
+#1232
+&cBulova Spaceport Office of Administration&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1209
+S
+#1233
+&GBulova Brewery&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1235
+D3
+~
+~
+0 -1 1206
+D8
+~
+~
+0 -1 1234
+S
+#1234
+&GA Curtained Booth&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1233
+S
+#1235
+&GBulova Brewery Storage Room&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1233
+S
+#1236
+&WGovernment Drive&w~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 1237
+D6
+~
+~
+0 -1 1200
+S
+#1237
+&WGovernment Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1236
+D2
+~
+~
+0 -1 1238
+S
+#1238
+&WGovernment Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1237
+D2
+~
+~
+0 -1 1239
+S
+#1239
+&WGovernment Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1238
+D2
+~
+~
+0 -1 1262
+D8
+~
+~
+0 -1 1253
+D9
+~
+~
+0 -1 1240
+S
+#1240
+&WPalace Way&w~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 1241
+D6
+~
+~
+0 -1 1239
+S
+#1241
+&WPalace Way&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1240
+D2
+~
+~
+0 -1 1242
+S
+#1242
+&WPalace Way&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1241
+D2
+~
+~
+0 -1 1243
+S
+#1243
+&YPresidential Palace Arms Checkpoint&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1242
+D2
+~
+~
+0 -1 1244
+S
+#1244
+&gPresidential Palace Ground Floor Lobby&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1243
+D2
+~
+~
+0 -1 1245
+D8
+~
+~
+0 -1 1246
+S
+#1245
+&gPresidential Palace Cafetaria&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1244
+S
+#1246
+&YA Turbolift&w~
+~
+0 1073741836 1 0
+E
+list~
+&CLevel 1 &W- &gPalace Ground Level&w
+&CLevel 2 &W- &gPalace Main Floor&w
+&CLevel 3 &W- &gPalace Auditorium Floor&w
+&CLevel 4 &W- &gPalace Docking and Delivery Bays&w
+~
+> speech_prog 'level 1' 100~
+mpsleep 2
+mpechoat $n "&WThe &w&YTurbolift's &w&Wrepulsors come to life and begin to grow louder.&w"
+mpsleep 5
+mpechoat $n "&WThe &Yl&Oi&Yg&Oh&Yt&Os &w&Wflicker as the &YTurbolift &w&Wstarts to move.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wproceeds to slow down as the hum of the repulsors grow fainter.&w"
+mpsleep 5
+mpechoat $n "&WYou feel as sudden halt as the &YTurbolift &w&Wstops. The doors open and you step out.&w"
+mpsleep 5
+mpopenpassage 1246 1244 7
+mpforce $n northwest
+mpclosepassage 1246 7
+~
+> speech_prog 'level 2' 100~
+mpsleep 2
+mpechoat $n "&WThe &YTurbolift's &w&Wrepulsors come to life and begin to grow louder."
+mpsleep 5
+mpechoat $n "&WThe &Yl&Oi&Yg&Oh&Yt&Os &w&Wflicker as the &YTurbolift &w&Wstarts to move.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wproceeds to slow down as the hum of the repulsors grow fainter.&w"
+mpsleep 5
+mpechoat $n "&WYou feel as sudden halt as the &YTurbolift &w&Wstops. The doors open and you step out.&w"
+mpsleep 5
+mpopenpassage 1246 1402 2
+mpforce $n south
+mpclosepassage 1246 2
+~
+> speech_prog 'level 3' 100~
+mpsleep 2
+mpechoat $n "&WThe &YTurbolift's &w&Wrepulsors come to life and begin to grow louder.&w"
+mpsleep 5
+mpechoat $n "&WThe lights &Yf&Ol&Yi&Oc&Yk&Oe&Yr &w&Was the &YTurbolift &w&Wstarts to move.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wproceeds to slow down as the hum of the repulsors grow fainter.&w"
+mpsleep 5
+mpechoat $n "&WYou feel as sudden halt as the &YTurbolift &w&Wstops. The doors open and you step out.&w"
+mpsleep 5
+mpopenpassage 1246 1457 2
+mpforce $n south
+mpclosepassage 1246 2
+~
+> speech_prog 'level 4' 100~
+mpsleep 2
+mpechoat $n "&wThe &YTurbolift's &w&Wrepulsors come to life and begin to grow louder.&w"
+mpsleep 5
+mpechoat $n "&WThe lights &Yf&Ol&Yi&Oc&Yk&Oe&Yr &w&Was the &YTurbolift &w&Wstarts to move.&w"
+mpsleep 5
+mpechoat $n "The &YTurbolift &w&Wproceeds to slow down as the hum of the repulsors grow fainter.&w"
+mpsleep 
+mpechoat $n "&WYou feel as sudden halt as the &YTurbolift &w&Wstops. The doors open and you step out.&w"
+mpsleep 5
+mpopenpassage 1246 1487 2
+mpforce $n south
+mpclosepassage 1246 2
+~
+|
+S
+#1247
+&gPresidential Palace Guest Quarters&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1244
+S
+#1248
+&gThe Rupublic Military Memorial&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1208
+S
+#1249
+&WIndustrial Drive&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1198
+D3
+~
+~
+0 -1 1250
+S
+#1250
+&WIndustrial Drive&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1249
+D3
+~
+~
+0 -1 1251
+S
+#1251
+&WIndustrial Drive&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1250
+D2
+~
+~
+0 -1 1270
+D3
+~
+~
+0 -1 1252
+S
+#1252
+&WIndustrial Drive&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1265
+D1
+~
+~
+0 -1 1251
+D2
+~
+~
+0 -1 1655
+D3
+~
+~
+0 -1 1647
+S
+#1253
+&WSenate Street&w~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 1254
+D7
+~
+~
+0 -1 1239
+S
+#1254
+&WSenate Street&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1253
+D2
+~
+~
+0 -1 1255
+S
+#1255
+&WSenate Street&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1254
+D2
+~
+~
+0 -1 1256
+S
+#1256
+&YSenate Security and Arms Checkpoint&w~
+only senate, staff, and supreme chan can pass through.
+place multiple, well armed mobs.
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1255
+D2
+~
+~
+0 -1 1257
+S
+#1257
+&gSenate Building Ground Floor Lobby&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1256
+D1
+~
+~
+0 -1 1261
+D2
+~
+~
+0 -1 1258
+D3
+~
+~
+0 -1 1260
+D8
+~
+~
+0 -1 1259
+S
+#1258
+&gSenate Information and Welcoming Center&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1257
+S
+#1259
+&YA Turbolift&w~
+~
+0 1073741836 1 0
+E
+list~
+&CLevel 1 &w- &gSenate Ground Floor&w
+&CLevel 2 &w- &gSenate Office Floor&w
+&CLevel 3 &W- &gSenate Rotunda&w
+~
+> speech_prog 'level 1' 100~
+mpsleep 2
+mpechoat $n "&WThe doors close and the Senate &YTurbolift &w&Whums to life.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wjolts with a slight lurch as it begins to move.&w"
+mpsleep 5
+mpechoat $n "&WJust as the &YTurbolift's &w&Wspeed seems to increase, it begins to slow down.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wdoors slide open and you step out.&w"
+mpsleep 5
+mpopenpassage 1259 1257 7
+mpforce $n northwest
+mpclosepassage 1259 7
+~
+> speech_prog 'level 2' 100~
+mpsleep 2
+mpechoat $n "&WThe doors close and the Senate &YTurbolift &w&Whums to life.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wjolts with a slight lurch as it begins to move.&w"
+mpsleep 5
+mpechoat $n "&WJust as the &YTurbolift's &w&Wspeed seems to increase, it begins to slow down.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wdoors slide open and you step out.&w"
+mpsleep 5
+mpopenpassage 1259 1278 9
+mpforce $n southwest
+mpclosepassage 1259 9
+~
+> speech_prog 'level 3' 100~
+mpsleep 2
+mpechoat $n "&WThe doors close and the Senate &YTurbolift &w&Whums to life.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wjolts with a slight lurch as it begins to move.&w"
+mpsleep 5
+mpechoat $n "&WJust as the &YTurbolift's &w&Wspeed seems to increase, it begins to slow down.&w"
+mpsleep 5
+mpechoat $n "&WThe &YTurbolift &w&Wdoors slide open and you step out.&w"
+mpsleep 5
+mpopenpassage 1259 1317 9
+mpforce $n southwest
+mpclosepassage 1259 9
+~
+|
+S
+#1260
+&gSenate Building Guest Quarters&w~
+~
+0 1082130440 1 0
+D1
+~
+~
+0 -1 1257
+S
+#1261
+&gSenate Building Cafetaria&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1257
+S
+#1262
+&WA Broad Pathway&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1239
+D2
+~
+~
+0 -1 1263
+S
+#1263
+&gGovernment District Landing Zone&w~
+~
+0 1073741876 1 0
+D0
+~
+~
+0 -1 1262
+D2
+~
+~
+0 -1 1264
+S
+#1264
+&gA Maintenance Bay&w ~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1263
+S
+#1265
+&YA Factory Entrance&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1268
+D1
+~
+~
+0 -1 1266
+D2
+~
+~
+0 -1 1252
+S
+#1266
+&YA Vast, Brightly-Lit Factory Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1267
+D3
+~
+~
+0 -1 1265
+S
+#1267
+&YA Vast, Brightly-Lit Factory Corridor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1266
+S
+#1268
+&YMechanical Transfer Unit Bay&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1265
+S
+#1269
+&OA Turbolift&w~
+~
+0 1073741836 1 0
+S
+#1270
+&YA Factory Entrance&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1251
+D2
+~
+~
+0 -1 1271
+S
+#1271
+&YA Vast, Brightly-Lit Factory Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1270
+D1
+~
+~
+0 -1 1272
+D2
+~
+~
+0 -1 1276
+S
+#1272
+&YA Narrow Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1273
+D1
+~
+~
+0 -1 1275
+D3
+~
+~
+0 -1 1271
+S
+#1273
+&YA Narrow Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1274
+D2
+~
+~
+0 -1 1272
+S
+#1274
+&YOffice of the Line Supervisor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1273
+S
+#1275
+&YOffice of the Factory Administration&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1272
+S
+#1276
+&YNorthern End of an Assembly Line&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1271
+D2
+~
+~
+0 -1 1277
+S
+#1277
+&YSouthern End of an Assembly Line&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1276
+S
+#1278
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1646
+D2
+~
+~
+0 -1 1279
+D3
+~
+~
+0 -1 1400
+D6
+~
+~
+0 -1 1259
+D7
+~
+~
+0 -1 1654
+S
+#1279
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1278
+D1
+~
+~
+0 -1 1280
+D3
+~
+~
+0 -1 1401
+S
+#1280
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1316
+D1
+~
+~
+0 -1 1281
+D3
+~
+~
+0 -1 1279
+S
+#1281
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1282
+D3
+~
+~
+0 -1 1280
+S
+#1282
+&WAn Intersection&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1289
+D1
+~
+~
+0 -1 1283
+D2
+~
+~
+0 -1 1285
+D3
+~
+~
+0 -1 1281
+S
+#1283
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1284
+D2
+~
+~
+0 -1 1295
+D3
+~
+~
+0 -1 1282
+S
+#1284
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1297
+D2
+~
+~
+0 -1 1296
+D3
+~
+~
+0 -1 1283
+S
+#1285
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1282
+D2
+~
+~
+0 -1 1286
+D3
+~
+~
+0 -1 1315
+S
+#1286
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1285
+D1
+~
+~
+0 -1 1299
+D2
+~
+~
+0 -1 1287
+D3
+~
+~
+0 -1 1298
+S
+#1287
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1286
+D1
+~
+~
+0 -1 1300
+D2
+~
+~
+0 -1 1288
+D3
+~
+~
+0 -1 1301
+S
+#1288
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1287
+D1
+~
+~
+0 -1 1303
+D2
+~
+~
+0 -1 1304
+D3
+~
+~
+0 -1 1302
+S
+#1289
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1290
+D1
+~
+~
+0 -1 1292
+D2
+~
+~
+0 -1 1282
+D3
+~
+~
+0 -1 1294
+S
+#1290
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1305
+D1
+~
+~
+0 -1 1291
+D2
+~
+~
+0 -1 1289
+D3
+~
+~
+0 -1 1293
+S
+#1291
+&COffice of the Cerea Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1290
+S
+#1292
+&COffice of the Champala Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1289
+S
+#1293
+&COffice of the Drall Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1290
+S
+#1294
+&COffice of the Fallen Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1289
+S
+#1295
+&COffice of the Dorin Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1283
+S
+#1296
+&COffice of the Iktotoch Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1284
+S
+#1297
+&COffice of the Urkupp Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1284
+S
+#1298
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1286
+D3
+~
+~
+0 -1 1306
+S
+#1299
+&COffice of the Alpheridies Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1286
+S
+#1300
+&COffice of the Mon Calamari Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1287
+S
+#1301
+&COffice of the Sullust Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1287
+S
+#1302
+&COffice of the Skye Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1288
+S
+#1303
+&COffice of the Muunilinst Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1288
+S
+#1304
+&COffice of the Rodia Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1288
+S
+#1305
+&COffice of the Yablari Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1290
+S
+#1306
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1298
+D2
+~
+~
+0 -1 1308
+D3
+~
+~
+0 -1 1309
+S
+#1307
+Floating in a void~
+~
+0 1073741836 1 0
+S
+#1308
+&COffice of the Umbara Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1306
+S
+#1309
+&WA Well Lit Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1310
+D1
+~
+~
+0 -1 1306
+D2
+~
+~
+0 -1 1311
+D3
+~
+~
+0 -1 1313
+D7
+~
+~
+0 -1 1312
+D9
+~
+~
+0 -1 1314
+S
+#1310
+&COffice of the Roche Asteroid Ambassador&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1309
+S
+#1311
+&COffice of the Kashyyyk Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1309
+S
+#1312
+&COffice of the Naboo Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D8
+~
+~
+0 -1 1309
+S
+#1313
+&COffice of the Corellia Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1309
+S
+#1314
+&COffice of the Woostri Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1309
+S
+#1315
+&COffice of the Uba 111 Planetary Ambassador&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1285
+S
+#1316
+&COffice of the Senate Guard&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1280
+S
+#1317
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1318
+D6
+~
+~
+0 -1 1259
+S
+#1318
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1317
+D1
+~
+~
+0 -1 1319
+S
+#1319
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1320
+D1
+~
+~
+0 -1 1394
+D3
+~
+~
+0 -1 1318
+S
+#1320
+&COffice of the Senate Guard&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1319
+S
+#1321
+&OPublic Viewing Pad&w~
+~
+0 1073741832 1 4096
+D0
+~
+~
+0 -1 1322
+D2
+~
+~
+0 -1 1323
+D3
+~
+~
+0 -1 1394
+S
+#1322
+&ONorth End of the Public Viewing Pad&w~
+~
+0 1073741832 1 4096
+D2
+~
+~
+0 -1 1321
+S
+#1323
+&OSouth End of the Public Viewing Pad&w~
+~
+0 1073741832 1 4096
+D0
+~
+~
+0 -1 1321
+S
+#1324
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1394
+D6
+~
+~
+0 -1 1325
+S
+#1325
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1337
+D9
+~
+~
+0 -1 1324
+S
+#1326
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1394
+D8
+~
+~
+0 -1 1327
+S
+#1327
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1328
+D7
+~
+~
+0 -1 1326
+S
+#1328
+&WBefore the &CAlderaan &WDais&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1330
+D3
+~
+~
+0 -1 1327
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Alderaan
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1328 1329 0
+mpforce $n north
+mpclosepassage 1328 0
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1329
+&CDais of the Alderaan Planetary Senator&w~
+~
+0 1073741836 1 4096
+D2
+~
+~
+0 -1 1328
+S
+#1330
+&WBefore the &CYablari &WDais&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1328
+D6
+~
+~
+0 -1 1331
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Yablari
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1330 1332 0
+mpforce $n north
+mpclosepassage 1330 0
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1331
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1333
+D9
+~
+~
+0 -1 1330
+S
+#1332
+&CDais of the Yablari Planetary Senator&w~
+~
+0 1073741836 1 4096
+D2
+~
+~
+0 -1 1330
+S
+#1333
+&WBefore the &CSupreme Chancellor's &WSpire&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1335
+D2
+~
+~
+0 -1 1331
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Supreme Chancellor
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1333 1358 1
+mpforce $n east
+mpclosepassage 1333 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1334
+&WA Brightly Lit Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1333
+D3
+~
+~
+0 -1 1395
+S
+#1335
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1333
+D7
+~
+~
+0 -1 1336
+S
+#1336
+&WBefore the &CDrall &WDais&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1337
+D8
+~
+~
+0 -1 1335
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Drall
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1336 1338 2
+mpforce $n south
+mpclosepassage 1336 2
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1337
+&WBefore the &CFalleen &WDais&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1336
+D3
+~
+~
+0 -1 1325
+> speech_prog open~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Falleen
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1337 1339 2
+mpforce $n south
+mpclosepassage 1337 2
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1338
+&CDais of the Drall Planetary Senator&w~
+~
+0 1073741836 1 4096
+D0
+~
+~
+0 -1 1336
+S
+#1339
+&CDais of the Falleen Planetary Senator&w~
+~
+0 1073741836 1 4096
+D0
+~
+~
+0 -1 1337
+S
+#1340
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1342
+D7
+~
+~
+0 -1 1399
+S
+#1341
+&CDais of the Urkupp Planetary Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1399
+S
+#1342
+&WBefore the &CIktotch &WDais&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1343
+D3
+~
+~
+0 -1 1340
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Iktotch
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1342 1344 0
+mpforce $n north
+mpclosepassage 1342 0
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1343
+&WBefore the &CDorin &WDais&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1342
+D6
+~
+~
+0 -1 1346
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Dorin
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1343 1345 0
+mpforce $n north
+mpclosepassage 1343 0
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1344
+&CDais of the Iktotch Planetary Senator&w~
+~
+0 1073741836 1 4096
+D2
+~
+~
+0 -1 1342
+S
+#1345
+&CDais of the Dorin Planetary Senator&w~
+~
+0 1073741836 1 4096
+D2
+~
+~
+0 -1 1343
+S
+#1346
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1347
+D9
+~
+~
+0 -1 1343
+S
+#1347
+&WBefore the &CAlpheridies &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1349
+D2
+~
+~
+0 -1 1346
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Alpheridies
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1347 1348 3
+mpforce $n west
+mpclosepassage 1347 3
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1348
+&CDais of the Alpheridies Planetary Senator&w~
+~
+0 1073741836 1 4096
+D1
+~
+~
+0 -1 1347
+S
+#1349
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1347
+D7
+~
+~
+0 -1 1350
+S
+#1350
+&WBefore the &CRodia &WDais&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1352
+D8
+~
+~
+0 -1 1349
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Rodia
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1350 1351 2
+mpforce $n south
+mpclosepassage 1350 2
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1351
+&CDais of the Rodia Planetary Senator&w~
+~
+0 1073741836 1 4096
+D0
+~
+~
+0 -1 1350
+S
+#1352
+&WBefore the &CMon Calamari &WDais&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1350
+D3
+~
+~
+0 -1 1354
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Mon Calamari
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1352 1353 2
+mpforce $n south
+mpclosepassage 1352 2
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1353
+&CDais of the Mon Calamari Planetary Senator&w~
+~
+0 1073741836 1 4096
+D0
+~
+~
+0 -1 1352
+S
+#1354
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1352
+D9
+~
+~
+0 -1 1355
+S
+#1355
+&WBefore the &CCerea &WDais&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1398
+D6
+~
+~
+0 -1 1354
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Cerea
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1355 1356 1
+mpforce $n east
+mpclosepassage 1355 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1356
+&CDais of the Cerea Planetary Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1355
+S
+#1357
+&CDais of the Champala Planetary Senator&w~
+~
+0 1073741828 1 4096
+D3
+~
+~
+0 -1 1398
+S
+#1358
+&COffice of the Supreme Chancellor&w~
+~
+0 1073741824 1 0
+D3
+~
+~
+0 -1 1333
+S
+#1359
+&WBefore the &CNaboo &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1360
+D2
+~
+~
+0 -1 1377
+D4
+~
+~
+0 -1 1379
+D5
+~
+~
+0 -1 1398
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Naboo
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1359 1362 1
+mpforce $n east
+mpclosepassage 1359 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1360
+&WBefore the &CMuunilinst &WDais&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1359
+D6
+~
+~
+0 -1 1363
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Muunilinst
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1360 1361 1
+mpforce $n east
+mpclosepassage 1360 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1361
+&CDais of the Muunilinst Planetary Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1360
+S
+#1362
+&CDais of the Naboo Planetary Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1359
+S
+#1363
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1364
+D9
+~
+~
+0 -1 1360
+S
+#1364
+&WBefore the &CSkye &WDais&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1365
+D3
+~
+~
+0 -1 1363
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Skye
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1364 1366 2
+mpforce $n south
+mpclosepassage 1364 2
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1365
+&WBefore the &CSullust &WDais&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1364
+D8
+~
+~
+0 -1 1368
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Sullust
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1365 1367 2
+mpforce $n south
+mpclosepassage 1365 2
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1366
+&CDais of the Skye Planetary Senator&w~
+~
+0 1073741836 1 4096
+D0
+~
+~
+0 -1 1364
+S
+#1367
+&CDais of the Sullust Planetary Senator&w~
+~
+0 1073741836 1 4096
+D0
+~
+~
+0 -1 1365
+S
+#1368
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1369
+D7
+~
+~
+0 -1 1365
+S
+#1369
+&WBefore the &CUmbara &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1368
+D2
+~
+~
+0 -1 1371
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Umbara
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1369 1370 3
+mpforce $n west
+mpclosepassage 1369 3
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1370
+&CDais of the Umbara Planetary Senator&w~
+~
+0 1073741836 1 4096
+D1
+~
+~
+0 -1 1369
+S
+#1371
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1369
+D9
+~
+~
+0 -1 1372
+S
+#1372
+&WBefore the &CKashyyyk &CDais&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1374
+D6
+~
+~
+0 -1 1371
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Kashyyyk
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1372 1373 0
+mpforce $n north
+mpclosepassage 1372 0
+}
+else
+mpecho &cAccess Denied.&w
+endif
+
+~
+|
+S
+#1373
+&CDais of the Kashyyyk Planetary Senator&w~
+~
+0 1073741836 1 4096
+D2
+~
+~
+0 -1 1372
+S
+#1374
+&WBefore the &CWoostri &WDais&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1372
+D3
+~
+~
+0 -1 1376
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Woostri
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1374 1375 0
+mpforce $n north
+mpclosepassage 1374 0
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1375
+&CDais of the Woostri Planetary Senator&w~
+~
+0 1073741836 1 4096
+D2
+~
+~
+0 -1 1374
+S
+#1376
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1374
+D7
+~
+~
+0 -1 1377
+S
+#1377
+&WBefore the &CCorellia &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1359
+D8
+~
+~
+0 -1 1376
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Corellia
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1377 1378 1
+mpforce $n east
+mpclosepassage 1377 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1378
+&CDais of the Corellia Planetary Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1377
+S
+#1379
+&WBefore the &CRoche Asteroid &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1380
+D2
+~
+~
+0 -1 1392
+D5
+~
+~
+0 -1 1359
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Roche Asteroid
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1379 1382 1
+mpforce $n east
+mpclosepassage 1379 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1380
+&w&WBefore the &CCoruscant&w&W Dais&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1379
+D6
+~
+~
+0 -1 1383
+> speech_prog 'open' 100~
+mpsleep 3
+mpecho &CVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Coruscant
+{
+mpecho &CAccess Granted.&w
+mpsleep 2
+mpopen passage 1380 1660 1
+mpforce $n east
+mpclosepassage 1380 1
+}
+else
+mpecho &CAccess Denied.&w
+endif
+~
+|
+S
+#1381
+&OCam Droid Bay&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1392
+S
+#1382
+&CDais of the Roche Asteroid Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1379
+S
+#1383
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1384
+D9
+~
+~
+0 -1 1380
+S
+#1384
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1385
+D3
+~
+~
+0 -1 1383
+S
+#1385
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1384
+D8
+~
+~
+0 -1 1386
+S
+#1386
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1387
+D7
+~
+~
+0 -1 1385
+S
+#1387
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1386
+D2
+~
+~
+0 -1 1388
+S
+#1388
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1387
+D8
+~
+~
+0 -1 1389
+S
+#1389
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1390
+D7
+~
+~
+0 -1 1388
+S
+#1390
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1389
+D3
+~
+~
+0 -1 1391
+S
+#1391
+&WA &cGlass&w-&WDomed Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1390
+D7
+~
+~
+0 -1 1392
+S
+#1392
+&WBefore the &CUba 111 &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1379
+D2
+~
+~
+0 -1 1381
+D8
+~
+~
+0 -1 1391
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Uba 111
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1392 1393 1
+mpforce $n east
+mpclosepassage 1392 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1393
+&CDais of the Uba 111 Planetary Senator&w~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1392
+S
+#1394
+&WAn Arched Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1324
+D1
+~
+~
+0 -1 1321
+D2
+~
+~
+0 -1 1326
+D3
+~
+~
+0 -1 1319
+D4
+~
+~
+0 -1 1398
+S
+#1395
+&WA Brightly Lit Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1334
+D4
+~
+~
+0 -1 1396
+S
+#1396
+&WA Narrow Staircase&w~
+~
+0 1073741824 1 0
+D4
+~
+~
+0 -1 1397
+D5
+~
+~
+0 -1 1395
+S
+#1397
+&CSupreme Chancellor's Spire&w~
+~
+0 1073741828 1 4096
+D5
+~
+~
+0 -1 1396
+S
+#1398
+&WBefore the &CChampala &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1355
+D2
+~
+~
+0 -1 1399
+D4
+~
+~
+0 -1 1359
+D5
+~
+~
+0 -1 1394
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Champala
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1398 1357 1
+mpforce $n east
+mpclosepassage 1398 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1399
+&WBefore the &CUrkupp &WDais&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1398
+D8
+~
+~
+0 -1 1340
+> speech_prog open 100~
+mpsleep 3
+mpecho &cVoice Authenticity in progress.&w
+mpsleep 5
+if senator($n) == Urkupp
+{
+mpecho &cAccess Granted.&w
+mpsleep 2
+mpopenpassage 1399 1341 1
+mpforce $n east
+mpclosepassage 1399 1
+}
+else
+mpecho &cAccess Denied.&w
+endif
+~
+|
+S
+#1400
+&CSenate Bureau of Intelligence&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1278
+S
+#1401
+&COffice of the Senate Budgetary Committee&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1279
+S
+#1402
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1246
+D8
+~
+~
+0 -1 1404
+D9
+~
+~
+0 -1 1426
+S
+#1403
+&OA Security Office&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1440
+S
+#1404
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1429
+D7
+~
+~
+0 -1 1402
+D8
+~
+~
+0 -1 1405
+S
+#1405
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1429
+D7
+~
+~
+0 -1 1404
+D8
+~
+~
+0 -1 1406
+S
+#1406
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1405
+D8
+~
+~
+0 -1 1407
+S
+#1407
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1406
+D8
+~
+~
+0 -1 1408
+S
+#1408
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1455
+D7
+~
+~
+0 -1 1407
+D8
+~
+~
+0 -1 1409
+D9
+~
+~
+0 -1 1438
+S
+#1409
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1408
+D9
+~
+~
+0 -1 1410
+S
+#1410
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1445
+D6
+~
+~
+0 -1 1409
+D7
+~
+~
+0 -1 1438
+D8
+~
+~
+0 -1 1449
+D9
+~
+~
+0 -1 1411
+S
+#1411
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1410
+D8
+~
+~
+0 -1 1448
+D9
+~
+~
+0 -1 1412
+S
+#1412
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1411
+D7
+~
+~
+0 -1 1453
+D9
+~
+~
+0 -1 1413
+S
+#1413
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1412
+D8
+~
+~
+0 -1 1447
+D9
+~
+~
+0 -1 1414
+S
+#1414
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1413
+D8
+~
+~
+0 -1 1446
+D9
+~
+~
+0 -1 1415
+S
+#1415
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1414
+D7
+~
+~
+0 -1 1416
+S
+#1416
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1445
+D7
+~
+~
+0 -1 1417
+D8
+~
+~
+0 -1 1415
+S
+#1417
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1444
+D7
+~
+~
+0 -1 1418
+D8
+~
+~
+0 -1 1416
+S
+#1418
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1450
+D7
+~
+~
+0 -1 1419
+D8
+~
+~
+0 -1 1417
+S
+#1419
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1443
+D7
+~
+~
+0 -1 1420
+D8
+~
+~
+0 -1 1418
+S
+#1420
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1442
+D6
+~
+~
+0 -1 1430
+D7
+~
+~
+0 -1 1421
+D8
+~
+~
+0 -1 1419
+S
+#1421
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1422
+D8
+~
+~
+0 -1 1420
+S
+#1422
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1423
+D7
+~
+~
+0 -1 1456
+D8
+~
+~
+0 -1 1430
+D9
+~
+~
+0 -1 1421
+S
+#1423
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1424
+D9
+~
+~
+0 -1 1422
+S
+#1424
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1425
+D9
+~
+~
+0 -1 1423
+S
+#1425
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1428
+D6
+~
+~
+0 -1 1426
+D9
+~
+~
+0 -1 1424
+S
+#1426
+&WA Vast Hallway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1428
+D9
+~
+~
+0 -1 1425
+S
+#1427
+&OPalace Information and Welcome Center&w~
+~
+0 1073741836 1 0
+S
+#1428
+&OA Banquet Area&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1426
+D3
+~
+~
+0 -1 1425
+S
+#1429
+&OA Banquet Area&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1404
+D1
+~
+~
+0 -1 1405
+S
+#1430
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1431
+D7
+~
+~
+0 -1 1422
+D9
+~
+~
+0 -1 1420
+S
+#1431
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1432
+D3
+~
+~
+0 -1 1430
+S
+#1432
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1433
+D3
+~
+~
+0 -1 1431
+S
+#1433
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1434
+D3
+~
+~
+0 -1 1432
+S
+#1434
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1435
+D2
+~
+~
+0 -1 1440
+D3
+~
+~
+0 -1 1433
+S
+#1435
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1436
+S
+#1436
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1437
+S
+#1437
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1438
+D3
+~
+~
+0 -1 1436
+S
+#1438
+&WCentral Security Corridor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1437
+D6
+~
+~
+0 -1 1408
+D8
+~
+~
+0 -1 1410
+S
+#1439
+&OPalace Armory&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1440
+S
+#1440
+&OPalace Guard Center of Operations&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1434
+D1
+~
+~
+0 -1 1403
+D2
+~
+~
+0 -1 1441
+D3
+~
+~
+0 -1 1439
+S
+#1441
+&OA Holding Cell&w~
+~
+0 1073741836 1 0
+S
+#1442
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D0
+~
+~
+0 -1 1420
+S
+#1443
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D0
+~
+~
+0 -1 1419
+S
+#1444
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D0
+~
+~
+0 -1 1417
+S
+#1445
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D0
+~
+~
+0 -1 1416
+S
+#1446
+&YAn Empty Apartment&w~
+~
+0 1075838984 1 0
+D7
+~
+~
+0 -1 1414
+S
+#1447
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D7
+~
+~
+0 -1 1413
+S
+#1448
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D7
+~
+~
+0 -1 1411
+S
+#1449
+&YAn Empty Apartment&w~
+~
+0 1075838988 1 0
+D7
+~
+~
+0 -1 1410
+S
+#1450
+&CThe Grande Spas&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1451
+D8
+~
+~
+0 -1 1452
+D9
+~
+~
+0 -1 1418
+S
+#1451
+&CA Massage Parlor&w~
+~
+0 1073741832 1 0
+D8
+~
+~
+0 -1 1450
+S
+#1452
+&CA Steam Chamber&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1450
+S
+#1453
+&CThe Pyramid's Cafe&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1454
+D8
+~
+~
+0 -1 1412
+S
+#1454
+&CA Gameboard Room&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1453
+S
+#1455
+&GCoruscant Communications&w~
+~
+0 1073741832 1 0
+D9
+~
+~
+0 -1 1408
+S
+#1456
+&GPalace Gift Shop&w~
+~
+0 1073741832 1 0
+D8
+~
+~
+0 -1 1422
+S
+#1457
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1246
+D2
+~
+~
+0 -1 1458
+S
+#1458
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1486
+D1
+~
+~
+0 -1 1486
+D8
+~
+~
+0 -1 1473
+D9
+~
+~
+0 -1 1459
+S
+#1459
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1458
+D8
+~
+~
+0 -1 1474
+D9
+~
+~
+0 -1 1460
+S
+#1460
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1459
+D9
+~
+~
+0 -1 1461
+S
+#1461
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1460
+D9
+~
+~
+0 -1 1462
+S
+#1462
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1461
+D8
+~
+~
+0 -1 1463
+S
+#1463
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1482
+D7
+~
+~
+0 -1 1462
+D8
+~
+~
+0 -1 1464
+S
+#1464
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1483
+D7
+~
+~
+0 -1 1463
+D8
+~
+~
+0 -1 1465
+S
+#1465
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1464
+D8
+~
+~
+0 -1 1466
+S
+#1466
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1499
+D6
+~
+~
+0 -1 1467
+D7
+~
+~
+0 -1 1465
+S
+#1467
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1468
+D9
+~
+~
+0 -1 1466
+S
+#1468
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1469
+D7
+~
+~
+0 -1 1484
+D9
+~
+~
+0 -1 1467
+S
+#1469
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D6
+~
+~
+0 -1 1470
+D7
+~
+~
+0 -1 1485
+D9
+~
+~
+0 -1 1468
+S
+#1470
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1471
+D9
+~
+~
+0 -1 1469
+S
+#1471
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1472
+D8
+~
+~
+0 -1 1470
+S
+#1472
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1473
+D8
+~
+~
+0 -1 1471
+S
+#1473
+&WA Long, Elegant Corridor&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1486
+D7
+~
+~
+0 -1 1458
+D8
+~
+~
+0 -1 1472
+D9
+~
+~
+0 -1 1474
+S
+#1474
+&pAuditorium Entrance/Exit&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1475
+D6
+~
+~
+0 -1 1473
+D7
+~
+~
+0 -1 1459
+S
+#1475
+&pUpper Level Auditorium Seating&w~
+~
+0 1073741832 1 16384
+D0
+~
+~
+0 -1 1474
+D1
+~
+~
+0 -1 1476
+D2
+~
+~
+0 -1 1479
+D3
+~
+~
+0 -1 1477
+D9
+~
+~
+0 -1 1480
+S
+#1476
+&pUpper Level Auditorium Seating&w~
+~
+0 1073741832 1 16384
+D2
+~
+~
+0 -1 1480
+D3
+~
+~
+0 -1 1475
+D9
+~
+~
+0 -1 1479
+S
+#1477
+&pUpper Level Auditorium Seating&w~
+~
+0 1073741832 1 16384
+D1
+~
+~
+0 -1 1475
+D2
+~
+~
+0 -1 1478
+D8
+~
+~
+0 -1 1479
+S
+#1478
+&pLower Level Auditorium Seating&w~
+~
+0 1073741832 1 16384
+D0
+~
+~
+0 -1 1477
+D1
+~
+~
+0 -1 1479
+D6
+~
+~
+0 -1 1475
+D8
+~
+~
+0 -1 1481
+S
+#1479
+&pLower Level Auditorium Seating&w~
+~
+0 1073741832 1 16384
+D0
+~
+~
+0 -1 1475
+D1
+~
+~
+0 -1 1480
+D2
+~
+~
+0 -1 1481
+D3
+~
+~
+0 -1 1478
+D6
+~
+~
+0 -1 1476
+D7
+~
+~
+0 -1 1477
+S
+#1480
+&pLower Level Auditorium Seating&w~
+~
+0 1073741832 1 16384
+D0
+~
+~
+0 -1 1476
+D3
+~
+~
+0 -1 1479
+D6
+~
+~
+0 -1 1475
+D9
+~
+~
+0 -1 1481
+S
+#1481
+&pA Small Stage&w~
+~
+0 1073741832 1 16384
+D0
+~
+~
+0 -1 1479
+D6
+~
+~
+0 -1 1480
+D7
+~
+~
+0 -1 1478
+S
+#1482
+&YAn Empty Apartment&w~
+~
+0 1075838984 1 0
+D9
+~
+~
+0 -1 1463
+S
+#1483
+&YAn Empty Apartment&w~
+~
+0 1075838984 1 0
+D9
+~
+~
+0 -1 1464
+S
+#1484
+&YAn Empty Apartment&w~
+~
+0 1075838984 1 0
+D8
+~
+~
+0 -1 1468
+S
+#1485
+&YAn Empty Apartment&w~
+~
+0 1075838984 1 0
+D8
+~
+~
+0 -1 1469
+S
+#1486
+&cA Security Office&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1473
+D3
+~
+~
+0 -1 1458
+S
+#1487
+&WA Bright, Wide Hallway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1246
+D2
+~
+~
+134217731 -1 1488
+S
+#1488
+&YAn Airlock&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+134217731 -1 1487
+D2
+~
+~
+134217731 -1 1489
+S
+#1489
+&YPalace Guard Checkpoint&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+134217731 -1 1488
+D8
+~
+~
+0 -1 1496
+D9
+~
+~
+0 -1 1490
+S
+#1490
+&CPalace Delivery Bay&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1497
+D6
+~
+~
+0 -1 1489
+D9
+~
+~
+0 -1 1491
+S
+#1491
+&CPalace Docking Bay 1&w~
+~
+0 1073741876 1 0
+D6
+~
+~
+0 -1 1490
+D8
+~
+~
+0 -1 1492
+S
+#1492
+&CPalace Docking Bay 2&w~
+~
+0 1073741876 1 0
+D1
+~
+~
+0 -1 1498
+D7
+~
+~
+0 -1 1491
+D8
+~
+~
+0 -1 1493
+S
+#1493
+&CA Maintenance Bay&w~
+~
+0 1073741824 1 0
+D6
+~
+~
+0 -1 1494
+D7
+~
+~
+0 -1 1492
+S
+#1494
+&WA Shipping Corridor&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1498
+D6
+~
+~
+0 -1 1495
+D9
+~
+~
+0 -1 1493
+S
+#1495
+&CPalace Hanger Bay 2&w~
+~
+0 1073741832 1 0
+D7
+~
+~
+0 -1 1496
+D9
+~
+~
+0 -1 1494
+S
+#1496
+&CPalace Hanger&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1497
+D7
+~
+~
+0 -1 1489
+D8
+~
+~
+0 -1 1495
+S
+#1497
+&WA Shipping Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1496
+D3
+~
+~
+0 -1 1490
+S
+#1498
+&WA Shipping Corridor&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1498
+D3
+~
+~
+0 -1 1492
+S
+#1499
+&OPalace Guest Quarters&w~
+insert prog here tferring victim to sleeping quarters..vnum 1500
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1466
+S
+#1500
+&OPalace Guest Quarters&w~
+~
+0 1082130440 1 0
+D2
+~
+~
+0 -1 1499
+S
+#1501
+&WMountain Trailway&w~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1113
+D2
+~
+~
+0 -1 1502
+S
+#1502
+&WMountain Trailway&w~
+~
+0 1073741824 2 0
+D0
+~
+~
+0 -1 1501
+D2
+~
+~
+0 -1 1503
+S
+#1503
+&YA Customs Checkpoint&w~
+~
+0 1073741824 2 0
+D0
+~
+~
+0 -1 1502
+D2
+~
+~
+0 -1 1504
+S
+#1504
+&W&wFloating in a void~
+~
+0 1073741824 2 0
+D0
+~
+~
+0 -1 1503
+D2
+~
+~
+0 -1 1505
+S
+#1505
+&WMountain Trailway&w~
+can climb s to vnum ? then to 1507
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1504
+D9
+~
+~
+0 -1 1506
+S
+#1506
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D6
+~
+~
+0 -1 1505
+D8
+~
+~
+0 -1 1507
+S
+#1507
+&WMountain Trailway&w~
+can climb n to ? then 1505
+~
+0 1073741824 5 0
+D7
+~
+~
+0 -1 1506
+D8
+~
+~
+0 -1 1508
+S
+#1508
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D2
+~
+~
+0 -1 1509
+D7
+~
+~
+0 -1 1507
+S
+#1509
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1508
+D3
+~
+~
+0 -1 1511
+D9
+~
+~
+0 -1 1512
+S
+#1510
+&WA Short Path&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1508
+S
+#1511
+&WA Short Path&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1509
+S
+#1512
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1513
+D6
+~
+~
+0 -1 1509
+S
+#1513
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1512
+D2
+~
+~
+0 -1 1514
+S
+#1514
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1513
+D9
+~
+~
+0 -1 1515
+S
+#1515
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D6
+~
+~
+0 -1 1514
+D7
+~
+~
+0 -1 1524
+D8
+~
+~
+0 -1 1516
+S
+#1516
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D7
+~
+~
+0 -1 1515
+D8
+~
+~
+0 -1 1517
+S
+#1517
+&WMountain Trailway&w~
+~
+0 1073741824 5 0
+D7
+~
+~
+0 -1 1516
+D8
+~
+~
+0 -1 1545
+D9
+~
+~
+0 -1 1518
+S
+#1518
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D6
+~
+~
+0 -1 1517
+D9
+~
+~
+0 -1 1519
+S
+#1519
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D6
+~
+~
+0 -1 1518
+D7
+~
+~
+0 -1 1520
+S
+#1520
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D4
+~
+~
+0 -1 1521
+D8
+~
+~
+0 -1 1519
+S
+#1521
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1522
+D5
+~
+~
+0 -1 1520
+S
+#1522
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D2
+~
+~
+0 -1 1521
+D7
+~
+~
+0 -1 1523
+S
+#1523
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D6
+~
+~
+0 -1 1524
+D8
+~
+~
+0 -1 1522
+S
+#1524
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D7
+~
+~
+0 -1 1525
+D8
+~
+~
+0 -1 1515
+D9
+~
+~
+0 -1 1523
+S
+#1525
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1526
+D8
+~
+~
+0 -1 1524
+S
+#1526
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1525
+D9
+~
+~
+0 -1 1527
+S
+#1527
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D4
+~
+~
+0 -1 1528
+D6
+~
+~
+0 -1 1526
+S
+#1528
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1529
+D5
+~
+~
+0 -1 1527
+S
+#1529
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1528
+D2
+~
+~
+0 -1 1530
+S
+#1530
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1529
+D3
+~
+~
+0 -1 1531
+D8
+~
+~
+0 -1 1533
+S
+#1531
+&WA Narrow Pass&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1530
+D2
+~
+~
+0 -1 1532
+S
+#1532
+&WA Narrow Pass&w~
+place hard mob here (jedi?) research menari mts more.
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1531
+S
+#1533
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1534
+D7
+~
+~
+0 -1 1530
+S
+#1534
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1533
+D8
+~
+~
+0 -1 1535
+D9
+~
+~
+0 -1 1536
+S
+#1535
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D5
+~
+~
+0 -1 1538
+D7
+~
+~
+0 -1 1534
+S
+#1536
+&WA Narrow Ravine&w~
+~
+0 1073741824 5 0
+D2
+~
+~
+0 -1 1537
+D6
+~
+~
+0 -1 1534
+S
+#1537
+&WA Narrow Ravine&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1536
+D2
+~
+~
+0 -1 1540
+S
+#1538
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D2
+~
+~
+0 -1 1539
+D4
+~
+~
+0 -1 1535
+S
+#1539
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1538
+D9
+~
+~
+0 -1 1641
+S
+#1540
+&WA Narrow Ravine&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1537
+D9
+~
+~
+0 -1 1541
+S
+#1541
+&WA Narrow Ravine&w~
+~
+0 1073741824 5 0
+D6
+~
+~
+0 -1 1540
+S
+#1542
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1543
+D3
+~
+~
+0 -1 1642
+S
+#1543
+&WAn Old Trail&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1542
+D4
+~
+~
+0 -1 1544
+S
+#1544
+&WA Small Ledge&w~
+~
+0 1073741824 5 0
+D5
+~
+~
+0 -1 1543
+S
+#1545
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D1
+~
+~
+0 -1 1546
+D7
+~
+~
+0 -1 1517
+S
+#1546
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D3
+~
+~
+0 -1 1545
+D6
+~
+~
+0 -1 1547
+S
+#1547
+&WA Worn Trail&w~
+~
+0 1073741824 5 0
+D0
+~
+~
+0 -1 1548
+D9
+~
+~
+0 -1 1546
+S
+#1548
+&CTurboski Resort &gEntrance/Exit&w~
+will open area after opening
+~
+0 1073741824 5 0
+D2
+~
+~
+0 -1 1547
+S
+#1549
+&W&wFloating in a void~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 1021
+D2
+~
+~
+0 -1 1550
+S
+#1550
+&WAn Intersection&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1549
+D1
+~
+~
+0 -1 1556
+D2
+~
+~
+0 -1 1551
+D3
+~
+~
+0 -1 1586
+S
+#1551
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1550
+D2
+~
+~
+0 -1 1552
+D3
+~
+~
+0 -1 1605
+S
+#1552
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1551
+D1
+~
+~
+0 -1 1610
+D2
+~
+~
+0 -1 1553
+S
+#1553
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1552
+D2
+~
+~
+0 -1 1554
+S
+#1554
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1553
+D2
+~
+~
+0 -1 1555
+S
+#1555
+&WAn Intersection&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1554
+D1
+~
+~
+0 -1 1565
+D2
+~
+~
+0 -1 1582
+D6
+~
+~
+0 -1 1564
+S
+#1556
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1557
+D3
+~
+~
+0 -1 1550
+S
+#1557
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1558
+D2
+~
+~
+0 -1 1603
+D3
+~
+~
+0 -1 1556
+S
+#1558
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D3
+~
+~
+0 -1 1557
+S
+#1559
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1560
+D3
+~
+~
+0 -1 1558
+S
+#1560
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D3
+~
+~
+0 -1 1559
+D9
+~
+~
+0 -1 1561
+S
+#1561
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1609
+D6
+~
+~
+0 -1 1560
+D9
+~
+~
+0 -1 1562
+S
+#1562
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D6
+~
+~
+0 -1 1561
+D9
+~
+~
+0 -1 1563
+S
+#1563
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D6
+~
+~
+0 -1 1562
+D9
+~
+~
+0 -1 1564
+S
+#1564
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D6
+~
+~
+0 -1 1563
+D9
+~
+~
+0 -1 1555
+S
+#1565
+&WA Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1566
+D3
+~
+~
+0 -1 1555
+S
+#1566
+&WA Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1567
+D2
+~
+~
+0 -1 1583
+D3
+~
+~
+0 -1 1565
+S
+#1567
+&WA Worn Road&w~
+~
+0 1073741832 13 0
+D3
+~
+~
+0 -1 1566
+S
+#1568
+&OThe &R*&OCLL&R* &ONightclub&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1644
+D2
+~
+~
+0 -1 1567
+D3
+~
+~
+0 -1 1569
+S
+#1569
+&OA Coat Room&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1568
+S
+#1570
+&OA Large Seating Area&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1572
+D2
+~
+~
+0 -1 1571
+D3
+~
+~
+0 -1 1644
+D8
+~
+~
+0 -1 1573
+S
+#1571
+&OA Wide Stage&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1570
+D1
+~
+~
+0 -1 1573
+D6
+~
+~
+0 -1 1572
+D7
+~
+~
+0 -1 1644
+S
+#1572
+&OA Dance Floor&w~
+~
+0 1073741832 13 0
+D2
+~
+~
+0 -1 1573
+D3
+~
+~
+0 -1 1570
+D9
+~
+~
+0 -1 1571
+S
+#1573
+&OA Large Seating Area&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1572
+D1
+~
+~
+0 -1 1575
+D2
+~
+~
+0 -1 1574
+D3
+~
+~
+0 -1 1571
+D7
+~
+~
+0 -1 1570
+S
+#1574
+&OThe Bar&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1573
+S
+#1575
+&OA Short, Dark Hallway&w~
+~
+0 1073741832 13 0
+D3
+~
+~
+0 -1 1573
+D4
+~
+~
+0 -1 1576
+S
+#1576
+&OA Short, Dark Hallway&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1577
+D5
+~
+~
+0 -1 1575
+S
+#1577
+&R$&OVIP&R$ &OLounge&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1578
+D2
+~
+~
+0 -1 1579
+D3
+~
+~
+0 -1 1576
+D7
+~
+~
+0 -1 1580
+D9
+~
+~
+0 -1 1581
+S
+#1578
+&R$&OVIP&R$ &OLounge&w~
+~
+0 1073741832 13 0
+D2
+~
+~
+0 -1 1577
+S
+#1579
+&R$&OVIP&R$ &OLounge&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1577
+S
+#1580
+&R$&OVIP&R$ &OLounge&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1578
+D8
+~
+~
+0 -1 1577
+S
+#1581
+&R$&OVIP&R$ &OBar&w~
+~
+0 1073741832 13 0
+D6
+~
+~
+0 -1 1577
+S
+#1582
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1555
+D1
+~
+~
+0 -1 1659
+D2
+~
+~
+0 -1 1584
+S
+#1583
+&C"To Each Their Own" E&Gs&Cc&Go&Cr&Gt &CService&w~
+~
+0 1073745928 13 0
+D0
+~
+~
+0 -1 1566
+S
+#1584
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1582
+D2
+~
+~
+0 -1 1585
+S
+#1585
+&WAn Intersection&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1584
+D1
+~
+~
+0 -1 1619
+D7
+~
+~
+0 -1 1597
+S
+#1586
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1550
+D3
+~
+~
+0 -1 1587
+S
+#1587
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1586
+D3
+~
+~
+0 -1 1588
+S
+#1588
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1587
+D2
+~
+~
+0 -1 1606
+D3
+~
+~
+0 -1 1589
+S
+#1589
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1588
+D3
+~
+~
+0 -1 1590
+S
+#1590
+&WA Bend in the Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1589
+D2
+~
+~
+0 -1 1591
+S
+#1591
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1590
+D2
+~
+~
+0 -1 1592
+D3
+~
+~
+0 -1 1618
+S
+#1592
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1591
+D1
+~
+~
+0 -1 1608
+D2
+~
+~
+0 -1 1593
+S
+#1593
+&WA Bend in the Road&w~
+~
+0 1073741832 13 0
+D0
+~
+~
+0 -1 1592
+D3
+~
+~
+0 -1 1602
+D8
+~
+~
+0 -1 1594
+S
+#1594
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D7
+~
+~
+0 -1 1593
+D8
+~
+~
+0 -1 1595
+S
+#1595
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D6
+~
+~
+0 -1 1611
+D7
+~
+~
+0 -1 1594
+D8
+~
+~
+0 -1 1596
+S
+#1596
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D7
+~
+~
+0 -1 1595
+D8
+~
+~
+0 -1 1597
+S
+#1597
+&WA Long, Worn Road&w~
+~
+0 1073741832 13 0
+D7
+~
+~
+0 -1 1596
+D8
+~
+~
+0 -1 1585
+S
+#1598
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1585
+D3
+~
+~
+0 -1 1599
+S
+#1599
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1598
+D3
+~
+~
+0 -1 1600
+S
+#1600
+&WAn Aged Road&w~
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1599
+D3
+~
+~
+0 -1 1601
+S
+#1601
+&WAn Aged Road&w~
+ruble/wreck to west. can climb to vnum 1624
+leads to lower, seemingly uninhabited levels.
+~
+0 1073741832 13 0
+D1
+~
+~
+0 -1 1600
+S
+#1602
+&gUnder-Level Defensive *&cLMTD&g*&w~
+sell crap defensive weapons here, but create sort of trigger where mob will show you what is 'under the counter' (better illegal weapons)
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1593
+S
+#1603
+&pAn Old Inn&w~
+mprog here tferring victim to sleeping quarters #1604
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1557
+S
+#1604
+&pAn Old Inn&w~
+~
+0 1073741824 1 0
+D5
+~
+~
+0 -1 1603
+S
+#1605
+&cA Neglected Security Office&w~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 1551
+S
+#1606
+&WA Narrow Alleyway&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1588
+D2
+~
+~
+0 -1 1607
+S
+#1607
+&cAn Old, Unused Landing Pad&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1606
+D3
+~
+~
+0 -1 1608
+S
+#1608
+&WA Narrow Alleyway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1607
+D3
+~
+~
+0 -1 1592
+S
+#1609
+&CCoruscant Visual *&cINC&C*&w~
+eyewear/equip shop
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1561
+S
+#1610
+&OAn Abandoned Shop&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1552
+S
+#1611
+&cAn Abandoned House&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1614
+D1
+~
+~
+0 -1 1612
+D7
+~
+~
+0 -1 1613
+D9
+~
+~
+0 -1 1595
+S
+#1612
+&cAn Abandoned Bedroom&w~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1611
+S
+#1613
+&cAn Abandoned Dining Room&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1614
+D8
+~
+~
+0 -1 1611
+S
+#1614
+&cAn Abandoned Kitchen&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1611
+D3
+~
+~
+0 -1 1613
+S
+#1615
+Escort Store Room~
+escort (pet) store room. mobs move n to #1583
+~
+0 1073745928 1 0
+D0
+~
+~
+0 -1 1583
+S
+#1616
+&gThe Underworld Tavern&w~
+~
+0 1073741828 1 0
+S
+#1617
+&gA Semi-Circular Booth&w~
+~
+0 1073741828 1 0
+S
+#1618
+&gA Repair Shop&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1591
+S
+#1619
+&WA Narrow Alleyway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1620
+D3
+~
+~
+0 -1 1585
+S
+#1620
+&WA Narrow Alleyway&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1621
+D3
+~
+~
+0 -1 1619
+S
+#1621
+&WA Dead-End&w~
+can race fly up here, or jetpack to vnum 1622, then 1623
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1620
+S
+#1622
+&W&wFloating in a void~
+~
+0 1073741828 1 0
+S
+#1641
+&WAn Old Trail&w~
+~
+0 1073741824 2 0
+D6
+~
+~
+0 -1 1539
+D9
+~
+~
+0 -1 1642
+S
+#1642
+&WAn Old Trail&w~
+~
+0 1073741824 2 0
+D1
+~
+~
+0 -1 1542
+D6
+~
+~
+0 -1 1641
+S
+#1643
+&cBulova Spaceport Office of Security&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1211
+S
+#1644
+&OA Short, Dark Hallway&w~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1570
+D2
+~
+~
+0 -1 1568
+D8
+~
+~
+0 -1 1571
+S
+#1645
+&CSpaceport Galactic Bank&w~
+&w&WUnder the constant guard of heavily-armed Spaceport Security
+Officers, the Spaceport Galactic Bank provides basic banking
+services to the many travelers currently about the area that
+find themselves in need of such things. Besides a large banking
+crest, positioned at the exact center of the southern wall,
+the walls are virtually bare. There are two lines, divided by
+thin sets of &zdurasteel&w&W rails that cordon off eachother,
+and the rest of the room.
+~
+0 1073742088 1 0
+D0
+~
+~
+0 -1 1051
+S
+#1646
+&COffice of the Coruscant Energy Commission&w~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1278
+S
+#1647
+&CCoruscant Energy&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1648
+D1
+~
+~
+0 -1 1252
+D2
+~
+~
+0 -1 1653
+S
+#1648
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D2
+~
+~
+0 -1 1647
+D3
+~
+~
+0 -1 1649
+S
+#1649
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1648
+D2
+~
+~
+0 -1 1652
+D3
+~
+~
+0 -1 1650
+D9
+~
+~
+0 -1 1651
+S
+#1650
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 1649
+D2
+~
+~
+0 -1 1651
+D8
+~
+~
+0 -1 1652
+S
+#1651
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1650
+D6
+~
+~
+0 -1 1649
+S
+#1652
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1649
+D7
+~
+~
+0 -1 1650
+S
+#1653
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1647
+S
+#1654
+&COffice of Atmospheric Reclamation&w~
+~
+0 1073741832 1 0
+D8
+~
+~
+0 -1 1278
+S
+#1655
+&CCoruscant Water&w~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1252
+D2
+~
+~
+0 -1 1656
+S
+#1656
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 1655
+S
+#1657
+&COffice of the Coruscant Weather Control&w~
+&w&WHundreds of dials, gadgets, terminals, and various sorts
+of displays are all positioned about the room in an accessible
+fashion. It is here that, by a series of formulas, controls,
+and functions, that the four seasons of &CCoruscant&w&W are
+maintained and controlled. Due to the virtual absence of any
+natural formation upon the city-world, the ecosystem requires
+special needs to appear 'natural'. Through a variety of methods,
+Engineers and technicians have, over the centuries, developed
+technologically advanced methods to temporarily alter the conditions
+on the entirety of the planet.
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1047
+S
+#1658
+&W&wFloating in a void~
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 1657
+S
+#1659
+&CCoruscant Wildlife Management Department&w~
+~
+0 1073741832 13 0
+D3
+~
+~
+0 -1 1582
+S
+#1660
+&W&wFloating in a void~
+~
+0 1073741836 1 4096
+D3
+~
+~
+0 -1 1380
+S
+#1850
+Floating in a void~
+~
+0 1073741828 1 4
+S
+#1851
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1852
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1853
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1854
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1855
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1856
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1857
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1858
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1859
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1860
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1861
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1862
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1863
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1864
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1865
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1866
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1867
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1868
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1869
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1870
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1871
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1872
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1873
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1874
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1875
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1876
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1877
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1878
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1879
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1880
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1881
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1882
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1883
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1884
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1885
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1886
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1887
+Floating in a void~
+~
+0 1073741828 1 0
+> rand_prog 100~
+mpecho The bacta flows around you and heals your wounds.
+mprestore $n 500
+~
+> greet_prog 100~
+If $n != rebel alliance 
+mptrance $n 1886
+endif
+~
+|
+S
+#1888
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1889
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1890
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1891
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1892
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1893
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1894
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1895
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1896
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1897
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1898
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1899
+Floating in a void~
+~
+0 1073741828 1 68
+S
+#1900
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1901
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1902
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1903
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1904
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1905
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1906
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1907
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1908
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1909
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1910
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1911
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1912
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1913
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1914
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1915
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1916
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1917
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1918
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1919
+Floating in a void~
+~
+0 1073741828 1 0
+> rand_prog 200~
+mpechoat $n The briars puncture your clothing and skin.
+mpdamage $n 20
+~
+|
+S
+#1920
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1921
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1922
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1923
+Floating in a void~
+~
+0 1073741828 1 0
+> rand_prog 100~
+mpecho &BThe cold water of the stream rushes past.
+~
+|
+S
+#1924
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1925
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1926
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1927
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1928
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1929
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1930
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1931
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1932
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1933
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1934
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1935
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1936
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1937
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1938
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1939
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1940
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1941
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1942
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1943
+Floating in a void~
+~
+0 1073741828 1 0
+> speech_prog 1~
+mpecho The turbolift shakes slightly as it begins moving.
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Level 1. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 1942
+~
+> speech_prog 2~
+mpecho The turbolift shakes slightly as it begins moving.
+mpecho The turbolift slowly comes to a halt
+mpecho The doors slide open
+mpecho An electronic voice says: 'Level 2. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 1944
+~
+> speech_prog 3~
+mpecho The turbolift shakes slightly as it begins moving.
+mpechp The turbolift slowly comes to a halt.
+mpecho The doors slide open.
+mpecho An electronic voice says: 'Level 3. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the lift.
+mptransfer $n 1945
+~
+> speech_prog 4~
+mpecho The turbolift shakes slightly as it begins moving.
+mpecho The turbolift slowly comes to a halt.
+mpecho The doors slide open.
+mpecho An electronic voice says: 'Level 4. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the lift.
+mptransfer $n 1946
+~
+|
+S
+#1944
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1945
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1946
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1947
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1948
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1949
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1950
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1951
+Floating in a void~
+~
+0 1073741828 1 0
+> speech_prog p Release on Coruscant~
+at 1050 mpmload 1917
+at 1050 mpecho A small sphere falls from the sky.
+~
+> speech_prog p Release on Tatooine~
+at 250 mpmload 1917
+at 250 mpecho A small sphere falls from the sky.
+~
+> speech_prog p probe coruscant~
+at 1050 mpmload 1918
+at 1050 mpecho A small sphere falls from the sky.
+~
+> speech_prog p probe tatooine~
+at 250 mpmload 1918
+at 250 mpecho A small sphere falls from the sky.
+~
+|
+S
+#1952
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1953
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1954
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1955
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1956
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1957
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1958
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1959
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1960
+Floating in a void~
+~
+0 1073741828 1 0
+> rand_prog 100~
+mprestore $n 500
+mpechoat $n The bacta flows around and heals your wounds.
+~
+|
+S
+#1961
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1962
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1963
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1964
+Floating in a void~
+~
+0 1073741828 1 0
+> speech_prog p I am ready to serve~
+mpoload 1855
+drop key
+~
+|
+S
+#1965
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1966
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1967
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1968
+Floating in a void~
+~
+0 1073741828 1 0
+> speech_prog "I am ready to serve"~
+mpoload 1916
+mpoload 1915
+mpoload 1917
+drop robe
+drop disc
+drop ring
+~
+|
+S
+#1969
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1970
+Floating in a void~
+~
+0 1073741828 1 0
+> speech_prog 1~
+mpecho The lift engages and shakes a little.
+mpecho After a few seconds the lift stops at your destination.
+mpecho An electronic voice says: 'Level 1: please step off.'
+mpechoat $n You step off the lift.
+mpechoaround $n $n steps off the lift.
+mptransfer $n 1969
+~
+> speech_prog -2~
+mpecho The lift engages and shakes a little bit.
+mpecho After a few seconds the lift arrives at its destination.
+mpechoat $n An electronic voice says: 'Level -2:please step off.'
+mpechoat $n You step off the lift.
+mpechoaround $n $n steps off the lift.
+mptransfer $n 1971
+~
+> speech_prog -1~
+mpecho The lift engages and shakes a little.
+mpecho After a few seconds the lift stops at its destination.
+mpechoat $n An electronic voice says: 'Level -1:please step off.'
+mpechoat $n You step off the lift.
+mpechoaround $n $n steps off the lift.
+mptransfer $n 1972
+~
+> speech_prog -3~
+mpecho The lift engages and shakes a little.
+mpecho After a few seconds the lift stops at your destination.
+mpecho An electronic voice says: 'Level -3: please step off.'
+mpechoat $n You step off the lift.
+mpechoaround $n $n steps off the lift.
+mptransfer $n 1973
+~
+> speech_prog Underground~
+mpecho The lift engages and shakes a little.
+mpecho After a few seconds the lights go out.
+mpechoat $n The hatch opens and you step off.
+mpechoaround $n The lights come back on and $n is gone.
+mptransfer $n 1974
+~
+|
+S
+#1971
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1972
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1973
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1974
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1975
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1976
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1977
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1978
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1979
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1980
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1981
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1982
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1983
+Floating in a void~
+~
+0 1073741828 1 0
+> speech_prog 1~
+mpecho The lift engages and shakes slightly.
+mpecho After a few seconds it stops at its destination.
+mpecho An electronic voice says: 'Level 1: please step off.'
+mpechoat $n You step off the lift.
+mpechoaround $n $n steps off the lift.
+mptransfer $n 1874
+~
+> speech_prog -1~
+mpecho The lift engages and shakes slightly.
+mpecho After a few seconds it stops and shakes slightly.
+mpecho An electronic voice says: 'Quarters Level: Please step off.'
+mpechoat $n You step off the lift.
+mpechoaround $n $n steps off the lift.
+mptransfer $n 1984
+~
+|
+S
+#1984
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1985
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1986
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1987
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1988
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1989
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1990
+Floating in a void~
+~
+0 1073741828 1 0
+> rand_prog 100~
+mpechoat $n Briars dig deep into your flesh.
+mpdamage $n 50
+~
+|
+S
+#1991
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1992
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1993
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1994
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1995
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1996
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1997
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1998
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#1999
+Floating in a void~
+~
+0 1073741828 1 0
+S
+#2000
+Floating in a void~
+~
+0 1073741828 1 0
+> custom_prog monitor1~
+mptransfer $n 1859
+mpat 1859 mpforce $n look
+mpat 1859 mptransfer $n 2000
+~
+> custom_prog monitor2~
+mptransfer $n 1899
+mpat 1899 mpforce $n look
+mpat 1899 mptransfer $n 2000
+~
+> custom_prog monitor3~
+mptransfer $n 1869
+mpat 1869 mpforce $n look
+mpat 1859 mptransfer $n 2000
+~
+|
+S
+#0
+
+
+#RESETS
+D 0 1008 0 1
+D 0 1008 2 1
+D 0 1043 7 1
+D 0 1043 8 1
+D 0 1192 0 1
+D 0 1192 2 1
+D 0 1488 0 1
+D 0 1488 2 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

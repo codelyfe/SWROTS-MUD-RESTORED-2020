@@ -1,0 +1,21 @@
+Thu Nov 25 11:14:07 2004 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Thu Nov 25 11:14:07 2004 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Thu Nov 25 11:14:07 2004 :: Loading commands
+Thu Nov 25 11:14:07 2004 :: Loading sysdata configuration...
+Thu Nov 25 11:14:07 2004 :: Loading socials
+Thu Nov 25 11:14:07 2004 :: Loading skill table
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell do_backstab
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell reserved
+Thu Nov 25 11:14:07 2004 :: Sorting skill table...
+Thu Nov 25 11:14:07 2004 :: Loading herb table
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:14:07 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:14:07 2004 :: Making wizlist
+Thu Nov 25 11:14:07 2004 :: Initializing request pipe
+Thu Nov 25 11:14:07 2004 :: Loading force
+Thu Nov 25 11:14:07 2004 :: Loading force skills...
+../force/forceskills.lst: No such file or directory

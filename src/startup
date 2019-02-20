@@ -1,0 +1,33 @@
+#! /bin/csh -f
+
+set port = 1111
+if ( "$1" != "" ) set port="$1"
+
+cd ../area
+
+nohup
+nice
+limit stack 1024k
+unlimit core
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    set index = 1000
+    while ( 1 )
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    date > $logfile
+    date > ../area/boot.txt
+
+    ../src/swr $port >&! $logfile
+
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+    sleep 10
+
+end

@@ -1,0 +1,868 @@
+#AREA   Coral City~
+
+
+
+#AUTHOR Ciolec~
+
+#RANGES
+0 0 0 30
+$
+
+#RESETMSG The ocean waves gently brush against the shores.~
+
+#FLAGS
+0 20
+
+#ECONOMY 0 4868113
+
+#MOBILES
+#9701
+low_mob~
+a newly created low_mob~
+Some god abandoned a newly created low_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#10000
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#9701
+low_mob~
+a low_mob~
+A low_mob is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#10000
+high_obj~
+a high_obj~
+A high_obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#9701
+Hanger 1337~
+As you leave your ship, you find yourself in a magnificient hanger, one of
+the many at this large spaceport. You look around you see dozens of ships,
+and dozens more tourists, walking around aimlessly as they try and find
+their way to their ships, or out of this facility. You also notice
+Calamarian guards wandering around the hanger, looking for suspicious
+looking people, one glances at you menacingly, telling you without words
+that if you step out of line, he will be the first to kill you.
+~
+0 48 1 4 0 0 10
+D1
+~
+~
+0 -1 9702
+S
+#9702
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9703
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9704
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9705
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9706
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9707
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9708
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+> speech_prog 4~
+mpecho The turbolift moves to the hanger level
+mpecho The turbolift stops, and you exit
+mptransfer $n 9706
+mpecho $n steps out of the turbolift.
+~
+> speech_prog 3~
+mpecho The turbolift moves to the locker level
+mpecho The turbolift stops, and you exit
+mptransfer $n 9709
+mpecho $n steps out of the turbolift.
+~
+> speech_prog 2~
+mpecho The turbolift moves to the cafeteria level
+mpecho The turbolift stops, and you exit
+mptransfer $n 9712
+mpecho $n steps out of the turbolift.
+~
+> speech_prog 1~
+mpecho The turbolift moves to the lobby level
+mpecho The turbolift stops, and you exit
+mptransfer $n 9719
+mpecho $n steps out of the turbolift.
+~
+|
+S
+#9709
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9710
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9711
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9712
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9713
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9714
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9715
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9716
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9717
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9718
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9719
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9720
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9721
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9722
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9723
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9724
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9725
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9726
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9727
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9728
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9729
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9730
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9731
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9732
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9733
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9734
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9735
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9736
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9737
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9738
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9739
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9740
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9741
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9742
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9743
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9744
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9745
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9746
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9747
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9748
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9749
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+> speech_prog 1~
+mpecho The turbolfit hums as it takes you to the lobby level.
+mpecho The doors open, and you step out
+mptransfer $n 9757
+mpecho $n steps out of the turbolift
+~
+> speech_prog 2~
+mpecho The turbolfit hums as it takes you to the storage level.
+mpecho The doors open, and you step out
+mptransfer $n 9746
+mpecho $n steps out of the turbolift
+~
+> speech_prog 3~
+mpecho The turbolfit hums as it takes you to the bacta level.
+mpecho The doors open, and you step out
+mptransfer $n 9750
+mpecho $n steps out of the turbolift
+~
+|
+S
+#9750
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9751
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1
+> rand_prog 100~
+mpecho You feel a tingling as the bacta heas your wounds.
+mprestore $n 500
+~
+|
+S
+#9752
+Floating in a void~
+~
+0 1073741824 1 0 0 0 1
+> rand_prog 100~
+mpecho You feel a tingling as the bacta heals your wounds
+mprestore $n 500
+~
+|
+S
+#9753
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9754
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9755
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9756
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9757
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9758
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9759
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9760
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9761
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9762
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9763
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9764
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9765
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9766
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9767
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9768
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9769
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9770
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9771
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9772
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9773
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9774
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9775
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9776
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9777
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9778
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9779
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9780
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9781
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9782
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9783
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9784
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9785
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9786
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9787
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9788
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9789
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9790
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9791
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9792
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9793
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9794
+Floating in a void~
+~
+0 1073741824 1 4 0 0 10
+S
+#9795
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9796
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9797
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9798
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9799
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9800
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9801
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9802
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9803
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9804
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9805
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9806
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9807
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9808
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9809
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9810
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9811
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9812
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9813
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+> speech_prog 1~
+mpecho The turbolift takes you to the bottom level
+mpecho The turbolift dings as it reaches the first level and you get
+off
+mptransfer $n 9811
+mpecho $n leaves a turbolift
+~
+> speech_prog 2 3 4 5 6 7 8~
+mpecho A calm voice says "You do not have authorization for that level."
+~
+|
+S
+#9814
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9815
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9816
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9817
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9818
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9819
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9820
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9821
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9822
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9823
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9824
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9825
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9826
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9827
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9828
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9829
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9830
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9831
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9832
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9833
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9834
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9835
+Floating in a void~
+~
+0 1073741824 1 0 0 0 10
+S
+#9868
+Floating in a void~
+~
+0 4 1 0 0 0 10
+S
+#9883
+Floating in a void~
+~
+0 4 1 0 0 0 10
+S
+#9884
+The Galactic Mail Center~
+~
+0 1073741824 1 0 0 0 10
+D5
+~
+~
+0 -1 9753
+S
+#10000
+Floating in a void~
+~
+0 1073741828 1 0 0 0 10
+S
+#0
+
+
+#RESETS
+O 1 38 1 9884
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

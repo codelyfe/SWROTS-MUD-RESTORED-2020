@@ -1,0 +1,196 @@
+#PLAYER
+Version      4
+Name         User~
+Comfreq      512.146~
+Sex          1
+Race         15
+Languages    -1 16384
+Toplevel     36
+Pheight      2
+Build        2
+Played       632
+Ship            ~
+ShipNum         0
+Room         100
+HpManaMove   27 27 0 0 1000 1000
+Gold         1000
+Bank         0
+Salary       0
+Experience   1
+Ability        0 1
+Ability        1 0
+Ability        2 0
+Ability        3 0
+Ability        4 0
+Ability        5 0
+Ability        6 0
+Ability        7 0
+Ability        8 0
+Ability        9 0
+Ability        10 0
+Ability        11 0
+Ability        12 0
+Ability        13 0
+Ability        14 0
+Ability        15 0
+Ability        16 0
+Ability        17 0
+Ability        18 0
+Ability        19 0
+Ability        20 0
+Ability        21 0
+Ability        22 0
+Ability        23 0
+Ability        24 0
+Ability        25 0
+Ability        26 0
+Ability        27 0
+Ability        28 0
+Ability        29 0
+Ability        30 0
+Ability        31 0
+Ability        32 0
+Ability        33 0
+Ability        34 0
+Ability        35 0
+Nskill         0 0 0
+Nskill         1 0 0
+Nskill         2 0 0
+Nskill         3 0 0
+Nskill         4 0 0
+Nskill         5 0 0
+Nskill         6 0 0
+Nskill         7 0 0
+Nskill         8 0 0
+Nskill         9 0 0
+Nskill         10 0 0
+Nskill         11 0 0
+Nskill         12 0 0
+Nskill         13 0 0
+Nskill         14 0 0
+Nskill         15 0 0
+Nskill         16 0 0
+Nskill         17 0 0
+Nskill         18 0 0
+Nskill         19 0 0
+Nskill         20 0 0
+Nskill         21 0 0
+Nskill         22 0 0
+Nskill         23 0 0
+Nskill         24 0 0
+Nskill         25 0 0
+Nskill         26 0 0
+Nskill         27 0 0
+Nskill         28 0 0
+Nskill         29 0 0
+Nskill         30 0 0
+Nskill         31 0 0
+Nskill         32 0 0
+Nskill         33 0 0
+Nskill         34 0 0
+Nskill         35 0 0
+Nskill         36 0 0
+Nskill         37 0 0
+Nskill         38 0 0
+Nskill         39 0 0
+Nskill         40 0 0
+Nskill         41 0 0
+Nskill         42 0 0
+Fskill         0 0 0
+Fskill         1 0 0
+Fskill         2 0 0
+Fskill         3 0 0
+Fskill         4 0 0
+Fskill         5 0 0
+Fskill         6 0 0
+Fskill         7 0 0
+Fskill         8 0 0
+Fskill         9 0 0
+Fskill         10 0 0
+Fskill         11 0 0
+Fskill         12 0 0
+Fskill         13 0 0
+Fskill         14 0 0
+Fskill         15 0 0
+Fskill         16 0 0
+Fskill         17 0 0
+Fskill         18 0 0
+Act          570426952
+Feats2       96
+AffectedBy   4
+Cover        0
+Position     9
+Cards        0
+SavingThrows 0 0 0 0 0
+Alignment    0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        103
+Reputation   0
+Dodge_bonus  0
+Skillpoints  24
+Forcepoints  1
+Darkpoints   0
+Willpower    0
+Age          0
+Alchemy_mod  0
+Is_rep       0
+Force_bonus  979
+Force_status 0
+Resources    0
+Resources_t  0
+Xflags       26343
+Damage_reduc 0
+Trains       0
+Implant      0
+Has_master   0
+Has_trained  0
+Can_invest   0
+Loan         0
+Efficiency   0
+Familiarity  0
+Inspire_fear 0
+Target       0
+Sneak_attack 0
+Deflect_att  0
+Deflect_def  0
+Force_weapon 0
+Secret       0
+Talisman     0
+Specialty    0
+Mastercraft  0
+Heart     0 0
+Has_stance   0
+Stance       0
+Precise      0
+Coordinate   0
+Jury_rig     0
+Lightsaber_d 0
+Unused_feats 2
+Reflexes     1
+Fortitude    2
+Droid_type   0
+Rppoints   0
+Mentalstate  -8
+Password     save
+Lastplayed   1101403975
+Title         User. The defaultest of users.~
+AuthedBy     User~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     36
+Flags        0
+MKills       0
+MDeaths      0
+AttrPerm     14 10 12 12 8 10 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 48 10
+Site         localhost
+QuestData     newbie~  1
+Has_passed    0
+Has_trained   0
+End
+
+#END
