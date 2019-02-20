@@ -45,6 +45,6 @@ Type: find . -type f -name '*.o' -delete
 
 Please note you must execute command above within SRC dir.
 
-## Thanks to these guy for helping me sort out a bug in 1 of the files.
+## Thanks to these guys for helping me sort out a bug in 1 of the files.
 
 https://stackoverflow.com/questions/54794046/solved-error-lvalue-required-as-left-operand-of-assignment-swrots
