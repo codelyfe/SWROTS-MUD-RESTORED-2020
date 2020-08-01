@@ -1,22 +1,20 @@
 <HTML>
-<BODY bgcolor="black" text="white" background="back/homeback.jpg" bgproperties="fixed">
+<BODY bgcolor="black" text="white" bgproperties="fixed">
 <HEAD>
 <META HTTP-EQUIV="Refresh" CONTENT="45; URL=webwho.php">
 </HEAD>
 <br><br>
-<font face="Courier" size="3">
-<b>
+
 <PRE>
 <?
   $file = "WEBWHO";
   $fcontents = file($file);
   for ($i=0;$i<=sizeof($fcontents);$i++)
   {
-    print($fcontents[$i]);
+    file_get_contents($fcontents[$i]);
   }
 ?>
 </PRE>
-</b>
-</font>
+
 </BODY>
 </HTML>

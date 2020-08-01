@@ -3,7 +3,7 @@ Name         The Sith Empire~
 Shortname    sith empire~
 Filename     sith.clan~
 Description  ~
-Leader       ~
+Leader       drakge~
 NumberOne    ~
 NumberTwo    ~
 PKills       0
@@ -28,6 +28,8 @@ Jail         0
 Level        0
 Experience   0
 Clan_bonus   0
+Bonus        0
+Rppoints     0
 End
 
 #END

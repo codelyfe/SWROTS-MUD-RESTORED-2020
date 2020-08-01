@@ -1666,7 +1666,7 @@ void do_mpapplyb( CHAR_DATA *ch, char *argument )
     return;
 
   switch( victim->pcdata->auth_state )
-  {
+  {//codelyfe
   case 0:
   case 1:   
   default:

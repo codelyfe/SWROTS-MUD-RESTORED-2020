@@ -140,7 +140,7 @@ void save_char_obj( CHAR_DATA *ch )
 	return;
     }
 
-    if ( IS_NPC(ch) || NOT_AUTHED(ch) )
+    if ( IS_NPC(ch) ) //if ( IS_NPC(ch) || NOT_AUTHED(ch) ) CODELYFE
 	return;
 
     saving_char = ch;
@@ -237,7 +237,7 @@ void save_clone( CHAR_DATA *ch )
 	return;
     }
 
-    if ( IS_NPC(ch) || NOT_AUTHED(ch) )
+    if ( IS_NPC(ch) ) // if ( IS_NPC(ch) || NOT_AUTHED(ch) ) // CODELYFE
 	return;
 
     if ( ch->desc && ch->desc->original )
@@ -2401,7 +2401,7 @@ void save_profile( CHAR_DATA *ch )
 	return;
     }
 
-    if ( IS_NPC(ch) || NOT_AUTHED(ch) )
+    if ( IS_NPC(ch) ) // if ( IS_NPC(ch) || NOT_AUTHED(ch) ) CODELYFE
 	return;
 
     sprintf( strprofile, "%s%s.htm", PROFILE_DIR, capitalize( ch->name ) );

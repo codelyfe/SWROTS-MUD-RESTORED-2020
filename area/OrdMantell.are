@@ -13,7 +13,7 @@ $
 #FLAGS
 0
 
-#ECONOMY 0 4185789
+#ECONOMY 0 4185797
 
 #MOBILES
 #9000
@@ -94,7 +94,7 @@ A small food droid is awaiting your order.
 8 8 0
 10 10 10 10 10 10 10
 0 0 0 0 0
-21 0 0 0 1 1 0
+21 0 0 0 1 0 0
 2 2 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
 #9004
@@ -322,7 +322,7 @@ A Medical Droid is here helping patients
 8 8 0
 10 10 10 10 10 10 10
 0 0 0 0 0
-21 0 0 0 1 1 0
+21 0 0 0 1 0 0
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
 > greet_prog 100~
@@ -768,7 +768,7 @@ guards patrolling and citizens checking over their ships. To
 the north the Customs Authority is checking people so have your
 equ ipment ready.
 ~
-0 262196 1 4 0 0 0 0 0 0 0 0 0 0
+0 262196 1 4 0 0 30520
 D1
 ~
 ~
@@ -784,7 +784,7 @@ You are standing in the Customs Authority Office placed here
 by the Empire. Customs agents are here regulating the flow of
 illegal contraband into and out of this planet.
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 30520
 D0
 ~
 ~
@@ -805,7 +805,7 @@ this way is only used as a connection between the spaceport
 and the city of Ord Mantell. South of here is the Customs Authority
 controlling the flow of illegal contraband on Ord Mantell.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -823,7 +823,7 @@ Mantell. To the north is Stellar Ave, one of the main streets
 in Ord Mantell. To the south is Plateau Blvd the other main
 street in Ord Mantell.
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 30520
 D0
 ~
 ~
@@ -840,7 +840,7 @@ Ave. is one of the main passageways around Ord Mantell.This
 can be seen from the enormous amount of traffic here. To the
 north is a run-down shop that is owned by one of the local citizens.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -864,7 +864,7 @@ Standing in a run-down shop you see cracks all over the walls.
 You see pant peeling and the walls crumbling. This shop will
 not hold up much longer.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 30520
 D2
 ~
 ~
@@ -877,7 +877,7 @@ People here are bustling around you at very rapid speeds. It
 would be wise to hurry and find your way before you get lost.
 
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -895,7 +895,7 @@ in most of the areas, but you notice a hotel to the south of
 here. It would be wise to hurry and find your way before you
 get lost.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -916,7 +916,7 @@ People here are bustling around you at very rapid speeds. It
 would be wise to hurry and find your way before you get lost.
 
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -937,7 +937,7 @@ People here are bustling around you at very rapid speeds. It
 would be wise to hurry and find your way before you get lost.
 
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -954,7 +954,7 @@ People here are bustling around you at very rapid speeds. It
 would be wise to hurry and find your way before you get lost.
 
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -972,7 +972,7 @@ S
 Stellar Ave.~
 You are standing on one of the busiest streets on the planet. People here are bustling around you at a quick pace. There is a jukyard to the north of here. To the east lies the only apartment complex on Ord Mantell.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -993,7 +993,7 @@ further North. You smell a somewhat faint oder from all of the
 garbage. There are 30 foot high walls that run to the East and
 West of you apparently to block the oder from the main road.
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 30520
 D0
 ~
 ~
@@ -1010,7 +1010,7 @@ the clouds. The stench of the garbage overwhelms you. The garbage
 is all over the ground. You don't see anything of any use here.Getting
 lost in the junkyard is not hard so be careful!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1050,7 +1050,7 @@ Standing in the middle of a junkyard you see ships piled up to
 the clouds. The stench of the garbage overwhelms you. The garbage
 is all over the ground. You don't see anything of any use here.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1079,7 +1079,7 @@ horrendous odor from the garbage is not helping things any.Piles
 of junk are here and you see maggots everywhere. You see a fresh
 corpse on the ground under some metal shards.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D8
 ~
 ~
@@ -1091,7 +1091,7 @@ You are standing in the middle of what seems to be a wrecked
 transport ship. The metal seems so dirty and rusty that the
 ship must have been here for at least 50 years!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D6
 ~
 ~
@@ -1108,7 +1108,7 @@ seem to find your way out. While comlink broadcasting is possible
 from here the message may become distored because of all the
 metal surrounding you.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D3
 ~
 ~
@@ -1121,7 +1121,7 @@ neverending! The odor from the garbage here is so great that
 bugs are not even attracted to it. Finding a way out would be
 good but not easy.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -1133,7 +1133,7 @@ You are walking along a very small path. This path is appoximately
 4 feet wide! If you have a very large build you will have to
 turn sideways to walk between some of these trees.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D7
 ~
 ~
@@ -1150,7 +1150,7 @@ You are walking along a very small path. This path is appoximately
 turn sideways to walk between some of these trees.You see some
 markings on the tree to the left.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D6
 ~
 ~
@@ -1172,7 +1172,7 @@ You are standing in a clearing. There is virtually no junk here
 at all. You wonder why the trash is not covering this area.The
 stench of the junk yard still overwhelmes you.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1193,7 +1193,7 @@ horrendous odor from the garbage is not helping things any.Piles
 of junk are here and you see maggots everywhere. This place
 is disguisting!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D9
 ~
 ~
@@ -1206,7 +1206,7 @@ further North. You smell a somewhat faint oder from all of the
 garbage. There are 30 foot high walls that run to the East and
 West of you apparently to block the oder from the main road.
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 30520
 D0
 ~
 ~
@@ -1223,7 +1223,7 @@ the clouds. The stench of the garbage overwhelms you. The garbage
 is all over the ground. You don't see anything of any use here.
 Getting lost in the junkyard is not hard so be careful!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1263,7 +1263,7 @@ Standing in the middle of a junkyard you see ships piled up to
 the clouds. The stench of the garbage overwhelms you. The garbage
 is all over the ground. You don't see anything of any use here.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1291,7 +1291,7 @@ You are standing in the middle of what seems to be a wrecked
 transport ship. The metal seems so dirty and rusty that the
 ship must have been here for at least 50 years!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D7
 ~
 ~
@@ -1308,7 +1308,7 @@ horrendous odor from the garbage is not helping things any.
 Piles of junk are here and you see maggots everywhere. You see
 a fresh corpse on the ground under some metal shards.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D8
 ~
 ~
@@ -1321,7 +1321,7 @@ see a blur eastwards of what is shaped as a building. You canhead
 back the way you came or head over to the Hunter's Guild which
 is to the East of here.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -1338,7 +1338,7 @@ horrendous odor from the garbage is not helping things any.
 Piles of junk are here and you see maggots everywhere. This
 place is disguisting!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D9
 ~
 ~
@@ -1352,7 +1352,7 @@ is the Hunter's Guild base. You see a barb-wired fence and a
 sign posted on it but you can't read what the sign says, maybeyou
 should have a closer look!
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1374,7 +1374,7 @@ neverending! The odor from the garbage here is so great that
 bugs are not even attracted to it. Finding a way out would be
 good but not easy.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1399,7 +1399,7 @@ seem to find your way out. While comlink broadcasting is possible
 from here the message may become distored because of all the
 metal surrounding you.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1428,7 +1428,7 @@ You are standing in a clearing. There is virtually no junk here
 at all. You wonder why the trash is not covering this area.The
 stench of the junk yard still overwhelmes you.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D2
 ~
 ~
@@ -1447,7 +1447,7 @@ Hunting Guild member then you have reach a dead end! If youare
 a guild member maybe you should say the magic word or words.
 You see a sign above the door.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D2
 ~
 ~
@@ -1471,7 +1471,7 @@ broken spots in the walls of the foundation. Since this is the
 only space available for rent of Ord Mantell, the apartments
 here get rented out rather quickly.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 30520
 D1
 ~
 ~
@@ -1488,7 +1488,7 @@ Mantell. There are a good number of apartment on each floor.
 The walls here are a dark brown color. There are a sufficent
 amount of lights mounted on the ceiling. 
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -1515,7 +1515,7 @@ on each floor, so there will be a good chance for one to be
 avai lable.
 
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -1546,7 +1546,7 @@ won't fall onto the first level floor.You are standing on the
 first floor landing. You can go up the stairs to the second
 floor or just back to the first floor.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D4
 ~
 Stairs~
@@ -1566,7 +1566,7 @@ landing. Going down you will hit the Second floor and then the
 First floor. Your only other alternative is to go to the apartments
 of the Third floor.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D5
 ~
 ~
@@ -1586,7 +1586,7 @@ landing of the Second floor. You can choose to go back down
 to the First floor, up to the Third floor, or go into the apartment
 area of the Second floor.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D4
 ~
 ~
@@ -1608,7 +1608,7 @@ mounted on the ceiling. There are a good number of apartments
 on each floor, so there will be a good chance for one to be
 avai lable.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -1638,7 +1638,7 @@ mounted on the ceiling. There are a good number of apartments
 on each floor, so there will be a good chance for one to be
 avai lable.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -1668,7 +1668,7 @@ mounted on the ceiling. There are a good number of apartments
 on each floor, so there will be a good chance for one to be
 avai lable.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -1690,7 +1690,7 @@ mounted on the ceiling. There are a good number of apartments
 on each floor, so there will be a good chance for one to be
 avai lable.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -1712,7 +1712,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D2
 ~
 ~
@@ -1726,7 +1726,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D0
 ~
 ~
@@ -1740,7 +1740,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D2
 ~
 ~
@@ -1754,7 +1754,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D0
 ~
 ~
@@ -1768,7 +1768,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D3
 ~
 ~
@@ -1782,7 +1782,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D2
 ~
 ~
@@ -1796,7 +1796,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D0
 ~
 ~
@@ -1810,7 +1810,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D2
 ~
 ~
@@ -1824,7 +1824,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D0
 ~
 ~
@@ -1838,7 +1838,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D3
 ~
 ~
@@ -1852,7 +1852,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D2
 ~
 ~
@@ -1866,7 +1866,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D0
 ~
 ~
@@ -1880,7 +1880,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D2
 ~
 ~
@@ -1894,7 +1894,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D0
 ~
 ~
@@ -1908,7 +1908,7 @@ opposite the bed. The apartment does seem to be well kept though.
 This would make a nice place for someone who just needs a place
 to sleep.
 ~
-0 77594636 1 0 0 0 0 0 0 0 0 0 0 0
+0 77594636 1 0 0 0 30520
 D3
 ~
 ~
@@ -1921,7 +1921,7 @@ of Luke Skywalker and Princess Leia Organa Solo by Bounty Hunter
 Skoor. There are statues here portraying their capture. As this
 is a museuem please keep the noise to a minimum.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 30520
 D0
 ~
 ~
@@ -1947,7 +1947,7 @@ this way is only used as a connection between the spaceport
 and the city of Ord Mantell. South of  here is the Customs Authority
 controlling the flow of illegal contraband on Ord  Mantell.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1965,7 +1965,7 @@ Mantell.This can be seen from the few people who walk its streets.
 The lack of Plateau Blvd.being used is shown by how run-down
 and crummy it is compared to Stellar Avenue.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -1991,7 +1991,7 @@ in a few areas. A pack of rats scurries across your path and
 go into a hole in one of the buildings. You see that this place
 is the worst street on the planet.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -2009,7 +2009,7 @@ in a few areas. A pack of rats scurries across your path and
 go into a hole in one of the buildings. You see that this place
 is the worst street on the planet.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -2031,7 +2031,7 @@ in a few areas. A pack of rats scurries across your path and
 go into a hole in one of the buildings. You see that this place
 is the worst street on the planet.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -2049,7 +2049,7 @@ in a few areas. A pack of rats scurries across your path and
 go into a hole in one of the buildings. You see that this place
 is the worst street on the planet.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D1
 ~
 ~
@@ -2067,7 +2067,7 @@ in a few areas. A pack of rats scurries across your path and
 go into a hole in one of the buildings. You see that this place
 is the worst street on the planet.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D0
 ~
 ~
@@ -2089,7 +2089,7 @@ in a few areas. A pack of rats scurries across your path and
 go into a hole in one of the buildings. You see that this place
 is the worst street on the planet.
 ~
-0 0 1 0 0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 30520
 D3
 ~
 ~
@@ -2103,7 +2103,7 @@ food or drink alcholic beverages. The place is nice and tidy
 and seems almost new. You hear the sounds of cheering drunks
 coming from the Northwest.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 30520
 D2
 ~
 ~
@@ -2124,7 +2124,7 @@ very disorganized but it looks new. On every table there is
 a menu written in 10 different languages of what they all serve
 here.
 ~
-0 1036 1 0 0 0 0 0 0 0 0 0 0 0
+0 1036 1 0 0 0 30520
 D9
 ~
 ~
@@ -2138,7 +2138,7 @@ notice a few blaster marks on the walls probably from drunken
 bar fights. You see a sign that says best place in the galaxayto
 buy beer.
 ~
-0 1036 1 0 0 0 0 0 0 0 0 0 0 0
+0 1036 1 0 0 0 30520
 D8
 ~
 ~
@@ -2153,7 +2153,7 @@ a place that has a few cheap bounties but not much beyond that.
 If you need to find one of the bounties maybe you should ask
 the clerk about that person.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 30520
 D0
 ~
 ~
@@ -2172,7 +2172,7 @@ S
 &O Ord Mantell Medical Facility &w&W~
 You stand in the public medical facility of Ord Mantell. The facility is kept spotless to prevent from any communicable diseases being spread. This facility is entirely staffed by droids.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D2
 ~
 ~
@@ -2185,7 +2185,7 @@ see a large wookiee setting behind a desk which is placed in
 the middle of the room. Aparently this shop has been here for
 quite some time, but it still is in a "better than most" condition.
 ~
-0 1036 1 0 0 0 0 0 0 0 0 0 0 0
+0 1036 1 0 0 0 30520
 D2
 ~
 ~
@@ -2201,7 +2201,7 @@ scarce here on Ord, the hotel is free.
 You can safely save and quit the game here.
 
 ~
-0 8388620 1 0 0 0 0 0 0 0 0 0 0 0
+0 8388620 1 0 0 0 30520
 D0
 ~
 ~
@@ -2231,7 +2231,7 @@ that were fronts for Rebel resupply missions. She used her diplomatic
 immunity and her consular ship to gain access to restricted
 areas.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 30520
 D0
 ~
 ~
@@ -2270,7 +2270,7 @@ often teased him and called him "Wormie." Biggs Darklighter,
 though, was different and Luke considered him a true friend.
 
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -2312,7 +2312,7 @@ Obi-Wan implored his master not to go against the Council, but
 Qui-Gon always responded by saying that he must do as the will
 of the Force advises.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D1
 ~
 ~
@@ -2337,7 +2337,7 @@ named Lando Calrissian. After a period of adventuring, Han won
 Lando's freighter, the Millennium Falcon in a heated sabacc
 game. 
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D3
 ~
 ~
@@ -2361,7 +2361,7 @@ a well known smuggling duo. When they came into ownership of
 the freighter Millennium Falcon, their exploits became legendary.
 
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D0
 ~
 ~
@@ -2398,7 +2398,7 @@ killing the Jedi Master. Obi-Wan then defeated Maul, but nothing
 could save Qui-Gon. With his last breath, the Jedi Master asked
 Obi-Wan to train Anakin, a request Kenobi accepted.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D2
 ~
 ~
@@ -2407,7 +2407,7 @@ S
 #9082
 The Galactic Mail Center~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 30520
 D1
 ~
 ~
@@ -2416,7 +2416,7 @@ S
 #9404
 Floating in a void~
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 30520
 S
 #9405
 Secondary Landing Pad~
@@ -2425,7 +2425,7 @@ to be in better condition. Perhaps this is due to the fact that
 the Secondary Landing was just created only a few years ago
 and the Main has been here for a long, long time.
 ~
-0 262192 1 0 0 0 0 0 0 0 0 0 0 0
+0 262192 1 0 0 0 30520
 D3
 ~
 ~
@@ -2442,7 +2442,7 @@ for those who need to breath while fully submerged. The tank
 is filled with a green gelatinous liquid. The bacta is know
 for is curing of major as well as minor wounds to the body.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 30520
 D2
 ~
 ~
@@ -2461,7 +2461,7 @@ A bank like any other. The tellers wait off to the north, while
 the center of the area is dominated by a computer display and
 couches, displaying the latest stock trends.
 ~
-0 262408 1 0 0 0 0 0 0 0 0 0 0 0
+0 262408 1 0 0 0 30520
 D2
 ~
 ~
@@ -2470,13 +2470,61 @@ S
 #9500
 Floating in a void~
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 30520
 S
 #0
 
 
 #RESETS
 M 1 9500 1 9500
+M 1 9002 1 9071
+G 1 9007 100
+G 1 9009 100
+G 1 9010 100
+G 1 9008 100
+G 1 9006 100
+M 1 9003 1 9070
+G 1 9004 1
+G 1 9003 1
+G 1 9005 1
+G 1 133 1
+G 1 134 1
+M 1 9010 1 9073
+G 1 3 1
+M 1 9001 1 9005
+G 1 133 1
+G 1 134 1
+G 1 56 1
+M 1 9009 1 9072
+O 1 9014 1 9072
+O 1 9017 1 9081
+O 1 9016 1 9080
+O 1 9002 1 9077
+O 1 9001 1 9076
+O 1 9018 1 9078
+O 1 9019 1 9079
+M 1 9013 1 9032
+G 1 9020 1
+M 1 9005 4 9001
+E 1 50 1 16
+M 1 9005 4 9001
+E 1 50 1 16
+M 1 9005 4 9001
+E 1 50 1 16
+M 1 9005 4 9001
+E 1 50 1 16
+M 1 9014 1 9007
+M 1 9012 1 9075
+O 1 116 1 9075
+M 1 9014 2 9008
+M 1 9014 3 9011
+M 1 9004 1 9062
+M 1 9014 4 9062
+M 1 9011 1 9074
+E 1 50 1 16
+O 1 9015 1 9074
+M 0 9014 3 9062
+M 0 9014 3 9007
 M 0 9014 3 9007
 M 0 9014 3 9008
 M 0 9014 1 9064

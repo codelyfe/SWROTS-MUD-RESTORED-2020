@@ -319,7 +319,7 @@ mpclosepassage 156 0
 #127
 level 1~
 a Level 1 Combat Droid~
-A Level 1 Combat Droid is here for combat.
+A Level 1 Combat Droid is here for combat (HINT: kill droid ).
 ~
 ~
 3 0 0 Z
@@ -334,7 +334,7 @@ A Level 1 Combat Droid is here for combat.
 #128
 level 2~
 a Level 2 Combat Droid~
-A Level 2 Combat Droid stands here scanning the room.
+A Level 2 Combat Droid stands here scanning the room expecting you to strike.
 ~
 ~
 3 0 0 Z
@@ -349,7 +349,7 @@ A Level 2 Combat Droid stands here scanning the room.
 #129
 level 3~
 a Level 3 Combat Droid~
-A Level 3 Combat Droid appears very aggressive.
+A Level 3 Combat Droid wants to whoop that a** all over the floor.
 ~
 ~
 35 0 0 Z
@@ -368,7 +368,7 @@ mpkill $n
 #130
 level 4~
 a Level 4 Combat Droid~
-A Level 4 Combat Droid appears very aggressive.
+A Level 4 Combat Droid appears to be annoyed of you being in the same room as it.
 ~
 ~
 35 0 0 Z
@@ -387,7 +387,7 @@ mpkill $n
 #131
 level 5~
 a Level 5 Combat Droid~
-A Level 5 Combat Droid is here being aggressive.
+A Level 5 Combat Droid is here provoking you to attack it. Lets get this over with.
 ~
 ~
 35 0 0 Z
@@ -406,7 +406,7 @@ mpkill $n
 #132
 control engineer~
 an Anomid engineer~
-An Anomid engineer is here maintaining the simulator.
+An Anomid engineer is here maintaining the simulator. *Chuckles*
 ~
 ~
 2051 0 0 Z
@@ -420,7 +420,7 @@ An Anomid engineer is here maintaining the simulator.
 0 0 0 0 0 0 0 0
 > all_greet_prog 100~
 if level($n) > 5
-say $n you are too powerful for this simulator.
+say $n you are too powerful for this simulator. *Shakes head*
 mpforce $n north
 endif
 ~
@@ -428,7 +428,8 @@ endif
 #133
 boarding guard~
 a newbie boarding guard~
-A boarding guard is here checking cadet's clearance prior to departure.
+A boarding guard is here checking cadet's clearance prior to departure. 
+                          *Stares at screen*
 ~
 ~
 2051 0 0 Z
@@ -445,10 +446,12 @@ mpsleep 5
 mpechoaround $n A newbie boarding guard looks up at $n approaches.
 mpechoat $n A newbie boarding guard looks up as you approach.
 mpsleep 4
+mpecho Guard is curious if you are ready to depart. "Say yes" or "Say no".
 say Are you prepared to depart from the Academy cadet?
 ~
 > speech_prog p yes~
 mpsleep 4
+mpecho Guard is determining if you are on list. Wait a moment.
 say Lets see if you are on my list cadet $n.
 mpsleep 5
 mpecho A newbie boarding guard looks over a list displayed on his datapad.
@@ -465,7 +468,7 @@ endif
 ~
 > speech_prog p no~
 mpsleep 4
-mpecho A newbie boarding guard calls the next cadet in line.
+mpecho A newbie boarding guard calls the next cadet in line. Go find something else to do.
 ~
 |
 #134
@@ -528,18 +531,8 @@ mpsleep 4
 mpechoat $n The General's secretary eyes you for a moment, then goes back to reading a book.
 ~
 > speech_prog p yes~
-mpsleep 4
-say Let me check for your appointment Cadet $n.
-mpsleep 3
-mpechoat $n The General's secretary scans over a list of appointments for today.
-mpsleep 6
-say I don't seem to have you schedualed.
-mpsleep 4
-say But I may be able to squeeze you in if you can locate some papers I seemed to have lost.
-~
-> give_prog lost work orders~
 mpsleep 5
-say Yes, these are what I'm missing.
+say Well, thats great news cadet im sure you are ready!
 mpsleep 6
 say I can get you in to see the General right now.
 mpsleep 3
@@ -1007,18 +1000,12 @@ A hi_obj is here.~
 #ROOMS
 #115
 &CWelcome To &RReturn Of The Sith&C!~
-&w&WLets start out by saying &YWELCOME!&w&W Now that is out of
-the way, this game is obveously based upon Star Wars. If that
-is not your forte, we understand and goodluck at whatever game
-you settle on. You still here? Good. If you are looking for
-your typical stock &rSWR MUD&w&W, then you too may as well depart
-and keep searching. We here at &RSW:RotS&w&W have worked countless
-hours to create a world for you that is original and unique.Most
-of the commands you may be use to have been changed or removed
-completely. All of these you will learn as you progress through
-our &BNewbie Academy&w&W. We highly suggest taking your time
-through the Academy as there is a lot of new information there
-to learn.
+Your journey starts here in a world designed by MUD gods
+and brought back to life by & codelyfe@gmail.com&w&W. 
+Most of the worlds content is original and unique. 
+(NEW CONTENT WILL BE ADDED OVERTIME)
+The SWROTS gods highly suggest that you take your time
+and learn everything you can along the way.
 ~
 0 1073741832 1 0 0 0 5704
 D0
@@ -1028,18 +1015,18 @@ D0
 S
 #116
 &GGaining Levels~
-&w&WGaining levels here at &RSW:RotS&w&W is a little different
-then what most players have encountered before. During your
-character creation, you selected your first level. For each
-level after, you will be required to use the &BLevel&w&W command.Just
-typeing &BLevel&w&W alone, will display all different classes
-we have here. To gain a level in a specific class simply type
-&BLevel <class name>&w&W. Be advised some classes have specific
-requirements that must be met prior to you being able to gain
-a level in it. Also, some clans have specific classes that will
+During your character creation, you selected your first level. For each
+level after, you will be required to use the &BLevel&w&W command.
+Just typeing &BLevel&w&W alone, will display all different classes
+we have here. 
+To gain a level in a specific class simply type
+&BLevel <class name>&w&W. 
+Be advised some classes have specific requirements that must be met 
+prior to you being able to gain a level in it. 
+Also, some clans have specific classes that will
 now show up on the Level list until you belong to that clan.
 We highly suggest you read the help files on all the classes
-prior to choosing them as you will only be  able to acquire
+prior to choosing them as you will only be able to acquire
 30 levels.
 ~
 0 1073741832 1 0 0 0 5704
@@ -1054,19 +1041,21 @@ D2
 S
 #117
 &GSkills~
-&w&WWe have done away with the &BPractice&w&W command. To view
-a list of the current skills implemented here at &RSW&r:&RRotS&w&W,
-use the &BSkills&w&W command. Each time you level you will acquire
-a certain number of &Yskillpoints&w&W which is displayed under
-your &BScore&w&W command. In order to gain a skill, simply type
-&BSkills learn <skill name> <points to add>&w&W. Doing so  will
-add a number of skillpoints to that skill. The final number
-is how many &YRanks&w&W you have within that skill. You may
-not have more then your current level + 3 ranks in any skill.
+Use the &BSkills&w&W command To view a list of the current skills. 
+Each time you level you will acquire a certain number of &Yskillpoints&w&W 
+which is displayed under your &BScore&w&W command. 
+
+In order to gain a skill, simply type &BSkills learn <skill name> <points to add>&w&W. 
+Doing so  will add a number of skillpoints to that skill. 
+
+The final number is how many &YRanks&w&W you have within that skill. 
+You may not have more then your current level + 3 ranks in any skill.
+
 Force-using character also have access to &GForce Skills&w&W.
 To view these, simply use the &BFskills&w&W command, and they
 are learned the same way. Force Skills are limited to your current
 level + 3 + a force bonus determined at character creation.
+
 Do not bother asking us what your force bonus is, I have not
 given my Immortals the power to view them.
 
@@ -1086,13 +1075,21 @@ D6
 S
 #118
 &BThe Force~
+  _____________________/\_
+(___________________()| _||||||||||||||||||||||||||||||||||||||||||>
+                      \/
+
 &w&WThe Force is an energy field generated by all living things.
 It surrounds and penetrates everything, binding the galaxy together.
+
 There are two sides to the Force. Peace, serenity, and knowledge
 form the light side, while the dark side consists of aggression,
-anger, and fear. The universe is a place of balance: life and
-death, creation and destruction, love and hate. As such, both
-sides of the Force are part of the natural order.
+anger, and fear. 
+
+The universe is a place of balance: 
+life and death, creation and destruction, love and hate. 
+
+As such, both sides of the Force are part of the natural order.
 ~
 0 1073741832 1 0 0 0 5704
 D6
@@ -1107,13 +1104,17 @@ S
 #119
 &rDark Points~
 &w&WDark Side Points measure the corrupting force that the dark
-side of the Force has over any individual. Only characters with
-the Force-Sensitive feat can gain Dark Side Points. Once a character's
-Dark Side Points are greater then half his &YWisdom&w&W, he
-is considered Tainted by the dark side of the Force. When the
-Dark Side Points equal, or are greather than, the character's
-&YWisdom&w&W, he has fallen completely to the dark side. For
-more information on Dark Side Points,  see &rHelp Darkpoints&w&W.
+side of the Force has over any individual. 
+
+Only characters with the Force-Sensitive feat can gain Dark Side Points. 
+
+Once a character's Dark Side Points are greater then half his &YWisdom&w&W, he
+is considered Tainted by the dark side of the Force. 
+
+When the Dark Side Points equal, or are greather than, the character's
+&YWisdom&w&W, he has fallen completely to the dark side. 
+
+For more information on Dark Side Points,  see &rHelp Darkpoints&w&W.
 ~
 0 1073741832 1 0 0 0 5704
 D0
@@ -1128,15 +1129,23 @@ S
 #120
 &GFeats~
 &w&WA feat is a special feature that either gives your character
-a new capability or improves one he or she already has. Unlike
-a skill, a feat has no ranks. A character either has the feat
-or doesn't have it. You can use the &BFeats&w&W command to see
-a list of feats. &BFfeats&w&W command will enable you to see
-any Force Feats you may take. To obtain feats, you must have
-free feat points, which are displayed on your &YScore&w&W. To
-gain a feat use the following syntax: &GFeat <feat name> &w&W
-or &GFfeat <force feat name>&w&W. Once you have chosen a feat,
-you may not remove it. Choose wisely.
+a new capability or improves one he or she already has. 
+
+Unlike a skill, a feat has no ranks. A character either has the feat
+or doesn't have it. 
+
+You can use the &BFeats&w&W command to see a list of feats. 
+
+&BFfeats&w&W command will enable you to see any Force Feats you may take. 
+
+To obtain feats, you must have free feat points, which are displayed on your &YScore&w&W. 
+
+To gain a feat use the following syntax: &GFeat <feat name> &w&W
+or &GFfeat <force feat name>&w&W. 
+
+Once you have chosen a feat,you may not remove it. 
+
+Choose wisely.
 ~
 0 1073741832 1 0 0 0 5704
 D0
@@ -1255,8 +1264,11 @@ S
 #126
 &zRegistering With The Academy~
 &w&WA shiny silver droid stands in the middle of a long hallway
-that leads within the &BNewbie Academy&w&W. As students pass
-the droid, it registers them for participation within the Academy.
+that leads within the &BNewbie Academy&w&W. 
+
+As students pass the droid, it registers them for participation 
+within the Academy.
+
 Excitement begins to build within you, as your dreams of adventure
 and excitement are soon to be realized.
 ~
@@ -2080,35 +2092,35 @@ mpsleep 3
 mpechoat $n &GA voice comes over a speaker, "&w&WLoading a Level 1 Combat Droid.&G"&w
 mpsleep 5
 mpat 165 mpmload 127
-mpechoat $n &GThe voice returns, "&w&WLoading complete. Goodluck Cadet.&G"&w
+mpechoat $n &GThe voice returns, "&w&WLoading complete... Goodluck Cadet.&G"&w
 ~
 > speech_prog p level 2~
 mpsleep 3
 mpecho &GA voice comes over a speaker, "&w&WLoading a Level 2 Combat Droid.&G"&w
 mpsleep 5
 mpat 165 mpmload 128
-mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet.&G"&w
+mpecho &GThe voice returns, "&w&WLoading complete... Goodluck Cadet.&G"&w
 ~
 > speech_prog p level 3~
 mpsleep 3
 mpecho &GA voice comes over a speaker, "&w&WLoading a Level 3 Combat Droid.&G"
 mpsleep 5
 mpat 165 mpmload 129
-mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet.&G"&w&W
+mpecho &GThe voice returns, "&w&WLoading complete... Goodluck Cadet.&G"&w&W
 ~
 > speech_prog p level 4~
 mpsleep 4
 mpecho &GA voice comes over a speaker, "&w&WLoading a Level 4 Combat Droid.&G"&w
 mpsleep 5
 mpat 165 mpmload 130
-mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet, this Droid is very Aggressive.&G"&w
+mpecho &GThe voice returns, "&w&WLoading complete... Goodluck Cadet, this Droid likes to play dirty.&G"&w
 ~
 > speech_prog p level 5~
 mpsleep 4
 mpecho &GA voice comes over a speak, "&w&WLoading a level 5 Combat Droid.&G"&w
 mpsleep 5
 mpat 165 mpmload 131
-mpecho &GThe voice returns, "&w&WLoading complete. Goodluck Cadet, this Droid is very aggressive.&G"&w
+mpecho &GThe voice returns, "&w&WLoading complete... Goodluck Cadet, this Droid is in beast mode. YOLO.&G"&w
 ~
 |
 S

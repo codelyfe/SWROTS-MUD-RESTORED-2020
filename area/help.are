@@ -4773,34 +4773,45 @@ a healthy trade route.
 
 -1 GREETING~
 .
-    &zo                                                       &co
-    &R|  &z__                  &rReturn of the                    &G|  &O__
-    &R| &z/__\                                                  &G|&O /__\
-    &R| &zX&r**&z|         &R,&z,&r,      &R,&r,     &R`&z#&r,          &R,&r,          &G| &O|&c**&OX
-    &R|&z-\\|/-.       &r$&z#  &R`     &r'       &R#&z &r.       &R,&z#&r'          &G|&O-\|//-.
-   &z/&R|&z`.|'.' \       &R'&z'&r'&R.    &r'&z#&R,   &r,&z#&R'&r#&R#&r'&z'&R`    &r,&R#&r'          &O/&G|&O`.|'.' \
-  &z|,&R|&z.\   /||      &r`&z:&R#&r#&R'    ,&z#&r!       &R#&z#&r$    &R#&r$&z'&R`&r#&R,       &O|,&G|&O.\   /||
-  &z|:&R|&z|   ':||              &R,&z#&r'        &R:&z#&r'    &R#&r:  &R'&r#       &O|:&G|&O|   ':||
-  &z||&R|&z|   | ||                       &r,&R'     &r,&z#&R'   &r'&R,       &O||&G|&O|   | ||
-  &z\ \|     |`.                                            &O\ \|     |`.
-  &z|\&zX&z|     | |&W SWR 1.0 by Sean Cooper - specs@golden.net  &O|\&OX&O|     | |
-  &z| .'     |||&W SMAUG by Thoric                            &O| .'     |||
-  &z| |   .  |||                                            &O| |   .  ||| 
-  &z|||   |  `.| &WSWRPG 3.0 by Manteiv                       &O|||   |  `.|
-  &z||||  |   ||                                            &O||||  |   ||
-  &z||||  |   || &WStar Wars (TM) and Star Wars names         &O||||  |   ||
-  &z||||  |   || &Ware copyright of Lucasfilm (TM)            &O||||  |   ||'
-  &z||||  |   || &WStar Wars RPG (TM) is copywrited           &O||||  |   ||
-  &z||||  |   || &Wto Wizards of the Coast (TM)               &O||||  |   ||
-   &z`+.__._._+'                                             &O`+.__._._+'LS
+&g+-----------------------------------------------------------------------+
+|                    _                                                  |
+|                ___| |_ __ _ _ __  __      ____ _ _ __ ___             |
+|               / __| __/ _` | '__| \ \ /\ / / _` | '__/ __|            |
+|               \__ \ || (_| | |     \ V  V / (_| | |  \__ \            |
+|               |___/\__\__,_|_|      \_/\_/ \__,_|_|  |___/            |
+|                                        &rReturn of The Sith&g             |
+&g+-----------------------------------------------------------------------+
+
+
 &r ______________________________________________________________________
- 
+
+&w9 Planets: &gCoruscant, Endor, Nalhutta, Korriban, XN1224-a, HP9015-l,
+             Tatooine, Kashyyyk, Moncalamari, Bakura, Corellia
+
+
+                            &rSITH &wvs &gJEDI
+&r ______________________________________________________________________
+
+               &W SWR 1.0 by Sean Cooper - specs@golden.net 
+                  SMAUG by Thoric - &WSWRPG 3.0 by Manteiv 
+
+             &wRe&rVamp &O/ &kRestoration 2020 By: &pRandal Burger
+                      &rMY URL: &wshipwr3ck.dynu.net&r
+                      Email: &Ocodelyfe@gmail.com
+
 &g 
 %&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&gx&g%&g=&Gx&g%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%
+
+   &WStar Wars (TM) and Star Wars names &Ware copyright of Lucasfilm (TM) 
+   &WStar Wars RPG (TM) is copywrited &Wto Wizards of the Coast (TM)
+
+%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&gx&g%&g=&Gx&g%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%&G=&gx&G%&g=&Gx&g%
+
 &r ______________________________________________________________________
 
+JOIN OUR DISCORD :) - https://discord.gg/JVVxQCK
 
-   &WLogin: ~
+&W[Login to &OSW&RROTS]: ~
 
 36 GREETING2~
 .           ._,.

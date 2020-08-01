@@ -1,4 +1,7 @@
-# SWROTS-MUD-RESTORED-2019
+# Star Wars: Return of The Sith Text Based MMORPG
+# 2020 Version
+# All planets work.
+# If you need help. Contact codelyfe@gmail.com 
 
 Hello, 
 
@@ -48,3 +51,9 @@ Please note you must execute command above within SRC dir.
 ## Thanks to these guys for helping me sort out a bug in 1 of the files.
 
 https://stackoverflow.com/questions/54794046/solved-error-lvalue-required-as-left-operand-of-assignment-swrots
+
+----------------------------------------------------------------------------------
+## FIXES
+
+1. Now able to save at anytime even if not a grad. CTRL-F "CODELYFE" within act_comm.c and save.c for edits made.
+2. Starting point is much easier to pass!

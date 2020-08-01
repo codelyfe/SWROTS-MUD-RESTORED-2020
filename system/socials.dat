@@ -121,11 +121,11 @@ End
 
 #SOCIAL
 Name        beg~
-CharNoArg   You beg the gods for mercy.~
+CharNoArg   You get on your knees and start begging like a bitch for mercy.~
 OthersNoArg The gods fall down laughing at $n's request for mercy.~
 CharFound   You desperately try to squeeze a few coins from $M.~
 OthersFound $n begs $N for a gold piece!~
-VictFound   $n begs you for money.~
+VictFound   $n will suck your dick for money.~
 CharAuto    Begging yourself for money doesn't help.~
 OthersAuto  $n begs himself for money.~
 End

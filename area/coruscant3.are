@@ -11,7 +11,7 @@ $
 #FLAGS
 0
 
-#ECONOMY 0 1586061
+#ECONOMY 0 1586081
 
 #MOBILES
 #7500
@@ -578,7 +578,7 @@ can be found just to the north. A few buisnesspeople hurry down
 the street here, looking about themselves and making their way
 as fast as possible.
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 7984
 D0
 ~
 ~
@@ -601,7 +601,7 @@ trying to find the quickest way through this insanely large
 number of people. The street is thankfully very wide, and nearly
 accomidates all the people here.
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 D1
 ~
 ~
@@ -618,7 +618,7 @@ S
 #7502
 JooJoo's Medical Center~
 ~
-0 1073741832 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741832 1 0 0 0 7984
 D2
 ~
 ~
@@ -636,7 +636,7 @@ done, LEAVE.
 
 To leave say &gleave
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 > rand_prog 100~
 if ispc($n)
   mpecho The bacta starts healing your wounds.
@@ -658,7 +658,11 @@ blaster rifles and are practicing their sniping abilities on
 targets at the shooting range. There is quite a lot of activity
 here, perhaps you could learn something yourself.
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
+D9
+~
+~
+0 -1 1239
 S
 #7505
 Palpatine Street~
@@ -669,7 +673,7 @@ trying to find the quickest way through this insanely large
 number of people. The street is thankfully very wide, and nearly
 accomidates all the people here.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -686,7 +690,7 @@ areas of coruscant. Strangely upon the higher levels, you wonder
 what sort of things lives here without being cleaned out by
 the coruscant government.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -703,7 +707,7 @@ areas of coruscant. Strangely upon the higher levels, you wonder what sort
 of things lives here without being cleaned out by the coruscant
 government.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -724,7 +728,11 @@ areas of coruscant. Strangely upon the higher levels, you wonder what sort
 of things lives here without being cleaned out by the coruscant
 government.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
+D1
+~
+~
+0 -1 1233
 D2
 ~
 ~
@@ -737,7 +745,7 @@ this small inlet from the alleyway. Garbage fills the floor and the stench
 is almost unbearable. You wonder why you even came in here in the first
 place. 
 ~
-0 1073741832 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741832 1 0 0 0 7984
 D1
 ~
 ~
@@ -746,7 +754,11 @@ S
 #7510
 A Round White Room~
 ~
-0 66828 1 0 0 0 0 0 0 0 0 0 0 0
+0 66828 1 0 0 0 7984
+D4
+~
+~
+0 -1 1204
 S
 #7511
 Galactic Mail Center~
@@ -756,7 +768,7 @@ deliver mail and other things that come with the job. Busy postal workers
 buzz around, doing work. A few stamp machines and tellers are here to
 assist you.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D3
 ~
 ~
@@ -766,7 +778,7 @@ S
 Entrance to The Cherry Blossom~
 The elegant wall coverings and distinctive artificial waterfall would mean this place is none other than the Cherry Blossom cantina. Many come here to find a drink, a good time, and relaxation: a break from their day-to-day lives.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D0
 ~
 ~
@@ -783,7 +795,7 @@ lines the walls and doors, and to compliment it all, a huge black marble bar is
 in the middle. Tall stools are set around it, and two hallways branch off the
 main part of the cantina.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D0
 ~
 ~
@@ -801,7 +813,7 @@ S
 A dimly lit hallway~
 Further into the cantina a few booths are installed to allow parties to talk without being overly disturbed. Like most other places in the cantina, the lighting is somewhat dull and drab, with few lamps mounted on the wall.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D0
 ~
 ~
@@ -823,7 +835,7 @@ S
 A dimly lit hallway~
 More of the cantina opens up into booth areas here. Although a little brighter, the light is still dim through here. Further westward you can spot a branch in the hallway.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D0
 ~
 ~
@@ -844,7 +856,7 @@ S
 #7516
 A dimly lit hallway~
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D1
 ~
 curtain~
@@ -861,7 +873,7 @@ S
 #7517
 An enclosed booth~
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D3
 ~
 curtain~
@@ -870,7 +882,7 @@ S
 #7518
 An enclosed booth~
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D0
 ~
 curtain~
@@ -880,7 +892,7 @@ S
 A large booth~
 Here is a large public booth, capable of seating several. The table in the center is completed with a white cloth and a lamp, providing a mellow light throughout the booth.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D2
 ~
 ~
@@ -890,7 +902,7 @@ S
 A large booth~
 Here is a large public booth, capable of seating several. The table in the center is completed with a white cloth and a lamp, providing a mellow light throughout the booth.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D0
 ~
 ~
@@ -900,7 +912,7 @@ S
 A dimly lit hallway~
 Here, the poorly lit hallway branches off in two directions. A sign between the exits simply states: [F]    [M]. The lights here occasionally flicker, giving eerie shadows to the area.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D1
 ~
 ~
@@ -918,7 +930,7 @@ S
 The men's room~
 A fairly sanitary restroom, complete with sink, mirror, and urinal. Nothing fancy. Through the window on the rear wall, you can see citizens scurrying about the streets of Coruscant.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D8
 ~
 ~
@@ -928,7 +940,7 @@ S
 The ladies room~
 Another nondescript restroom, equipped with a stall, sink, and mirror. Strangely enough, nothing out of the ordinary. Aside from some jibberish carved into the mirror.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D6
 ~
 ~
@@ -941,13 +953,13 @@ S
 #7524
 Floating in a void~
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 S
 #7525
 A secret wall passage~
 Behind the wall, the passage is much cleaner. And brighter. The sounds of the cantina are drowned out through the wall, and you can hear the low buzz of the lighting now.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D1
 ~
 ~
@@ -961,7 +973,7 @@ S
 A bright corridor~
 Further down the corridor, the passage narrows as it comes to a sliding keycard-entry door. A small terminal to the left of the door has both a keypad and a card strip, and a camera watches you silently.
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D0
 ~
 ~
@@ -974,7 +986,7 @@ S
 #7527
 The Back Office~
 ~
-0 8 1 0 0 0 0 0 0 0 0 0 0 0
+0 8 1 0 0 0 7984
 D0
 ~
 ~
@@ -987,7 +999,7 @@ S
 #7528
 The Storeroom~
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D1
 ~
 ~
@@ -997,7 +1009,7 @@ S
 A large booth~
 Here is a large public booth, capable of seating several. The table in the center is completed with a white cloth and a lamp, providing a mellow light throughout the booth.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D2
 ~
 ~
@@ -1007,7 +1019,7 @@ S
 A large booth~
 Here is a large public booth, capable of seating several. The table in the center is completed with a white cloth and a lamp, providing a mellow light throughout the booth.
 ~
-0 12 1 0 0 0 0 0 0 0 0 0 0 0
+0 12 1 0 0 0 7984
 D0
 ~
 ~
@@ -1016,17 +1028,17 @@ S
 #7560
 Floating in a void~
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 S
 #7561
 Floating in a void~
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 S
 #7570
 The New Republic Gallery~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D8
 ~
 ~
@@ -1041,7 +1053,7 @@ just about every direction containing exhibits from Ewoks to
 Jedi.  Many people crowd this area, looking for information
 on their interests.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -1079,7 +1091,7 @@ its long and prosperous reign was seeming cut short, many artifacts
 and memories have been donated to help people to remember one
 of the greatest moments in galactic history.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -1097,7 +1109,7 @@ proof mechanisms.  A small cleaning droid scuttles about, picking
 up the trash of the many reminecent tourists who are fond of
 those old days.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D1
 ~
 ~
@@ -1116,7 +1128,7 @@ yet most are in a state of disrepair, and while the oustide
 is fine, most do not work.  This helps protect against thievery.Feel
 free to view the exhibits, just dont touch.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D3
 ~
 ~
@@ -1125,7 +1137,7 @@ S
 #7575
 The Rebellion Gallery~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -1138,7 +1150,7 @@ S
 #7576
 The Rebellion Gallery~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -1147,7 +1159,7 @@ S
 #7577
 Hall of Weapons~
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 D9
 ~
 ~
@@ -1161,7 +1173,7 @@ from anywhere and everywhere.Most of it has an imperial twist,
 but some of the exhibits have remained untouched for centuries.
 There is a ticketseller by the door.  Maybe you should go in.
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D3
 ~
 ~
@@ -1170,7 +1182,7 @@ S
 #7579
 Spaceship Gallery~
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 D6
 ~
 ~
@@ -1179,12 +1191,12 @@ S
 #7580
 Exiting the Museum~
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 S
 #7581
 Museum Rest Area~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D0
 ~
 ~
@@ -1201,7 +1213,7 @@ S
 #7582
 Vending Area~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D2
 ~
 ~
@@ -1210,7 +1222,7 @@ S
 #7583
 Exiting the museum~
 ~
-0 1073741824 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741824 1 0 0 0 7984
 D1
 ~
 ~
@@ -1219,7 +1231,7 @@ S
 #7584
 Imperial Recruitment Center~
 ~
-0 1342177292 1 0 0 0 0 0 0 0 0 0 0 0
+0 1342177292 1 0 0 0 7984
 D8
 ~
 ~
@@ -1228,20 +1240,62 @@ S
 #7585
 Floating in a void~
 ~
-0 1073741828 1 0 0 0 0 0 0 0 0 0 0 0
+0 1073741828 1 0 0 0 7984
 S
 #7650
 Floating in a void~
 ~
-0 4 1 0 0 0 0 0 0 0 0 0 0 0
+0 4 1 0 0 0 7984
 S
 #0
 
 
 #RESETS
+M 1 1103 1 1055
+M 1 1073 1 1073
+M 1 1060 23 1073
+M 1 1060 23 1073
 M 1 7502 1 7502
+G 1 3 1
+M 1 1075 1 7509
+M 1 7500 1 7650
+M 1 7650 1 7650
+O 1 7650 1 7650
+O 1 7500 1 7650
+O 1 38 1 7511
+O 1 116 1 7527
+O 1 7505 1 7521
+M 1 7503 1 7512
+E 1 1068 1 16
+O 1 7502 1 7512
+M 1 7506 1 7528
+O 1 7511 1 7528
+O 1 7512 1 7528
+M 1 7507 1 7530
+G 1 3 1
+M 1 7508 1 7530
+O 1 1856 1 7530
+O 1 1856 1 7529
+O 1 1856 1 7519
+O 1 1856 1 7520
+O 1 7515 1 7522
+O 1 7517 1 7523
+M 1 7505 1 7513
+G 1 1146 1
+G 1 7508 1
+G 1 7509 1
+G 1 7510 1
+G 1 7507 1
+G 1 7506 1
+M 1 1058 21 7513
+O 1 7503 1 7513
+O 1 7504 1 7513
+M 1 7578 1 7578
+G 1 3 1
+G 1 7578 1
 D 0 7578 3 1
 M 1 7579 1 7584
+O 1 18016 1 7584
 M 1 7509 1 7507
 S
 

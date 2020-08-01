@@ -518,8 +518,8 @@ void talk_channel( CHAR_DATA *ch, char *argument, int channel, const char *verb 
 	  break;
 
     case CHANNEL_ASK:
-	    ch_printf( ch, "&G(&gAsk: &G&W%s&G) &W'%s'\n\r", ch->name, argument );
-	    sprintf( buf, "&G(&gAsk: &G&W%s&G) &W'%s'\n\r", ch->name, argument );
+	    ch_printf( ch, "&G(((&gAsking for Help: &G&W%s&G))) &W'%s'\n\r", ch->name, argument );
+	    sprintf( buf, "&G(((&gAsking for Help: &G&W%s&G))) &W'%s'\n\r", ch->name, argument );
 	  break;
     
     case CHANNEL_NEWBIE:
@@ -553,8 +553,8 @@ void talk_channel( CHAR_DATA *ch, char *argument, int channel, const char *verb 
     
     case CHANNEL_SITH:
 	    set_char_color( AT_BLOOD, ch );
-	    ch_printf( ch, "You say over a Sith Network '%s'\n\r", argument );
-	    sprintf( buf, "$n speaks over a Sith Network '$t'" );
+	    ch_printf( ch, "&R[&WSith: You &R] - %s\n\r", argument );
+	    sprintf( buf, "&R[&WSith: $n&R] - &W$t" );
 	  break;
 
     case CHANNEL_AVTALK:
@@ -2452,11 +2452,11 @@ void do_save( CHAR_DATA *ch, char *argument )
     if ( !IS_SET( ch->affected_by, AFF_DARKVISION ) && IS_SET(ch->pcdata->alchemy, ALCHEMY_DARKVISION) )
 	SET_BIT( ch->affected_by, AFF_DARKVISION );
 
-    if ( NOT_AUTHED(ch) )
-    { 
-      send_to_char("You can't save untill after you've graduated from the acadamey.\n\r", ch);
-      return;
-    }
+    //if ( NOT_AUTHED(ch) ) //CODELYFE
+    //{ 
+    //  send_to_char("You can't save untill after you've graduated from the acadamey.\n\r", ch);
+    //  return;
+   //}
 
 //Save backups. Might cause troubles with file accessing.
     sprintf( strsave, "%s%c/%s", PLAYER_DIR, tolower(ch->name[0]),

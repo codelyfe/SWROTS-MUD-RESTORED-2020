@@ -1,2 +1,14 @@
 [*****] BOOT: ---------------------[ Boot Log ]--------------------
-[*****] BOOT: Fix_exits: room 107, exit north leads to bad vnum (666)
+[*****] BOOT: Load_resets: calamari.are (44) 'O': room 1243 doesn't exist.
+[*****] BOOT: Load_resets: bakura.are (5) 'O': object 1856 doesn't exist.
+[*****] BOOT: Load_resets: bakura.are (6) 'O': object 1856 doesn't exist.
+[*****] BOOT: Load_resets: bakura.are (7) 'O': object 1856 doesn't exist.
+[*****] BOOT: Load_resets: bakura.are (8) 'O': object 1856 doesn't exist.
+[*****] BOOT: Load_resets: Corellia.are (116) 'O': object 1141 doesn't exist.
+[*****] BOOT: Load_resets: Corellia.are (161) 'M': mobile 202 doesn't exist.
+[*****] BOOT: Load_resets: Corellia.are (167) 'O': object 1926 doesn't exist.
+[*****] BOOT: Load_resets: Corellia.are (168) 'O': object 1243 doesn't exist.
+[*****] BOOT: Load_resets: Corellia.are (169) 'M': mobile 1144 doesn't exist.
+[*****] BOOT: Load_resets: Corellia.are (170) 'M': mobile 1144 doesn't exist.
+[*****] BOOT: Fix_exits: room 669, exit down leads to bad vnum (1050)
+[*****] BOOT: Fix_exits: room 9034, exit northwest leads to bad vnum (227)

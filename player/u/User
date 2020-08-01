@@ -8,10 +8,10 @@ Languages    -1 16384
 Toplevel     36
 Pheight      2
 Build        2
-Played       632
+Played       874
 Ship            ~
 ShipNum         0
-Room         100
+Room         46
 HpManaMove   27 27 0 0 1000 1000
 Gold         1000
 Bank         0
@@ -174,8 +174,8 @@ Fortitude    2
 Droid_type   0
 Rppoints   0
 Mentalstate  -8
-Password     save
-Lastplayed   1101403975
+Password     Go6DFzwFA78R.~
+Lastplayed   1585064541
 Title         User. The defaultest of users.~
 AuthedBy     User~
 Addiction    0 0 0 0 0 0 0 0 0 0
@@ -187,7 +187,7 @@ MDeaths      0
 AttrPerm     14 10 12 12 8 10 10
 AttrMod      0 0 0 0 0 0 0
 Condition    0 48 48 10
-Site         localhost
+Site         host.docker.internal
 QuestData     newbie~  1
 Has_passed    0
 Has_trained   0
