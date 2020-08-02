@@ -1,0 +1,149 @@
+html, body {
+	background: #000;
+	color: #fff;
+	margin: 0px;
+	height: 100%;
+	min-height: 100%;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+p, h2, pre {
+	margin: 0px; 
+	padding: 5px; 
+}
+
+A:link, A:visited, A:active {
+	color: #327CE3;
+	text-decoration: none;
+}
+
+A:hover {
+	color: #fff; 
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0;
+	padding: 0;	
+}
+
+h2 {color: #327CE3;}
+
+input {
+	background: #242424;
+	border: 1px solid #464646;
+	color: #fff;
+}
+
+table {width: 100%;}
+
+td {vertical-align: top;}
+
+.clear {clear: both; height: 10px;}
+
+#logo {vertical-align: middle; padding: 10px; height: 40px;}
+
+#interface {
+	position: relative;
+	width: 98%;
+	height: 100%;
+	margin: 0px auto;						
+}
+
+#c_header {			
+	height: 50px;			
+	padding-top: 10px;		
+}
+
+#header {			
+	height: 40px;		
+}
+	
+#c_wrap {position: relative;}
+	
+#c_output {			
+	margin-right: 210px;	
+	position: relative;							
+}	
+
+#c_right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;			
+}
+
+#output {
+	border: 1px solid #464646;
+	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 5px;
+	font-family: monospace;
+	font-size: 13px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+#c_footer {
+	margin-right: 222px; 
+	height: 35px;
+}
+
+.clear {clear: both; height: 10px; }
+
+#user_input {
+	border: 1px solid #464646;	
+	width: 100%; 
+	padding: 5px;
+}
+
+#connection_ws, #connection_mud {
+	border: 1px solid #464646;
+	padding-bottom: 5px;	
+	height: 30px;
+	font-family: Arial;
+	text-align: center;
+}
+
+#map {
+	border: 1px solid #464646;
+	padding: 1px;	
+	height: 180px;
+}
+
+#movement {
+	border: 1px solid #464646;
+	padding: 5px;
+	height: 120px;
+	font-size: 12pt;
+}
+
+#movement table { height: 100%; }
+
+#movement td {
+	width: 33%;
+	height: 33%;
+	background: #242424;
+	cursor: pointer;
+}
+
+#movement td:hover {
+	background: #464646;
+}
+
+#movement a {
+	padding: 5% 25%;
+	border: 1px solid red;
+}
+
+#autoscroll {
+	display: none;
+	border: 1px solid red;
+	font-size: 18px;
+	padding-top: 4px;
+	height: 30px;
+	font-family: Arial;
+	text-align: center;
+}

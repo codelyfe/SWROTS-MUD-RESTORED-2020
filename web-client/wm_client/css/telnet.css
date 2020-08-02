@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+.tnc_default {color: inherit;}
+.tnc_bg_default {background: #transparent;}
+
+.tnc_inverse {color: black; background: white;}
+
+.tnc_black {color: #464646;}
+.tnc_red {color: red;}
+.tnc_green {color: green;}
+.tnc_yellow {color: yellow;}
+.tnc_blue {color: blue;}
+.tnc_magenta {color: magenta;}
+.tnc_cyan {color: cyan;}
+.tnc_white {color: white;}
+
+.tnc_bg_black {background-color: #242424;}
+.tnc_bg_red {background-color: maroon;}
+.tnc_bg_green {background-color: green;}
+.tnc_bg_yellow {background-color: olive;}
+.tnc_bg_blue {background-color: navy;}
+.tnc_bg_magenta {background-color: purple;}
+.tnc_bg_cyan {background-color: teal;}
+.tnc_bg_white {background-background-color: silver;}
+
