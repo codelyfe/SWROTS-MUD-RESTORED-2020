@@ -1,0 +1,311 @@
+#AREA   Florrum~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#31410
+florrum pirate~
+a pirate lookout~
+A pirate lookout sits the switchback and does not wave.
+~
+Sun, a rifle, and a bell in reach.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31411
+still tender~
+a still tender~
+A still tender checks a coil.
+~
+The tender's eyebrows have opinions about the fire.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31412
+bar keep~
+a bartender~
+A bartender polishes the hull plate.
+~
+The drink is clear. The bartender will say what it is if you pay.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say A drink. I will tell you what it is after you buy it.
+~
+|
+#0
+
+
+#OBJECTS
+#32795
+clear bottle~
+a bottle of clear drink~
+A bottle of clear drink sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+12
+0
+#32796
+scrap bell~
+a scrap-metal bell~
+A scrap-metal bell lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+7
+0
+#0
+
+
+#ROOMS
+#31304
+Pirate Pad~
+The pad is a mesa top. Canyons cut the desert in every direction. A pirate flag, which is a scrap, flies because it can.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31305
+D2
+~
+~
+0 -1 31309
+S
+#31305
+Pirate Camp~
+Tents, a still, and a fire pit. The flag is a scrap. Someone is always watching the pad and pretending not to.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31304
+D1
+~
+~
+0 -1 31306
+D3
+~
+~
+0 -1 31307
+D0
+~
+~
+0 -1 31308
+S
+#31306
+Canyon~
+A canyon floor of red rock. Shade at the bottom is precious and claimed.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 31305
+D0
+~
+~
+0 -1 31310
+S
+#31307
+Salvage Yard~
+Salvage is sorted into piles that only the owner understands. A sign says ASK and means it.
+~
+0 0 10 0 0 0 0
+D1
+~
+~
+0 -1 31305
+S
+#31308
+Bar~
+A bar cut into the mesa. The counter is a hull plate. The drinks are whatever the still decided.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31305
+D1
+~
+~
+0 -1 31311
+S
+#31309
+Cave Store~
+A cave of stolen crates. Some are still sealed. A lock on the cave is theatrical and also real.
+~
+0 0 13 0 0 0 0
+D0
+~
+~
+0 -1 31304
+S
+#31310
+Mesa Rim~
+The rim looks over canyon after canyon. The view is the whole business model.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31306
+D0
+~
+~
+0 -1 32780
+S
+#31311
+South Trail~
+A trail switchbacks down. It is easier to fly. People walk it when they do not want to be seen flying.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 31308
+S
+#32780
+Switchback Watch~
+A turn in the trail with a view of the pad. A seat, a rifle rack, and a bell of scrap metal.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31310
+D0
+~
+~
+0 -1 32781
+D1
+~
+~
+0 -1 32782
+S
+#32781
+Still Shed~
+The still. Coils, a fire, and a jug marked with a skull that is a joke and a warning.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32780
+D3
+~
+~
+0 -1 32783
+S
+#32782
+Hull Bar~
+The bar from behind the plate. Bottles, a locker, and a list of who is not served.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32780
+D0
+~
+~
+0 -1 32784
+S
+#32783
+Ask Pile~
+The salvage pile with the sign. Up close it is labeled, in a way. The labels are insults.
+~
+0 0 10 0 0 0 0
+D1
+~
+~
+0 -1 32781
+S
+#32784
+Crate Cave~
+Inside the theatrical lock. Crates, a cot, and a second exit the lock does not know about.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32782
+D1
+~
+~
+0 -1 32785
+S
+#32785
+Shade Claim~
+The claimed shade on the canyon floor. A blanket, a rifle, and a cooler. The cooler is the wealth.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 32784
+S
+#0
+
+
+#RESETS
+M 1 31410 1 31310
+M 1 31411 1 32781
+M 1 31412 1 32782
+G 1 32795 1
+O 1 32796 1 31310
+S
+
+
+#SHOPS
+31412 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,311 @@
+#AREA   Cato Neimoidia~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32270
+neimoidian clerk~
+a Neimoidian clerk~
+A Neimoidian clerk presses a seal into wax.
+~
+Rich cloth, a careful mouth, and ink on one finger.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32271
+bridge smith~
+a bridge smith~
+A bridge smith turns a lock hasp.
+~
+Soot and a good hammer.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32272
+purse merchant~
+a purse merchant~
+A purse merchant displays a small chest.
+~
+The merchant sells locks, seals, and the idea of safety.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Locks and seals. The bridge is only as safe as the paperwork.
+~
+|
+#0
+
+
+#OBJECTS
+#32275
+wax seal~
+a trade seal~
+A trade seal of red wax lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+10
+0
+#32276
+lock hasp~
+a lock hasp~
+A new lock hasp lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+40
+0
+#0
+
+
+#ROOMS
+#31080
+Bridge-City Pad~
+The pad hangs off a palace built on a rock bridge. Forest is a long way down, green and unbroken.
+~
+0 48 9 0 0 0 0
+D0
+~
+~
+0 -1 31081
+D2
+~
+~
+0 -1 31085
+S
+#31081
+Palace Span~
+A covered span links towers. Trade chests are stacked to one side, each one sealed and tagged.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31080
+D1
+~
+~
+0 -1 31082
+D3
+~
+~
+0 -1 31083
+D0
+~
+~
+0 -1 31084
+S
+#31082
+Treasury Hall~
+Cages and strongboxes fill a long room. The locks are heavy. A clerk's window looks in and does not open.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31081
+D0
+~
+~
+0 -1 31086
+S
+#31083
+Hanging Garden~
+Vines spill over the bridge edge. The air is thick and sweet. Insects the size of a thumb work the flowers.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 31081
+S
+#31084
+East Span~
+The eastern bridge narrows. Wind pushes you toward the rail. A shrine to a safe crossing is nailed to a post.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31081
+D1
+~
+~
+0 -1 31087
+S
+#31085
+West Span~
+Workshops open onto the western span. Hammers ring, and the ring comes back off the rock.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31080
+S
+#31086
+Vault Stair~
+Stairs drop to a vault door set in the bridge rock. North, a counting room takes the day's tags.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31082
+D0
+~
+~
+0 -1 32260
+S
+#31087
+Purse Court~
+A court for contracts and seals. Desks face each other across a rug worth more than the desks.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31084
+S
+#32260
+Counting Room~
+Tags, seals, and a board of what moved today. The north end of the vault stair smells of ink and wax.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31086
+D0
+~
+~
+0 -1 32261
+D1
+~
+~
+0 -1 32262
+S
+#32261
+Purse Vault~
+The vault door is open on a crack. Inside, empty shelves and one chest that is not empty.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32260
+D3
+~
+~
+0 -1 32263
+S
+#32262
+Bridge Shrine~
+A niche on the east span. Offerings are coins from a dozen mints. The wind does not reach them.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32260
+D0
+~
+~
+0 -1 32264
+S
+#32263
+West Forge~
+The workshop that rings. A Neimoidian smith shapes a lock hasp and does not look up.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32261
+S
+#32264
+Hanging Walk~
+A walk under the vines. You can see the forest through gaps, very far down.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 32262
+D1
+~
+~
+0 -1 32265
+S
+#32265
+Contract Gallery~
+Copies of contracts hang in frames, the expensive kind, meant to be seen.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32264
+S
+#0
+
+
+#RESETS
+M 1 32270 1 31086
+M 1 32271 1 32261
+M 1 32272 1 32262
+G 1 32275 1
+O 1 32276 1 31086
+S
+
+
+#SHOPS
+32272 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,311 @@
+#AREA   Umbara~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32750
+umbara soldier~
+an Umbaran soldier~
+An Umbaran soldier watches the view slit.
+~
+Pale, precise, and hard to see even in the room.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32751
+path painter~
+a path painter~
+A path painter refreshes a glowing mark.
+~
+The painter trusts the new color and not the old.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32752
+camp cook~
+a camp cook~
+A camp cook tends a coal pot.
+~
+The cook sells a bowl and eats the same bowl.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Paint for the path. Food if you are staying in the dark.
+~
+|
+#0
+
+
+#OBJECTS
+#32755
+glow paint~
+a pot of glow paint~
+A pot of glow paint sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+16
+0
+#32756
+coal bowl~
+a bowl from the coal pot~
+A covered bowl sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+5
+0
+#0
+
+
+#ROOMS
+#31288
+Shadow Pad~
+The pad is lit by lamps. Daylight never quite arrives. The forest is a dark that moves.
+~
+0 48 3 0 0 0 0
+D0
+~
+~
+0 -1 31289
+D2
+~
+~
+0 -1 31293
+S
+#31289
+Black Grass~
+Grass is black and waist high. It whispers when there is no wind you can feel.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31288
+D1
+~
+~
+0 -1 31290
+D3
+~
+~
+0 -1 31291
+D0
+~
+~
+0 -1 31292
+S
+#31290
+Militia Road~
+A road of pale stone through the dark. Markers glow faintly. They are the only friendly thing, and they are not that friendly.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31289
+D0
+~
+~
+0 -1 31294
+S
+#31291
+Biolume Cave~
+A cave of blue growth. It is the brightest place in the region. The light is alive and minds being picked.
+~
+0 0 13 0 0 0 0
+D1
+~
+~
+0 -1 31289
+S
+#31292
+Camp~
+A camp of low tents. Fires are hooded. People speak toward the ground.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31289
+D1
+~
+~
+0 -1 31295
+S
+#31293
+Ridge~
+A ridge against a dim sky. The forest is a black sea. A post has a lamp and a horn.
+~
+0 0 4 0 0 0 0
+D0
+~
+~
+0 -1 31288
+S
+#31294
+Outpost~
+A concrete outpost. Shutters are down. North, a trench of the pale stone runs into the trees.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31290
+D0
+~
+~
+0 -1 32740
+S
+#31295
+South Path~
+A path marked with glowing paint. The paint is new. The old marks are a different color and wrong.
+~
+0 0 3 0 0 0 0
+D3
+~
+~
+0 -1 31292
+S
+#32740
+Pale Trench~
+North of the outpost, a trench of the same pale stone as the road. It is cover, and it glows, which is a trade.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31294
+D0
+~
+~
+0 -1 32741
+D1
+~
+~
+0 -1 32742
+S
+#32741
+Hooded Camp~
+Inside a tent. The fire is a coal in a pot. Bedrolls are neat because neat is harder to trip over.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32740
+D3
+~
+~
+0 -1 32743
+S
+#32742
+Blue Cave Mouth~
+The cave from just inside. The blue is thicker. A rope marks where not to step.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32740
+D0
+~
+~
+0 -1 32744
+S
+#32743
+Lamp Post~
+The ridge post. The lamp, the horn, and a log of what the horn was blown for.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 32741
+S
+#32744
+Paint Store~
+A box on the path where the glowing paint is kept. The brush is tied to the box.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32742
+D1
+~
+~
+0 -1 32745
+S
+#32745
+Shutter Room~
+Inside the outpost. Maps of the road. The shutters have a view slit and the slit is manned.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32744
+S
+#0
+
+
+#RESETS
+M 1 32750 1 31294
+M 1 32751 1 32741
+M 1 32752 1 32742
+G 1 32755 1
+O 1 32756 1 31294
+S
+
+
+#SHOPS
+32752 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

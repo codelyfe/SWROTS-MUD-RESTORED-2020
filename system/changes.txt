@@ -1,0 +1,47 @@
+
+4-12-04 &G- &wNew Skills, Fskills, Feats and Ffeats implemented~
+4-13-04 &G- &wMidspace docking and pirate code completed~
+4-15-04 &G- &wSpecies and class helpfiles done~
+4-15-04 &G- &wDuck and Cover implemented~
+4-15-04 &G- &wGovernors and new ship data created~
+4-17-04 &G- &wCameras added~
+4-18-04 &G- &wLockers added in, rentlocker, lockercode~
+4-18-04 &G- &w2 Droid specific classes, 1 Racial Specific class~
+4-19-04 &G- &wClan Specific Classes implemented~
+4-19-04 &G- &wDroids have accessories, &rAccessory&w command~
+4-20-04 &G- &wNew score, clans and who list~
+4-20-04 &G- &wChecksenate command added for Senators~
+4-20-04 &G- &w&rSenate&w and &rJedicouncil&w commands added in~
+4-20-04 &G- &wPrototype ships implemented to price new ships~
+4-21-04 &G- &wNew Space system, no longer using star systems, the universe is now one verse ;)~
+4-22-04 &G- &w&bOsay&w, &bSith&w, &bBartokk&w and &bVerpine&w channels implemented~
+4-23-04 &G- &wIf you're in a buffer writing, it now shows on who list~
+4-25-04 &G- &wClan Bonuses implemented~
+4-25-04 &G- &wGovernors can now set tax rates and declare trade embargos~
+4-26-04 &G- &w&rPadawan&w and &rTest&w commands added for Jedi Masters~
+4-26-04 &G- &w&rMakesith&w command implemented~
+4-26-04 &G- &wOnly Sith Acolytes can level as Acolytes or Warriors, Only Sith Lords can level as a lord~
+4-28-04 &G- &wPlanetary Atmospheres implemented~
+4-28-04 &G- &wStances and Lightsaber Stances implemented~
+4-29-04 &G- &wAim Screennames appear on whois~
+4-29-04 &G- &wSkill and Feat help files completed~
+4-29-04 &G- &wSetreputation created to set between famous and infamous~
+5-02-04 &G- &wBattlemind, Enhance Ability and Alchemy commands implemented~
+5-03-04 &G- &wEnhancesenses, Farseeing, Fear, ForceDefense commands implemented~
+5-03-04 &G- &wForcegrip, forcelightning and forcestrike commands implemented~
+5-03-04 &G- &wFheal, force stealth and see force functions now~
+5-11-04 &G- &wMeditate command added, help meditate~
+5-11-04 &G- &wCallforce command added, help callforce~
+5-12-04 &G- &wLightsaber bonus defined by crystals used, 16 crystals implemented~
+5-31-04 &G- &wFinally moved, have internet and my birthday is over~
+5-31-04 &G- &wQuest data implemented, some quests only doable once~
+6-04-04 &G- &wDrainforce implemented~
+6-06-04 &G- &wSithsorcery implemented~
+6-06-04 &G- &wForcemind implemented~
+6-06-04 &G- &wNewbie Area completed~
+6-06-04 &G- &wDrainenergy implemented~
+6-12-04 &G- &wWizlock now saves for copyover and mud shut down/reboot~
+6-12-04 &G- &rJpromote&w command to make Padawans into Knights~
+6-18-04 &G- &rGatherinfo&w command implemented &rHELP GATHERINFO&w~
+6-21-04 &G- &wReputation now is displayed on &rwhois&w~
+6-21-04 &G- &rWhois&w now requires a datapad~

@@ -1,0 +1,274 @@
+#HEADER
+
+Name           Nebulon-B Escort Frigate~
+Sname          NebulonB~
+NumRooms       4
+Cost           900000
+Class          8
+Tractor        0
+primaryType    5
+primaryCount   6
+secondaryType  9
+secondaryCount 2
+RangeWeapons0  0
+RangeWeapons1  0
+RangeWeapons2  0
+Hull           900
+Shields        280
+Energy         12000
+Chaff          10
+Maxbombs       12
+Speed          50
+Hyperspeed     2
+Manuever       40
+Turrets        4
+Mods	    6
+Clan           The Republic~
+End
+
+#ROOMS
+
+#ROOM
+
+RoomNum           1
+Name              Bridge of a Nebulon-B~
+Desc              The forward blade of a Kuat escort frigate. Viewports look over the bow, and the medical frigate's comm station is built into the port console.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       0
+Exits1       0
+Exits2       2
+Exits3       0
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          1
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+#ROOM
+
+RoomNum           2
+Name              Spine corridor of a Nebulon-B~
+Desc              A long spar connects the bow blade to the engine block. The deck hums with the power trunks running aft.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       1
+Exits1       0
+Exits2       3
+Exits3       4
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          0
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+#ROOM
+
+RoomNum           3
+Name              Medical bay of a Nebulon-B~
+Desc              Bacta tanks and recovery couches fill the compartment the Alliance used as a hospital ship.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       0
+Exits1       2
+Exits2       0
+Exits3       0
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          0
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+#ROOM
+
+RoomNum           4
+Name              Engine block of a Nebulon-B~
+Desc              The seven ion engines of the stern block are monitored from this deck, above the lower turbolaser batteries.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       0
+Exits1       2
+Exits2       0
+Exits3       0
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          4
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+
+#ENDROOMS
+
+#END

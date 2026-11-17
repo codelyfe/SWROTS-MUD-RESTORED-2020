@@ -1,0 +1,311 @@
+#AREA   Lothal~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32470
+lothal farmer~
+a grass farmer~
+A grass farmer shades their eyes.
+~
+Dust and a speeder key on a cord.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32471
+tower tech~
+a tower tech~
+A tower tech listens to a hissing radio.
+~
+The tech lives in the shack and likes it.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32472
+fuel seller~
+a fuel seller~
+A fuel seller leans on the pump.
+~
+The price is painted. The seller will point at it.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Fuel chits. Grain if you are headed out.
+~
+|
+#0
+
+
+#OBJECTS
+#32475
+fuel chit~
+a fuel chit~
+A fuel chit lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+20
+0
+#32476
+grain sack lothal~
+a sack of grain~
+A sack of grain sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+12
+0
+#0
+
+
+#ROOMS
+#31176
+Capital Pad~
+The pad overlooks a small capital and a sea of grass. The wind lays the grass down in waves.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31177
+D2
+~
+~
+0 -1 31181
+S
+#31177
+Capital Street~
+Shops and a fuel sign line a dusty street. Speeders are parked with their noses out, ready to leave.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31176
+D1
+~
+~
+0 -1 31178
+D3
+~
+~
+0 -1 31179
+D0
+~
+~
+0 -1 31180
+S
+#31178
+Grass Sea~
+Grass reaches the knee and runs to the horizon. The wind lays it flat and lets it up again.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31177
+D0
+~
+~
+0 -1 31182
+S
+#31179
+Comm Tower~
+A tower stands alone in the grass. The dish still turns. A ladder is bolted to the leg, and the bolts are new.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31177
+S
+#31180
+Old Temple Path~
+Stones mark a path that does not match the farms around it. The grass is shorter on the path, as if it were walked in the dark.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31177
+D1
+~
+~
+0 -1 31183
+S
+#31181
+Market~
+Crates of grain and machine parts share a square. A seller has a scale and a patient expression.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31176
+S
+#31182
+South Farm~
+A farmhouse and a silo. A landspeeder shed stands open. North, a track runs to the old stones.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31178
+D0
+~
+~
+0 -1 32460
+S
+#31183
+Fuel Depot~
+Tanks and a pump. The ground is stained dark. The price of fuel is painted on the tank, large enough to read from a speeder.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31180
+S
+#32460
+Old Stone Track~
+North of the farm, the track finds the stones. They are older than the capital. Someone has left a lamp at the first one.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31182
+D0
+~
+~
+0 -1 32461
+D1
+~
+~
+0 -1 32462
+S
+#32461
+Grass Camp~
+A camp just off the stones. A ring of worn ground, a cold fire, and a view of nothing but grass.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 32460
+D3
+~
+~
+0 -1 32463
+S
+#32462
+Comm Shack~
+The bottom of the tower. Radios, a cot, and a log of who called. The dish whirs above.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32460
+D0
+~
+~
+0 -1 32464
+S
+#32463
+Fuel Office~
+A shack by the pump. Chits, a locked drawer, and a fan that works.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32461
+S
+#32464
+Capital Alley~
+An alley off the street where the shops keep their crates. A tooka has a kingdom.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32462
+D1
+~
+~
+0 -1 32465
+S
+#32465
+Silo Stair~
+Stairs up the silo to a hatch. The grain smell is thick. The view is the grass sea.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32464
+S
+#0
+
+
+#RESETS
+M 1 32470 1 31182
+M 1 32471 1 32461
+M 1 32472 1 32462
+G 1 32475 1
+O 1 32476 1 31182
+S
+
+
+#SHOPS
+32472 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

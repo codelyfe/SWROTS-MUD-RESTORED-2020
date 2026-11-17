@@ -1,0 +1,311 @@
+#AREA   Felucia~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32170
+felucian farmer~
+a Felucian farmer~
+A Felucian farmer straightens from a crop row.
+~
+Tall, mottled, and patient. A harvest blade rests on the shoulder.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32171
+healer felucia~
+a village healer~
+A village healer sorts dried leaves.
+~
+The hands are stained every color of the forest.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32172
+spore trader~
+a spore trader~
+A spore trader weighs a basket.
+~
+The trader buys nysillin and sells almost nothing else.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Nysillin. Fresh cut. Do not squeeze the bag.
+~
+|
+#0
+
+
+#OBJECTS
+#32175
+nysillin bundle~
+a bundle of nysillin~
+A bundle of nysillin lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+45
+0
+#32176
+spore carved~
+a carved spore~
+A carved spore lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+8
+0
+#0
+
+
+#ROOMS
+#31040
+Spore Pad~
+The pad is a scraped circle in a forest of giant fungi. Spores drift like colored snow. The air is sweet and thick.
+~
+0 48 3 0 0 0 0
+D0
+~
+~
+0 -1 31041
+D2
+~
+~
+0 -1 31045
+S
+#31041
+Fungus Forest~
+Trunks glow a faint blue. The ground is soft, and every step sinks a little. Something small skitters up a stalk and is gone.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31040
+D1
+~
+~
+0 -1 31042
+D3
+~
+~
+0 -1 31043
+D0
+~
+~
+0 -1 31044
+S
+#31042
+Nysillin Field~
+Low nysillin crops grow between the stalks. Baskets sit half full. The leaves are the brightest green you have ever seen.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31041
+D0
+~
+~
+0 -1 31046
+S
+#31043
+River Ford~
+A slow river cuts the color. Flat stones make a crossing. The water is clear and surprisingly cold.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 31041
+S
+#31044
+Village Stilts~
+Huts stand on roots above the mud. Smoke comes from one roof. A child's toy, a carved spore, lies on a step.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31041
+D1
+~
+~
+0 -1 31047
+S
+#31045
+Blossom Cave~
+A cave mouth breathes sweet air. Petals carpet the floor. The walls are soft and should not be touched.
+~
+0 0 13 0 0 0 0
+D0
+~
+~
+0 -1 31040
+S
+#31046
+Ridge Walk~
+The forest drops away from a ridge. Color goes on until the haze eats it. North, a healer's path is marked with white stones.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31042
+D0
+~
+~
+0 -1 32160
+S
+#31047
+Healer's Hut~
+Jars and dried leaves crowd a low room. A cot sits under a window of stretched hide. The smell is clean and sharp.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31044
+S
+#32160
+Healer's Path~
+White stones mark a path north off the ridge. The fungi thin. A hut larger than the others stands at the end.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31046
+D0
+~
+~
+0 -1 32161
+D1
+~
+~
+0 -1 32162
+S
+#32161
+Herb Loft~
+Bundles hang from the rafters: blue, red, and a pale yellow that glows. A mortar is still damp.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32160
+D3
+~
+~
+0 -1 32163
+S
+#32162
+Spore Nursery~
+Young fungi are planted in rows of wet bark. They lean toward the door when it opens.
+~
+0 0 3 0 0 0 0
+D3
+~
+~
+0 -1 32160
+D0
+~
+~
+0 -1 32164
+S
+#32163
+River Hide~
+A hide platform sits over the river. Nets dry on a rail. Fish scales pave the boards.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 32161
+S
+#32164
+Village Circle~
+The huts face a fire pit on stilts. Drums hang under an eave, skin-side in, out of the damp.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32162
+D1
+~
+~
+0 -1 32165
+S
+#32165
+Nysillin Shed~
+The shed smells green. Baskets are stacked by grade. A slate lists buyers who are not from here.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32164
+S
+#0
+
+
+#RESETS
+M 1 32170 1 31046
+M 1 32171 1 32161
+M 1 32172 1 32162
+G 1 32175 1
+O 1 32176 1 31046
+S
+
+
+#SHOPS
+32172 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

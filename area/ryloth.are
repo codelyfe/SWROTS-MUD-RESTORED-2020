@@ -1,0 +1,311 @@
+#AREA   Ryloth~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32530
+twilek clan~
+a Twi'lek clan guard~
+A Twi'lek clan guard stands the stair.
+~
+Lekku wrapped, a rifle easy in the hands, and a look that prices you.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32531
+leather worker~
+a leather worker~
+A leather worker turns a hide.
+~
+The hands are dark with the vat.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32532
+spice seller~
+a spice seller~
+A spice seller measures a spoon.
+~
+Not the Kessel kind. Kitchen kind. The seller will say so.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Spice for food. Leather if you need the sun off your neck.
+~
+|
+#0
+
+
+#OBJECTS
+#32535
+leather wrap~
+a leather wrap~
+A leather wrap lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+22
+0
+#32536
+kitchen spice~
+a measure of kitchen spice~
+A measure of kitchen spice sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+9
+0
+#0
+
+
+#ROOMS
+#31200
+Ryloth Pad~
+The pad is cut into a hot cliff. Cave mouths dot the rock. Heat comes off the stone in a shimmer.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31201
+D2
+~
+~
+0 -1 31205
+S
+#31201
+Cave City~
+The city is a stack of caves. Cloth doors move in a wind that does not cool anything.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31200
+D1
+~
+~
+0 -1 31202
+D3
+~
+~
+0 -1 31203
+D0
+~
+~
+0 -1 31204
+S
+#31202
+Clan Market~
+The market is a wide cave. Spice and leather smell strong. Voices bounce and stay.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31201
+D0
+~
+~
+0 -1 31206
+S
+#31203
+Heat Plain~
+The plain bakes. Shade is a thin line under the cliff. People cross in the morning or not at all.
+~
+0 0 10 0 0 0 0
+D1
+~
+~
+0 -1 31201
+S
+#31204
+Clan Hall~
+A hall of rugs and low seats. Weapons hang as decoration and are also sharp.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31201
+D1
+~
+~
+0 -1 31207
+S
+#31205
+Starport Office~
+A desk, a fan, and a board of departure times. The fan is the most popular machine on the planet.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31200
+S
+#31206
+Freed Pits~
+Old pits in the rock. The gates are off their hinges and stacked, not hung. North, a clan stair climbs.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31202
+D0
+~
+~
+0 -1 32520
+S
+#31207
+Night Ridge~
+The ridge radiates heat. It does not cool. A watch fire is unnecessary and is lit anyway.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31204
+S
+#32520
+Clan Stair~
+North of the old pits, a stair the clans use. Marks on the wall say who may climb. You are not on the list, and the stair does not care.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 31206
+D0
+~
+~
+0 -1 32521
+D1
+~
+~
+0 -1 32522
+S
+#32521
+Leather Market~
+The working side of the market. Hides, tools, and a vat of something that preserves.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32520
+D3
+~
+~
+0 -1 32523
+S
+#32522
+Rug Hall~
+The hall from the dais. You can see every seat. A drum sits where a speech would stand.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32520
+D0
+~
+~
+0 -1 32524
+S
+#32523
+Starport Fan Room~
+The room that exists to hold the fan and the board. A clerk drinks and does not offer.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32521
+S
+#32524
+Shade Porch~
+A porch under the cliff, the good shade. People wait here for the plain to be possible.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 32522
+D1
+~
+~
+0 -1 32525
+S
+#32525
+Watch Fire~
+The ridge fire, a circle of stones and a stack of dry scrub. The watch is a Twi'lek with a rifle and a hat.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 32524
+S
+#0
+
+
+#RESETS
+M 1 32530 1 31206
+M 1 32531 1 32521
+M 1 32532 1 32522
+G 1 32535 1
+O 1 32536 1 31206
+S
+
+
+#SHOPS
+32532 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

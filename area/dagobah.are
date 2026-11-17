@@ -1,0 +1,321 @@
+#AREA   Dagobah~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32056
+creature small swamp~
+a small swamp creature~
+A small swamp creature watches from a root.
+~
+It is about the size of a helmet, with large eyes and patient hands.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32057
+snake bog~
+a bog snake~
+A bog snake is coiled on the bridge.
+~
+The scales are the color of the water. It is not interested in you yet.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#32058
+stick practice~
+a practice stick~
+A smooth practice stick lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+1
+0
+#32059
+herb dried~
+a bundle of dried herbs~
+A bundle of dried herbs lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+8
+0
+#0
+
+
+#ROOMS
+#31096
+Bog Landing~
+The landing is a raft of logs lashed to roots. The swamp closes in the
+moment you step off a ship. Mist sits on black water. Something small
+moves in the reeds and decides you are not food.
+~
+0 48 2 0 0 0 0
+D0
+~
+~
+0 -1 31097
+D2
+~
+~
+0 -1 31101
+S
+#31097
+Mist Path~
+Roots make the path, and the path is the only dry thing. Mist hides
+anything past a few steps. The mud sucks at boots. A stick has been cut
+as a walking staff and left against a root.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31096
+D1
+~
+~
+0 -1 31098
+D3
+~
+~
+0 -1 31099
+D0
+~
+~
+0 -1 31100
+S
+#31098
+Dark Cave~
+The cave mouth breathes colder air than the swamp. The dark inside does
+not match the hour. Vines frame it like a mouth. People who go in come
+out quiet, if they come out.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31097
+D0
+~
+~
+0 -1 31102
+D5
+~
+~
+0 -1 32054
+S
+#31099
+Hut Under the Roots~
+The hut is mud, scrap, and a living root for a beam. A pot hangs over
+cold ash. The floor is packed earth, swept in a circle. Jars of dried
+leaves line a shelf. The yard is north.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31097
+D0
+~
+~
+0 -1 32050
+S
+#31100
+Still Pool~
+The pool is black and still. A bubble rises and does not break for a
+long time. Tracks of a small three-toed foot mark the mud at the edge.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31097
+D1
+~
+~
+0 -1 31103
+S
+#31101
+Dragon Tree~
+A trunk wider than a house splits the path. Vines hang like ropes, and
+one of them has been knotted into a swing. The bark is carved with a
+simple circle, old and gray.
+~
+0 0 3 0 0 0 0
+D0
+~
+~
+0 -1 31096
+S
+#31102
+Root Bridge~
+Roots have grown into a bridge over a sink of brown water. The bridge
+sways. Below, the water moves as if something large turned over.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31098
+S
+#31103
+High Knoll~
+A rare dry knoll. The canopy opens on a gray sky, the first sky you
+have seen since landing. From here the swamp is a green bowl, and the
+hut's smoke, when there is smoke, is a thin white thread.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31100
+D0
+~
+~
+0 -1 32053
+S
+#32050
+Hut Yard~
+A yard of packed mud under the great roots. A stump is a table. Practice
+sticks lie in a neat pile. The hut is south. A cook fire ring is east.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31099
+D1
+~
+~
+0 -1 32051
+D0
+~
+~
+0 -1 32052
+S
+#32051
+Cook Fire~
+The fire ring is stones and white ash. A kettle hangs from a root hook.
+Herbs dry on a string. Jars are labeled in a hand too small to read
+quickly. The training ground is north.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 32050
+D0
+~
+~
+0 -1 32053
+S
+#32052
+Root Loft~
+A loft of woven branches holds a bed of moss and one blanket. A glow-lamp,
+very old, sits in a niche. From here you hear the swamp and nothing else.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32050
+S
+#32053
+Training Ground~
+The ground is a circle of roots, worn smooth. Sticks of the right length
+are stuck in the mud like a fence. North, the ground rises toward the
+dry knoll.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 32051
+D0
+~
+~
+0 -1 31103
+S
+#32054
+Deeper Cave~
+The cave narrows. The walls are wet and the floor is stone, a relief
+after the mud. Your lamp, if you have one, does not reach the ceiling.
+A side chamber is north.
+~
+0 8 13 0 0 0 0
+D4
+~
+~
+0 -1 31098
+D0
+~
+~
+0 -1 32055
+S
+#32055
+Vision Chamber~
+The chamber is round and warm, which the swamp is not. The air tastes
+of metal. People see what they brought with them. There is nothing else
+here: no bones, no altar, no mark on the stone.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32054
+S
+#0
+
+
+#RESETS
+M 1 32056 1 31097
+M 1 32057 1 31102
+G 1 32058 1
+O 1 32059 1 31097
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

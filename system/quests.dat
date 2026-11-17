@@ -1,0 +1,8 @@
+Quest
+Id 1
+Name Academy errand~
+Giver 8004
+Prize 1000
+Stage R 8000 Walk back to the Honoghr landing pad.~
+Stage M 8000 Speak with the spaceport guard, then return.~
+End

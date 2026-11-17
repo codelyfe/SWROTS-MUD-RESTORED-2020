@@ -1,0 +1,311 @@
+#AREA   Saleucami~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32230
+saleucami farmer~
+a wetland farmer~
+A wetland farmer leans on a sluice pin.
+~
+Mud to the knee and a hat with the brim turned down.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32231
+clone veteran~
+a clone veteran~
+A clone veteran sits on a cot in the dugout.
+~
+Armor piled, not worn. The face is older than the war it remembers.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32232
+grain buyer~
+a grain buyer~
+A grain buyer checks a condenser tally.
+~
+The buyer pays for dry grain and complains about the road.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Dry grain and tins. The road is bad, so the price is not.
+~
+|
+#0
+
+
+#OBJECTS
+#32235
+ration sealed~
+a sealed ration~
+A sealed ration tin sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+6
+0
+#32236
+grain sack~
+a sack of dry grain~
+A sack of dry grain sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+18
+0
+#0
+
+
+#ROOMS
+#31064
+Wetland Pad~
+The pad is a metal raft on stilts. Reeds knock against it. A farm road runs off into low green.
+~
+0 48 2 0 0 0 0
+D0
+~
+~
+0 -1 31065
+D2
+~
+~
+0 -1 31069
+S
+#31065
+Farm Road~
+A muddy road runs between fields. Birds lift as you pass and settle again at once.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31064
+D1
+~
+~
+0 -1 31066
+D3
+~
+~
+0 -1 31067
+D0
+~
+~
+0 -1 31068
+S
+#31066
+Moisture Barn~
+Condensers drip into troughs. The barn smells of wet grain. A speeder with one repulsor out sits in the bay.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31065
+D0
+~
+~
+0 -1 31070
+S
+#31067
+Ridge Camp~
+A ring of stones marks an old camp on a dry ridge. The grass around it is still beaten flat.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31065
+S
+#31068
+Swamp Track~
+The track sinks. Roots make a rough pavement. Something has been dragged toward the water.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31065
+D1
+~
+~
+0 -1 31071
+S
+#31069
+Watch Hut~
+A hut on posts looks over the fields. A bell hangs by the door, and the rope is new.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31064
+S
+#31070
+Clone Rest~
+Cots and a cold stove fill a dugout. Names are scratched on a beam, a whole squad's worth. North, a hatch opens on a drier store.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31066
+D0
+~
+~
+0 -1 32220
+S
+#31071
+North Levee~
+A levee holds the wetland back. The far side is open grass and a long sky.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31068
+S
+#32220
+Dry Store~
+The hatch north of the dugout opens on a store of sealed rations and folded tents. The air is the driest on the planet.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 31070
+D0
+~
+~
+0 -1 32221
+D1
+~
+~
+0 -1 32222
+S
+#32221
+Condenser Loft~
+A loft over the barn. You can hear the drip. Tools hang in outlines painted on the wall.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32220
+D3
+~
+~
+0 -1 32223
+S
+#32222
+Ridge Lookout~
+A platform on the ridge stones. The fields are a map from here, ditches drawn in dark lines.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 32220
+D0
+~
+~
+0 -1 32224
+S
+#32223
+Farmhouse~
+A low farmhouse. Boots by the door, a rifle over it, a table set for more people than live here.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32221
+S
+#32224
+Levee Walk~
+The top of the levee is a path. Reeds on one side, grass on the other. A sluice wheel waits.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 32222
+D1
+~
+~
+0 -1 32225
+S
+#32225
+Sluice Shed~
+The wheel's gears live in a shed that smells of wet iron. A lock pin hangs on a cord.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32224
+S
+#0
+
+
+#RESETS
+M 1 32230 1 31070
+M 1 32231 1 32221
+M 1 32232 1 32222
+G 1 32235 1
+O 1 32236 1 31070
+S
+
+
+#SHOPS
+32232 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

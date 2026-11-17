@@ -1,0 +1,394 @@
+#AREA   Hoth~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32040
+rebel trooper hoth~
+a rebel trooper~
+A rebel trooper stamps snow off a pair of boots.
+~
+The parka is gray and patched. A blaster is worn over it, awkward with the gloves.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Pad's clear. Don't wander the plain after the light drops.
+~
+|
+#32041
+officer duty echo~
+a duty officer~
+A duty officer leans over the holotable.
+~
+Rank is a cloth tab on the parka. The eyes are tired and sharp.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32042
+medic rebel~
+a rebel medic~
+A rebel medic counts vials into a tray.
+~
+Sleeves rolled, a red armband, and fingers stained with bacta.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32043
+handler tauntaun~
+a tauntaun handler~
+A tauntaun handler brushes frost out of a saddle.
+~
+The handler smells like the animals and does not seem to mind.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#32044
+parka gray~
+a patched gray parka~
+A patched gray parka lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+30
+0
+#32045
+rations cold~
+a cold-weather ration pack~
+A cold-weather ration pack sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+5
+0
+#0
+
+
+#ROOMS
+#31088
+Echo Landing~
+The landing shelf is scored ice. Exhaust has melted it and the night
+has frozen it again, so the pad is a sheet of ridges. A trench cut into
+the snow runs toward the ridge. A rebel in a gray parka waves ships in
+with a pair of light sticks.
+~
+0 48 5 0 0 0 0
+D0
+~
+~
+0 -1 31089
+D2
+~
+~
+0 -1 31093
+S
+#31089
+Ice Trench~
+Snow walls rise over your head. The wind is only a hiss up on the rim.
+Cables run along the floor of the trench toward the hangar, and boot
+prints overlap until the ice is black with them.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31088
+D1
+~
+~
+0 -1 31090
+D3
+~
+~
+0 -1 31091
+D0
+~
+~
+0 -1 31092
+S
+#31090
+Hangar Cave~
+The hangar is a cavern braced with steel. Tauntaun smell and fuel smell
+fight each other. Fighters sit in chalked rows with their canopies
+frosted. A hose from a heater unit keeps one bay clear of ice.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31089
+D0
+~
+~
+0 -1 31094
+S
+#31091
+Wampa Den~
+The side cave is colder than the trench. Bones and frozen hides are
+piled against the wall, and claw marks cross the ice at the height of a
+man's chest. Something large dens here when the rebels are not watching.
+~
+0 0 13 0 0 0 0
+D1
+~
+~
+0 -1 31089
+S
+#31092
+White Plain~
+The plain is white to the horizon. A footstep punches through the crust
+and shows nothing under it but more white. The wind has a knife in it.
+The ridge and the north drift are the only landmarks.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31089
+D1
+~
+~
+0 -1 31095
+D0
+~
+~
+0 -1 32037
+S
+#31093
+South Ridge~
+A gun pit is dug into the ridge. The mount is empty, the power cable
+coiled and tagged. From here the plain looks like a sea, and the base
+is only a shadow in the snow.
+~
+0 0 5 0 0 0 0
+D0
+~
+~
+0 -1 31088
+S
+#31094
+Command Alcove~
+An alcove off the hangar holds a map table frozen to the ice. Cables
+vanish into the wall. Someone has written sector numbers on the map in
+grease pencil. A heavier door, north, is the way deeper into the base.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31090
+D0
+~
+~
+0 -1 32030
+S
+#31095
+North Drift~
+Drifts have buried an old trench. A mast sticks out at an angle with a
+frozen flag on it. The plain is south. The wind fills your tracks as
+you make them.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 31092
+S
+#32030
+Echo Ice Door~
+A heavy door is set in the ice, painted with a faded rebel starbird.
+The alcove is south. A corridor of cut ice runs north, lit by work lamps.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 31094
+D0
+~
+~
+0 -1 32031
+S
+#32031
+Echo Command~
+Command is a low room of consoles and a holotable. The table shows the
+system in blue light. Parkas hang on a line. A duty officer keeps one
+ear on a headset. Briefing is north.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32030
+D0
+~
+~
+0 -1 32032
+D1
+~
+~
+0 -1 32033
+S
+#32032
+Briefing Room~
+Rows of benches face a board. A pointer on a string taps the board when
+the heater blows. Chalk marks show patrol routes across the ice fields.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32031
+S
+#32033
+Medical Bay~
+Cots and a bacta tank that is currently empty. The medic's tray is
+clean and ready. A heater rattles under the counter. The tauntaun pen
+is north, and you can smell it already.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32031
+D0
+~
+~
+0 -1 32034
+S
+#32034
+Tauntaun Pen~
+The pen is a trench covered with a tarp. The animals stamp and steam.
+Saddles are stacked on a barrel. Feed pellets crunch underfoot. East is
+a tunnel toward the ion cannon.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32033
+D1
+~
+~
+0 -1 32035
+S
+#32035
+Ice Tunnel~
+The tunnel was cut by a laser and never finished. Tool marks glass the
+walls. A power cable as thick as your arm runs along the floor toward
+the cannon control.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32034
+D0
+~
+~
+0 -1 32036
+S
+#32036
+Ion Cannon Control~
+The control room looks up a shaft of ice at the belly of the cannon.
+Levers are tagged in rebel stencil. A viewport shows the white plain
+and the south ridge.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32035
+D1
+~
+~
+0 -1 32037
+S
+#32037
+Cannon Gallery~
+A gallery circles the cannon's base. The metal is cold enough to stick
+to skin. South, a service stair drops to the white plain outside.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 32036
+D2
+~
+~
+0 -1 31092
+S
+#0
+
+
+#RESETS
+M 1 32040 1 31088
+M 1 32041 1 32031
+M 1 32042 1 32033
+M 1 32043 1 32034
+G 1 32044 1
+O 1 32045 1 31088
+S
+
+
+#SHOPS
+32040 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

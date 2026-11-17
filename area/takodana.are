@@ -1,0 +1,311 @@
+#AREA   Takodana~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32390
+takodana cook~
+a castle cook~
+A castle cook chops something green.
+~
+Flour on the sleeves and a knife that is respected.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32391
+boat keeper~
+a boat keeper~
+A boat keeper turns a hull to dry.
+~
+Lake mud on the boots and a whistle for no reason you can see.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32392
+hall server~
+a hall server~
+A hall server sets out mugs.
+~
+The server knows who is staying and who is only drinking.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Bread, fish, and a mug if you are staying.
+~
+|
+#0
+
+
+#OBJECTS
+#32395
+castle bread~
+a loaf of castle bread~
+A loaf of castle bread sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+4
+0
+#32396
+lake fish~
+a dried lake fish~
+A dried lake fish lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+6
+0
+#0
+
+
+#ROOMS
+#31144
+Lake Pad~
+The pad stands on piles over a clear lake. Forest comes down to the water, and a stone castle sits on the far shore as if it grew there.
+~
+0 48 2 0 0 0 0
+D0
+~
+~
+0 -1 31145
+D2
+~
+~
+0 -1 31149
+S
+#31145
+Castle Gate~
+A stone castle gate, open and heavy. Moss in the cracks. The smell from inside is food and old smoke.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31144
+D1
+~
+~
+0 -1 31146
+D3
+~
+~
+0 -1 31147
+D0
+~
+~
+0 -1 31148
+S
+#31146
+Great Hall~
+Tables fill a hall under old beams. A fire is laid. Banners that are not anyone's flag anymore hang in the dark.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31145
+D0
+~
+~
+0 -1 31150
+S
+#31147
+Battlement~
+The wall looks over lake and trees. Moss grows in the cracks. You can see the pad and the path both.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31145
+S
+#31148
+Kitchen~
+A broad kitchen. Pots hang in rows. Someone is always chopping something green.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31145
+D1
+~
+~
+0 -1 31151
+S
+#31149
+Forest Path~
+A path leaves the castle and vanishes under green. The light goes gold and then green again.
+~
+0 0 3 0 0 0 0
+D0
+~
+~
+0 -1 31144
+S
+#31150
+Shore~
+Pebbles and roots meet the lake. The water is cold and clear enough to see the bottom. North, a boat shed.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31146
+D0
+~
+~
+0 -1 32380
+S
+#31151
+Upper Room~
+A small room above the hall. The window faces the trees. A bed, a chest, and a lock that works.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31148
+S
+#32380
+Boat Shed~
+North of the shore, a shed of boats pulled up and turned over. Oars in a rack. A net smells like the lake.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31150
+D0
+~
+~
+0 -1 32381
+D1
+~
+~
+0 -1 32382
+S
+#32381
+Castle Kitchen~
+The working kitchen, past the pots guests see. A hearth big enough to stand in. Herbs hang in bunches.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32380
+D3
+~
+~
+0 -1 32383
+S
+#32382
+Guest Stair~
+A stair to the upper rooms. The steps are worn in the middle. Numbers are painted on the doors.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32380
+D0
+~
+~
+0 -1 32384
+S
+#32383
+Battlement Nook~
+A nook in the wall with a bench. People sit here to be out of the hall and still in the castle.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 32381
+S
+#32384
+Forest Edge~
+Where the path decides to be a forest. A marker stone, and a lantern hook, and then trees.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 32382
+D1
+~
+~
+0 -1 32385
+S
+#32385
+Cellar~
+Under the hall. Casks, roots, and a cool that does not need a machine. A cat has opinions.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32384
+S
+#0
+
+
+#RESETS
+M 1 32390 1 31150
+M 1 32391 1 32381
+M 1 32392 1 32382
+G 1 32395 1
+O 1 32396 1 31150
+S
+
+
+#SHOPS
+32392 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

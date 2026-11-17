@@ -1,0 +1,311 @@
+#AREA   Mustafar~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32130
+mustafarian miner~
+a Mustafarian miner~
+A Mustafarian miner rests a heat staff on the floor.
+~
+Short, gray, and wrapped in thermal cloth. The eyes are hidden by a visor.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32131
+lava tech~
+a lava technician~
+A lava technician watches a river gauge.
+~
+The suit is scorched at the knees. A glove steams.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32132
+facility quartermaster~
+a facility quartermaster~
+A facility quartermaster sorts heat suits.
+~
+The quartermaster sells what the miners leave behind.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Heat suits and glass. Credits first.
+~
+|
+#0
+
+
+#OBJECTS
+#32135
+heat suit~
+a patched heat suit~
+A patched heat suit lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+80
+0
+#32136
+obsidian slab~
+a slab of obsidian~
+A slab of black obsidian lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+35
+0
+#0
+
+
+#ROOMS
+#31024
+Mining Pad~
+Heat shimmer rises off the black pad. A lava river runs below the safety rail, close enough to warm your face. Collection arms creak in the updraft.
+~
+0 48 5 0 0 0 0
+D0
+~
+~
+0 -1 31025
+D2
+~
+~
+0 -1 31029
+S
+#31025
+Lava Bridge~
+A narrow span crosses the flow. The rail is too hot to hold. The metal ticks as it expands.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31024
+D1
+~
+~
+0 -1 31026
+D3
+~
+~
+0 -1 31027
+D0
+~
+~
+0 -1 31028
+S
+#31026
+Collection Arm~
+The collection arm reaches over the river. Buckets hang on a dead cable, one of them still crusted with cooling rock.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31025
+D0
+~
+~
+0 -1 31030
+S
+#31027
+Foundry Floor~
+Presses and molds crowd a hall lit by the river outside. The floor is warm through your boots.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31025
+S
+#31028
+Ash Balcony~
+Ash drifts across the balcony. The horizon is fire and nothing else. A chair has been dragged out here and left.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31025
+D1
+~
+~
+0 -1 31031
+S
+#31029
+Control Gallery~
+Levers and black screens face the river. A chair is bolted to the deck. The last settings are still on the board.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31024
+S
+#31030
+Separatist Annex~
+A side hall holds a long table and dead comms gear. Separatist sigils are worked into the table's edge. North, a door leads deeper into the facility.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31026
+D0
+~
+~
+0 -1 32120
+S
+#31031
+Obsidian Path~
+Glass rock crunches underfoot. The path ends at a sheer drop into the river. Heat comes up in a steady push.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 31028
+S
+#32120
+Separatist Council Hall~
+The north door opens on the long table. Chairs for beings of very different sizes stand around it. A hologram well in the center is dark.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31030
+D0
+~
+~
+0 -1 32121
+D1
+~
+~
+0 -1 32122
+S
+#32121
+Lava Control~
+Screens show the river's branches. A magfield reading flickers in the red. The glass is smoked.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32120
+D3
+~
+~
+0 -1 32123
+S
+#32122
+Collection Cab~
+The cab of a collection arm hangs over the flow. The controls are simple: grab, lift, dump. The window is a wall of heat.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32120
+D0
+~
+~
+0 -1 32124
+S
+#32123
+Obsidian Store~
+Racks hold slabs of black glass, graded by size. They chime when the building shifts.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32121
+S
+#32124
+Private Landing~
+A small pad inside the complex, shielded from the worst of the heat. A single-seat craft's clamps are empty.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32122
+D1
+~
+~
+0 -1 32125
+S
+#32125
+Vader's Walk~
+A narrow balcony high over the river. The rail is new, welded over an older, broken one. Ash gathers in the corners.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 32124
+S
+#0
+
+
+#RESETS
+M 1 32130 1 31030
+M 1 32131 1 32121
+M 1 32132 1 32122
+G 1 32135 1
+O 1 32136 1 31030
+S
+
+
+#SHOPS
+32132 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

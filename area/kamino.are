@@ -1,0 +1,346 @@
+#AREA   Kamino~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32076
+kaminoan attendant~
+a Kaminoan attendant~
+A Kaminoan attendant checks a manifest.
+~
+Tall, pale, and unhurried. The neck is long and the eyes are dark and calm.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say State your business on Tipoca. The weather will not improve.
+~
+|
+#32077
+clone trooper gray~
+a clone trooper~
+A clone trooper in plain gray stands at ease.
+~
+The face is young and familiar, one of many. The armor is training issue.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32078
+kaminoan scientist~
+a Kaminoan scientist~
+A Kaminoan scientist moves along the embryo racks.
+~
+A scanner glove covers one hand. The scientist does not look up.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#32079
+ration clone~
+a clone ration tray~
+A sealed clone ration tray sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+4
+0
+#32081
+datapad batch~
+a batch datapad~
+A batch datapad lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+60
+0
+#0
+
+
+#ROOMS
+#31008
+Tipoca Landing~
+Tipoca City stands on stilts above a black sea. The landing is a white
+disk, and the rain has never stopped in the memory of the builders.
+A Kaminoan in a long neck-collar waits with a manifest, unbothered by
+the weather inside a faint weather field.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31009
+D2
+~
+~
+0 -1 31013
+S
+#31009
+Rain Walk~
+A sealed walk looks out on waves hitting the stilts. The glass is thick.
+Rain runs on it in sheets. Clones in plain gray pass in pairs and do not
+talk. The city hums under the storm.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31008
+D1
+~
+~
+0 -1 31010
+D3
+~
+~
+0 -1 31011
+D0
+~
+~
+0 -1 31012
+S
+#31010
+Clone Gallery~
+Growth tanks stand in rows, empty and clean, waiting for a batch or
+remembering one. The light is white and without shadow. A chart on the
+wall is nothing but numbers.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31009
+D0
+~
+~
+0 -1 31014
+S
+#31011
+Observation Ring~
+Windows circle the city. Lightning walks the horizon and lights the
+wave tops. The ocean has no shore. A railing and a quiet Kaminoan are
+the only company.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31009
+S
+#31012
+Training Hall~
+Blast marks scar the practice floor in neat groups, the result of drills
+and not of a fight. Racks of training blasters stand along the wall,
+each one tagged and counted.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31009
+D1
+~
+~
+0 -1 31015
+D3
+~
+~
+0 -1 32075
+S
+#31013
+Ocean Balcony~
+The balcony is outside the field for a moment. Wind drives spray across
+it. The drop is a long one, down the stilts into black water. Most people
+step back inside quickly.
+~
+0 0 9 0 0 0 0
+D0
+~
+~
+0 -1 31008
+S
+#31014
+Genetics Lab~
+Benches hold sealed cases. Screens show helixes and batch codes. The air
+is cold and dry, the only dry air on the planet. A technician's stool is
+pulled up to the main board.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31010
+S
+#31015
+Barracks~
+Rows of bunks vanish into the white distance. Each one is made the same
+way, with the same fold in the blanket. Lockers bear numbers, not names.
+A door north leads into the city proper.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31012
+D0
+~
+~
+0 -1 32070
+S
+#32070
+Embryo Viewing~
+A gallery looks through glass at racks of glowing tubes. The light is
+soft and amber. A Kaminoan moves along the racks with a scanner. The
+barracks are south. A dining hall is east.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31015
+D1
+~
+~
+0 -1 32071
+S
+#32071
+Clone Dining Hall~
+Long white tables. Trays, identical meals, and no decoration. A server
+droid rolls between the rows. The apartment wing is north.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32070
+D0
+~
+~
+0 -1 32072
+S
+#32072
+Apartment Wing~
+Doors with numbers, all the same door. One stands open on a bare room:
+a bed, a window full of rain, a rack for armor. It was kept for a man
+who did not live here long.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32071
+D1
+~
+~
+0 -1 32073
+S
+#32073
+Landing Tube~
+A tube of glass drops through the city's underside. Lifts hum in the
+core. Through the wall, the stilts and the sea are a lesson in height.
+Control is down.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32072
+D5
+~
+~
+0 -1 32074
+S
+#32074
+City Control~
+Control is a ring of screens: weather, batches, platforms, the sea.
+A Kaminoan prime's chair faces the largest screen, empty. East is a
+service way back toward the training halls.
+~
+0 8 1 0 0 0 0
+D4
+~
+~
+0 -1 32073
+D1
+~
+~
+0 -1 32075
+S
+#32075
+Service Way~
+A plain corridor for droids and techs. Pipes in the ceiling, no view of
+the ocean. The training hall is east.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32074
+D1
+~
+~
+0 -1 31012
+S
+#0
+
+
+#RESETS
+M 1 32076 1 31008
+M 1 32077 1 31012
+M 1 32078 1 32070
+G 1 32079 1
+O 1 32081 1 31008
+S
+
+
+#SHOPS
+32076 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

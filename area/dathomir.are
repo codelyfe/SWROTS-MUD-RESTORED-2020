@@ -1,0 +1,311 @@
+#AREA   Dathomir~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32490
+nightsister~
+a Nightsister~
+A Nightsister stands at the edge of the stone circle.
+~
+Red skin, or paint, and a blade that is not metal.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32491
+nightbrother~
+a Nightbrother~
+A Nightbrother watches the bog bridge.
+~
+Bare arms, ritual scars, and a patient stance.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32492
+bone trader~
+a bone trader~
+A bone trader sorts small bones.
+~
+The trader is not from the village and is tolerated.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Pigment and small bones. The blade is not a toy.
+~
+|
+#0
+
+
+#OBJECTS
+#32495
+ritual blade~
+a ritual blade~
+A bone-handled blade lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+55
+0
+#32496
+red paint~
+a pot of red pigment~
+A pot of red pigment sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+18
+0
+#0
+
+
+#ROOMS
+#31184
+Red Mist Pad~
+The pad sits in red mist. The trees are black spikes. The ground is ash and packed earth.
+~
+0 48 3 0 0 0 0
+D0
+~
+~
+0 -1 31185
+D2
+~
+~
+0 -1 31189
+S
+#31185
+Mist Path~
+The path is packed ash. You cannot see far. Tracks cross it that are not boot tracks.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31184
+D1
+~
+~
+0 -1 31186
+D3
+~
+~
+0 -1 31187
+D0
+~
+~
+0 -1 31188
+S
+#31186
+Nightsister Altar~
+An altar of bone and stone stands in a clearing. The fire pit is cold. Offerings have been taken back.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31185
+D0
+~
+~
+0 -1 31190
+S
+#31187
+Swamp~
+Black water stands between roots. Something large has passed and did not bother to hide it.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 31185
+S
+#31188
+Village of Huts~
+Huts of hide and bone circle a fire pit. The hides are painted. No one is in the doorways.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31185
+D1
+~
+~
+0 -1 31191
+S
+#31189
+Rancor Cave~
+The cave smells of a big animal. Bones are stacked to one side, cleaned, not gnawed at random.
+~
+0 0 13 0 0 0 0
+D0
+~
+~
+0 -1 31184
+S
+#31190
+Stone Arch~
+An arch of red stone frames the mist. Marks are cut in it. North, the bog bridge starts.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31186
+D0
+~
+~
+0 -1 32480
+S
+#31191
+Bog Bridge~
+A bridge of lashed trunks crosses a bog. It is slick. The water under it moves when you stop walking.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31188
+S
+#32480
+Bog Bridge North~
+The bridge ends on a drier bank. Red mist thins enough to see a stone circle.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31190
+D0
+~
+~
+0 -1 32481
+D1
+~
+~
+0 -1 32482
+S
+#32481
+Stone Circle~
+Stones the color of dried blood. The center is swept. Footprints stop at the edge.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 32480
+D3
+~
+~
+0 -1 32483
+S
+#32482
+Altar Path~
+A path kept clear between the altar and the circle. Bones mark the turns, small ones.
+~
+0 0 3 0 0 0 0
+D3
+~
+~
+0 -1 32480
+D0
+~
+~
+0 -1 32484
+S
+#32483
+Rancor Bone Yard~
+The stack of bones, sorted. Skulls in one place. Someone is keeping house for a thing that does not need it.
+~
+0 8 13 0 0 0 0
+D1
+~
+~
+0 -1 32481
+S
+#32484
+Hide Hut~
+Inside a painted hut. The fire is laid and not lit. A mask hangs facing the wall.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32482
+D1
+~
+~
+0 -1 32485
+S
+#32485
+Mist Watch~
+A platform in a black tree. The pad is a rumor in the mist. A horn hangs on a peg.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 32484
+S
+#0
+
+
+#RESETS
+M 1 32490 1 31190
+M 1 32491 1 32481
+M 1 32492 1 32482
+G 1 32495 1
+O 1 32496 1 31190
+S
+
+
+#SHOPS
+32492 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

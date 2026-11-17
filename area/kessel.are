@@ -1,0 +1,311 @@
+#AREA   Kessel~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32550
+kessel miner~
+a spice miner~
+A spice miner drinks water like it is medicine.
+~
+Goggles, a mask around the neck, and a cough.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32551
+brake boss~
+a brake boss~
+A brake boss checks the chain.
+~
+The boss does not joke about the wheel.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32552
+assay clerk~
+an assay clerk~
+An assay clerk weighs a sample.
+~
+The clerk buys small samples and nothing that glows too brightly.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Samples, sealed. Masks if you are going down.
+~
+|
+#0
+
+
+#OBJECTS
+#32555
+spice sample~
+a raw spice sample~
+A sealed raw spice sample sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+40
+0
+#32556
+miner mask~
+a miner mask~
+A miner mask lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+25
+0
+#0
+
+
+#ROOMS
+#31208
+Spice Pad~
+The pad is stained and lit by old floodlights. Mines yawn below. The air smells sweet and wrong.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31209
+D2
+~
+~
+0 -1 31213
+S
+#31209
+Mine Mouth~
+A mine mouth breathes warm spice-smell. Rails run in. A sign counts how many are down.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31208
+D1
+~
+~
+0 -1 31210
+D3
+~
+~
+0 -1 31211
+D0
+~
+~
+0 -1 31212
+S
+#31210
+Glow Tunnel~
+The rock glows faint green. Carts sit on a siding. The glow is pretty and not good for you.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31209
+D0
+~
+~
+0 -1 31214
+S
+#31211
+Processing~
+Sieves and vats fill a hall. The machines are off. Residue rings the vats at the old fill line.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31209
+S
+#31212
+Prison Walk~
+Cells line a walk. The doors stand open. Names are scratched and then painted over.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31209
+D1
+~
+~
+0 -1 31215
+S
+#31213
+Cart Track~
+The track drops fast. A brake wheel is chained so it cannot be left off. The chain is serious.
+~
+0 0 13 0 0 0 0
+D0
+~
+~
+0 -1 31208
+S
+#31214
+Office~
+A mine office of ledgers and keys. A safe is built into the wall. North, a door says ASSAY.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31210
+D0
+~
+~
+0 -1 32540
+S
+#31215
+Surface Pit~
+An open pit shows the green veins. The sun is harsh and makes the glow look sick.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 31212
+S
+#32540
+Assay Office~
+North of the mine office, scales and sample jars. The jars are labeled with depths.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31214
+D0
+~
+~
+0 -1 32541
+D1
+~
+~
+0 -1 32542
+S
+#32541
+Brake House~
+The house for the brake wheel. Gears, a bench, and a rule painted in letters bigger than the wheel.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32540
+D3
+~
+~
+0 -1 32543
+S
+#32542
+Open Cells~
+The prison walk from the inside of a cell. The door does not shut. Someone has made it a store.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32540
+D0
+~
+~
+0 -1 32544
+S
+#32543
+Siding~
+The cart siding. A cart of raw rock waits for a crew that is at the surface.
+~
+0 8 13 0 0 0 0
+D1
+~
+~
+0 -1 32541
+S
+#32544
+Vat Catwalk~
+A catwalk over the dead vats. The residue is glittery. Do not touch your mouth.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32542
+D1
+~
+~
+0 -1 32545
+S
+#32545
+Pit Rim~
+The rim of the open pit. A rail, a winch, and a long look down into green.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 32544
+S
+#0
+
+
+#RESETS
+M 1 32550 1 31214
+M 1 32551 1 32541
+M 1 32552 1 32542
+G 1 32555 1
+O 1 32556 1 31214
+S
+
+
+#SHOPS
+32552 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

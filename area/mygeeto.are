@@ -1,0 +1,311 @@
+#AREA   Mygeeto~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32190
+mygeeto soldier~
+a crystal-city soldier~
+A soldier in white wraps watches the gallery.
+~
+The wraps are quilted against the cold. A rifle is held low.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32191
+bridge clerk~
+a bridge clerk~
+A bridge clerk updates a span list.
+~
+Ink stains and a glove with the fingers cut out.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32192
+crystal buyer~
+a crystal buyer~
+A crystal buyer turns a sample in the light.
+~
+The buyer pays for grade, not for stories.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Samples, graded. No bargaining on the blue.
+~
+|
+#0
+
+
+#OBJECTS
+#32195
+crystal sample~
+a blue crystal sample~
+A blue crystal sample lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+90
+0
+#32196
+span tag~
+a bridge span tag~
+A bridge span tag lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+5
+0
+#0
+
+
+#ROOMS
+#31048
+Crystal Pad~
+The pad is cut from blue crystal. Bridges leap to the next spire, and the wind has a clean metallic edge.
+~
+0 48 5 0 0 0 0
+D0
+~
+~
+0 -1 31049
+D2
+~
+~
+0 -1 31053
+S
+#31049
+Bridge City~
+Towers stand on crystal pillars. People cross the bridges with a hand on the rail and do not look down.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31048
+D1
+~
+~
+0 -1 31050
+D3
+~
+~
+0 -1 31051
+D0
+~
+~
+0 -1 31052
+S
+#31050
+Trench Line~
+A fighting trench is dug into ice and glass. It is empty. Shell scars star the crystal wall.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31049
+D0
+~
+~
+0 -1 31054
+S
+#31051
+Spire Stair~
+Stairs cling to a crystal face. The city is a long way down, blue on blue.
+~
+0 0 5 0 0 0 0
+D1
+~
+~
+0 -1 31049
+S
+#31052
+Vault Door~
+A round vault door is set in the crystal. The lock is a wheel of metal, and the wheel is cold.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31049
+D1
+~
+~
+0 -1 31055
+S
+#31053
+Ice Plaza~
+The plaza is swept clean. Footprints do not last. A memorial plaque is set flush with the glass.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31048
+S
+#31054
+Barracks~
+Bunks and weapon racks fill a low room. The walls sweat with cold. North, a door is stenciled GALLERY.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31050
+D0
+~
+~
+0 -1 32180
+S
+#31055
+North Span~
+A last bridge ends at a broken pier. The gap is wide. Wind comes up through it hard enough to push.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 31052
+S
+#32180
+Crystal Gallery~
+The barracks door opens north into a gallery of cut crystal, each slab tagged with a buyer's mark. Light breaks into colors on the floor.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31054
+D0
+~
+~
+0 -1 32181
+D1
+~
+~
+0 -1 32182
+S
+#32181
+Vault Anteroom~
+A short hall ends at the round door. A bench and a gun rack. The gun rack is empty.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32180
+D3
+~
+~
+0 -1 32183
+S
+#32182
+Bridge Command~
+A room of windows looks along the spans. A board lists which bridges are sound.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32180
+D0
+~
+~
+0 -1 32184
+S
+#32183
+Ice Trench Post~
+A roofed post at the end of the old trench. A heater ticks. Mugs are frozen to the table.
+~
+0 8 13 0 0 0 0
+D1
+~
+~
+0 -1 32181
+S
+#32184
+Memorial Walk~
+Names are cut into a crystal wall. Some are newer than the war that made the trench.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32182
+D1
+~
+~
+0 -1 32185
+S
+#32185
+Buyer's Cage~
+A cage of shelves holds small crystal samples. A clerk's window is shut, but the shelf is not locked.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32184
+S
+#0
+
+
+#RESETS
+M 1 32190 1 31054
+M 1 32191 1 32181
+M 1 32192 1 32182
+G 1 32195 1
+O 1 32196 1 31054
+S
+
+
+#SHOPS
+32192 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

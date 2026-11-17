@@ -1,0 +1,311 @@
+#AREA   Fondor~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#31400
+fondor welder~
+a yard welder~
+A yard welder hangs a visor on a hook.
+~
+Burns on the gloves in honest places.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31401
+crane signaler~
+a crane signaler~
+A crane signaler coils a tether.
+~
+The signaler does not wave for fun.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31402
+caf window~
+a caf seller~
+A caf seller slides a cup across a window.
+~
+The cup is metal. The caf is serious.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Caf. Visors if you are on a booth.
+~
+|
+#0
+
+
+#OBJECTS
+#32775
+welder visor~
+a welder visor~
+A welder visor lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+28
+0
+#32776
+metal cup~
+a metal caf cup~
+A metal caf cup sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+5
+0
+#0
+
+
+#ROOMS
+#31296
+Orbital Pad~
+The pad is a deck on an orbital yard. The planet is a curve below. Hulls in berth are the skyline.
+~
+0 48 9 0 0 0 0
+D0
+~
+~
+0 -1 31297
+D2
+~
+~
+0 -1 31301
+S
+#31297
+Welding Hall~
+Welder booths line a hall. Visors hang on hooks. The floor is scarred in little suns.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31296
+D1
+~
+~
+0 -1 31298
+D3
+~
+~
+0 -1 31299
+D0
+~
+~
+0 -1 31300
+S
+#31298
+Crane Deck~
+Cranes stand over an open bay. Stars show through. A hook the size of a room waits.
+~
+0 0 9 0 0 0 0
+D3
+~
+~
+0 -1 31297
+D0
+~
+~
+0 -1 31302
+S
+#31299
+Mess~
+A mess of metal tables. The food line is shut between shifts and open in a way that feels sudden.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31297
+S
+#31300
+Hull Bay~
+Hull sections hang in slings. Each sling has a number you could get lost in.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31297
+D1
+~
+~
+0 -1 31303
+S
+#31301
+Control~
+Screens face the bay. The chairs are worn in the shape of long shifts.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31296
+S
+#31302
+Yard Street~
+A street of shops for yard crews. Caf, gloves, and luck charms that are mostly gloves.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31298
+D0
+~
+~
+0 -1 32760
+S
+#31303
+Skeleton Berth~
+A berth holds the ribs of a ship and nothing else. North, a service lock looks into the ribs.
+~
+0 0 9 0 0 0 0
+D3
+~
+~
+0 -1 31300
+S
+#32760
+Service Lock~
+North of the skeleton berth, a lock with a view into the ribs. Tethers on a rail. A sign about clipping in.
+~
+0 8 9 0 0 0 0
+D2
+~
+~
+0 -1 31302
+D0
+~
+~
+0 -1 32761
+D1
+~
+~
+0 -1 32762
+S
+#32761
+Welder Booth~
+One booth. The scarred floor, a visor, and a rack of rods. It smells like hot metal and coffee.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32760
+D3
+~
+~
+0 -1 32763
+S
+#32762
+Crane Cab~
+Up in the crane. The bay is a diagram. The controls are locked and the view is not.
+~
+0 8 9 0 0 0 0
+D3
+~
+~
+0 -1 32760
+D0
+~
+~
+0 -1 32764
+S
+#32763
+Sling Alley~
+Between hanging sections. Numbers on both sides. It is a street if you work here.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32761
+S
+#32764
+Crew Street~
+The shops. A caf window, a glove wall, and a charm that is a glove with a ribbon.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32762
+D1
+~
+~
+0 -1 32765
+S
+#32765
+Shift Mess~
+Tables, and the line, and the moment a shift sits down at once.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32764
+S
+#0
+
+
+#RESETS
+M 1 31400 1 31302
+M 1 31401 1 32761
+M 1 31402 1 32762
+G 1 32775 1
+O 1 32776 1 31302
+S
+
+
+#SHOPS
+31402 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

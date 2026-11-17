@@ -1,0 +1,311 @@
+#AREA   Christophsis~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32210
+christophsis guard~
+a crystal-city guard~
+A guard in green glass-mail stands the gallery.
+~
+The mail throws little lights on the ceiling.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32211
+glassworker~
+a glassworker~
+A glassworker sorts cullet by color.
+~
+Cuts on the fingers, old and new.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32212
+bead seller~
+a bead seller~
+A bead seller strings green glass.
+~
+The seller works without looking at their hands.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Beads and broken color. Cheap, and they catch the light.
+~
+|
+#0
+
+
+#OBJECTS
+#32215
+green bead~
+a string of green beads~
+A string of green glass beads lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+25
+0
+#32216
+cullet bag~
+a bag of cullet~
+A bag of colored glass cullet lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+10
+0
+#0
+
+
+#ROOMS
+#31056
+Crystal Landing~
+Hexagonal crystal paves the port. The city climbs in green glass, and every face of it throws a different color.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31057
+D2
+~
+~
+0 -1 31061
+S
+#31057
+Boulevard~
+The street is a canyon of crystal. Light breaks on the walls and walks with you. Shutters are half open.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31056
+D1
+~
+~
+0 -1 31058
+D3
+~
+~
+0 -1 31059
+D0
+~
+~
+0 -1 31060
+S
+#31058
+Shield Yard~
+A generator pit sits open in a yard. Cables run into the crystal. The pit is deep enough to lose a speeder.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31057
+D0
+~
+~
+0 -1 31062
+S
+#31059
+Spire Walk~
+A high walk looks over the boulevards. The wind is clean and cold. You can see three plazas from here.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31057
+S
+#31060
+Plaza of Spires~
+Seven spires meet at a court. A dry fountain stands in the middle, its basin full of broken colored glass.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31057
+D1
+~
+~
+0 -1 31063
+S
+#31061
+Comms Room~
+Antennae punch through the ceiling. The boards are dark, but the chairs are worn. Someone still sits watch.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31056
+S
+#31062
+South Trench~
+A trench follows the crystal grain, cut in a hurry. North, a stair climbs out toward the east gallery.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31058
+D0
+~
+~
+0 -1 32200
+S
+#31063
+East Gallery~
+A covered gallery runs above the street. Shops are shuttered on one side and open on the other.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31060
+S
+#32200
+East Gallery Stair~
+The trench stair comes up into the east gallery, a covered walk of green glass over the boulevard.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31062
+D0
+~
+~
+0 -1 32201
+D1
+~
+~
+0 -1 32202
+S
+#32201
+Shield Pit Rim~
+A railed rim looks down into the generator pit. The cables hum even with the board dark.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32200
+D3
+~
+~
+0 -1 32203
+S
+#32202
+Glassworkers~
+Benches, grinders, and bins of cullet. A worker's apron hangs on a peg, stiff with dust.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32200
+D0
+~
+~
+0 -1 32204
+S
+#32203
+Spire Chapel~
+A small chapel in a spire point. The window is the wall. The city is a toy below.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32201
+S
+#32204
+Color Market~
+Stalls sell nothing but glass: beads, panes, and lamp shades. The light is ridiculous.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32202
+D1
+~
+~
+0 -1 32205
+S
+#32205
+Comms Loft~
+A loft above the dark boards. A kettle and two cots. The antenna cable comes through the floor.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32204
+S
+#0
+
+
+#RESETS
+M 1 32210 1 31062
+M 1 32211 1 32201
+M 1 32212 1 32202
+G 1 32215 1
+O 1 32216 1 31062
+S
+
+
+#SHOPS
+32212 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,214 @@
+#HEADER
+
+Name           GR-75 Medium Transport~
+Sname          GR-75~
+NumRooms       3
+Cost           160000
+Class          4
+Tractor        0
+primaryType    2
+primaryCount   2
+secondaryType  7
+secondaryCount 0
+RangeWeapons0  0
+RangeWeapons1  0
+RangeWeapons2  0
+Hull           240
+Shields        40
+Energy         4000
+Chaff          0
+Maxbombs       0
+Speed          40
+Hyperspeed     1
+Manuever       25
+Turrets        0
+Mods	    3
+Clan           The Republic~
+End
+
+#ROOMS
+
+#ROOM
+
+RoomNum           1
+Name              Bridge of a GR-75~
+Desc              The Gallofree transport's bridge is a small pod clamped to the spine. Most of the ship behind it is open cargo bay.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       0
+Exits1       0
+Exits2       2
+Exits3       0
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          1
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+#ROOM
+
+RoomNum           2
+Name              Cargo spine of a GR-75~
+Desc              The central spar is lined with cargo modules. The bay is open to space along both flanks when the modules are released.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       1
+Exits1       0
+Exits2       3
+Exits3       0
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          0
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+#ROOM
+
+RoomNum           3
+Name              Engine room of a GR-75~
+Desc              The sublight engines and the small hyperdrive sit at the stern, with barely enough deck to stand on.~
+Flags             indoors spacecraft nomob ~
+Tunnel            1
+Exits0       2
+Exits1       0
+Exits2       0
+Exits3       0
+Exits4       0
+Exits5       0
+Exits6       0
+Exits7       0
+Exits8       0
+Exits9       0
+Exflags0     0
+Exflags1     0
+Exflags2     0
+Exflags3     0
+Exflags4     0
+Exflags5     0
+Exflags6     0
+Exflags7     0
+Exflags8     0
+Exflags9     0
+Keys0        0
+Keys1        0
+Keys2        0
+Keys3        0
+Keys4        0
+Keys5        0
+Keys6        0
+Keys7        0
+Keys8        0
+Keys9        0
+RoomType          4
+Rprog0        ~
+Rprog1        ~
+Rprog2        ~
+Rprog3        ~
+Rprog4        ~
+Rprog5        ~
+Rprog6        ~
+Rprog7        ~
+Rprog8        ~
+Rprog9        ~
+Reset0        ~
+Reset1        ~
+Reset2        ~
+Reset3        ~
+Reset4        ~
+Reset5        ~
+Reset6        ~
+Reset7        ~
+Reset8        ~
+Reset9        ~
+End
+
+
+#ENDROOMS
+
+#END

@@ -1,0 +1,432 @@
+#AREA   Naboo~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32010
+guard theed palace~
+a Theed palace guard~
+A Theed palace guard stands here in chrome armor.
+~
+The armor is polished to a mirror. A blaster rifle is held across the chest,
+and the helm hides the face.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32011
+guard theed~
+a Theed palace guard~
+A Theed palace guard watches the antechamber.
+~
+This one has a captain's stripe on the helm and keeps a hand on the door controls.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32012
+tech plasma~
+a plasma technician~
+A plasma technician watches the generator gauges.
+~
+The coat is scorched at the cuffs. Goggles sit on the forehead.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32013
+merchant pearl~
+a pearl merchant~
+A pearl merchant weighs lake pearls on a hand scale.
+~
+The merchant's vest is yellow cloth, and the scale is old brass.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Lake pearls, friend. Fair weight, fair price.
+~
+|
+#32014
+gungan barge~
+a Gungan bargeman~
+A Gungan bargeman coils a rope on the walkway.
+~
+Long ears, a tool belt, and boots that have never been dry.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Mesa bringin fish. Yousa no touch the electropoles.
+~
+|
+#0
+
+
+#OBJECTS
+#32020
+pearl lake~
+a lake pearl~
+A pale green lake pearl lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+40
+0
+#32021
+cloth yellow~
+a bolt of yellow cloth~
+A bolt of yellow Theed cloth lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+25
+0
+#32022
+ration plasma~
+a technician's ration pack~
+A sealed ration pack sits on the floor.
+~
+~
+8 0 1
+0 0 0 0
+1
+5
+0
+#0
+
+
+#ROOMS
+#31000
+Theed Landing~
+Stone docks sit above the lake Solleu. Waterfalls pour from the cliffs
+behind the city, and the spray keeps the pale paving dark. Nubian craft
+rest on rails over the water. Palace guards in chrome armor walk the
+edge, and a freight droid stacks crates of river fish.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31001
+D2
+~
+~
+0 -1 31005
+S
+#31001
+Palace Avenue~
+Palace Avenue is wide enough for a procession. The stone is the color of
+bone, and pearls from the lake are set in the gutter. People in soft
+robes give the center of the street to anyone in a guard's helm. The
+falls are a white wall at the end of the view.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31000
+D1
+~
+~
+0 -1 31002
+D3
+~
+~
+0 -1 31003
+D0
+~
+~
+0 -1 31004
+S
+#31002
+Hangar Court~
+The hangar court opens on the lake. Yellow and silver craft sit in
+chalked circles, canopies up, with droids under the noses. Fuel lines
+run in covered channels. A mechanic's shout echoes off the cliff.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31001
+D0
+~
+~
+0 -1 31006
+S
+#31003
+Waterfall Stair~
+Steps are cut beside the waterfall. Mist beads on the rail and on your
+face. From here the avenue is a pale line and the lake is a green sheet.
+The stair keeps climbing toward the palace terraces.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31001
+S
+#31004
+Palace Plaza~
+The plaza is a bowl of arches. Banners in yellow and deep green hang
+still. A fountain throws a low fan of water, and vendors have leave to
+sell from carts along the east colonnade. The throne approach is east.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31001
+D1
+~
+~
+0 -1 31007
+D0
+~
+~
+0 -1 32007
+S
+#31005
+Solleu Garden~
+Solleu Garden is a loop of flowering trees around a quiet pool. The city
+noise drops to the sound of water. Stone benches face the falls. A pair
+of handmaidens' cloaks, yellow and heavy, are left on one bench.
+~
+0 0 3 0 0 0 0
+D0
+~
+~
+0 -1 31000
+S
+#31006
+Lake Path~
+A walkway follows the lake on pilings. Fish break the surface under the
+boards. Farther out, a flat barge with a Gungan crew is tied to a post,
+its electropole rack covered with a tarp.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31002
+S
+#31007
+Throne Approach~
+The approach to the throne is a columned hall. Colored glass in the
+ceiling throws disks of light on the floor. The doors at the north end
+are open. Guards stand where the columns thicken.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31004
+D0
+~
+~
+0 -1 32000
+S
+#32000
+Palace Antechamber~
+The antechamber is round, with a map of Naboo set in the floor. Clerks
+wait with datapads. The throne room is east, and the approach is south.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31007
+D1
+~
+~
+0 -1 32001
+S
+#32001
+Theed Throne Room~
+The throne room is tall and almost empty of furniture. A single chair
+stands before windows that look into the waterfall. The floor tracks
+lead to a hidden hangar shaft, now closed. Light moves on the stone as
+the water moves outside.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32000
+D0
+~
+~
+0 -1 32002
+S
+#32002
+High Balcony~
+A balcony rings the throne windows. Spray from the falls wets the rail.
+You can see the avenue, the garden, and the lake barges from here. A
+door east leads along the cliff face.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 32001
+D1
+~
+~
+0 -1 32003
+S
+#32003
+Waterfall Gallery~
+A covered gallery runs behind the falls. The water is a roaring curtain
+on your left. Niches hold busts of old queens. Stairs drop north, down
+toward the plasma works under the palace.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32002
+D5
+~
+~
+0 -1 32004
+S
+#32004
+Plasma Tunnel~
+The tunnel is cut through wet rock. Blue-white light pulses in a conduit
+along the floor, the plasma drawn from the planet's core. The air smells
+of hot metal and rain. The generator room is east.
+~
+0 8 13 0 0 0 0
+D4
+~
+~
+0 -1 32003
+D1
+~
+~
+0 -1 32005
+S
+#32005
+Plasma Generator~
+The generator is a ring of coils around a column of blue fire, held in
+a magfield. Techs in insulated coats watch the gauges. A warning stripe
+marks the safe line. Security is north.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32004
+D0
+~
+~
+0 -1 32006
+S
+#32006
+Palace Security~
+Racks of chrome blasters and riot shields line the room. A board shows
+the palace levels. The market colonnade is through the east door, an
+old servants' way into the city.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32005
+D1
+~
+~
+0 -1 32007
+S
+#32007
+Theed Market~
+Carts sell fruit, lake pearls, and spools of yellow cloth under the
+colonnade. A merchant weighs pearls on a hand scale. The plaza is south,
+and the palace security door is west.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 32006
+D2
+~
+~
+0 -1 31004
+S
+#0
+
+
+#RESETS
+M 1 32010 1 31007
+M 1 32011 1 32000
+M 1 32012 1 32005
+M 1 32013 1 32007
+M 1 32014 1 31006
+G 1 32020 1
+O 1 32021 1 31007
+O 1 32022 1 31007
+S
+
+
+#SHOPS
+32013 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

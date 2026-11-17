@@ -1,0 +1,311 @@
+#AREA   Exegol~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32450
+sith acolyte~
+a hooded acolyte~
+A hooded acolyte stands where the lines on the floor meet.
+~
+The hood hides the face. The hands are bare and still.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32451
+citadel warden~
+a citadel warden~
+A citadel warden watches the undercroft stair.
+~
+Armor the color of the stone. A blade, not a blaster.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32452
+relic broker~
+a relic broker~
+A relic broker waits in the empty choir.
+~
+The broker should not be here, and is, and will sell a shard of the glass.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Glass from the ridge. I do not explain it.
+~
+|
+#0
+
+
+#OBJECTS
+#32455
+lightning glass~
+a shard of lightning glass~
+A shard of lightning glass lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+70
+0
+#32456
+name rubbing~
+a name rubbing~
+A paper rubbing of a cut name lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+15
+0
+#0
+
+
+#ROOMS
+#31168
+Dark Pad~
+The pad is black stone under a permanent storm. Lightning has no rain in it. The air tastes of metal.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31169
+D2
+~
+~
+0 -1 31173
+S
+#31169
+Citadel Approach~
+A road of fitted stone runs toward a citadel. Statues have lost their faces. Your footsteps are the only soft thing.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31168
+D1
+~
+~
+0 -1 31170
+D3
+~
+~
+0 -1 31171
+D0
+~
+~
+0 -1 31172
+S
+#31170
+Sith Nave~
+A nave of black pillars. The floor is cut with old lines that are not a language you can read.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31169
+D0
+~
+~
+0 -1 31174
+S
+#31171
+Throne Step~
+Steps rise to an empty throne. The air is colder here than on the plain. Nothing grows, not even mold.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31169
+S
+#31172
+Fleet Ground~
+Dry docks scar the plain. Nothing sits in them. The clamps are the size of houses.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31169
+D1
+~
+~
+0 -1 31175
+S
+#31173
+Fissure~
+A fissure glows faint blue far down. The edge is crumbling. A wind comes up that is not the storm's wind.
+~
+0 0 5 0 0 0 0
+D0
+~
+~
+0 -1 31168
+S
+#31174
+Lightning Ridge~
+The ridge takes strike after strike. Glass puddles the rock. North, a stair drops toward the citadel's undercroft.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31170
+D0
+~
+~
+0 -1 32440
+S
+#31175
+Vault of Names~
+Walls are covered in cut names. Most are worn smooth. A few are sharp enough to catch a glove.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31172
+S
+#32440
+Undercroft Stair~
+North off the glass ridge, a stair down into the citadel's undercroft. The lightning is only a flicker here.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 31174
+D0
+~
+~
+0 -1 32441
+D1
+~
+~
+0 -1 32442
+S
+#32441
+Name Vault~
+The vault of names, continued. A ladder reaches the names that are still sharp. Dust on the rungs is disturbed.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32440
+D3
+~
+~
+0 -1 32443
+S
+#32442
+Dry Dock Clamp~
+Under one clamp. The scale is wrong for a person. A service hatch is open and dark.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 32440
+D0
+~
+~
+0 -1 32444
+S
+#32443
+Fissure Bridge~
+A narrow bridge over the blue glow. The stone is warm. Do not look down for long.
+~
+0 0 5 0 0 0 0
+D1
+~
+~
+0 -1 32441
+S
+#32444
+Pillar Walk~
+Between two pillars of the nave. The lines on the floor continue, and here they are deeper.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32442
+D1
+~
+~
+0 -1 32445
+S
+#32445
+Empty Choir~
+A gallery above the throne steps. Seats for an audience that left no cushions behind.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32444
+S
+#0
+
+
+#RESETS
+M 1 32450 1 31174
+M 1 32451 1 32441
+M 1 32452 1 32442
+G 1 32455 1
+O 1 32456 1 31174
+S
+
+
+#SHOPS
+32452 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

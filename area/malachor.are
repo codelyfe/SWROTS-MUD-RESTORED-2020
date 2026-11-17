@@ -1,0 +1,311 @@
+#AREA   Malachor~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32590
+malachor wanderer~
+a hooded wanderer~
+A hooded wanderer stands among the stone figures and is not stone.
+~
+Ash on the hem. The wanderer breathes, which the others do not.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32591
+bridge keeper~
+a bridge keeper~
+A bridge keeper sweeps ash off the span.
+~
+The broom is losing.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32592
+ash seller~
+an ash seller~
+An ash seller has a tray of small black shards.
+~
+The seller camped here on purpose.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Shards from the tray. I will not say they are lucky.
+~
+|
+#0
+
+
+#OBJECTS
+#32595
+black shard~
+a black stone shard~
+A black stone shard lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+35
+0
+#32596
+ash vial~
+a vial of ash~
+A sealed vial of ash sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+12
+0
+#0
+
+
+#ROOMS
+#31224
+Ash Pad~
+The pad is a circle in gray ash. A temple triangle breaks the sky. Nothing moves unless the ash moves.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31225
+D2
+~
+~
+0 -1 31229
+S
+#31225
+Petrified Plain~
+Figures of stone stand where they fell. Ash drifts between them. Their faces are surprised, or you are deciding that.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31224
+D1
+~
+~
+0 -1 31226
+D3
+~
+~
+0 -1 31227
+D0
+~
+~
+0 -1 31228
+S
+#31226
+Temple Tray~
+A vast triangular tray holds the temple. The scale is wrong. Your ship, in memory, becomes a toy.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31225
+D0
+~
+~
+0 -1 31230
+S
+#31227
+Lower Terrace~
+A terrace below the tray. Chains hang into a pit. The chains are fused to the stone at the top.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31225
+S
+#31228
+Holocron Vault~
+Alcoves line a vault. All of them are empty. The dust in them is a different color than the ash.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31225
+D1
+~
+~
+0 -1 31231
+S
+#31229
+Bridge of Ash~
+A bridge crosses a trench of ash. It grinds underfoot. The far side is the tray.
+~
+0 0 4 0 0 0 0
+D0
+~
+~
+0 -1 31224
+S
+#31230
+Superweapon Court~
+A court opens on a collapsed mechanism. The pieces are mountain-sized. North, a stair climbs the intact face.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31226
+D0
+~
+~
+0 -1 32580
+S
+#31231
+Ash Stair~
+Stairs climb the temple face. The carvings are scoured. Ash fills every horizontal line.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 31228
+S
+#32580
+Temple Face Stair~
+The court stair climbs the intact face. Carvings are scoured to guesses. A door is a triangle within the triangle.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31230
+D0
+~
+~
+0 -1 32581
+D1
+~
+~
+0 -1 32582
+S
+#32581
+Triangle Door~
+The door is open. Inside, the ash is thinner. The floor is the same black stone as the tray.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32580
+D3
+~
+~
+0 -1 32583
+S
+#32582
+Empty Alcoves~
+The vault from the inside of an alcove. You could stand where a holocron stood. The shelf is warm.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32580
+D0
+~
+~
+0 -1 32584
+S
+#32583
+Chain Pit Rim~
+The rim of the pit. The chains do not reach a bottom you can see. Ash falls and does not seem to land.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 32581
+S
+#32584
+Ash Bridge House~
+A house built onto the bridge, a later thing, for people who cross. A bench and a broom.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32582
+D1
+~
+~
+0 -1 32585
+S
+#32585
+Stone Quiet~
+Among the petrified figures. It is quieter here than on the pad. You stop talking without deciding to.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 32584
+S
+#0
+
+
+#RESETS
+M 1 32590 1 31230
+M 1 32591 1 32581
+M 1 32592 1 32582
+G 1 32595 1
+O 1 32596 1 31230
+S
+
+
+#SHOPS
+32592 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

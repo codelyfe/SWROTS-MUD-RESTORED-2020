@@ -1,0 +1,311 @@
+#AREA   Scarif~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32310
+scarif trooper~
+a shore trooper~
+A shore trooper stands in the shade of the citadel.
+~
+White armor with a stripe of sand worked into every joint.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32311
+rebel pathfinder~
+a pathfinder~
+A pathfinder checks a tarp in the palms.
+~
+The jacket is local. The rifle is not.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32312
+beach quartermaster~
+a beach quartermaster~
+A beach quartermaster counts rebreathers.
+~
+Salt on the boots. The count is short one, and the quartermaster knows which.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Rebreathers and rations. Salt ruins the cheap ones.
+~
+|
+#0
+
+
+#OBJECTS
+#32315
+rebreather~
+a shore rebreather~
+A shore rebreather lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+50
+0
+#32316
+ration tropic~
+a tropic ration pack~
+A tropic ration pack sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+6
+0
+#0
+
+
+#ROOMS
+#31112
+Beach Pad~
+The pad meets white sand and green water. Palms throw sharp shadows. A citadel of black metal stands in the trees like a decision.
+~
+0 48 2 0 0 0 0
+D0
+~
+~
+0 -1 31113
+D2
+~
+~
+0 -1 31117
+S
+#31113
+Tropic Path~
+A path runs under broad leaves. The surf is loud. Birdsong stops when a patrol walker is near and starts again when it is not.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31112
+D1
+~
+~
+0 -1 31114
+D3
+~
+~
+0 -1 31115
+D0
+~
+~
+0 -1 31116
+S
+#31114
+Citadel Gate~
+A gate of black metal stands in the sand. The tower rises behind it. The gate is heavier than the beach deserves.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31113
+D0
+~
+~
+0 -1 31118
+S
+#31115
+Bunker~
+A bunker is dug under the palms. Racks line the concrete. A map of the atolls is pinned and curling.
+~
+0 0 13 0 0 0 0
+D1
+~
+~
+0 -1 31113
+S
+#31116
+Landing Tower~
+Stairs climb a tower above the trees. The beach is a white ring. You can see the vault approach as a dark line.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31113
+D1
+~
+~
+0 -1 31119
+S
+#31117
+Vault Approach~
+A ramp leads to a heavy door in the citadel base. The door is shut. A scanner housing blinks a patient amber.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31112
+S
+#31118
+Shore~
+Waves fold onto the sand. Wreckage of a small craft lies above the tide line, picked clean. North, a camp path runs into the palms.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31114
+D0
+~
+~
+0 -1 32300
+S
+#31119
+Palm Camp~
+A cleared camp under the trees. Crates make a low wall. Someone has strung a hammock and not slept in it.
+~
+0 0 3 0 0 0 0
+D3
+~
+~
+0 -1 31116
+S
+#32300
+Palm Path~
+North of the camp the path tightens under the fronds. Crates give way to a shed with a tin roof.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31118
+D0
+~
+~
+0 -1 32301
+D1
+~
+~
+0 -1 32302
+S
+#32301
+Supply Shed~
+Rations, rebreathers, and folded tarps. A tally board has today's date and yesterday's.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32300
+D3
+~
+~
+0 -1 32303
+S
+#32302
+Beach Watch~
+A platform in a palm. The pad, the gate, and the wreck are all visible. A pair of magnoculars hangs on a nail.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 32300
+D0
+~
+~
+0 -1 32304
+S
+#32303
+Citadel Shade~
+The tower throws a long shade. The sand here is cool. A door at ground level is marked STORES.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 32301
+S
+#32304
+Vault Ramp~
+The ramp up close. Warning paint, a drain, and the amber scanner. The door does not have a handle on this side.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32302
+D1
+~
+~
+0 -1 32305
+S
+#32305
+Atoll Map Room~
+Inside the bunker, a second room. The map is better here, with depths marked. A radio is set to a channel that hisses.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32304
+S
+#0
+
+
+#RESETS
+M 1 32310 1 31118
+M 1 32311 1 32301
+M 1 32312 1 32302
+G 1 32315 1
+O 1 32316 1 31118
+S
+
+
+#SHOPS
+32312 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

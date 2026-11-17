@@ -1,0 +1,906 @@
+Thu Nov 25 11:19:58 2004 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Thu Nov 25 11:19:58 2004 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Thu Nov 25 11:19:58 2004 :: Loading commands
+Thu Nov 25 11:19:58 2004 :: Loading sysdata configuration...
+Thu Nov 25 11:19:58 2004 :: Loading socials
+Thu Nov 25 11:19:58 2004 :: Loading skill table
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell do_backstab
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell reserved
+Thu Nov 25 11:19:58 2004 :: Sorting skill table...
+Thu Nov 25 11:19:58 2004 :: Loading herb table
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: fread_skill: unknown skill/spell spell_smaug
+Thu Nov 25 11:19:58 2004 :: Making wizlist
+Thu Nov 25 11:19:58 2004 :: Initializing request pipe
+Thu Nov 25 11:19:58 2004 :: Loading force
+Thu Nov 25 11:19:58 2004 :: Loading force skills...
+Thu Nov 25 11:19:58 2004 ::  Done force skills 
+Thu Nov 25 11:19:58 2004 :: Loading force helps...
+Thu Nov 25 11:19:58 2004 ::  Done force helps 
+Thu Nov 25 11:19:58 2004 :: Loading ship prototypes
+Thu Nov 25 11:19:58 2004 :: Loading ship prototypes...
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Load_prototype_header: no match: Type
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Load_prototype_header: no match: 1
+Thu Nov 25 11:19:58 2004 ::  Done ship prototypes 
+Thu Nov 25 11:19:58 2004 :: Initializing random number generator
+Thu Nov 25 11:19:58 2004 :: Setting time and weather
+Thu Nov 25 11:19:58 2004 :: Assigning gsn's
+ASSIGN_GSN: Skill addpatrol not found.
+ASSIGN_GSN: Skill true sight not found.
+ASSIGN_GSN: Skill ship design not found.
+ASSIGN_GSN: Skill shieldwork not found.
+ASSIGN_GSN: Skill detrap not found.
+ASSIGN_GSN: Skill enhanced damage not found.
+ASSIGN_GSN: Skill parry not found.
+ASSIGN_GSN: Skill fourth attack not found.
+ASSIGN_GSN: Skill fifth attack not found.
+ASSIGN_GSN: Skill feed not found.
+ASSIGN_GSN: Skill bite not found.
+ASSIGN_GSN: Skill claw not found.
+ASSIGN_GSN: Skill sting not found.
+ASSIGN_GSN: Skill tail not found.
+ASSIGN_GSN: Skill brew not found.
+ASSIGN_GSN: Skill fireball not found.
+ASSIGN_GSN: Skill chill touch not found.
+ASSIGN_GSN: Skill force bolt not found.
+ASSIGN_GSN: Skill aqua breath not found.
+ASSIGN_GSN: Skill blindness not found.
+ASSIGN_GSN: Skill affect mind not found.
+ASSIGN_GSN: Skill curse not found.
+ASSIGN_GSN: Skill mask not found.
+ASSIGN_GSN: Skill group masking not found.
+ASSIGN_GSN: Skill sleep not found.
+ASSIGN_GSN: Skill possess not found.
+ASSIGN_GSN: Skill arkanian not found.
+ASSIGN_GSN: Skill cerean not found.
+ASSIGN_GSN: Skill chagri not found.
+ASSIGN_GSN: Skill dashadi not found.
+ASSIGN_GSN: Skill dosh not found.
+ASSIGN_GSN: Skill drallish not found.
+ASSIGN_GSN: Skill ho'din not found.
+ASSIGN_GSN: Skill huttese not found.
+ASSIGN_GSN: Skill iktotchese not found.
+ASSIGN_GSN: Skill kel dor not found.
+ASSIGN_GSN: Skill miralukese not found.
+ASSIGN_GSN: Skill mon calamarian not found.
+ASSIGN_GSN: Skill muun not found.
+ASSIGN_GSN: Skill rodese not found.
+ASSIGN_GSN: Skill ryn not found.
+ASSIGN_GSN: Skill shyriiwook not found.
+ASSIGN_GSN: Skill skytric not found.
+ASSIGN_GSN: Skill sriluurian not found.
+ASSIGN_GSN: Skill sullustes not found.
+ASSIGN_GSN: Skill togruti not found.
+ASSIGN_GSN: Skill ubese not found.
+ASSIGN_GSN: Skill umbaran not found.
+ASSIGN_GSN: Skill lekku not found.
+ASSIGN_GSN: Skill droid not found.
+ASSIGN_GSN: Skill makeempgrenade not found.
+Thu Nov 25 11:19:58 2004 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     1 - 99    Objs:     2 - 99    Mobs:     1 - 99
+omni_complex  : Rooms:   100 - 114   Objs:   100 - 114   Mobs:   100 - 114
+misc.are      : Rooms:   700 - 899   Objs:   700 - 799   Mobs:   700 - 899
+coruscant.are : Rooms:  1000 - 2000  Objs:  1000 - 2000  Mobs:  1000 - 2000
+newbie.are    : Rooms:   115 - 190   Objs:   115 - 190   Mobs:   115 - 190
+byss.are      : Rooms:  2501 - 4449  Objs:  2501 - 4499  Mobs:  2501 - 4449
+coruscant3.are: Rooms:  7500 - 7650  Objs:  7500 - 7650  Mobs:  7500 - 7650
+OrdMantell.are: Rooms:  9000 - 9500  Objs:  9000 - 9500  Mobs:  9000 - 9500
+calamari.are  : Rooms:  9701 - 10000 Objs:  9701 - 10000 Mobs:  9701 - 10000
+korriban.are  : Rooms:  7651 - 7999  Objs:  7655 - 7999  Mobs:  7653 - 7999
+ossus.are     : Rooms:   191 - 399   Objs:   191 - 399   Mobs:   191 - 399
+bespin.are    : Rooms: 29000 - 29999 Objs: 29000 - 29999 Mobs: 29000 - 29999
+shipvnum.are  : Rooms: 12000 - 18000 Objs: 12000 - 18000 Mobs: 12000 - 18000
+pubtrans.are  : Rooms:   900 - 999   Objs:   900 - 999   Mobs:   900 - 999
+prison.are    : Rooms:  2001 - 2100  Objs:  2001 - 2100  Mobs:  2001 - 2100
+Thu Nov 25 11:19:58 2004 :: Fixing exits
+Thu Nov 25 11:19:58 2004 :: [*****] FILE: $ LINE: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Get_room_index: bad vnum 666.
+Thu Nov 25 11:19:58 2004 :: [*****] BOOT: Fix_exits: room 107, exit north leads to bad vnum (666)
+Thu Nov 25 11:19:58 2004 :: [*****] FILE: $ LINE: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Deleting north exit in room 107
+Thu Nov 25 11:19:58 2004 :: Initializing economy
+Thu Nov 25 11:19:58 2004 :: Loading buildlist
+Thu Nov 25 11:19:58 2004 :: Loading boards
+Thu Nov 25 11:19:58 2004 :: ../boards/student.board
+Thu Nov 25 11:19:58 2004 :: ../boards/imm_monitor
+Thu Nov 25 11:19:58 2004 :: ../boards/quest.board
+Thu Nov 25 11:19:58 2004 :: ../boards/galactic_net
+Thu Nov 25 11:19:58 2004 :: ../boards/mail_net
+Thu Nov 25 11:19:58 2004 :: ../boards/hyperterminal
+Thu Nov 25 11:19:58 2004 :: ../boards/1141
+Thu Nov 25 11:19:58 2004 :: ../boards/contest.board
+Thu Nov 25 11:19:58 2004 :: ../boards/imperialboard.board
+Thu Nov 25 11:19:58 2004 :: ../boards/builders board
+Thu Nov 25 11:19:58 2004 :: ../boards/imperial.brd
+Thu Nov 25 11:19:58 2004 :: Loading clans
+Thu Nov 25 11:19:58 2004 :: Loading clans...
+Thu Nov 25 11:19:58 2004 :: republic.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: antarian.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: jedi.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: blacksun.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: sienar.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: sorosuub.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: bounty.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: sith.clan
+Thu Nov 25 11:19:58 2004 :: Storeroom not found
+Thu Nov 25 11:19:58 2004 :: $
+Thu Nov 25 11:19:58 2004 ::  Done clans
+Sorting clans....
+Thu Nov 25 11:19:58 2004 ::  Done sorting
+Thu Nov 25 11:19:58 2004 :: Loading senate
+Thu Nov 25 11:19:58 2004 :: Loading bans
+Thu Nov 25 11:19:58 2004 :: Loading corpses
+Thu Nov 25 11:19:58 2004 :: Loading space
+Thu Nov 25 11:19:58 2004 :: Loading space...
+Thu Nov 25 11:19:58 2004 ::  Done starsystems 
+Thu Nov 25 11:19:58 2004 :: Loading ships
+Thu Nov 25 11:19:58 2004 :: Loading ships...
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryType
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryCount
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Rockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Torpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Missilestate
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Simulator
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryType
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryCount
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Rockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Torpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Missilestate
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Simulator
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryType
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryCount
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Rockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Torpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Missilestate
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Simulator
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryType
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: primaryCount
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxbombs
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxmissiles
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Rockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxrockets
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Torpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Maxtorpedos
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Missilestate
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: Simulator
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Fread_ship: no match: 0
+Thu Nov 25 11:19:58 2004 ::  Done ships 
+Thu Nov 25 11:19:58 2004 :: Loading bounties
+Thu Nov 25 11:19:58 2004 :: Loading disintegrations...
+Thu Nov 25 11:19:58 2004 ::  Done bounties 
+Thu Nov 25 11:19:58 2004 :: Loading governments
+Thu Nov 25 11:19:58 2004 :: Loading planets...
+Thu Nov 25 11:19:58 2004 :: omni_complex
+Thu Nov 25 11:19:58 2004 :: coruscant.pl
+Thu Nov 25 11:19:58 2004 :: ossus.pl
+Thu Nov 25 11:19:58 2004 :: korriban.pl
+Thu Nov 25 11:19:58 2004 :: $
+Thu Nov 25 11:19:58 2004 ::  Done planets 
+Thu Nov 25 11:19:58 2004 :: Resetting areas
+Resetting: limbo.are
+Resetting: omni_complex
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: Read_object: vnum 108 bad type.
+Thu Nov 25 11:19:58 2004 :: [*****] BUG: ------------------------>     
+Resetting: misc.are
+Resetting: coruscant.are
+Resetting: newbie.are
+Resetting: byss.are
+Resetting: coruscant3.are
+Resetting: OrdMantell.are
+Resetting: calamari.are
+Resetting: korriban.are
+Resetting: ossus.are
+Resetting: bespin.are
+Resetting: shipvnum.are
+Resetting: pubtrans.are
+Resetting: prison.are
+Thu Nov 25 11:19:58 2004 :: Making new blackmarket list.
+Thu Nov 25 11:19:58 2004 :: Initializing socket
+Thu Nov 25 11:19:58 2004 :: SWRotS ready on port 1111.
+Resetting: newbie.are
+tar: Member names contain `..'
+tar: ../player/pfiles.tar: file is the archive; not dumped
+Thu Nov 25 11:19:59 2004 :: Automated pfile cleanup beginning....
+Thu Nov 25 11:19:59 2004 :: Pfile cleanup completed.
+Thu Nov 25 11:19:59 2004 :: Total pfiles scanned: 1
+Thu Nov 25 11:19:59 2004 :: Total pfiles deleted: 0
+Thu Nov 25 11:19:59 2004 :: Total pfiles remaining: 1
+Thu Nov 25 11:20:05 2004 :: Sock.sinaddr:  127.0.0.1, port 33529.
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 7
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: MainAbility
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 7
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 8
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: SecondAbility
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 8
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 1
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: Force
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 19
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceControl
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 19
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 20
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSense
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 20
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 21
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceAlter
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 21
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 22
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceChance
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 22
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 23
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceId
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 23
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 24
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceAlign
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 24
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 25
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceConverted
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 25
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 26
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceType
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 26
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 27
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceLvlStatus
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 27
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 28
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 28
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 28
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 29
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 29
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 1
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 29
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 30
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 30
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 2
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 30
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 31
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 31
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 3
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 31
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 32
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 32
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 4
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 32
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 33
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 33
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 5
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 33
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 34
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 34
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 6
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 34
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 35
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 35
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 7
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 35
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 36
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 36
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 8
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 36
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 37
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 37
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 9
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 37
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 38
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 38
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 10
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 38
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 39
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 39
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 11
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 39
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 40
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 40
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 12
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 40
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 41
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 41
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 13
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 41
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 42
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 42
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 14
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 42
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 43
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 43
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 15
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 43
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 44
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 44
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 16
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 44
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 45
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 45
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 17
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 45
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 46
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 46
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 18
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 46
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 47
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 47
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 19
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 47
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 48
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 48
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 20
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 48
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 49
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 49
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 21
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 49
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 50
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 50
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 22
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 50
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 51
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 51
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 23
+Thu Nov 25 11:20:14 2004 :: [*****] FILE: ../player/u/User LINE: 51
+Thu Nov 25 11:20:14 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 7
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: MainAbility
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 7
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 8
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: SecondAbility
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 8
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 1
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: Force
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 18
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 19
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceControl
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 19
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 20
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSense
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 20
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 21
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceAlter
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 21
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 22
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceChance
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 22
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 23
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceId
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 23
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 24
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceAlign
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 24
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 25
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceConverted
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 25
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 26
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceType
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 26
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 27
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceLvlStatus
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 27
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 28
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 28
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 28
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 29
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 29
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 1
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 29
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 30
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 30
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 2
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 30
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 31
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 31
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 3
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 31
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 32
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 32
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 4
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 32
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 33
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 33
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 5
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 33
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 34
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 34
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 6
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 34
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 35
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 35
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 7
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 35
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 36
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 36
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 8
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 36
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 37
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 37
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 9
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 37
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 38
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 38
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 10
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 38
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 39
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 39
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 11
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 39
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 40
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 40
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 12
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 40
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 41
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 41
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 13
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 41
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 42
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 42
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 14
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 42
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 43
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 43
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 15
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 43
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 44
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 44
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 16
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 44
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 45
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 45
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 17
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 45
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 46
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 46
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 18
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 46
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 47
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 47
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 19
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 47
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 48
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 48
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 20
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 48
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 49
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 49
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 21
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 49
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 50
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 50
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 22
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 50
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 51
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: ForceSkill
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 51
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 23
+Thu Nov 25 11:20:15 2004 :: [*****] FILE: ../player/u/User LINE: 51
+Thu Nov 25 11:20:15 2004 :: [*****] BUG: Fread_char: no match: 0
+Thu Nov 25 11:20:15 2004 :: User@localhost((no auth)) has connected.
+Thu Nov 25 11:20:19 2004 ::  User has entered the game.
+Thu Nov 25 11:20:32 2004 :: Log User: makewizlist
+Thu Nov 25 11:20:39 2004 :: [*****] BUG: Save_profile: fopen
+../html/profiles/User.htm: No such file or directory
+Thu Nov 25 11:20:42 2004 :: [*****] BUG: Save_profile: fopen
+../html/profiles/User.htm: No such file or directory
+Thu Nov 25 11:20:51 2004 :: Sock.sinaddr:  212.56.88.126, port 61007.
+Thu Nov 25 11:20:52 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Resetting: newbie.are
+Thu Nov 25 11:21:46 2004 :: Sock.sinaddr:  172.202.45.240, port 4704.
+Thu Nov 25 11:21:47 2004 :: EOF encountered on read.
+Thu Nov 25 11:21:50 2004 :: User has quit.
+Thu Nov 25 11:21:57 2004 :: Sock.sinaddr:  84.12.20.68, port 37344.
+Thu Nov 25 11:21:57 2004 :: Sock.sinaddr:  127.0.0.1, port 33535.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:21:59 2004 :: Closing link to Tawnos.
+Thu Nov 25 11:22:02 2004 :: Sock.sinaddr:  127.0.0.1, port 33538.
+Thu Nov 25 11:22:04 2004 :: Sock.sinaddr:  212.56.88.126, port 61040.
+Thu Nov 25 11:22:05 2004 :: EOF encountered on read.
+Thu Nov 25 11:22:05 2004 :: Sock.sinaddr:  212.56.88.126, port 61042.
+Thu Nov 25 11:22:05 2004 :: User@localhost((no auth)) has connected.
+Thu Nov 25 11:22:06 2004 :: EOF encountered on read.
+Thu Nov 25 11:22:06 2004 ::  User has entered the game.
+Thu Nov 25 11:22:09 2004 :: Log User: wizlock
+Thu Nov 25 11:22:10 2004 :: User has quit.
+Thu Nov 25 11:22:13 2004 :: Sock.sinaddr:  127.0.0.1, port 33543.
+Thu Nov 25 11:22:15 2004 :: Sock.sinaddr:  212.56.88.126, port 61046.
+Thu Nov 25 11:22:16 2004 :: EOF encountered on read.
+Thu Nov 25 11:22:43 2004 :: Tawnos@localhost new Kel Dor.
+Thu Nov 25 11:22:44 2004 ::  Tawnos has entered the game.
+Resetting: newbie.are
+Thu Nov 25 11:23:44 2004 :: Pending authorizations:
+ Tawnos@localhost new Kel Dor
+
+Thu Nov 25 11:24:10 2004 :: Sock.sinaddr:  203.102.175.177, port 4815.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:24:15 2004 :: Sock.sinaddr:  203.102.175.177, port 4826.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:24:17 2004 :: Sock.sinaddr:  203.102.175.177, port 4854.
+Resetting: newbie.are
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:24:39 2004 :: Sock.sinaddr:  127.0.0.1, port 33550.
+Thu Nov 25 11:24:41 2004 :: User@localhost((no auth)) has connected.
+Thu Nov 25 11:24:42 2004 ::  User has entered the game.
+Thu Nov 25 11:24:46 2004 :: Log User: auth tawnos
+Thu Nov 25 11:24:48 2004 :: Log User: makeimm
+Thu Nov 25 11:24:52 2004 :: Log User: makeimm tawnos 36
+Resetting: newbie.are
+Resetting: newbie.are
+Thu Nov 25 11:25:48 2004 :: Sock.sinaddr:  210.1.73.5, port 4433.
+Thu Nov 25 11:25:57 2004 :: Sock.sinaddr:  65.31.72.96, port 1624.
+Thu Nov 25 11:25:58 2004 :: Sock.sinaddr:  65.100.86.108, port 1049.
+Thu Nov 25 11:25:58 2004 :: EOF encountered on read.
+Thu Nov 25 11:25:59 2004 :: EOF encountered on read.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:25:59 2004 :: Sock.sinaddr:  210.1.73.5, port 4536.
+Thu Nov 25 11:26:03 2004 :: Sock.sinaddr:  65.31.72.96, port 1638.
+Thu Nov 25 11:26:03 2004 :: EOF encountered on read.
+Thu Nov 25 11:26:04 2004 :: EOF encountered on read.
+Thu Nov 25 11:26:04 2004 :: Sock.sinaddr:  210.1.73.5, port 4537.
+Thu Nov 25 11:26:09 2004 :: EOF encountered on read.
+Thu Nov 25 11:26:09 2004 :: Sock.sinaddr:  210.1.73.5, port 4592.
+Thu Nov 25 11:26:14 2004 :: EOF encountered on read.
+Thu Nov 25 11:26:15 2004 :: Sock.sinaddr:  65.31.72.96, port 1642.
+Thu Nov 25 11:26:16 2004 :: EOF encountered on read.
+Thu Nov 25 11:26:17 2004 :: Sock.sinaddr:  65.31.72.96, port 1645.
+Thu Nov 25 11:26:17 2004 :: EOF encountered on read.
+Thu Nov 25 11:26:47 2004 :: [*****] BUG: Save_profile: fopen
+../html/profiles/Tawnos.htm: No such file or directory
+Resetting: newbie.are
+Thu Nov 25 11:27:25 2004 :: Sock.sinaddr:  212.21.142.96, port 4256.
+Thu Nov 25 11:27:26 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:27:57 2004 :: Sock.sinaddr:  138.130.72.204, port 43110.
+Thu Nov 25 11:28:01 2004 :: EOF encountered on read.
+Thu Nov 25 11:28:15 2004 :: Sock.sinaddr:  212.21.142.96, port 4278.
+Thu Nov 25 11:28:17 2004 :: EOF encountered on read.
+Thu Nov 25 11:28:19 2004 :: Sock.sinaddr:  212.21.142.96, port 4282.
+Thu Nov 25 11:28:19 2004 :: EOF encountered on read.
+Thu Nov 25 11:28:33 2004 :: Sock.sinaddr:  68.107.78.97, port 2379.
+Thu Nov 25 11:28:34 2004 :: Sock.sinaddr:  212.21.142.96, port 4289.
+Thu Nov 25 11:28:34 2004 :: EOF encountered on read.
+Thu Nov 25 11:28:34 2004 :: Sock.sinaddr:  68.107.78.97, port 2383.
+Thu Nov 25 11:28:35 2004 :: EOF encountered on read.
+Thu Nov 25 11:28:35 2004 :: Sock.sinaddr:  68.107.78.97, port 2387.
+Thu Nov 25 11:28:36 2004 :: EOF encountered on read.
+Thu Nov 25 11:28:37 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:29:17 2004 :: Log Tawnos: makewiz
+Resetting: newbie.are
+Resetting: bespin.are
+Thu Nov 25 11:29:50 2004 :: Sock.sinaddr:  217.95.163.71, port 3727.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:30:14 2004 :: Tawnos has quit.
+Thu Nov 25 11:30:17 2004 :: User has quit.
+Thu Nov 25 11:30:19 2004 :: Sock.sinaddr:  127.0.0.1, port 33571.
+Thu Nov 25 11:30:22 2004 :: Tawnos@localhost((no auth)) has connected.
+Thu Nov 25 11:30:23 2004 ::  Tawnos has entered the game.
+Thu Nov 25 11:30:36 2004 :: Sock.sinaddr:  65.31.72.96, port 1789.
+Thu Nov 25 11:30:37 2004 :: EOF encountered on read.
+Resetting: limbo.are
+Resetting: omni_complex
+Resetting: newbie.are
+Resetting: shipvnum.are
+Resetting: pubtrans.are
+Thu Nov 25 11:30:38 2004 :: Log Tawnos: destroy User
+Thu Nov 25 11:30:44 2004 :: Log Tawnos: mset self name User
+Resetting: newbie.are
+Resetting: OrdMantell.are
+Thu Nov 25 11:31:46 2004 :: Sock.sinaddr:  65.31.72.96, port 1843.
+Thu Nov 25 11:31:47 2004 :: EOF encountered on read.
+Resetting: misc.are
+Resetting: newbie.are
+Resetting: byss.are
+Resetting: coruscant3.are
+Resetting: korriban.are
+Resetting: ossus.are
+Resetting: prison.are
+Thu Nov 25 11:32:46 2004 :: Log User: makewiz
+Thu Nov 25 11:32:51 2004 :: Log User: destroy Tawnos
+Thu Nov 25 11:32:53 2004 :: Log User: makewiz
+Thu Nov 25 11:32:55 2004 :: User has quit.
+Thu Nov 25 11:33:16 2004 :: Sock.sinaddr:  65.31.72.96, port 1892.
+Thu Nov 25 11:33:16 2004 :: EOF encountered on read.
+Thu Nov 25 11:33:19 2004 :: Sock.sinaddr:  65.31.72.96, port 1895.
+Thu Nov 25 11:33:20 2004 :: EOF encountered on read.
+Thu Nov 25 11:33:27 2004 :: Sock.sinaddr:  24.160.132.227, port 3041.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:33:31 2004 :: Sock.sinaddr:  65.31.72.96, port 1906.
+Thu Nov 25 11:33:31 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:34:03 2004 :: Sock.sinaddr:  65.31.72.96, port 1932.
+Thu Nov 25 11:34:04 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:34:34 2004 :: Sock.sinaddr:  65.31.72.96, port 1960.
+Thu Nov 25 11:34:34 2004 :: EOF encountered on read.
+Thu Nov 25 11:34:38 2004 :: Sock.sinaddr:  65.31.72.96, port 1972.
+Thu Nov 25 11:34:39 2004 :: EOF encountered on read.
+Thu Nov 25 11:35:36 2004 :: Sock.sinaddr:  68.45.26.208, port 3104.
+Read_from_descriptor: Connection reset by peer
+Resetting: newbie.are
+Thu Nov 25 11:36:58 2004 :: Sock.sinaddr:  24.160.132.227, port 3137.
+Thu Nov 25 11:36:59 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Resetting: calamari.are
+Thu Nov 25 11:37:37 2004 :: Sock.sinaddr:  24.160.132.227, port 3155.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:38:07 2004 :: Sock.sinaddr:  24.160.132.227, port 3169.
+Read_from_descriptor: Connection reset by peer
+Resetting: newbie.are
+Thu Nov 25 11:38:47 2004 :: Sock.sinaddr:  24.160.132.227, port 3189.
+Thu Nov 25 11:38:47 2004 :: EOF encountered on read.
+Thu Nov 25 11:38:48 2004 :: Sock.sinaddr:  24.160.132.227, port 3191.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:38:52 2004 :: Sock.sinaddr:  24.160.132.227, port 3193.
+Thu Nov 25 11:38:52 2004 :: Sock.sinaddr:  24.160.132.227, port 3194.
+Thu Nov 25 11:38:52 2004 :: EOF encountered on read.
+Read_from_descriptor: Connection reset by peer
+Resetting: newbie.are
+Thu Nov 25 11:39:51 2004 :: Sock.sinaddr:  68.120.44.116, port 4974.
+Thu Nov 25 11:39:52 2004 :: EOF encountered on read.
+Thu Nov 25 11:40:10 2004 :: Sock.sinaddr:  67.166.78.157, port 62316.
+Thu Nov 25 11:40:10 2004 :: EOF encountered on read.
+Thu Nov 25 11:40:26 2004 :: Sock.sinaddr:  67.166.78.157, port 62350.
+Thu Nov 25 11:40:27 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:40:32 2004 :: Sock.sinaddr:  67.166.78.157, port 62358.
+Thu Nov 25 11:40:32 2004 :: EOF encountered on read.
+Thu Nov 25 11:40:33 2004 :: Sock.sinaddr:  67.166.78.157, port 62362.
+Thu Nov 25 11:40:33 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Resetting: bespin.are
+Resetting: omni_complex
+Resetting: newbie.are
+Resetting: newbie.are
+Resetting: OrdMantell.are
+Resetting: shipvnum.are
+Resetting: pubtrans.are
+Thu Nov 25 11:43:20 2004 :: Sock.sinaddr:  213.105.24.144, port 4738.
+Thu Nov 25 11:43:21 2004 :: EOF encountered on read.
+Resetting: misc.are
+Resetting: newbie.are
+Resetting: coruscant3.are
+Resetting: prison.are
+Resetting: limbo.are
+Resetting: newbie.are
+Resetting: byss.are
+Thu Nov 25 11:46:04 2004 :: Sock.sinaddr:  82.70.168.60, port 1823.
+Thu Nov 25 11:46:07 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:46:20 2004 :: Sock.sinaddr:  68.120.44.116, port 1231.
+Thu Nov 25 11:46:24 2004 :: EOF encountered on read.
+Thu Nov 25 11:46:58 2004 :: Sock.sinaddr:  138.130.72.204, port 43352.
+Thu Nov 25 11:46:59 2004 :: EOF encountered on read.
+Thu Nov 25 11:47:00 2004 :: Sock.sinaddr:  80.178.195.76, port 2311.
+Thu Nov 25 11:47:15 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Resetting: korriban.are
+Resetting: ossus.are
+Thu Nov 25 11:48:32 2004 :: Sock.sinaddr:  82.70.168.60, port 1898.
+Thu Nov 25 11:48:34 2004 :: EOF encountered on read.
+Thu Nov 25 11:48:50 2004 :: Sock.sinaddr:  82.70.168.60, port 1907.
+Thu Nov 25 11:48:52 2004 :: EOF encountered on read.
+Thu Nov 25 11:49:03 2004 :: Sock.sinaddr:  82.70.168.60, port 1917.
+Thu Nov 25 11:49:04 2004 :: EOF encountered on read.
+Resetting: coruscant.are
+Resetting: newbie.are
+Resetting: newbie.are
+Resetting: newbie.are
+Resetting: newbie.are
+Thu Nov 25 11:53:03 2004 :: Sock.sinaddr:  66.8.156.245, port 62819.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:53:07 2004 :: Sock.sinaddr:  84.12.20.68, port 49908.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:53:51 2004 :: Sock.sinaddr:  217.95.163.71, port 3207.
+Thu Nov 25 11:53:56 2004 :: Sock.sinaddr:  210.1.73.5, port 3007.
+Read_from_descriptor: Connection reset by peer
+Thu Nov 25 11:54:01 2004 :: EOF encountered on read.
+Thu Nov 25 11:54:01 2004 :: Sock.sinaddr:  210.1.73.5, port 3160.
+Thu Nov 25 11:54:06 2004 :: EOF encountered on read.
+Thu Nov 25 11:54:06 2004 :: Sock.sinaddr:  210.1.73.5, port 3161.
+Thu Nov 25 11:54:11 2004 :: EOF encountered on read.
+Thu Nov 25 11:54:11 2004 :: Sock.sinaddr:  210.1.73.5, port 3162.
+Thu Nov 25 11:54:19 2004 :: EOF encountered on read.
+Resetting: newbie.are
+Thu Nov 25 11:56:03 2004 :: Sock.sinaddr:  212.56.88.126, port 61376.
+Thu Nov 25 11:56:05 2004 :: EOF encountered on read.
+Thu Nov 25 11:56:16 2004 :: Sock.sinaddr:  212.56.88.126, port 61384.
+Thu Nov 25 11:56:18 2004 :: EOF encountered on read.
+Resetting: omni_complex
+Resetting: newbie.are
+Thu Nov 25 11:56:25 2004 :: Sock.sinaddr:  202.63.47.209, port 2219.
+Thu Nov 25 11:56:33 2004 :: EOF encountered on read.

@@ -1,0 +1,311 @@
+#AREA   Jedha~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32330
+jedha guardian~
+a temple guardian~
+A temple guardian rests a staff on the step.
+~
+The robe is plain. The staff is not for walking.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32331
+pilgrim~
+a pilgrim~
+A pilgrim fills a cup at the well.
+~
+Dusty, quiet, and in no hurry to finish the water.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32332
+hostel keeper~
+a hostel keeper~
+A hostel keeper folds a blanket.
+~
+The keeper rents a cot and sells lamp wicks.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Wicks and a cup. The cot is extra, and the quiet is free.
+~
+|
+#0
+
+
+#OBJECTS
+#32335
+lamp wick~
+a bundle of lamp wicks~
+A bundle of lamp wicks lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+4
+0
+#32336
+pilgrim cup~
+a clay pilgrim cup~
+A clay cup lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+2
+0
+#0
+
+
+#ROOMS
+#31120
+Holy City Pad~
+The pad sits on a mesa of worn stone. The holy city rises like a hive of prayer, and the wind brings sand and incense by turns.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31121
+D2
+~
+~
+0 -1 31125
+S
+#31121
+Pilgrim Street~
+The street is steep and narrow. Niches hold unlit lamps. Pilgrims pass with their eyes on the steps, not on you.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31120
+D1
+~
+~
+0 -1 31122
+D3
+~
+~
+0 -1 31123
+D0
+~
+~
+0 -1 31124
+S
+#31122
+Temple Steps~
+Wide steps climb to a temple door. The stone is polished by feet. A guardian in a simple robe stands where the steps turn.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31121
+D0
+~
+~
+0 -1 31126
+S
+#31123
+Kyber Stall~
+A stall still shows empty crystal cases. Dust covers the cloth. A sign in three languages says the cases are not for sale.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31121
+S
+#31124
+Catacombs~
+Stairs drop into carved tunnels. Names are cut in the walls, some of them fresh, some of them older than the city.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31121
+D1
+~
+~
+0 -1 31127
+S
+#31125
+Market Court~
+A court of closed stalls. A well stands in the center, and the bucket is in use. Voices stay low.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31120
+S
+#31126
+City Wall~
+The wall walk looks over the desert. The wind carries sand hard enough to sting. North, a stair drops into the shrine quarter.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31122
+D0
+~
+~
+0 -1 32320
+S
+#31127
+Shrine~
+A small shrine is cut in the rock. The bowl for offerings is empty. Someone has swept the floor anyway.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31124
+S
+#32320
+Shrine Quarter~
+The wall stair comes down among small shrines, each one a niche with a bowl. North is a pilgrim hostel.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31126
+D0
+~
+~
+0 -1 32321
+D1
+~
+~
+0 -1 32322
+S
+#32321
+Pilgrim Hostel~
+Cots, a water jar, and a rule painted over the door: quiet after dark. Boots are lined up, not thrown.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32320
+D3
+~
+~
+0 -1 32323
+S
+#32322
+Guardian Post~
+A post at the temple turn. Hooks for staffs, a kettle, and a view of the whole stair.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32320
+D0
+~
+~
+0 -1 32324
+S
+#32323
+Name Tunnel~
+A stretch of catacomb where the names are cut deeper. A lamp niche has a fresh wick.
+~
+0 8 13 0 0 0 0
+D1
+~
+~
+0 -1 32321
+S
+#32324
+Well Court~
+The market well, from the working side. The rope is new. A cup on a cord is for anyone.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32322
+D1
+~
+~
+0 -1 32325
+S
+#32325
+Kyber Archive~
+Not a shop. A room of empty cases and a book of what they held. The book is chained.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32324
+S
+#0
+
+
+#RESETS
+M 1 32330 1 31126
+M 1 32331 1 32321
+M 1 32332 1 32322
+G 1 32335 1
+O 1 32336 1 31126
+S
+
+
+#SHOPS
+32332 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

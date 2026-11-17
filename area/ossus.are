@@ -1,0 +1,2430 @@
+#AREA   Ossus~
+
+
+
+#AUTHOR Manteiv~
+
+#RANGES
+0 0 1 36
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 6226191
+
+#MOBILES
+#191
+low_mob~
+a newly created low_mob~
+Some god abandoned a newly created low_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#338
+jedi code 1~
+a newly created jedi code 1~
+Some god abandoned a newly created jedi code 1 here.
+~
+~
+1073743875 98304 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 3
+mpechoat $n &w&WYou stand at what appears to be the center of the universe.
+mpsleep 12
+mpechoat $n &w&WAs you turn, making a full circle, you are forced to squint by the light reflecting off surrounding stars.
+mpsleep 12
+mpechoat $n &w&WYou are hit with a feel of great peace, followed by a great loneliness.
+mpsleep 12
+mpechoat $n &w&WSuddenly a voice echoes throughout the great void, "&CSo you have come for the trials. Then let us begin.&w&W"
+mpsleep 9
+mpechoat $n &w&WThe voice continues, "&CI will begin with part of the Jedi Code, you will complete the next line.&w&W"
+mpsleep 12
+mpechoat $n &w&WA strange voice says, "&CYou may quit at anytime by saying &RI give up&w&W"
+mpsleep 12
+mpechoat $n &w&W"&CAre you ready?&w&W", the mysterious voice questions.
+~
+> speech_prog p yes~
+mpsleep 8
+mpechoat $n &w&WA deep voice says, "&CThere is no emotion...&w&W"
+~
+> speech_prog p i give up~
+mpsleep 6
+mpechoat $n After being hit with a wave of Force, you awaken outside the Trials Chamber.
+mpsleep 3
+mpat 337 mpecho &R$n has given up on the trials.&w&W
+mptransfer $n 337
+~
+> speech_prog p there is peace~
+mpsleep 7
+mpechoat $n &w&WA voice says, "&CCorrect.&w&W"
+mpsleep 6
+mpopenpassage 338 339 0
+mpforce $n north
+mpclosepassage 338 0
+~
+|
+#339
+jedi code 2~
+a newly created jedi code 2~
+Some god abandoned a newly created jedi code 2 here.
+~
+~
+1073743875 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpsleep 4
+mpechoat $n &w&WA voice whispers, "&CThere is no ignorance....&w&W"
+~
+> speech_prog p i give up~
+mpsleep 6
+mpechoat $n After being hit with a wave of Force, you awaken outside the Trials Chamber.
+mpsleep 3
+mpat 337 mpecho &r$n has given up on the trials.&w&W
+mptransfer $n 337
+~
+> speech_prog p there is knowledge~
+mpsleep 7
+mpechoat $n &w&WA voice whispers, "&CCorrect.&w&W"
+mpsleep 6
+mpopenpassage 339 340 0
+mpforce $n north
+mpclosepassage 339 0
+~
+|
+#399
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1073741825 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#191
+low_obj~
+a low_obj~
+A low_obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#399
+hi_obj~
+a hi_obj~
+A hi_obj is here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#191
+&cKnossa Main Landing Pad~
+&cKnossa Spaceport&w&W is the largest spaceport on &BOssus&w&W,
+with easy acess to the cith to the &Ysouth&w&W and beautiful
+view of the rocky mountains to the &Ynortheast&w&W, this planet
+has seen drastic population increases in recent years. Weather
+you are coming looking for enterance into the &GJedi Academy&w&W
+or simply seek to view the wonderous &GGardens Of Talla&w&W,
+&BOssus&w&W has become quite the tourist planet.
+~
+0 48 1 0
+D1
+~
+~
+0 -1 192
+D2
+~
+~
+0 -1 194
+D3
+~
+~
+0 -1 193
+S
+#192
+&cKnossa Secondary Landing Pad~
+&w&WThis &cSecondary Landing Pad&w&W is much smaller than its
+primary cousin. Though there is a vast difference in thier sizes,
+the &cSecondary Landing Pad&w&W boasts more security, thus making
+it the ideal pad for &OSenators&w&W, &ONobles&w&W, and anyone
+else seeking protection.
+~
+0 1073741872 1 0
+D3
+~
+~
+0 -1 191
+S
+#193
+Knossa Docking Office~
+&w&WThis small office distributes &rdocking permits&w&W to guests
+on &BOssus&w&W. Without the proper documentation, they will
+not allow any member of a landed spacecraft to depart from the
+landing bays. Charging for these permits enables the spaceport
+to maintain lower taxes for the citizens on this planet, as
+well as offering greater array of services to the docking ships.
+~
+0 1073741836 1 0
+D1
+~
+~
+0 -1 191
+S
+#194
+Within Knossa Spaceport~
+&w&WThe spaceport appears to be well maintained and remarkably
+clean. Small droids scurry about the floor disposing of trash
+as it is dropped in the hallways. Hundreds of people, of varying
+species, crowd through the hallways. Many are attempting to
+catch the next transport off this planet, but many more appear
+to have just arrived.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 191
+D1
+~
+~
+0 -1 196
+D2
+~
+~
+0 -1 197
+D3
+~
+~
+0 -1 195
+S
+#195
+Rocky Mountain Cantina~
+&w&WUnlike the rest of the spaceport, this rather small cantina
+appears to be in poor shape. There is very little seating and
+the seats that do exist are in desparate need of new appolstering.
+No band or music is being played, yet the room echoes with the
+idle chatter of the patrons.
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 194
+S
+#196
+Knossa Motel~
+&w&WThis lavish Motel is decorated in a typical modern style.
+The &cDurasteel&w&W walls have been painted to hide their true
+nature. Potted plants adorn the corners of this room. Multiple
+pictures and paintings cover the otherwise bare walls. An elevator
+has been built into the far wall to take patrons to their resting
+places.
+~
+0 1073741832 1 0
+D3
+~
+~
+0 -1 194
+S
+#197
+&wBefore A &YSecurity &wCheckpoint~
+&w&WThis small &Ysecurity station&w&W is scanning all who pass
+through it for illegal narcotics. Though weapons are legal on
+&BOssus&w&W, with the increase in tourism, the drug addiction
+amongst native teens has increased. This little checkpoint is
+the governments way of attempting to deminish the drug presense
+on this planet.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 194
+D2
+~
+~
+0 -1 199
+S
+#198
+General Store~
+~
+0 1073741832 1 0
+D1
+~
+~
+0 -1 240
+S
+#199
+&YSecuirty &wCheckpoint~
+&w&WThis station is typically manned by two security officers,
+their simple mission is to detect and destroy any illegal narcotics
+found on or within any person who passes by. Though &BOssus&w&W
+is known for the presense of the Jedi, this planet has recently
+become a cash crop to many brave Hutts.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 197
+D2
+~
+~
+0 -1 200
+S
+#200
+Knossa Spaceport Enterance~
+&w&WKnossa Spaceport is a very simple building. Made of solid
+&cDurasteel&w&W, its hallways are only decorated with the occasional
+trash receptical. What it lacks in decoration, it makes up for
+in view. Most of the spaceport's northern walls are made of
+thick &Cglass&w&W, offering guests a remarkable view of the
+mountains to the northeast.
+~
+0 1073741832 1 0
+D0
+~
+~
+0 -1 199
+D2
+~
+~
+0 -1 201
+S
+#201
+Before The Knossa Spaceport~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 200
+D1
+~
+~
+0 -1 202
+D2
+~
+~
+0 -1 240
+D3
+~
+~
+0 -1 254
+S
+#202
+Knai Street~
+~
+0 1073741824 1 0
+D1
+~
+~
+0 -1 203
+D3
+~
+~
+0 -1 201
+S
+#203
+Knai Street~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 204
+D1
+~
+~
+0 -1 231
+D3
+~
+~
+0 -1 202
+S
+#204
+A Path Towards The Mountains~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 205
+D2
+~
+~
+0 -1 203
+S
+#205
+A Path Towards The Mountains~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 204
+D6
+~
+~
+0 -1 206
+S
+#206
+Approaching A Canyon~
+~
+0 1073741824 1 0
+D6
+~
+~
+0 -1 207
+D9
+~
+~
+0 -1 205
+S
+#207
+Before A Canyon~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 208
+D9
+~
+~
+0 -1 206
+S
+#208
+Within A Canyon~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 209
+D2
+~
+~
+0 -1 207
+S
+#209
+Within A Canyon~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 210
+D2
+~
+~
+0 -1 208
+S
+#210
+A Bend In The Canyon~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 209
+D6
+~
+~
+0 -1 211
+S
+#211
+A Bend In The Canyon~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 212
+D9
+~
+~
+0 -1 210
+S
+#212
+Within A Canyon~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 213
+D2
+~
+~
+0 -1 211
+S
+#213
+Approaching A Deadend~
+~
+0 1073741824 1 0
+D0
+~
+~
+0 -1 214
+D2
+~
+~
+0 -1 212
+S
+#214
+The Base Of A Cliff~
+~
+0 1073741824 1 0
+D2
+~
+~
+0 -1 213
+D4
+~
+~
+65664 -1 215
+S
+#215
+Clinging To A Cliff-Face~
+~
+0 1073741824 1 0
+D4
+~
+~
+65664 -1 216
+D5
+~
+~
+65664 -1 214
+S
+#216
+Clinging To A Cliff-Face~
+~
+0 1073741828 1 0
+D4
+~
+~
+65664 -1 217
+D5
+~
+~
+65664 -1 215
+S
+#217
+Before A Ledge~
+~
+0 1073741828 1 0
+D4
+~
+~
+65664 -1 218
+D5
+~
+~
+65664 -1 216
+S
+#218
+On The Edge Of A Ledge~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 219
+D5
+~
+~
+65536 -1 217
+S
+#219
+Before A Cavern~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 220
+D2
+~
+~
+0 -1 218
+S
+#220
+Within A Cavern~
+~
+0 1073741836 1 0
+D2
+~
+~
+0 -1 219
+D7
+~
+~
+0 -1 221
+S
+#221
+Deeper Within The Cavern~
+~
+0 1073741836 1 0
+D7
+~
+~
+0 -1 222
+D8
+~
+~
+0 -1 220
+S
+#222
+Beginning Of A Downward Slope~
+~
+0 1073741836 1 0
+D0
+~
+~
+0 -1 223
+D8
+~
+~
+0 -1 221
+S
+#223
+On A Downward Slope~
+~
+0 1073741836 1 0
+D0
+~
+~
+0 -1 224
+D2
+~
+~
+0 -1 222
+S
+#224
+Before A Large Pit~
+~
+0 1073741836 1 0
+D0
+~
+~
+0 -1 225
+D2
+~
+~
+0 -1 223
+S
+#225
+At The Edge Of A Pit~
+~
+0 1073741836 1 0
+D2
+~
+~
+0 -1 224
+D5
+~
+~
+65664 -1 226
+S
+#226
+Just Inside The Pit~
+~
+0 1073741836 1 0
+D4
+~
+~
+65664 -1 225
+D5
+~
+~
+65664 -1 227
+S
+#227
+Within The Pit~
+~
+0 1073741836 1 0
+D4
+~
+~
+65664 -1 226
+D5
+~
+~
+65664 -1 228
+S
+#228
+The Bottom Of A Pit~
+~
+0 1073741836 1 0
+D1
+~
+~
+0 -1 229
+D4
+~
+~
+65664 -1 227
+S
+#229
+Within A Crystal Cavern~
+~
+0 1073741836 1 0
+D1
+~
+~
+0 -1 230
+D3
+~
+~
+0 -1 228
+> speech_prog p Live for the Hunt~
+if clan($n) == The Hunters Guild
+mpecho &W A hidden door swings open. As you step through the door it slams shut with a loud BANG!.
+mpsleep 7
+mptransfer all 231
+endif
+~
+|
+S
+#230
+Within A Crystal Cavern~
+~
+0 1073741836 1 0
+D3
+~
+~
+0 -1 229
+S
+#231
+Knai Street~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 232
+D3
+~
+~
+0 -1 203
+S
+#232
+Intersection Of Knai And Domoi~
+~
+0 1073741828 1 0
+D2
+~
+~
+0 -1 233
+D3
+~
+~
+0 -1 231
+S
+#233
+Domoi Street~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 232
+D2
+~
+~
+0 -1 234
+S
+#234
+Domoi Street~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 233
+D1
+~
+~
+0 -1 255
+D2
+~
+~
+0 -1 235
+S
+#235
+Domoi Street~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 234
+D2
+~
+~
+0 -1 236
+S
+#236
+Intersection Of Domoi And Fremin~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 235
+D3
+~
+~
+0 -1 237
+S
+#237
+Fremin Lane~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 236
+D3
+~
+~
+0 -1 238
+S
+#238
+Fremin Lane~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 237
+D3
+~
+~
+0 -1 239
+S
+#239
+Fremin Lane~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 238
+D3
+~
+~
+0 -1 243
+S
+#240
+Whasi Way~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 201
+D2
+~
+~
+0 -1 241
+D3
+~
+~
+0 -1 198
+S
+#241
+Whasi Way~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 240
+D2
+~
+~
+0 -1 242
+S
+#242
+Whasi Way~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 241
+D2
+~
+~
+0 -1 243
+S
+#243
+Intersection Of Whasi And Fremin~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 242
+D1
+~
+~
+0 -1 239
+D2
+~
+~
+0 -1 277
+D3
+~
+~
+0 -1 244
+S
+#244
+Fremin Lane~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 243
+D3
+~
+~
+0 -1 245
+S
+#245
+Fremin Lane~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 244
+D3
+~
+~
+0 -1 246
+S
+#246
+Fremin Lane~
+~
+0 1073741828 1 0
+D1
+~
+~
+0 -1 245
+D3
+~
+~
+0 -1 247
+S
+#247
+Intersection Of Khand And Fremin~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 248
+D1
+~
+~
+0 -1 246
+S
+#248
+Khand Road~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 249
+D2
+~
+~
+0 -1 247
+S
+#249
+Khand Road~
+~
+0 1073741828 1 0
+D0
+~
+~
+0 -1 250
+D2
+~
+~
+0 -1 248
+S
+#250
+Khand Road~
+~
+0 1073741828 1 0 0 0 32040
+D0
+~
+~
+0 -1 251
+D2
+~
+~
+0 -1 249
+S
+#251
+Intersection Of Knai And Khand~
+~
+0 0 1 0 0 0 32040
+D1
+~
+~
+0 -1 252
+D2
+~
+~
+0 -1 250
+S
+#252
+Knai Street~
+~
+0 0 1 0 0 0 32040
+D1
+~
+~
+0 -1 253
+D3
+~
+~
+0 -1 251
+S
+#253
+Knai Street~
+~
+0 0 1 0 0 0 32040
+D1
+~
+~
+0 -1 254
+D3
+~
+~
+0 -1 252
+S
+#254
+Knai Street~
+~
+0 0 1 0 0 0 32040
+D1
+~
+~
+0 -1 201
+D3
+~
+~
+0 -1 253
+S
+#255
+Pathway To The Gardens~
+~
+0 0 1 0 0 0 32040
+D1
+~
+~
+0 -1 256
+D3
+~
+~
+0 -1 234
+S
+#256
+A Winding Pathway~
+~
+0 0 1 0 0 0 32040
+D3
+~
+~
+0 -1 255
+D6
+~
+~
+0 -1 257
+S
+#257
+Approaching The Gardens Of Talla~
+~
+0 1073741824 1 0 0 0 32040
+D8
+~
+~
+0 -1 258
+D9
+~
+~
+0 -1 256
+S
+#258
+Before A Large Gate~
+~
+0 1073741824 1 0 0 0 32040
+D1
+~
+gate~
+3 -1 259
+D7
+~
+~
+0 -1 257
+S
+#259
+Western Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 260
+D1
+~
+~
+0 -1 264
+D3
+~
+gate~
+3 -1 258
+S
+#260
+Northwest Corner Of The Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D1
+~
+~
+0 -1 261
+D2
+~
+~
+0 -1 259
+S
+#261
+Northern Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D1
+~
+~
+0 -1 262
+D2
+~
+~
+0 -1 264
+D3
+~
+~
+0 -1 260
+S
+#262
+Northeast Corner Of The Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D2
+~
+~
+0 -1 263
+D3
+~
+~
+0 -1 261
+S
+#263
+Eastern Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 262
+D3
+~
+~
+0 -1 264
+S
+#264
+Center Of The Gardens Of Talla~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 261
+D1
+~
+~
+0 -1 263
+D2
+~
+~
+0 -1 265
+D3
+~
+~
+0 -1 259
+S
+#265
+Southern Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 264
+D1
+~
+~
+0 -1 266
+D2
+~
+gate~
+3 -1 268
+D3
+~
+~
+0 -1 267
+S
+#266
+Southeast Corner Of The Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 263
+D3
+~
+~
+0 -1 265
+S
+#267
+Southwest Corner Of The Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 259
+D1
+~
+~
+0 -1 265
+S
+#268
+Gate Before The Gardens Of Talla~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+gate~
+3 -1 265
+D2
+~
+~
+0 -1 269
+S
+#269
+A Stone Pathway To The Academy~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 268
+D2
+~
+~
+0 -1 270
+S
+#270
+A Bend In The Path~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 269
+D3
+~
+~
+0 -1 271
+S
+#271
+Approaching The Jedi Academy~
+~
+0 1073741824 1 0 0 0 32040
+D1
+~
+~
+0 -1 270
+D3
+~
+~
+0 -1 272
+S
+#272
+Before The Academy~
+~
+0 1073741824 1 0 0 0 32040
+D1
+~
+~
+0 -1 271
+D3
+~
+~
+3 -1 273
+S
+#273
+An Antechamber~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 274
+D1
+~
+~
+3 -1 272
+S
+#274
+A Short Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D2
+~
+~
+0 -1 273
+D3
+~
+~
+0 -1 275
+S
+#275
+Enterance To The Temple~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+3 -1 276
+D1
+~
+~
+0 -1 274
+D2
+~
+~
+0 -1 278
+S
+#276
+Before The Jedi Temple~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 277
+D2
+~
+~
+3 -1 275
+S
+#277
+A Decorated Path~
+~
+0 1073741824 1 0 0 0 32040
+D2
+~
+~
+0 -1 276
+S
+#278
+A Small Reception Area~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+1 -1 275
+D1
+~
+~
+3 -1 280
+D2
+~
+~
+0 -1 281
+D3
+~
+~
+0 -1 279
+S
+#279
+A Small Mail Room~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 278
+S
+#280
+A Meeting Chamber~
+~
+0 1073741832 1 0 0 0 32040
+D3
+~
+~
+3 -1 278
+S
+#281
+A Long Narrow Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 278
+D2
+~
+~
+0 -1 282
+S
+#282
+A Long Narrow Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 281
+D2
+~
+~
+0 -1 283
+S
+#283
+Before The Academy Enterance~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 282
+S
+#284
+Within The Jedi Academy~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 283
+D2
+~
+~
+0 -1 285
+S
+#285
+Before The Central Garden~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 284
+D2
+~
+~
+0 -1 286
+S
+#286
+The Central Gardens~
+~
+0 1073741824 1 0 0 0 32040
+D0
+~
+~
+0 -1 285
+D1
+~
+~
+0 -1 301
+D2
+~
+~
+0 -1 312
+D3
+~
+~
+0 -1 287
+D8
+~
+~
+0 -1 335
+S
+#287
+A Wooden Corridor~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 286
+D3
+~
+~
+0 -1 288
+S
+#288
+A Large Common Room~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 289
+D1
+~
+~
+0 -1 287
+D2
+~
+~
+0 -1 317
+D4
+~
+~
+0 -1 293
+S
+#289
+A Spotless Cafeteria~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 290
+D2
+~
+~
+0 -1 288
+S
+#290
+A Spotless Cafeteria~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+3 -1 292
+D2
+~
+~
+0 -1 289
+D3
+~
+~
+3 -1 291
+S
+#291
+A Men's Bathroom~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+3 -1 290
+> speech_prog 1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Ground Floor. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 290
+mpat 290 mpforce $n l
+mpat 290 mer $n $n gets off the turbolift.
+~
+> speech_prog -1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Basement. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 292
+mpat 292 mer $n $n get off of the turbolift.
+~
+> speech_prog 2~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Level 2. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 293
+mpat 293 mer $n $n get off of the turbolift.
+~
+> speech_prog penthouse~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Penthouse. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 301
+mpat 301 mer $n $n get off of the turbolift.
+~
+> speech_prog basement~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Basement. Please step off.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 292
+mpat 292 mer $n $n get off of the turbolift.
+~
+|
+S
+#292
+A Woman's Bathroom~
+~
+0 1073741832 1 0 0 0 32040
+D3
+~
+~
+3 -1 290
+S
+#293
+Before A Dormatory~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 294
+D5
+~
+~
+0 -1 288
+S
+#294
+Within The Dormatory~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 297
+D1
+~
+~
+0 -1 296
+D2
+~
+~
+0 -1 293
+D3
+~
+~
+0 -1 295
+S
+#295
+A Vacant Dorm~
+~
+0 1084227592 1 0 0 0 32040
+D1
+~
+~
+0 -1 294
+S
+#296
+A Vacant Dorm~
+~
+0 1084227592 1 0 0 0 32040
+D3
+~
+~
+0 -1 294
+S
+#297
+Within The Dormatory~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 300
+D1
+~
+~
+0 -1 299
+D2
+~
+~
+0 -1 294
+D3
+~
+~
+0 -1 298
+S
+#298
+A Vacant Dorm~
+~
+0 1084227592 1 0 0 0 32040
+D1
+~
+~
+0 -1 297
+S
+#299
+A Vacant Dorm~
+~
+0 1084227592 1 0 0 0 32040
+D3
+~
+~
+0 -1 297
+S
+#300
+A Vacant Dorm~
+~
+0 1084227592 1 0 0 0 32040
+D2
+~
+~
+0 -1 297
+S
+#301
+An Ancient Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 302
+D3
+~
+~
+0 -1 286
+S
+#302
+An Ancient Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 303
+D3
+~
+~
+0 -1 301
+S
+#303
+Before Two Large Doors~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+3 -1 309
+D3
+~
+~
+0 -1 302
+D5
+~
+~
+0 -1 304
+S
+#304
+A Long Stairwell~
+~
+0 1073741832 1 0 0 0 32040
+D4
+~
+~
+0 -1 303
+D5
+~
+~
+0 -1 305
+S
+#305
+A Long Stairwell~
+~
+0 1073741832 1 0 0 0 32040
+D3
+~
+~
+0 -1 306
+D4
+~
+~
+0 -1 304
+S
+#306
+Before A Set Of Blast Doors~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 305
+D2
+~
+~
+134217731 -1 307
+S
+#307
+A Combat Command Center~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+134217731 -1 306
+D2
+~
+~
+0 -1 308
+S
+#308
+A Combat Simulator~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 307
+S
+#309
+Great Jedi Library~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 310
+D3
+~
+~
+3 -1 303
+S
+#310
+Great Jedi Library~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 311
+D3
+~
+~
+0 -1 309
+S
+#311
+Great Jedi Library~
+~
+0 1073741832 1 0 0 0 32040
+D3
+~
+~
+0 -1 310
+S
+#312
+A Quiet Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 286
+D2
+~
+~
+0 -1 313
+S
+#313
+A Quiet Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 312
+D2
+~
+~
+0 -1 315
+D3
+~
+~
+0 -1 314
+> speech_prog -1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Housing -1. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 324
+mpat 324 mpforce $n l
+mpat 324 mer $n $n gets off the turbolift.
+~
+> speech_prog 1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Ground Floor. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 312
+mpat 312 mpforce $n l
+mpat 312 mer $n $n gets off the turbolift.
+~
+> speech_prog -7~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Rehydration. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 342
+mpat 342 mpforce $n l
+mpat 342 mer $n $n gets off the turbolift.
+~
+|
+S
+#314
+A Peaceful Meditation Chamber~
+~
+0 1073808392 1 0 0 0 32040
+D1
+~
+~
+0 -1 313
+> speech_prog 1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Ground Floor. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 311
+mpat 311 mpforce $n l
+mpat 311 mer $n $n gets off the turbolift.
+~
+> speech_prog -1~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Housing, -1. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 315
+mpat 315 mpforce $n l
+mpat 315 mer $n $n gets off the turbolift.
+~
+> speech_prog -7~
+mpecho The turbolift shakes slightly as it begins moving. 
+mpecho The turbolift slowly comes to a halt and the doors slide open.
+mpecho An electronic voice says: 'Rehydration. Watch your step.'
+mpechoat $n You step out of the turbolift.
+mpechoaround $n $n steps out of the turbolift.
+mptransfer $n 342
+mpat 342 mpforce $n l
+mpat 342 mer $n $n gets off the turbolift.
+~
+|
+S
+#315
+Before The Council Chamber~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+0 -1 313
+D2
+~
+~
+3 -1 316
+D4
+~
+~
+0 -1 318
+S
+#316
+The Council Chambers~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+3 -1 315
+S
+#317
+A Calm And Peaceful Workshop~
+~
+0 1140917256 1 0 0 0 32040
+D0
+~
+~
+0 -1 288
+S
+#318
+Jedi Council Residence Hall~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+1 -1 326
+D1
+~
+~
+0 -1 328
+D2
+~
+~
+1 -1 327
+D3
+~
+~
+0 -1 319
+D5
+~
+~
+0 -1 315
+S
+#319
+A Well Decorated Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+1 -1 324
+D1
+~
+~
+0 -1 318
+D2
+~
+~
+1 -1 325
+D3
+~
+~
+0 -1 320
+S
+#320
+End Of A Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+1 -1 322
+D1
+~
+~
+0 -1 319
+D2
+~
+~
+1 -1 323
+D3
+~
+~
+1 -1 321
+S
+#321
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D1
+~
+~
+1 -1 320
+S
+#322
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D2
+~
+~
+1 -1 320
+S
+#323
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D0
+~
+~
+1 -1 320
+S
+#324
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D2
+~
+~
+0 -1 319
+S
+#325
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D0
+~
+~
+1 -1 319
+S
+#326
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D2
+~
+~
+0 -1 318
+S
+#327
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D0
+~
+~
+1 -1 318
+S
+#328
+A Well Decorated Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+1 -1 333
+D1
+~
+~
+0 -1 329
+D2
+~
+~
+1 -1 334
+D3
+~
+~
+0 -1 318
+S
+#329
+End Of A Hallway~
+~
+0 1073741832 1 0 0 0 32040
+D0
+~
+~
+1 -1 331
+D1
+~
+~
+1 -1 330
+D2
+~
+~
+1 -1 332
+D3
+~
+~
+0 -1 328
+S
+#330
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D3
+~
+~
+1 -1 329
+S
+#331
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D2
+~
+~
+1 -1 329
+S
+#332
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D0
+~
+~
+1 -1 329
+S
+#333
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D2
+~
+~
+1 -1 328
+S
+#334
+A Vacant Home~
+~
+0 1084227592 1 0 0 0 32040
+D0
+~
+~
+1 -1 328
+S
+#335
+The Hallway Of Trials~
+~
+0 1073741832 1 0 0 0 32040
+D7
+~
+~
+0 -1 286
+D8
+~
+~
+0 -1 336
+S
+#336
+The Hallway Of Trials~
+~
+0 1073741832 1 0 0 0 32040
+D7
+~
+~
+0 -1 335
+D8
+~
+~
+0 -1 337
+S
+#337
+Before An Ancient Door~
+~
+0 1073741832 1 0 0 0 32040
+D1
+~
+~
+0 -1 338
+D7
+~
+~
+0 -1 336
+S
+#338
+The Jedi Code~
+There is no emotion
+There is peace
+~
+0 1073742861 1 0 0 0 2
+D3
+~
+~
+0 -1 337
+S
+#339
+The Jedi Code~
+There is no ignorance
+There is knowledge
+~
+0 1073742861 1 0 0 0 32040
+S
+#340
+The Jedi Code~
+There is no chaos
+There is humility
+~
+0 1073742860 1 0 0 0 32040
+S
+#341
+The Jedi Code~
+There is no passion
+There is serenity
+~
+0 1073742860 1 0 0 0 32040
+S
+#342
+The Jedi Code~
+There is no darkness
+There is the light
+~
+0 1073742860 1 0 0 0 32040
+S
+#343
+The Jedi Code~
+There is no death
+There is only the force
+~
+0 1073742860 1 0 0 0 32040
+S
+#344
+A Dark Hallway~
+~
+0 1073742856 1 0 0 0 32040
+D1
+~
+~
+0 -1 345
+S
+#345
+A Dark Hallway~
+~
+0 1073742856 1 0 0 0 32040
+D1
+~
+~
+0 -1 346
+S
+#346
+A Test Of Strength~
+~
+0 1073741836 1 0 0 0 32040
+S
+#347
+The Final Test~
+You have encountered a fallen jedi now tainted with the dark side of the force. Do you:
+a) Defeat the fallen Jedi, through their death can we show that the light overpowers the dark.
+b) Convince the Fallen Jedi to atone for their sins against the Force.
+c) Inform the Jedi Council of your discovery of this Darksider.
+d) Engage in a philosophical debate over the pros and cons of the two sides of the Force.
+e) Explain that you are to clense the Force of all Dark Siders and that through death the Tainted will find absolution.
+~
+0 1073742860 1 0 0 0 32040
+S
+#348
+Completion Of The Trials~
+~
+0 1073742860 1 0 0 0 32040
+S
+#364
+A Motel Room~
+&w&WThis small, quaint, window-less motel room has been furnished
+with the bare necessities of life. After a few nights in this
+room, you could not imagine wishing to stay any longer.
+~
+0 1073742860 1 0 0 0 32040
+D5
+~
+~
+0 -1 196
+S
+#365
+Floating in a void~
+~
+0 1073741828 1 0 0 0 32040
+S
+#392
+Floating in a void~
+~
+0 1073741828 1 0 0 0 32040
+S
+#399
+Floating in a void~
+~
+0 1073741828 1 0 0 0 32040
+S
+#0
+
+
+#RESETS
+M 1 191 1 191
+O 1 191 1 191
+D 0 258 1 1
+D 0 259 3 1
+D 0 265 2 1
+D 0 268 0 1
+D 0 272 3 1
+D 0 273 1 1
+D 0 275 0 1
+D 0 276 2 1
+D 0 280 3 1
+D 0 278 1 1
+D 0 291 1 1
+D 0 292 3 1
+D 0 290 1 1
+D 0 290 3 1
+D 0 306 2 1
+D 0 307 0 1
+D 0 303 1 1
+D 0 309 3 1
+D 0 316 0 1
+D 0 315 2 1
+M 1 399 1 399
+O 1 399 1 399
+M 1 338 1 338
+M 1 339 1 339
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,311 @@
+#AREA   Dantooine~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32630
+dantooine farmer~
+a grain farmer~
+A grain farmer leans on the porch post.
+~
+Sun on the arms and a bell-rope in reach.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32631
+rebel remnant~
+a rebel remnant~
+A rebel remnant sorts blankets in the cave.
+~
+No rank tab. The posture still has some.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32632
+grain buyer dantooine~
+a grain buyer~
+A grain buyer waits by the shed scale.
+~
+The buyer comes when the grain is tall and leaves when the sacks are full.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Grain by the sack. Blankets if the night is clear, which it will be.
+~
+|
+#0
+
+
+#OBJECTS
+#32635
+grain sack dantooine~
+a sack of grain~
+A sack of grain sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+10
+0
+#32636
+wool blanket~
+a wool blanket~
+A wool blanket lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+16
+0
+#0
+
+
+#ROOMS
+#31240
+Grass Pad~
+The pad is a square of packed earth in an ocean of grass. The sky is large here in a way cities do not allow.
+~
+0 48 2 0 0 0 0
+D0
+~
+~
+0 -1 31241
+D2
+~
+~
+0 -1 31245
+S
+#31241
+Rebel Ruins~
+Low ruins of a base. Grass grows through the floor plates. A rebel starbird is a rust stain.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31240
+D1
+~
+~
+0 -1 31242
+D3
+~
+~
+0 -1 31243
+D0
+~
+~
+0 -1 31244
+S
+#31242
+Grain Field~
+A field is fenced with wire. The grain is tall and moves all at once when the wind decides.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31241
+D0
+~
+~
+0 -1 31246
+S
+#31243
+Cave~
+A cool cave in a bluff. Old stores are stacked and dusty. The crates are stenciled and then forgotten.
+~
+0 0 13 0 0 0 0
+D1
+~
+~
+0 -1 31241
+S
+#31244
+Farmhouse~
+A sod house and a cistern. A chair sits on the porch facing the grass, which is the whole view.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31241
+D1
+~
+~
+0 -1 31247
+S
+#31245
+Council Stones~
+Standing stones ring a flat. The grass is worn away inside. The stones are warm in the sun.
+~
+0 0 4 0 0 0 0
+D0
+~
+~
+0 -1 31240
+S
+#31246
+Watch Hill~
+A hill is the only height. You can see weather coming for an hour before it arrives. North, a track follows the ridge.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31242
+D0
+~
+~
+0 -1 32620
+S
+#31247
+South Track~
+A track runs south through the grass and does not hurry. It is two lines and a middle of seed heads.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31244
+S
+#32620
+Ridge Track~
+North of the watch hill, the track follows the ridge. You can see the ruins, the field, and the stones all at once.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31246
+D0
+~
+~
+0 -1 32621
+D1
+~
+~
+0 -1 32622
+S
+#32621
+Ruin Mess~
+What was a mess hall. Tables of plate, a stove, and grass in the doorway. A mug is still on a hook.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32620
+D3
+~
+~
+0 -1 32623
+S
+#32622
+Cave Stores~
+The stacked crates. One is open on blankets. The blankets are clean, which means someone is using them.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32620
+D0
+~
+~
+0 -1 32624
+S
+#32623
+Porch~
+The sod house porch. The chair. A bell to call people in from the grain.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 32621
+S
+#32624
+Stone Flat~
+Inside the ring. The worn grass. It is quieter, which is not something grass usually does.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 32622
+D1
+~
+~
+0 -1 32625
+S
+#32625
+Grain Shed~
+A shed at the field's corner. Sacks, a scale, and a dog's bed. The dog is out.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32624
+S
+#0
+
+
+#RESETS
+M 1 32630 1 31246
+M 1 32631 1 32621
+M 1 32632 1 32622
+G 1 32635 1
+O 1 32636 1 31246
+S
+
+
+#SHOPS
+32632 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

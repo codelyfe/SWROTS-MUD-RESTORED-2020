@@ -1,0 +1,311 @@
+#AREA   Kalee~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#31420
+kaleesh warrior~
+a Kaleesh warrior~
+A Kaleesh warrior stands the bone gate in a mask.
+~
+The mask is a face. The spear is cared for.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31421
+kaleesh fletcher~
+a Kaleesh spear-keeper~
+A Kaleesh spear-keeper oils a shaft.
+~
+The keeper does not lend. The keeper may sell a finished spear's little brother, a knife.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#31422
+fish dryer~
+a fish dryer~
+A Kaleesh turns fish on the rack.
+~
+Trade is fish and a nod.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Fish, and a knife. The spears stay on the stand.
+~
+|
+#0
+
+
+#OBJECTS
+#32815
+bone knife~
+a bone-handled knife~
+A bone-handled knife lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+24
+0
+#32816
+dried fish kalee~
+a rack of dried fish~
+A bundle of dried fish lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+6
+0
+#0
+
+
+#ROOMS
+#31312
+Warrior Pad~
+The pad faces a court of standing stones. The plains are wide and green. A watch mound is the only height.
+~
+0 48 2 0 0 0 0
+D0
+~
+~
+0 -1 31313
+D2
+~
+~
+0 -1 31317
+S
+#31313
+Warrior Court~
+The court is packed earth. Weapon stands ring it. The stands are full, which is a statement.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31312
+D1
+~
+~
+0 -1 31314
+D3
+~
+~
+0 -1 31315
+D0
+~
+~
+0 -1 31316
+S
+#31314
+Reed Marsh~
+Reeds hide slow water. Birds shout. A path of logs crosses the wet part.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31313
+D0
+~
+~
+0 -1 31318
+S
+#31315
+Armory~
+An armory of spears and shields. Everything is maintained. Oil and leather are the smell.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31313
+S
+#31316
+Clan Hall~
+A hall of hides and carved posts. Seats are low. A drum is the centerpiece and is not a decoration.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31313
+D1
+~
+~
+0 -1 31319
+S
+#31317
+Bone Gate~
+A gate of bone and timber marks the camp edge. Trophies are tied on, old and new.
+~
+0 0 4 0 0 0 0
+D0
+~
+~
+0 -1 31312
+S
+#31318
+Watch Mound~
+A mound gives a view of the marsh and the grass. A horn hangs where the watch can reach it.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31314
+D0
+~
+~
+0 -1 32800
+S
+#31319
+South Grass~
+The grass runs south without a fence. North of the mound, a path the warriors use goes to the reed crossing.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31316
+S
+#32800
+Reed Crossing~
+North of the watch mound, logs cross the reeds. The birds object. The far side is a drying rack.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31318
+D0
+~
+~
+0 -1 32801
+D1
+~
+~
+0 -1 32802
+S
+#32801
+Drying Rack~
+Spears of fish and hides on a rack in the wind. A Kaleesh turns them and counts.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 32800
+D3
+~
+~
+0 -1 32803
+S
+#32802
+Armory Bench~
+The bench where edges are kept. A stone, oil, and a row of finished spears.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32800
+D0
+~
+~
+0 -1 32804
+S
+#32803
+Drum Hall~
+The hall from beside the drum. The hides on the wall are a history if you can read them.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32801
+S
+#32804
+Bone Gate~
+The gate from the inside. The trophies are named, quietly, by the guard, if asked once.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 32802
+D1
+~
+~
+0 -1 32805
+S
+#32805
+Warrior Court Edge~
+The edge of the packed earth. You can see the stands and the pad. Stepping in is a choice.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 32804
+S
+#0
+
+
+#RESETS
+M 1 31420 1 31318
+M 1 31421 1 32801
+M 1 31422 1 32802
+G 1 32815 1
+O 1 32816 1 31318
+S
+
+
+#SHOPS
+31422 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

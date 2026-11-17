@@ -1,0 +1,311 @@
+#AREA   Utapau~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32150
+utai handler~
+an Utai handler~
+An Utai handler checks a dactillion harness.
+~
+Short and broad, with a calm hand on the beast's neck.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32151
+pauan administrator~
+a Pau'an administrator~
+A Pau'an administrator reads a berth list.
+~
+Tall, lined, and gray. The eyes are pale.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32152
+sinkhole merchant~
+a sinkhole merchant~
+A sinkhole merchant arranges lamp oil.
+~
+The merchant sells what the lower city actually uses.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Oil, rings, and tack. Name your need.
+~
+|
+#0
+
+
+#OBJECTS
+#32155
+lamp oil~
+a flask of lamp oil~
+A flask of lamp oil sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+12
+0
+#32156
+harness ring~
+a harness ring~
+A metal harness ring lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+20
+0
+#0
+
+
+#ROOMS
+#31032
+Pau Landing~
+A round pad hangs in the sinkhole wind. The city is a stack of rings below you, and the sky is a circle far above. Cables sing.
+~
+0 48 9 0 0 0 0
+D0
+~
+~
+0 -1 31033
+D2
+~
+~
+0 -1 31037
+S
+#31033
+Sinkhole Rim~
+The rim path looks down the shaft. Birds, or something like them, ride the updraft and do not land.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31032
+D1
+~
+~
+0 -1 31034
+D3
+~
+~
+0 -1 31035
+D0
+~
+~
+0 -1 31036
+S
+#31034
+Level City~
+Shops open onto a ring street. The light is that circle of sky. Pau'ans and Utai share the walk without hurrying.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31033
+D0
+~
+~
+0 -1 31038
+S
+#31035
+Dactillion Perch~
+Stalls and saddles wait on a ledge. The drop is straight down. A dactillion clicks its beak and eyes your hair.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31033
+S
+#31036
+Wind Tunnel~
+A bored tunnel cuts between levels. The air moves hard enough to lean on. Lamps swing.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31033
+D1
+~
+~
+0 -1 31039
+S
+#31037
+Port Hangar~
+Fighters rest in chalked circles, the old General's hangar still marked on the wall. Fuel lines run along the stone.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31032
+S
+#31038
+Council Porch~
+A stone porch looks across the shaft. Seats are cut from the rock. North, a stair drops toward the lower port offices.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31034
+D0
+~
+~
+0 -1 32140
+S
+#31039
+Lower City~
+The light fails down here. Lamps mark doors in the cave wall. Water drips, and the drip is the loudest thing.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31036
+S
+#32140
+Port Office~
+A stair down from the council porch ends in a clerk's room. Berth tags hang on hooks. The shaft wind is only a draft here.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31038
+D0
+~
+~
+0 -1 32141
+D1
+~
+~
+0 -1 32142
+S
+#32141
+Utai Workshop~
+Low benches, fitted for short workers. Saddles and engine parts share the same table.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32140
+D3
+~
+~
+0 -1 32143
+S
+#32142
+Dactillion Stable~
+The stable is a ledge with a rail. Three beasts shift and smell of fish. Harness hangs on pegs.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 32140
+D0
+~
+~
+0 -1 32144
+S
+#32143
+Wind Chapel~
+A chapel is cut where the wind is loudest. There is no idol, only a bowl of water that never stills.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32141
+S
+#32144
+Lower Market~
+The lower market sells lamp oil, dried fish, and engine rings. Voices stay quiet. The city is listening above.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32142
+D1
+~
+~
+0 -1 32145
+S
+#32145
+Administrator's Room~
+A plain room with a wide window on the shaft. A code cylinder rack is half empty.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32144
+S
+#0
+
+
+#RESETS
+M 1 32150 1 31038
+M 1 32151 1 32141
+M 1 32152 1 32142
+G 1 32155 1
+O 1 32156 1 31038
+S
+
+
+#SHOPS
+32152 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

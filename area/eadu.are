@@ -1,0 +1,311 @@
+#AREA   Eadu~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32350
+eadu scientist~
+a refinery scientist~
+A refinery scientist watches a kyber reading.
+~
+Damp coat, dry gloves, and a face that has not slept.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32351
+ground crew~
+a ground crew tech~
+A ground crew tech wrings out a slicker.
+~
+The tech lands ships in weather other people call a reason to stay home.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32352
+mess cook~
+a mess cook~
+A mess cook ladles something hot.
+~
+The cook sells a bowl and does not discuss the recipe.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say A bowl. It is hot. That is the whole sales pitch.
+~
+|
+#0
+
+
+#OBJECTS
+#32355
+slicker~
+a rain slicker~
+A rain slicker lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+15
+0
+#32356
+ration hot~
+a hot ration bowl~
+A covered ration bowl sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+5
+0
+#0
+
+
+#ROOMS
+#31128
+Refinery Pad~
+Rain hits a black pad on a cliff. The refinery clings to the rock, and every surface runs with water.
+~
+0 48 5 0 0 0 0
+D0
+~
+~
+0 -1 31129
+D2
+~
+~
+0 -1 31133
+S
+#31129
+Cliff Walk~
+A grated walk follows the cliff. The drop is lost in rain. The grate rings under boots.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31128
+D1
+~
+~
+0 -1 31130
+D3
+~
+~
+0 -1 31131
+D0
+~
+~
+0 -1 31132
+S
+#31130
+Research Lab~
+Benches and shielded hoods fill a wet concrete room. A kyber reading, or something like it, glows under one hood.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31129
+D0
+~
+~
+0 -1 31134
+S
+#31131
+Conduit Hall~
+Pipes run the length of a hall. Water drips from every joint. A valve wheel is tagged DO NOT CLOSE.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31129
+S
+#31132
+Storm Ridge~
+The ridge takes the wind full on. Lightning is close. A rail is the only reason people walk here.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31129
+D1
+~
+~
+0 -1 31135
+S
+#31133
+Landing Shed~
+A shed keeps one pad out of the worst rain. The doors stick. A ground crew's slickers hang inside.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31128
+S
+#31134
+South Stack~
+Vents stack up the cliff. Steam mixes with the rain. North, a catwalk enters the records stack.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31130
+D0
+~
+~
+0 -1 32340
+S
+#31135
+Records~
+Cabinets line a low room. The labels have run in the damp. A clerk has rewritten them in grease pencil.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31132
+S
+#32340
+Records Stack~
+The catwalk enters a stack of cabinets two floors high. Grease-pencil labels are the ones to trust.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31134
+D0
+~
+~
+0 -1 32341
+D1
+~
+~
+0 -1 32342
+S
+#32341
+Kyber Hood~
+The shielded hood up close. The glow is small and steady. A log of readings is clipped to the bench.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32340
+D3
+~
+~
+0 -1 32343
+S
+#32342
+Valve Gallery~
+The hall of pipes, from a side gallery. You can see which valve is tagged, and why someone might close it anyway.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32340
+D0
+~
+~
+0 -1 32344
+S
+#32343
+Slicker Room~
+Ground crew lockers. Every slicker is wet. A heater fights a losing war.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32341
+S
+#32344
+Cliff Cage~
+An open cage on the ridge rail. Magnoculars, a lightning counter, and a seat bolted down.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 32342
+D1
+~
+~
+0 -1 32345
+S
+#32345
+Refinery Mess~
+A mess cut into the rock. The food is hot, which is the only review anyone gives it.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32344
+S
+#0
+
+
+#RESETS
+M 1 32350 1 31134
+M 1 32351 1 32341
+M 1 32352 1 32342
+G 1 32355 1
+O 1 32356 1 31134
+S
+
+
+#SHOPS
+32352 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,311 @@
+#AREA   Ahch-To~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32410
+caretaker~
+a caretaker~
+A caretaker mends a net and does not greet you.
+~
+Small, wrapped in gray, and faster than the gesture suggests.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32411
+lantern keeper~
+a lantern keeper~
+A lantern keeper measures oil.
+~
+The keeper speaks when the measure is wrong, and not otherwise.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32412
+fish trader~
+a fish trader~
+A fish trader bundles dried fish.
+~
+Trade is a bundle and a nod.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Fish. Rope if you are going to the gap.
+~
+|
+#0
+
+
+#OBJECTS
+#32415
+dried fish~
+a bundle of dried fish~
+A bundle of dried fish lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+7
+0
+#32416
+coil rope~
+a coil of cliff rope~
+A coil of cliff rope lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+15
+0
+#0
+
+
+#ROOMS
+#31152
+Stone Landing~
+A stone shelf takes a small ship. Steps climb the cliff into mist. The sea is loud and near.
+~
+0 48 5 0 0 0 0
+D0
+~
+~
+0 -1 31153
+D2
+~
+~
+0 -1 31157
+S
+#31153
+Sea Steps~
+Wet steps switch back up the rock. The sea hits far below. A rope is bolted where the step is worst.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31152
+D1
+~
+~
+0 -1 31154
+D3
+~
+~
+0 -1 31155
+D0
+~
+~
+0 -1 31156
+S
+#31154
+Hut~
+A round stone hut. A fire pit sits in the middle. The door is a hide, and the hide is heavy.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31153
+D0
+~
+~
+0 -1 31158
+S
+#31155
+Caretaker Village~
+Low huts cluster on a ledge. Nets dry on the walls. The people here are small, quick, and not interested in guests.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31153
+S
+#31156
+Meditation Ledge~
+A flat ledge faces the horizon. The wind is steady. Someone has sat here often enough to polish the stone.
+~
+0 0 4 0 0 0 0
+D2
+~
+~
+0 -1 31153
+D1
+~
+~
+0 -1 31159
+S
+#31157
+Ancient Tree~
+A hollow tree holds a shelf of old books. The bark is gray and thick. The books are drier than the weather allows.
+~
+0 0 3 0 0 0 0
+D0
+~
+~
+0 -1 31152
+S
+#31158
+Cove~
+A cove of black rock. Boats are pulled above the surf. North, a path climbs toward the huts by a kinder slope.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31154
+D0
+~
+~
+0 -1 32400
+S
+#31159
+North Cliff~
+The cliff path ends at a gap. Birds nest in the face. A rope bridge, new rope, crosses to a further ledge.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 31156
+S
+#32400
+Kinder Path~
+North of the cove, a path the caretakers use. It climbs without the worst of the steps.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31158
+D0
+~
+~
+0 -1 32401
+D1
+~
+~
+0 -1 32402
+S
+#32401
+Caretaker Store~
+Nets, dried fish, and coils of rope. The store is a hut with no door, because everyone is watching.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32400
+D3
+~
+~
+0 -1 32403
+S
+#32402
+Book Tree~
+Inside the hollow, close enough to read the spines. The titles are in a hand you do not know. One shelf is empty on purpose.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32400
+D0
+~
+~
+0 -1 32404
+S
+#32403
+Meditation Ledge~
+The polished stone, and the wind, and nothing you brought with you. A flat rock is the only seat.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 32401
+S
+#32404
+Nest Cliff~
+The gap and the new rope. Nests tick with chicks. Do not linger if you like your hair.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 32402
+D1
+~
+~
+0 -1 32405
+S
+#32405
+Lantern Hut~
+A hut with a lantern in the window for boats. The oil is measured. The keeper is not chatty.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32404
+S
+#0
+
+
+#RESETS
+M 1 32410 1 31158
+M 1 32411 1 32401
+M 1 32412 1 32402
+G 1 32415 1
+O 1 32416 1 31158
+S
+
+
+#SHOPS
+32412 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

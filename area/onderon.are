@@ -1,0 +1,311 @@
+#AREA   Onderon~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32610
+onderon guard~
+an Onderon guard~
+An Onderon guard stands the gatehouse.
+~
+Leather and a spear. The guard watches the grass, not the road.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32611
+beast tracker~
+a beast tracker~
+A beast tracker reads the ground at the stone ring.
+~
+The tracker points at nothing you can see and is not performing.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32612
+market butcher~
+a market butcher~
+A market butcher wraps a cut.
+~
+The cages being empty is a point of pride. The meat is from hunts.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Dried meat. Oil for leather. The hunt is not included.
+~
+|
+#0
+
+
+#OBJECTS
+#32615
+dried meat~
+a wrap of dried meat~
+A wrap of dried meat lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+8
+0
+#32616
+horn oil~
+a flask of horn oil~
+A flask of horn oil sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+11
+0
+#0
+
+
+#ROOMS
+#31232
+Iziz Pad~
+The pad sits outside a walled city. Jungle presses the walls. The gate is tall enough to be a boast.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31233
+D2
+~
+~
+0 -1 31237
+S
+#31233
+City Gate~
+The gate is scarred and still shut at night. Guards' niches are empty at this hour. The doors are thick.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31232
+D1
+~
+~
+0 -1 31234
+D3
+~
+~
+0 -1 31235
+D0
+~
+~
+0 -1 31236
+S
+#31234
+Beast Plains~
+Open ground outside the walls. The grass is beaten into paths by things heavier than people.
+~
+0 0 2 0 0 0 0
+D3
+~
+~
+0 -1 31233
+D0
+~
+~
+0 -1 31238
+S
+#31235
+Palace~
+A palace of heavy stone. Banners are faded to a color that used to be a color. The steps are wide.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31233
+S
+#31236
+Market~
+A market under awnings. Cages stand empty along one side, the doors tied open so they stay that way.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31233
+D1
+~
+~
+0 -1 31239
+S
+#31237
+Wall Walk~
+The wall looks over jungle and plain. You can see the beast paths as lines in the grass.
+~
+0 0 4 0 0 0 0
+D0
+~
+~
+0 -1 31232
+S
+#31238
+Jungle Path~
+A path tunnels through leaves. It is loud with insects. North, it breaks into a clearing with a stone ring.
+~
+0 0 3 0 0 0 0
+D2
+~
+~
+0 -1 31234
+D0
+~
+~
+0 -1 32600
+S
+#31239
+Old Dungeon~
+Stairs drop to cells. Water stands on the floor. The doors are open and the rings on the walls are empty.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31236
+S
+#32600
+Beast Stone Ring~
+The jungle path opens on a ring of stones used to stake beasts. The stakes are gone. The ring remains.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31238
+D0
+~
+~
+0 -1 32601
+D1
+~
+~
+0 -1 32602
+S
+#32601
+Gatehouse~
+Inside the gate. Murder holes, a winch, and a kettle. The winch is greased.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32600
+D3
+~
+~
+0 -1 32603
+S
+#32602
+Empty Cage Row~
+The market's cage row. Ropes hold the doors open. A child has chalked a beast on the ground and given it a smile.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 32600
+D0
+~
+~
+0 -1 32604
+S
+#32603
+Palace Ante~
+Before the faded banners. A tray for weapons. The tray is used.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32601
+S
+#32604
+Wall Stores~
+A room in the wall. Arrows, lamps, and a horn. The horn is dusted.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32602
+D1
+~
+~
+0 -1 32605
+S
+#32605
+Dungeon Well~
+The dungeon's well, separate from the cells. The water is sweet, which surprises people.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32604
+S
+#0
+
+
+#RESETS
+M 1 32610 1 31238
+M 1 32611 1 32601
+M 1 32612 1 32602
+G 1 32615 1
+O 1 32616 1 31238
+S
+
+
+#SHOPS
+32612 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

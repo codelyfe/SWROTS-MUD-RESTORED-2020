@@ -1,0 +1,311 @@
+#AREA   Sullust~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32670
+sullustan tech~
+a Sullustan tech~
+A Sullustan tech listens to a vent.
+~
+Large dark eyes and ear protection around the neck.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32671
+hangar boss~
+a hangar boss~
+A hangar boss points a tug at a berth.
+~
+The boss has opinions about how you landed.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32672
+tunnel vendor~
+a tunnel vendor~
+A tunnel vendor sells parts from a bin.
+~
+The vendor knows which bin is food.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Parts, labeled. Ear guards if you like the vent.
+~
+|
+#0
+
+
+#OBJECTS
+#32675
+ear guard~
+a pair of ear guards~
+A pair of ear guards lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+18
+0
+#32676
+machine part~
+a sorted machine part~
+A sorted machine part lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+22
+0
+#0
+
+
+#ROOMS
+#31256
+Lava-City Pad~
+The pad is a grate over a cooled crust. The city is tunnels and balconies. Heat comes up through the grate in a polite way.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31257
+D2
+~
+~
+0 -1 31261
+S
+#31257
+Pumice Street~
+The street is light stone. Heat comes up through it. People wear wraps on their feet and pretend this is normal.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31256
+D1
+~
+~
+0 -1 31258
+D3
+~
+~
+0 -1 31259
+D0
+~
+~
+0 -1 31260
+S
+#31258
+Factory~
+Presses and molds fill a hall cut from the rock. The machines are sized for people who like low ceilings.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31257
+D0
+~
+~
+0 -1 31262
+S
+#31259
+Ash Vent~
+A vent roars. Ash drifts and settles on the rail. A Sullustan tech listens to the roar the way a doctor listens to a chest.
+~
+0 0 5 0 0 0 0
+D1
+~
+~
+0 -1 31257
+S
+#31260
+Hangar~
+A hangar opens on a lava tube. Fighters could hide here and have. Tie-down rings are shiny with use.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31257
+D1
+~
+~
+0 -1 31263
+S
+#31261
+Market~
+The market is a wideness in the tunnel. Lamps hang low. The goods are machine parts and food that keeps.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31256
+S
+#31262
+South Tunnel~
+The tunnel runs toward hotter air. A gate can seal it. North, a side door says BALCONY LOCK.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31258
+D0
+~
+~
+0 -1 32660
+S
+#31263
+Balcony~
+A balcony looks into a cavern lit from below. The light is orange and does not flicker, which means it is lava behaving.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 31260
+S
+#32660
+Balcony Lock~
+The side door opens on the balcony's lock controls and a rack of masks. The view is the cavern.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31262
+D0
+~
+~
+0 -1 32661
+D1
+~
+~
+0 -1 32662
+S
+#32661
+Vent Gallery~
+A gallery where the roar is a little less. Gauges, and a tech's tea, and a respect for the vent.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 32660
+D3
+~
+~
+0 -1 32663
+S
+#32662
+Tube Hangar Office~
+A booth in the hangar. Berths, fuel, and a warning about the tube's weather, which is a real phrase here.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32660
+D0
+~
+~
+0 -1 32664
+S
+#32663
+Low Market~
+The market under the lamps. Parts in bins. Food in bins. The bins are labeled, thankfully.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32661
+S
+#32664
+Press Floor~
+Between the presses. It is warm and loud and someone has hung a plant that is doing its best.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32662
+D1
+~
+~
+0 -1 32665
+S
+#32665
+Cool Stair~
+A stair toward the pad where the air is only warm. People stand on it to talk.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32664
+S
+#0
+
+
+#RESETS
+M 1 32670 1 31262
+M 1 32671 1 32661
+M 1 32672 1 32662
+G 1 32675 1
+O 1 32676 1 31262
+S
+
+
+#SHOPS
+32672 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

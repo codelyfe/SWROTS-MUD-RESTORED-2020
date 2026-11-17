@@ -1,0 +1,311 @@
+#AREA   Ilum~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32570
+ilum guardian~
+a temple guardian~
+A temple guardian stands out of the wind.
+~
+Furs over robes. A staff with no crystal in it.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32571
+crystal wrapper~
+a crystal wrapper~
+A crystal wrapper folds cloth.
+~
+The wrapper's hands are gloved. The cloth is soft.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32572
+shelter keeper~
+a shelter keeper~
+A shelter keeper tends a small stove.
+~
+Hot water is the good sold here.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Hot water and cloth. The crystals are not for sale.
+~
+|
+#0
+
+
+#OBJECTS
+#32575
+wrapping cloth~
+crystal-wrapping cloth~
+A length of crystal-wrapping cloth lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+14
+0
+#32576
+meltwater flask~
+a flask of meltwater~
+A flask of meltwater sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+6
+0
+#0
+
+
+#ROOMS
+#31216
+Ice Temple Pad~
+The pad faces a temple door in a cliff of ice. The cold is clean and immediate.
+~
+0 48 5 0 0 0 0
+D0
+~
+~
+0 -1 31217
+D2
+~
+~
+0 -1 31221
+S
+#31217
+Temple Door~
+The door is a slab. Carvings run with meltwater and refreeze. The opening is a dark slot.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31216
+D1
+~
+~
+0 -1 31218
+D3
+~
+~
+0 -1 31219
+D0
+~
+~
+0 -1 31220
+S
+#31218
+Crystal Cave~
+Crystals grow from the walls. They tick as they cool. The color is a blue that is almost white.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31217
+D0
+~
+~
+0 -1 31222
+S
+#31219
+Gathering Hall~
+A round hall. Niches wait for crystals that are not here. The floor is worn in a circle.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31217
+S
+#31220
+Frozen River~
+A river is a road of ice through the cave. It holds. Black water moves under it in a few windows.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31217
+D1
+~
+~
+0 -1 31223
+S
+#31221
+Kyber Chamber~
+A chamber of bare pedestals. The light is blue without a source you can find.
+~
+0 0 13 0 0 0 0
+D0
+~
+~
+0 -1 31216
+S
+#31222
+North Crevasse~
+A crevasse crosses the path. A rope bridge is new. North, the cliff path continues outside.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31218
+D0
+~
+~
+0 -1 32560
+S
+#31223
+Cliff Face~
+Outside again. The wind scours the ice clean. The temple door is a dark nick in a white wall.
+~
+0 0 5 0 0 0 0
+D3
+~
+~
+0 -1 31220
+S
+#32560
+Cliff Continuation~
+North of the crevasse, the path stays outside. The wind is a tool. A shelter is dug into the snow.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31222
+D0
+~
+~
+0 -1 32561
+D1
+~
+~
+0 -1 32562
+S
+#32561
+Snow Shelter~
+A dugout with a hide door. A stove, a stack of crystal-wrapping cloth, and a rule about bare hands.
+~
+0 8 13 0 0 0 0
+D2
+~
+~
+0 -1 32560
+D3
+~
+~
+0 -1 32563
+S
+#32562
+Pedestal Chamber~
+The pedestals up close. Each has a groove where a crystal would sit. One groove is warm.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32560
+D0
+~
+~
+0 -1 32564
+S
+#32563
+Ice Road Camp~
+A camp on the frozen river. Pitons, a rope, and a lantern that does not melt its shelf.
+~
+0 8 13 0 0 0 0
+D1
+~
+~
+0 -1 32561
+S
+#32564
+Gathering Bench~
+A bench in the round hall. Wraps for hands. A master has left a note that says only: listen.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32562
+D1
+~
+~
+0 -1 32565
+S
+#32565
+Meltwater Niche~
+A niche where the carvings drip. Bowls catch the water. It is drunk, carefully, because it is pure.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32564
+S
+#0
+
+
+#RESETS
+M 1 32570 1 31222
+M 1 32571 1 32561
+M 1 32572 1 32562
+G 1 32575 1
+O 1 32576 1 31222
+S
+
+
+#SHOPS
+32572 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

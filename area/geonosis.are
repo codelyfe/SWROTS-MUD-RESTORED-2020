@@ -1,0 +1,311 @@
+#AREA   Geonosis~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32110
+geonosian keeper~
+a Geonosian hive keeper~
+A Geonosian hive keeper clicks its wings.
+~
+Lean, winged, and dusted red. A sonic blaster hangs on a strap.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32111
+droid halfbuilt~
+a half-built battle droid~
+A half-built battle droid twitches on a rack.
+~
+One arm is missing. The photoreceptor tracks you and then loses you.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32112
+foundry clerk~
+a foundry clerk~
+A foundry clerk counts mold tags.
+~
+The clerk is a Geonosian with a slate and no interest in conversation beyond the price of scrap.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Scrap and casing. State what you want.
+~
+|
+#0
+
+
+#OBJECTS
+#32115
+tag mold~
+a mold tag~
+A copper mold tag lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+15
+0
+#32116
+wing casing~
+a shed wing casing~
+A shed Geonosian wing casing lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+40
+0
+#0
+
+
+#ROOMS
+#31016
+Stalgasin Pad~
+Red dust climbs the landing shelf in little walls. Hive spires stand in the haze, and a sonic alarm clicks once as your ship settles. Cart tracks run down into the rock.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31017
+D2
+~
+~
+0 -1 31021
+S
+#31017
+Arena Sand~
+The arena sand is raked and stained dark in the old places. High walls throw a hard shadow. A gate at the far end is chained, and the chain is new.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31016
+D1
+~
+~
+0 -1 31018
+D3
+~
+~
+0 -1 31019
+D0
+~
+~
+0 -1 31020
+S
+#31018
+Droid Foundry~
+The foundry is warm. Molds for battle droid limbs hang on rails, and a conveyor has stopped with a half-pressed chassis in it. The rock underfoot holds the heat.
+~
+0 0 13 0 0 0 0
+D3
+~
+~
+0 -1 31017
+D0
+~
+~
+0 -1 31022
+S
+#31019
+Hive Spire~
+A stair twists up inside a spire. Wind howls through vents cut for wings, not for people. Red light comes in slits.
+~
+0 0 5 0 0 0 0
+D1
+~
+~
+0 -1 31017
+S
+#31020
+Execution Pit~
+The pit is a grated bowl. Chains hang from the rim at the height of a raised arm. The sand below is darker than the arena.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31017
+D1
+~
+~
+0 -1 31023
+S
+#31021
+Catacombs~
+Low tunnels branch through dry rock. Egg-chambers sit dark, the wax seals cracked. Your footsteps come back wrong.
+~
+0 0 13 0 0 0 0
+D0
+~
+~
+0 -1 31016
+S
+#31022
+Canyon Road~
+A cart track runs between spires. Dust devils cross it and fall apart on the stone. North, the track drops toward the archduke's works.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31018
+D0
+~
+~
+0 -1 32100
+S
+#31023
+Archduke's Anteroom~
+A high seat faces a map cut into the floor, the old Separatist foundries marked in inlay. The room smells of hot stone and machine oil.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31020
+S
+#32100
+Archduke's Map Room~
+The north end of the canyon road opens into a cut chamber. A stone map of the hive is inlaid in the floor, foundries picked out in copper.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31022
+D0
+~
+~
+0 -1 32101
+D1
+~
+~
+0 -1 32102
+S
+#32101
+Droid Press Hall~
+Presses stand in a row, each one shaped for a different limb. A half-finished droid torso hangs in the nearest mold.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32100
+D3
+~
+~
+0 -1 32103
+S
+#32102
+Egg Gallery~
+Wax cells line both walls, most of them empty and dry. A few still hold the round shadow of an unhatched egg.
+~
+0 8 13 0 0 0 0
+D3
+~
+~
+0 -1 32100
+D0
+~
+~
+0 -1 32104
+S
+#32103
+Spire Stair~
+The stair climbs inside the spire. Slit windows show the arena as a pale oval far below.
+~
+0 0 5 0 0 0 0
+D1
+~
+~
+0 -1 32101
+S
+#32104
+Sonic Watch~
+A round room of horns and dishes points out over the desert. The board is dark. A Geonosian stool is bolted to the floor.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32102
+D1
+~
+~
+0 -1 32105
+S
+#32105
+Queen's Anteroom~
+A larger seat than the archduke's faces a curtain of carved wings. Dust lies evenly on it. Nobody has sat here in a long time.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32104
+S
+#0
+
+
+#RESETS
+M 1 32110 1 31022
+M 1 32111 1 32101
+M 1 32112 1 32102
+G 1 32115 1
+O 1 32116 1 31022
+S
+
+
+#SHOPS
+32112 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

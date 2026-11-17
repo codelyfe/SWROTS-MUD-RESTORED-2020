@@ -1,0 +1,311 @@
+#AREA   Bothawui~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32710
+bothan clerk~
+a Bothan clerk~
+A Bothan clerk rests a hand on a chained book.
+~
+Fur brushed, eyes missing nothing, voice missing volume.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32711
+cafe keeper~
+a cafe keeper~
+A cafe keeper polishes a small cup.
+~
+The keeper remembers orders and does not write them down where you can see.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32712
+dock clerk~
+a dock clerk~
+A dock clerk checks a covered boat.
+~
+Information about departures is a courtesy, not a right.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say The cup, if you are staying. I do not sell what I heard.
+~
+|
+#0
+
+
+#OBJECTS
+#32715
+small cup~
+a small cafe cup~
+A small cafe cup sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+6
+0
+#32716
+clan ribbon~
+a clan ribbon~
+A clan ribbon lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+9
+0
+#0
+
+
+#ROOMS
+#31272
+Clan Pad~
+The pad serves a city of clans. Gardens show between the roofs. Nobody on the pad is only a traveler.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31273
+D2
+~
+~
+0 -1 31277
+S
+#31273
+Spy Plaza~
+A plaza of cafes and quiet tables. People talk with their backs to the wall. The cups are small.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31272
+D1
+~
+~
+0 -1 31274
+D3
+~
+~
+0 -1 31275
+D0
+~
+~
+0 -1 31276
+S
+#31274
+Clan Hall~
+A hall of banners. Each banner is a clan. The floor is a map of who stands where, and it matters.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31273
+D0
+~
+~
+0 -1 31278
+S
+#31275
+Archive~
+An archive of locked drawers. The index is a book on a chain. The chain is not decorative.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31273
+S
+#31276
+Garden~
+A garden of still water and low trees. The quiet is maintained. A bench faces the water and not the path.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31273
+D1
+~
+~
+0 -1 31279
+S
+#31277
+Dock~
+A small dock. Boats are covered. A clerk with a clipboard treats the boats as information.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31272
+S
+#31278
+Alley~
+A narrow alley with too many doors. Each door is a clan's back door. North, one of them is a cafe store.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31274
+D0
+~
+~
+0 -1 32700
+S
+#31279
+Council Room~
+A round table and too many chairs. The windows are high. You cannot see in from the plaza, which is the point.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31276
+S
+#32700
+Cafe Store~
+The alley's north door opens on the back of a cafe. Cups, a quiet roaster, and a ledger of who sat where.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31278
+D0
+~
+~
+0 -1 32701
+D1
+~
+~
+0 -1 32702
+S
+#32701
+Banner Dais~
+The hall from the dais. You understand the floor markings better and enjoy them less.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32700
+D3
+~
+~
+0 -1 32703
+S
+#32702
+Index Desk~
+The archive's desk. The chained book. A clerk who will look up a name and not the file.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32700
+D0
+~
+~
+0 -1 32704
+S
+#32703
+Covered Dock~
+Under the covers, the boats are clean. The clipboard has opinions about rain.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32701
+S
+#32704
+Still Garden~
+The garden's far side. The bench. A bell you are not supposed to ring.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 32702
+D1
+~
+~
+0 -1 32705
+S
+#32705
+Side Room~
+A side room off the council table, for people who have stepped out. Water, and no paper.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32704
+S
+#0
+
+
+#RESETS
+M 1 32710 1 31278
+M 1 32711 1 32701
+M 1 32712 1 32702
+G 1 32715 1
+O 1 32716 1 31278
+S
+
+
+#SHOPS
+32712 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

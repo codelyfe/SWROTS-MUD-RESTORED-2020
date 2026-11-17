@@ -1,0 +1,311 @@
+#AREA   Eriadu~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32690
+eriadu clerk~
+a tariff clerk~
+A tariff clerk turns a stamp.
+~
+The sleeve-garter is regulation. The sigh is not.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32691
+mill hand~
+a mill hand~
+A mill hand drinks water on the gear gallery.
+~
+Ear guards around the neck. The water is the break.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32692
+bargemaster~
+a bargemaster~
+A bargemaster sells crate space and tea.
+~
+The tea is from upriver and is the clean thing in the day.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Tea. The stamps are not for sale.
+~
+|
+#0
+
+
+#OBJECTS
+#32695
+tea tin~
+a tin of upriver tea~
+A tin of upriver tea sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+14
+0
+#32696
+stamp ink~
+a pad of stamp ink~
+A pad of stamp ink sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+3
+0
+#0
+
+
+#ROOMS
+#31264
+Governor Pad~
+The pad looks over smoke and mills. The city does not sleep. A governor's avenue runs off between statues.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31265
+D2
+~
+~
+0 -1 31269
+S
+#31265
+Governor's Avenue~
+A wide avenue of offices. Statues are black with soot. People walk as if the soot were weather.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31264
+D1
+~
+~
+0 -1 31266
+D3
+~
+~
+0 -1 31267
+D0
+~
+~
+0 -1 31268
+S
+#31266
+Mill Floor~
+A mill floor of gears and belts. The noise is a wall. Ear guards are not optional and are still not enough.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31265
+D0
+~
+~
+0 -1 31270
+S
+#31267
+Tariff Office~
+Desks, stamps, and a long counter. The line is part of the architecture.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31265
+S
+#31268
+Docks~
+Docks take river barges. Crates are stacked three high. The river is the color of the statues.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31265
+D1
+~
+~
+0 -1 31271
+S
+#31269
+Smoke Alley~
+An alley between mills. The air stings. Someone has strung laundry, which is an act of optimism.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31264
+S
+#31270
+Plaza~
+A plaza with a dry fountain. Workers cross it without looking up. North, a stair climbs to a mill office.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31266
+D0
+~
+~
+0 -1 32680
+S
+#31271
+South Mill~
+Another mill, older. The windows are boarded on one side. The other side is working harder to make up for it.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31268
+S
+#32680
+Mill Office~
+North of the plaza, an office over the gears. The noise is a rumor. Ledgers are the main event.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31270
+D0
+~
+~
+0 -1 32681
+D1
+~
+~
+0 -1 32682
+S
+#32681
+Tariff Line~
+The long counter, from the working side. Stamps on a wheel. A clerk with a sleeve-garter.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32680
+D3
+~
+~
+0 -1 32683
+S
+#32682
+Barge Dock~
+Down on the dock. The river smells like the city. A bargee coils a line that has opinions.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 32680
+D0
+~
+~
+0 -1 32684
+S
+#32683
+Gear Gallery~
+A gallery over the mill floor for people who must see the belts and still hear themselves.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32681
+S
+#32684
+Soot Court~
+A court behind the statues where the soot is swept into a pile that is itself a statue.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32682
+D1
+~
+~
+0 -1 32685
+S
+#32685
+Boarded Wing~
+The boarded side of the old mill. It is a store now. The boards are the walls.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32684
+S
+#0
+
+
+#RESETS
+M 1 32690 1 31270
+M 1 32691 1 32681
+M 1 32692 1 32682
+G 1 32695 1
+O 1 32696 1 31270
+S
+
+
+#SHOPS
+32692 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

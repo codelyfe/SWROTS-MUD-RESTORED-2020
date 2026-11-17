@@ -1,0 +1,15 @@
+[ 1494] Nevanessys: create a 'hangership' command on certain vnums to relocate a ship to a nearby hanger(as in the next vnum/room)
+[ 1442] Nevanessys: I've implemented rooms that include 'gameboards' such as 'holochess'. it'd be cool if you could come up w/ a way to play on such 'gameboards' and even gamble while doing so. just an idea.
+[  106] Manteiv: make a command so that capital ships can order supplies
+[  111] Manteiv: make it so explosions on landing pads harm ships. ships exploading on landing pads will devistate characters.
+[ 1010] Nevanessys: above and beyond having pshops, have pvendors as well....mobs that carry a PC's designated inventory and wander around hawking their wares.
+[ 1031] Nevanessys: implement reputation on the who list again.
+[ 1031] Nevanessys: reimplement planet controls.
+[  100] Nevanessys: implement each of the various skill commands (hide, sneak, ect)
+[  100] Nevanessys: help files, help files, help files.
+[  112] Nevanessys: how is the training process going to happen? as usual? if so, change, or allow me to, the msgs recieved when doing so, and when finishing.
+[  112] Nevanessys: implement rank. will show to ONLY clan members on the whoscreen, in a prename fashion. for those who are mastered in a prestege class, allow them the option (unless they're in a clan) to use a 'prename' command that allows them to define their occup
+[  112] Nevanessys: occupation/whatever in the wholist (carried over from last idea)
+[ 1029] Nevanessys: when attempting to quit @ a vnum that isn't designated as a hotel or such, it sez 'no way! you are fighting'
+[  112] Nevanessys: CHANGE THE WIZLIST SCREEN
+[ 1074] Nevanessys: change the atmosphere changes such as 'the sun rises in the east', 'the night has begun', ect, to something original.

@@ -1,0 +1,311 @@
+#AREA   Jakku~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32370
+jakku scavenger~
+a scavenger~
+A scavenger sorts a bin marked UNKNOWN.
+~
+Goggles, wraps, and a pole with a hook.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32371
+well keeper~
+a well keeper~
+A well keeper watches the bucket.
+~
+The keeper knows exactly how much came up.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32372
+water seller~
+a water seller~
+A water seller taps a jug.
+~
+The seller does not haggle before noon.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Water. The price is on the board.
+~
+|
+#0
+
+
+#OBJECTS
+#32375
+water jug~
+a sealed water jug~
+A sealed water jug sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+30
+0
+#32376
+scavenger hook~
+a scavenger's hook~
+A scavenger's hook lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+12
+0
+#0
+
+
+#ROOMS
+#31136
+Graveyard Pad~
+The pad is a plate of wreck metal in the sand. A ridge of dead ships blocks the east. The sun is a weight.
+~
+0 48 10 0 0 0 0
+D0
+~
+~
+0 -1 31137
+D2
+~
+~
+0 -1 31141
+S
+#31137
+Trading Post~
+A post of scrap and canvas sells water and tools. The shade is the only mercy, and it is rented by the hour.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31136
+D1
+~
+~
+0 -1 31138
+D3
+~
+~
+0 -1 31139
+D0
+~
+~
+0 -1 31140
+S
+#31138
+Wreck Ridge~
+Broken hulls make a ridge you can walk inside. Cabins are stripped. A name in Aurebesh is half sandblasted off a bulkhead.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 31137
+D0
+~
+~
+0 -1 31142
+S
+#31139
+Dune Road~
+The road is a track between dunes. It shifts after every wind. Poles with rags mark the way, and some of the rags are new.
+~
+0 0 10 0 0 0 0
+D1
+~
+~
+0 -1 31137
+S
+#31140
+Scavenger Hut~
+A hut of plate and cloth. Bins of parts fill the corners, sorted by a system only the owner understands.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31137
+D1
+~
+~
+0 -1 31143
+S
+#31141
+Well~
+A stone well drops into cool dark. A rope and bucket wait. The water is the most valuable thing in sight.
+~
+0 0 10 0 0 0 0
+D0
+~
+~
+0 -1 31136
+S
+#31142
+Starship Rib~
+The rib of a capital ship makes a cave of shade. People have chalked claims on the metal. North, a path climbs the graveyard.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31138
+D0
+~
+~
+0 -1 32360
+S
+#31143
+Salt Pan~
+A white pan stretches south. Heat lifts off it in sheets. Nothing lives on it, which is why people cross it.
+~
+0 0 10 0 0 0 0
+D3
+~
+~
+0 -1 31140
+S
+#32360
+Graveyard Path~
+North of the rib, a path climbs through hulls. Claims overlap. A lookout has a chair and a rifle.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 31142
+D0
+~
+~
+0 -1 32361
+D1
+~
+~
+0 -1 32362
+S
+#32361
+Claim Lookout~
+The chair, the rifle's rack, and a view of who is coming up the path. A bell made from a coolant pipe.
+~
+0 0 10 0 0 0 0
+D2
+~
+~
+0 -1 32360
+D3
+~
+~
+0 -1 32363
+S
+#32362
+Scavenger Sort~
+Tables of parts under a stretched sail. The sort is real: fasteners, boards, glass, and a bin marked UNKNOWN.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 32360
+D0
+~
+~
+0 -1 32364
+S
+#32363
+Well House~
+A shack over the well so the sun does not take the water back. The bucket's rope is spliced in three places.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32361
+S
+#32364
+Night Hull~
+A cabin someone sleeps in. A cot, a lock on the hatch, and a list of what is not for sale.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32362
+D1
+~
+~
+0 -1 32365
+S
+#32365
+Water Counter~
+The trading post's back room. Jugs, a scale, and a price board that changes with the week.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32364
+S
+#0
+
+
+#RESETS
+M 1 32370 1 31142
+M 1 32371 1 32361
+M 1 32372 1 32362
+G 1 32375 1
+O 1 32376 1 31142
+S
+
+
+#SHOPS
+32372 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

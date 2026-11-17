@@ -1,0 +1,3 @@
+[*****] BOOT: ---------------------[ Boot Log ]--------------------
+[*****] BOOT: Fix_exits: room 1854, exit northeast leads to bad vnum (4500)
+[*****] BOOT: Fix_exits: room 1999, exit up leads to bad vnum (4500)

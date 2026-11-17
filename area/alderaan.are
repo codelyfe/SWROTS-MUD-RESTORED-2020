@@ -1,0 +1,311 @@
+#AREA   Alderaan~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32290
+alderaan archivist~
+an Alderaanian archivist~
+An Alderaanian archivist shelves a book.
+~
+White sleeves and a voice meant for a library.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32291
+thranta keeper~
+a thranta keeper~
+A thranta keeper oils a launch ring.
+~
+The keeper looks at the drop the way other people look at a road.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32292
+paper seller~
+a paper seller~
+A paper seller wraps a ream.
+~
+Good paper. The seller will tell you so once.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Paper and ink. Please do not crease the sheets.
+~
+|
+#0
+
+
+#OBJECTS
+#32295
+ream paper~
+a ream of paper~
+A ream of fine paper lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+20
+0
+#32296
+pressed flower~
+a pressed white flower~
+A pressed white flower lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+2
+0
+#0
+
+
+#ROOMS
+#31104
+Aldera Landing~
+White stone terraces step down a mountain. The air is thin and clean. Ships land softly here, as if the city asked them to.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31105
+D2
+~
+~
+0 -1 31109
+S
+#31105
+Palace Court~
+Fountains play in a court of pale stone. No one raises a voice. The water is the loudest thing, and it is not loud.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31104
+D1
+~
+~
+0 -1 31106
+D3
+~
+~
+0 -1 31107
+D0
+~
+~
+0 -1 31108
+S
+#31106
+Mountain City~
+Houses follow the slope. Gardens sit on every roof. A child flies a small kite shaped like a thranta.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31105
+D0
+~
+~
+0 -1 31110
+S
+#31107
+Thranta Overlook~
+The overlook faces a gulf of air. Riders used to launch from the rail. The posts for their harnesses are still there.
+~
+0 0 4 0 0 0 0
+D1
+~
+~
+0 -1 31105
+S
+#31108
+Archive Stair~
+A stair of white stone drops into a library cut in the mountain. The smell is paper and cold rock.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31105
+D1
+~
+~
+0 -1 31111
+S
+#31109
+Market Terrace~
+Stalls sell fruit, cloth, and paper. The goods are ordinary and fine. Nobody haggles in a loud voice.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31104
+S
+#31110
+Garden Walk~
+Grass and white trees fill a walled walk. Water runs in a channel. North, an archive door stands open.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31106
+D0
+~
+~
+0 -1 32280
+S
+#31111
+Council Balcony~
+A balcony looks over the city. Seats face the peaks. A bell, very small, sits on a side table.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31108
+S
+#32280
+Mountain Archive~
+The garden door opens north into stacks cut from the mountain. The ladders roll. A reading lamp is on at the far end.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31110
+D0
+~
+~
+0 -1 32281
+D1
+~
+~
+0 -1 32282
+S
+#32281
+Reading Bay~
+A bay of tables under a skylight. Someone has left a book open to a page of poetry and a pressed flower.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32280
+D3
+~
+~
+0 -1 32283
+S
+#32282
+Thranta Posts~
+The launch posts, up close. Leather is weathered, the rings polished by hands. The drop is sincere.
+~
+0 0 4 0 0 0 0
+D3
+~
+~
+0 -1 32280
+D0
+~
+~
+0 -1 32284
+S
+#32283
+Roof Garden~
+A garden on a roof below the court. Herbs, white flowers, and a view of the next roof's garden.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 32281
+S
+#32284
+Paper Stall Row~
+The market's quiet end. Paper, ink, and brushes. A seller wraps a ream in cloth.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 32282
+D1
+~
+~
+0 -1 32285
+S
+#32285
+Council Ante~
+A room before the balcony. Cloaks on pegs, water on a tray, and no weapons in sight.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32284
+S
+#0
+
+
+#RESETS
+M 1 32290 1 31110
+M 1 32291 1 32281
+M 1 32292 1 32282
+G 1 32295 1
+O 1 32296 1 31110
+S
+
+
+#SHOPS
+32292 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

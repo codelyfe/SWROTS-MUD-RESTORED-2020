@@ -1,0 +1,311 @@
+#AREA   Mandalore~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32510
+mandalorian guard~
+a Mandalorian guard~
+A Mandalorian guard stands the clan room in full helmet.
+~
+Armor painted in a clan color. The T-visor does not turn when you talk.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32511
+armorer~
+an armorer~
+An armorer sorts under-suits by size.
+~
+The hammer is on the bench and not offered.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32512
+plaza vendor~
+a plaza vendor~
+A plaza vendor sells water under the dome.
+~
+Even a perfect city gets thirsty.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Water, and under-suits. Not the armor.
+~
+|
+#0
+
+
+#OBJECTS
+#32515
+undersuit~
+a plain under-suit~
+A plain under-suit lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+60
+0
+#32516
+water bottle~
+a bottle of water~
+A bottle of water sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+4
+0
+#0
+
+
+#ROOMS
+#31192
+Sundari Pad~
+The pad sits under a great dome. The city beyond is white and quiet. The light has no direction.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31193
+D2
+~
+~
+0 -1 31197
+S
+#31193
+Dome Plaza~
+The plaza is wide and clean. The dome diffuses the light into something like dusk at noon.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31192
+D1
+~
+~
+0 -1 31194
+D3
+~
+~
+0 -1 31195
+D0
+~
+~
+0 -1 31196
+S
+#31194
+Palace Steps~
+Steps rise to a palace of cube and glass. Banners are few. The ones that hang are clan, not state.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31193
+D0
+~
+~
+0 -1 31198
+S
+#31195
+Memorial~
+A wall of names faces the plaza. Helmets are set in niches, empty, polished, and not for wearing.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31193
+S
+#31196
+Lower City~
+Below the dome the streets are older and closer. The cube architecture gives way to stone.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31193
+D1
+~
+~
+0 -1 31199
+S
+#31197
+Barracks~
+Armor racks and a practice floor. The racks are not full. A training remote sits in a charger.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31192
+S
+#31198
+Peace Garden~
+A garden grows under the dome. The plants are carefully ordinary. North, a gate in a hedge leads to a clan room.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31194
+D0
+~
+~
+0 -1 32500
+S
+#31199
+Gate Ring~
+The city gate is a ring in the dome wall. Desert shows beyond the field, bright and hostile.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31196
+S
+#32500
+Clan Room~
+North of the peace garden, a room of banners and one table. The banners disagree with each other politely.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31198
+D0
+~
+~
+0 -1 32501
+D1
+~
+~
+0 -1 32502
+S
+#32501
+Helmet Niche~
+The memorial, from the keeper's side. Polish, cloths, and a list of which niche is whose.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32500
+D3
+~
+~
+0 -1 32503
+S
+#32502
+Practice Floor~
+The floor up close. Scorch marks in a training pattern. The remote beeps because it is bored.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32500
+D0
+~
+~
+0 -1 32504
+S
+#32503
+Lower Stair~
+Stairs to the older city. The white gives way to stone and to shops that were here first.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32501
+S
+#32504
+Dome Gatehouse~
+The ring gate's works. Field controls, a viewport on the desert, and a seat for a long watch.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32502
+D1
+~
+~
+0 -1 32505
+S
+#32505
+Armorers~
+A shop of plates and under-suits. The armorer does not sell beskar to strangers. The under-suits are another matter.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32504
+S
+#0
+
+
+#RESETS
+M 1 32510 1 31198
+M 1 32511 1 32501
+M 1 32512 1 32502
+G 1 32515 1
+O 1 32516 1 31198
+S
+
+
+#SHOPS
+32512 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

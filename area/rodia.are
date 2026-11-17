@@ -1,0 +1,311 @@
+#AREA   Rodia~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32730
+rodian netmender~
+a Rodian netmender~
+A Rodian netmender works a rope with a knife.
+~
+Green, quick, and precise with the edge.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32731
+habitat medic~
+a habitat medic~
+A habitat medic folds a dry blanket.
+~
+The medic's victory is the blanket.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32732
+parts seller rodia~
+a parts seller~
+A parts seller wipes a fitting dry before showing it.
+~
+Dry is a selling point.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Fittings that stay dry. Blankets if you are sleeping here.
+~
+|
+#0
+
+
+#OBJECTS
+#32735
+dry blanket~
+a dry blanket~
+A dry blanket lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+12
+0
+#32736
+wetproof fitting~
+a wet-proof fitting~
+A wet-proof fitting lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+19
+0
+#0
+
+
+#ROOMS
+#31280
+Bubble Pad~
+The pad connects to a bubble habitat over a swamp. The bubble ticks as it adjusts. Green water is on every side.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31281
+D2
+~
+~
+0 -1 31285
+S
+#31281
+Habitat Ring~
+A ring corridor looks out on green water and trees. Condensation runs in planned lines.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31280
+D1
+~
+~
+0 -1 31282
+D3
+~
+~
+0 -1 31283
+D0
+~
+~
+0 -1 31284
+S
+#31282
+Hangar Bubble~
+A bubble big enough for small ships. Condensation runs down it. A ground crew wipes a window in a losing war.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31281
+D0
+~
+~
+0 -1 31286
+S
+#31283
+Market~
+Stalls sell dried fish and parts. The air is wet. A fan moves it around and calls that done.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31281
+S
+#31284
+Bog Walk~
+A walk on piles leaves the habitat. The bog smells rich. Things move in it that are not boats.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31281
+D1
+~
+~
+0 -1 31287
+S
+#31285
+Clan House~
+A house of hanging seats and deep shade. Clan colors are painted and then softened by damp.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31280
+S
+#31286
+Dock~
+Boats bump a dock. Nets drip. A Rodian mends a net with a tool that is also a knife.
+~
+0 0 2 0 0 0 0
+D2
+~
+~
+0 -1 31282
+D0
+~
+~
+0 -1 32720
+S
+#31287
+South Bubble~
+A smaller bubble of rooms and a clinic. The clinic smells cleaner than the rest of the habitat, on purpose.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31284
+S
+#32720
+Net Loft~
+Above the dock, a loft of drying nets. The drip is a clock. North, a door to the clan house back stair.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31286
+D0
+~
+~
+0 -1 32721
+D1
+~
+~
+0 -1 32722
+S
+#32721
+Clan Back Stair~
+The stair into the hanging-seat house. You arrive among the seats, which is either welcome or a mistake.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32720
+D3
+~
+~
+0 -1 32723
+S
+#32722
+Clinic Bubble~
+The clean room. Cots, a dryer that works, and a medic who is tired of damp.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32720
+D0
+~
+~
+0 -1 32724
+S
+#32723
+Bog Platform~
+A platform farther out on the piles. The water is dark. A pole with a light marks the channel.
+~
+0 0 2 0 0 0 0
+D1
+~
+~
+0 -1 32721
+S
+#32724
+Parts Stall~
+The stall that is actually parts. Bins of wet-proofed fittings. A list of what sank last month.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32722
+D1
+~
+~
+0 -1 32725
+S
+#32725
+Hangar Wipe~
+The losing war against condensation, headquartered. Cloths, a bucket, and morale.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32724
+S
+#0
+
+
+#RESETS
+M 1 32730 1 31286
+M 1 32731 1 32721
+M 1 32732 1 32722
+G 1 32735 1
+O 1 32736 1 31286
+S
+
+
+#SHOPS
+32732 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

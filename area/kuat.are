@@ -1,0 +1,311 @@
+#AREA   Kuat~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32650
+kuat rigger~
+a yard rigger~
+A yard rigger clips a tether and unclips it, checking.
+~
+The rigger's gloves are the expensive kind.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32651
+tool clerk~
+a tool clerk~
+A tool clerk waits at the issue window.
+~
+Tags in, tools out. The clerk enjoys the system.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32652
+mess server kuat~
+a mess server~
+A mess server guards the soup.
+~
+Oil and soup. The server has accepted this.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Soup. The tools stay here.
+~
+|
+#0
+
+
+#OBJECTS
+#32655
+yard tag~
+a tool tag~
+A yard tool tag lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+1
+0
+#32656
+soup bowl~
+a bowl of yard soup~
+A covered bowl of soup sits here.
+~
+~
+8 0 1
+0 0 0 0
+1
+4
+0
+#0
+
+
+#ROOMS
+#31248
+Yard Pad~
+The pad is one tooth on a ring of yards. Hulls hang in the distance like unfinished cities. The planet is a curve below.
+~
+0 48 1 0 0 0 0
+D0
+~
+~
+0 -1 31249
+D2
+~
+~
+0 -1 31253
+S
+#31249
+Gantry~
+A gantry runs beside a dry skeleton of a ship. The drop is stars. Clamps tick as they cool.
+~
+0 0 9 0 0 0 0
+D2
+~
+~
+0 -1 31248
+D1
+~
+~
+0 -1 31250
+D3
+~
+~
+0 -1 31251
+D0
+~
+~
+0 -1 31252
+S
+#31250
+Drive Office~
+An office of schedules and stamps. Models of hulls sit on a shelf, and the models are precise enough to argue with.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31249
+D0
+~
+~
+0 -1 31254
+S
+#31251
+Drydock~
+A dock cradle is empty. Floodlights still burn. The cradle's shadow is a ship-shaped nothing.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31249
+S
+#31252
+Workers' Mess~
+Long tables and a serving line. The room smells of oil and soup, which is the yard's true perfume.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31249
+D1
+~
+~
+0 -1 31255
+S
+#31253
+Hull Bay~
+Plates are stacked by thickness. Cranes wait overhead. Each plate is stenciled with a bay.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31248
+S
+#31254
+Viewing Spine~
+A spine of windows looks along the ring. Ships out there are the size of neighborhoods.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31250
+D0
+~
+~
+0 -1 32640
+S
+#31255
+Tool Cage~
+A cage of tools, each tagged. The clerk's chair is empty. Outlines on the wall show what is missing. North is the cage's issue window.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31252
+S
+#32640
+Issue Window~
+North of the tool cage, the window where tags become tools. A bell, a ledger, and a stern shelf.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31254
+D0
+~
+~
+0 -1 32641
+D1
+~
+~
+0 -1 32642
+S
+#32641
+Gantry Cab~
+The cab out on the gantry. The skeleton ship fills the window. The controls are locked out.
+~
+0 8 9 0 0 0 0
+D2
+~
+~
+0 -1 32640
+D3
+~
+~
+0 -1 32643
+S
+#32642
+Model Room~
+The office models, in a side room where they cannot be bumped. You may look. A sign says so, firmly.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32640
+D0
+~
+~
+0 -1 32644
+S
+#32643
+Soup End~
+The end of the mess where the soup is. Shifts overlap here and nowhere else.
+~
+0 8 1 0 0 0 0
+D1
+~
+~
+0 -1 32641
+S
+#32644
+Plate Bay~
+Between two stacks of plate. The crane's hook hangs at eye level, which is a kind of joke.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32642
+D1
+~
+~
+0 -1 32645
+S
+#32645
+Ring Gallery~
+A public bit of the viewing spine. Families stand here. Children put their hands on the glass.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32644
+S
+#0
+
+
+#RESETS
+M 1 32650 1 31254
+M 1 32651 1 32641
+M 1 32652 1 32642
+G 1 32655 1
+O 1 32656 1 31254
+S
+
+
+#SHOPS
+32652 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

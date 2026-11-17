@@ -1,0 +1,311 @@
+#AREA   Polis Massa~
+
+
+#AUTHOR Builder~
+
+#RANGES
+0 0 0 0
+$
+
+#FLAGS
+0
+
+#ECONOMY 0 0
+
+#MOBILES
+#32250
+polis medic~
+a Polis Massa medic~
+A Polis Massa medic checks a sterile pack.
+~
+Short, pale, and careful with the corners of every package.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32251
+archivist sample~
+a sample archivist~
+A sample archivist files a handwritten label.
+~
+The archivist does not discuss what the labels say.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32252
+clinic quartermaster~
+a clinic quartermaster~
+A clinic quartermaster counts linens.
+~
+The count is exact. The quartermaster will sell a sealed pack.
+~
+5 0 0 Z
+8 0 10 1d8+40 1d4+1
+0 0
+8 8 0
+12 12 12 12 12 12 12
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+say Sealed packs only. Do not open them here.
+~
+|
+#0
+
+
+#OBJECTS
+#32255
+sterile pack~
+a sterile pack~
+A sterile medical pack lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+30
+0
+#32256
+linen folded~
+a folded linen~
+A folded clinic linen lies here.
+~
+~
+8 0 1
+0 0 0 0
+1
+8
+0
+#0
+
+
+#ROOMS
+#31072
+Asteroid Clinic Pad~
+The pad is a dish cut into an asteroid. Stars sit close overhead, and a weather field keeps the vacuum one step back.
+~
+0 48 9 0 0 0 0
+D0
+~
+~
+0 -1 31073
+D2
+~
+~
+0 -1 31077
+S
+#31073
+Observation~
+A window looks into bare rock and then into nothing. Surgery lights glow in the next bay, steady and white.
+~
+0 0 1 0 0 0 0
+D2
+~
+~
+0 -1 31072
+D1
+~
+~
+0 -1 31074
+D3
+~
+~
+0 -1 31075
+D0
+~
+~
+0 -1 31076
+S
+#31074
+Medical Bay~
+Tables and sealed cabinets line a white room. It is very quiet. A monitor shows a flat line because it is off, not because of anything else.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31073
+D0
+~
+~
+0 -1 31078
+S
+#31075
+Archive~
+Drawers of samples run to the ceiling. Labels are handwritten and careful. The alphabet is not Basic on every one.
+~
+0 0 1 0 0 0 0
+D1
+~
+~
+0 -1 31073
+S
+#31076
+Dock Tunnel~
+A tunnel leads deeper into the rock. Rails run down the middle. A cart is chocked and empty.
+~
+0 0 13 0 0 0 0
+D2
+~
+~
+0 -1 31073
+D1
+~
+~
+0 -1 31079
+S
+#31077
+Quarters~
+A few bunks and a galley hatch. Someone left a cup on the table. The cup is clean.
+~
+0 0 1 0 0 0 0
+D0
+~
+~
+0 -1 31072
+S
+#31078
+Crater Rim~
+The surface is airless past a painted line. Warning stripes, a tether reel, and north a pressure door back into the clinic stores.
+~
+0 0 5 0 0 0 0
+D2
+~
+~
+0 -1 31074
+D0
+~
+~
+0 -1 32240
+S
+#31079
+Recovery~
+A small room with one bed and a dim lamp. The walls are thick. A chair is pulled up close.
+~
+0 0 1 0 0 0 0
+D3
+~
+~
+0 -1 31076
+S
+#32240
+Clinic Stores~
+The pressure door opens on a store of sterile packs, folded linens, and locked sample cases. Everything is labeled twice.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 31078
+D0
+~
+~
+0 -1 32241
+D1
+~
+~
+0 -1 32242
+S
+#32241
+Observation Gallery~
+A gallery above the medical bay. The glass is one way. The bay below looks smaller from here.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32240
+D3
+~
+~
+0 -1 32243
+S
+#32242
+Sample Vault~
+The vault is cold. Drawers click when they seat. A logbook's last line is a date and nothing else.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32240
+D0
+~
+~
+0 -1 32244
+S
+#32243
+Rail Head~
+The tunnel's rail ends at a turntable. Two carts, one with a cracked wheel.
+~
+0 8 13 0 0 0 0
+D1
+~
+~
+0 -1 32241
+S
+#32244
+Galley~
+A small galley. The kettle is the newest thing on the asteroid. Mugs hang by size.
+~
+0 8 1 0 0 0 0
+D2
+~
+~
+0 -1 32242
+D1
+~
+~
+0 -1 32245
+S
+#32245
+Tether Lock~
+Suits and tethers in a lock between the clinic and the painted line. The suits are short in the arms.
+~
+0 8 1 0 0 0 0
+D3
+~
+~
+0 -1 32244
+S
+#0
+
+
+#RESETS
+M 1 32250 1 31078
+M 1 32251 1 32241
+M 1 32252 1 32242
+G 1 32255 1
+O 1 32256 1 31078
+S
+
+
+#SHOPS
+32252 8 0 0 0 0 120 90 0 23
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

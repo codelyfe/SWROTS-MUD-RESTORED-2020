@@ -1,0 +1,294 @@
+Mon Nov 16 17:40:55 2026 :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Mon Nov 16 17:40:55 2026 :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Mon Nov 16 17:40:55 2026 :: Loading commands
+Mon Nov 16 17:40:55 2026 :: Loading sysdata configuration...
+Mon Nov 16 17:40:55 2026 :: Loading socials
+Mon Nov 16 17:40:55 2026 :: Loading skill table
+Mon Nov 16 17:40:55 2026 :: Sorting skill table...
+Mon Nov 16 17:40:55 2026 :: Loading herb table
+Mon Nov 16 17:40:55 2026 :: Making wizlist
+Mon Nov 16 17:40:55 2026 :: Initializing request pipe
+Mon Nov 16 17:40:55 2026 :: Loading force
+Mon Nov 16 17:40:55 2026 :: Loading force skills...
+Mon Nov 16 17:40:55 2026 ::  Done force skills 
+Mon Nov 16 17:40:55 2026 :: Loading force helps...
+Mon Nov 16 17:40:55 2026 ::  Done force helps 
+Mon Nov 16 17:40:55 2026 :: Loading ship prototypes
+Mon Nov 16 17:40:55 2026 :: Loading ship prototypes...
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Load_prototype: Unknown stage: 2
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Load_prototype: Unknown stage: 3
+Mon Nov 16 17:40:55 2026 ::  Done ship prototypes 
+Mon Nov 16 17:40:55 2026 :: Initializing random number generator
+Mon Nov 16 17:40:55 2026 :: Setting time and weather
+Mon Nov 16 17:40:55 2026 :: Assigning gsn's
+Mon Nov 16 17:40:55 2026 :: Reading in area files...
+(help.are)
+limbo.are     : Rooms:     1 - 99    Objs:     2 - 99    Mobs:     1 - 99
+omni_complex  : Rooms:   100 - 114   Objs:   100 - 114   Mobs:   100 - 114
+misc.are      : Rooms:   700 - 899   Objs:   700 - 799   Mobs:   700 - 899
+newbie.are    : Rooms:   115 - 190   Objs:   115 - 190   Mobs:   115 - 190
+byss.are      : Rooms:  2501 - 4449  Objs:  2501 - 4499  Mobs:  2501 - 4449
+OrdMantell.are: Rooms:  9000 - 9500  Objs:  9000 - 9500  Mobs:  9000 - 9500
+korriban.are  : Rooms: 10701 - 10900 Objs: 10701 - 10900 Mobs: 10701 - 10900
+bespin.are    : Rooms: 29000 - 29999 Objs: 29000 - 29999 Mobs: 29000 - 29999
+shipvnum.are  : Rooms: 12000 - 18000 Objs: 12000 - 18000 Mobs: 12000 - 18000
+pubtrans.are  : Rooms:   900 - 999   Objs:   900 - 999   Mobs:   900 - 999
+prison.are    : Rooms:  2001 - 2100  Objs:  2001 - 2100  Mobs:  2001 - 2100
+endor.are     : Rooms:  4550 - 4900  Objs:  4550 - 4900  Mobs:  4550 - 4900
+nalhutta.are  : Rooms:  7801 - 7900  Objs:  7801 - 7900  Mobs:  7801 - 7900
+sith.are      : Rooms:   650 - 699   Objs:   650 - 699   Mobs:   650 - 699
+Tatooine.are  : Rooms:   250 - 450   Objs:   250 - 450   Mobs:   250 - 450
+kashyyyk.are  : Rooms: 28600 - 28999 Objs: 28600 - 28999 Mobs: 28600 - 28999
+calamari.are  : Rooms:  9701 - 10000 Objs:  9701 - 10000 Mobs:  9701 - 10000
+bakura.are    : Rooms: 18001 - 18201 Objs: 18001 - 18201 Mobs: 18001 - 18201
+Corellia.are  : Rooms: 10151 - 10500 Objs: 10151 - 10500 Mobs: 10151 - 10500
+coruscant.are : Rooms:  1050 - 1149  Objs:  1050 - 1149  Mobs:  1050 - 1149
+coruscant2.are: Rooms:  1150 - 1249  Objs:  1150 - 1249  Mobs:  1150 - 1249
+coruscant3.are: Rooms:  7500 - 7650  Objs:  7500 - 7650  Mobs:  7500 - 7650
+Yavin.are     : Rooms:  1850 - 2000  Objs:  1850 - 2000  Mobs:  1850 - 2000
+asteroid1.are : Rooms: 18202 - 18225 Objs: 18202 - 18225 Mobs: 18202 - 18225
+asteroid2.are : Rooms: 18226 - 18235 Objs: 18226 - 18235 Mobs: 18226 - 18235
+silenceindustries.are: Rooms: 10501 - 10575 Objs: 10501 - 10575 Mobs: 10501 - 10575
+narshaddaa.are: Rooms: 11051 - 11250 Objs: 11051 - 11250 Mobs: 11051 - 11250
+Honoghr.are   : Rooms:  8000 - 8199  Objs:  8000 - 8199  Mobs:  8000 - 8199
+Bilbringi.are : Rooms: 10901 - 11000 Objs: 10901 - 11000 Mobs: 10901 - 11000
+naboo.are     : Rooms: 31000 - 32007 Objs: 32020 - 32022 Mobs: 32010 - 32014
+kamino.are    : Rooms: 31008 - 32075 Objs: 32079 - 32081 Mobs: 32076 - 32078
+geonosis.are  : Rooms: 31016 - 32105 Objs: 32115 - 32116 Mobs: 32110 - 32112
+mustafar.are  : Rooms: 31024 - 32125 Objs: 32135 - 32136 Mobs: 32130 - 32132
+utapau.are    : Rooms: 31032 - 32145 Objs: 32155 - 32156 Mobs: 32150 - 32152
+felucia.are   : Rooms: 31040 - 32165 Objs: 32175 - 32176 Mobs: 32170 - 32172
+mygeeto.are   : Rooms: 31048 - 32185 Objs: 32195 - 32196 Mobs: 32190 - 32192
+christophsis.are: Rooms: 31056 - 32205 Objs: 32215 - 32216 Mobs: 32210 - 32212
+saleucami.are : Rooms: 31064 - 32225 Objs: 32235 - 32236 Mobs: 32230 - 32232
+polismassa.are: Rooms: 31072 - 32245 Objs: 32255 - 32256 Mobs: 32250 - 32252
+catoneimoidia.are: Rooms: 31080 - 32265 Objs: 32275 - 32276 Mobs: 32270 - 32272
+hoth.are      : Rooms: 31088 - 32037 Objs: 32044 - 32045 Mobs: 32040 - 32043
+dagobah.are   : Rooms: 31096 - 32055 Objs: 32058 - 32059 Mobs: 32056 - 32057
+alderaan.are  : Rooms: 31104 - 32285 Objs: 32295 - 32296 Mobs: 32290 - 32292
+scarif.are    : Rooms: 31112 - 32305 Objs: 32315 - 32316 Mobs: 32310 - 32312
+jedha.are     : Rooms: 31120 - 32325 Objs: 32335 - 32336 Mobs: 32330 - 32332
+eadu.are      : Rooms: 31128 - 32345 Objs: 32355 - 32356 Mobs: 32350 - 32352
+jakku.are     : Rooms: 31136 - 32365 Objs: 32375 - 32376 Mobs: 32370 - 32372
+takodana.are  : Rooms: 31144 - 32385 Objs: 32395 - 32396 Mobs: 32390 - 32392
+ahchto.are    : Rooms: 31152 - 32405 Objs: 32415 - 32416 Mobs: 32410 - 32412
+crait.are     : Rooms: 31160 - 32425 Objs: 32435 - 32436 Mobs: 32430 - 32432
+exegol.are    : Rooms: 31168 - 32445 Objs: 32455 - 32456 Mobs: 32450 - 32452
+lothal.are    : Rooms: 31176 - 32465 Objs: 32475 - 32476 Mobs: 32470 - 32472
+dathomir.are  : Rooms: 31184 - 32485 Objs: 32495 - 32496 Mobs: 32490 - 32492
+mandalore.are : Rooms: 31192 - 32505 Objs: 32515 - 32516 Mobs: 32510 - 32512
+ryloth.are    : Rooms: 31200 - 32525 Objs: 32535 - 32536 Mobs: 32530 - 32532
+kessel.are    : Rooms: 31208 - 32545 Objs: 32555 - 32556 Mobs: 32550 - 32552
+ilum.are      : Rooms: 31216 - 32565 Objs: 32575 - 32576 Mobs: 32570 - 32572
+malachor.are  : Rooms: 31224 - 32585 Objs: 32595 - 32596 Mobs: 32590 - 32592
+onderon.are   : Rooms: 31232 - 32605 Objs: 32615 - 32616 Mobs: 32610 - 32612
+dantooine.are : Rooms: 31240 - 32625 Objs: 32635 - 32636 Mobs: 32630 - 32632
+kuat.are      : Rooms: 31248 - 32645 Objs: 32655 - 32656 Mobs: 32650 - 32652
+sullust.are   : Rooms: 31256 - 32665 Objs: 32675 - 32676 Mobs: 32670 - 32672
+eriadu.are    : Rooms: 31264 - 32685 Objs: 32695 - 32696 Mobs: 32690 - 32692
+bothawui.are  : Rooms: 31272 - 32705 Objs: 32715 - 32716 Mobs: 32710 - 32712
+rodia.are     : Rooms: 31280 - 32725 Objs: 32735 - 32736 Mobs: 32730 - 32732
+umbara.are    : Rooms: 31288 - 32745 Objs: 32755 - 32756 Mobs: 32750 - 32752
+fondor.are    : Rooms: 31296 - 32765 Objs: 32775 - 32776 Mobs: 31400 - 31402
+florrum.are   : Rooms: 31304 - 32785 Objs: 32795 - 32796 Mobs: 31410 - 31412
+kalee.are     : Rooms: 31312 - 32805 Objs: 32815 - 32816 Mobs: 31420 - 31422
+Mon Nov 16 17:40:55 2026 :: Fixing exits
+Mon Nov 16 17:40:55 2026 :: [*****] FILE: $ LINE: 0
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Get_room_index: bad vnum 4500.
+Mon Nov 16 17:40:55 2026 :: [*****] BOOT: Fix_exits: room 1854, exit northeast leads to bad vnum (4500)
+Mon Nov 16 17:40:55 2026 :: [*****] FILE: $ LINE: 0
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Deleting northeast exit in room 1854
+Mon Nov 16 17:40:55 2026 :: [*****] FILE: $ LINE: 0
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Get_room_index: bad vnum 4500.
+Mon Nov 16 17:40:55 2026 :: [*****] BOOT: Fix_exits: room 1999, exit up leads to bad vnum (4500)
+Mon Nov 16 17:40:55 2026 :: [*****] FILE: $ LINE: 0
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Deleting up exit in room 1999
+Mon Nov 16 17:40:55 2026 :: Initializing economy
+Mon Nov 16 17:40:55 2026 :: Loading buildlist
+Mon Nov 16 17:40:55 2026 :: ../gods/Alpha
+Mon Nov 16 17:40:55 2026 :: ../gods/Drakge
+Mon Nov 16 17:40:55 2026 :: ../gods/User
+Mon Nov 16 17:40:55 2026 :: Loading boards
+Mon Nov 16 17:40:55 2026 :: ../boards/student.board
+Mon Nov 16 17:40:55 2026 :: ../boards/imm_monitor
+Mon Nov 16 17:40:55 2026 :: ../boards/quest.board
+Mon Nov 16 17:40:55 2026 :: ../boards/galactic_net
+Mon Nov 16 17:40:55 2026 :: ../boards/mail_net
+Mon Nov 16 17:40:55 2026 :: ../boards/hyperterminal
+Mon Nov 16 17:40:55 2026 :: ../boards/1141
+Mon Nov 16 17:40:55 2026 :: ../boards/contest.board
+Mon Nov 16 17:40:55 2026 :: ../boards/imperialboard.board
+Mon Nov 16 17:40:55 2026 :: ../boards/builders board
+Mon Nov 16 17:40:55 2026 :: ../boards/imperial.brd
+Mon Nov 16 17:40:55 2026 :: Loading clans
+Mon Nov 16 17:40:55 2026 :: Loading clans...
+Mon Nov 16 17:40:55 2026 :: republic.clan
+Mon Nov 16 17:40:55 2026 :: antarian.clan
+Mon Nov 16 17:40:55 2026 :: jedi.clan
+Mon Nov 16 17:40:55 2026 :: blacksun.clan
+Mon Nov 16 17:40:55 2026 :: sienar.clan
+Mon Nov 16 17:40:55 2026 :: sorosuub.clan
+Mon Nov 16 17:40:55 2026 :: bounty.clan
+Mon Nov 16 17:40:55 2026 :: sith.clan
+Mon Nov 16 17:40:55 2026 :: $
+Mon Nov 16 17:40:55 2026 ::  Done clans
+Sorting clans....
+Mon Nov 16 17:40:55 2026 ::  Done sorting
+Mon Nov 16 17:40:55 2026 :: Loading senate
+Mon Nov 16 17:40:55 2026 :: Loading bans
+Mon Nov 16 17:40:55 2026 :: Loading corpses
+Mon Nov 16 17:40:55 2026 :: Loading space
+Mon Nov 16 17:40:55 2026 :: Loading space...
+Mon Nov 16 17:40:55 2026 ::  Done starsystems 
+Mon Nov 16 17:40:55 2026 :: Loading ships
+Mon Nov 16 17:40:55 2026 :: Loading ships...
+Mon Nov 16 17:40:55 2026 ::  Done ships 
+Mon Nov 16 17:40:55 2026 :: Loading bounties
+Mon Nov 16 17:40:55 2026 :: Loading disintegrations...
+Mon Nov 16 17:40:55 2026 ::  Done bounties 
+Mon Nov 16 17:40:55 2026 :: Loading governments
+Mon Nov 16 17:40:55 2026 :: Loading planets...
+Mon Nov 16 17:40:55 2026 :: Coruscant.pl
+Mon Nov 16 17:40:55 2026 :: Endor.pl
+Mon Nov 16 17:40:55 2026 :: Nalhutta.pl
+Mon Nov 16 17:40:55 2026 :: narshaddaa.pl
+Mon Nov 16 17:40:55 2026 :: korriban.pl
+Mon Nov 16 17:40:55 2026 :: XN1224-a.planet
+Mon Nov 16 17:40:55 2026 :: HP9015-l.planet
+Mon Nov 16 17:40:55 2026 :: Tatooine.pl
+Mon Nov 16 17:40:55 2026 :: Kashyyyk.pl
+Mon Nov 16 17:40:55 2026 :: Moncalamari.pl
+Mon Nov 16 17:40:55 2026 :: bakura.pl
+Mon Nov 16 17:40:55 2026 :: Corellia.pl
+Mon Nov 16 17:40:55 2026 :: Ordmantell.pl
+Mon Nov 16 17:40:55 2026 :: Yavin.pl
+Mon Nov 16 17:40:55 2026 :: ossus.pl
+Mon Nov 16 17:40:55 2026 :: Thorne.pl
+Mon Nov 16 17:40:55 2026 :: bespin.pl
+Mon Nov 16 17:40:55 2026 :: byss.pl
+Mon Nov 16 17:40:55 2026 :: honoghr.pl
+Mon Nov 16 17:40:55 2026 :: bilbringi.pl
+Mon Nov 16 17:40:55 2026 :: naboo.pl
+Mon Nov 16 17:40:55 2026 :: kamino.pl
+Mon Nov 16 17:40:55 2026 :: geonosis.pl
+Mon Nov 16 17:40:55 2026 :: mustafar.pl
+Mon Nov 16 17:40:55 2026 :: utapau.pl
+Mon Nov 16 17:40:55 2026 :: felucia.pl
+Mon Nov 16 17:40:55 2026 :: mygeeto.pl
+Mon Nov 16 17:40:55 2026 :: christophsis.pl
+Mon Nov 16 17:40:55 2026 :: saleucami.pl
+Mon Nov 16 17:40:55 2026 :: polismassa.pl
+Mon Nov 16 17:40:55 2026 :: catoneimoidia.pl
+Mon Nov 16 17:40:55 2026 :: hoth.pl
+Mon Nov 16 17:40:55 2026 :: dagobah.pl
+Mon Nov 16 17:40:55 2026 :: alderaan.pl
+Mon Nov 16 17:40:55 2026 :: scarif.pl
+Mon Nov 16 17:40:55 2026 :: jedha.pl
+Mon Nov 16 17:40:55 2026 :: eadu.pl
+Mon Nov 16 17:40:55 2026 :: jakku.pl
+Mon Nov 16 17:40:55 2026 :: takodana.pl
+Mon Nov 16 17:40:55 2026 :: ahchto.pl
+Mon Nov 16 17:40:55 2026 :: crait.pl
+Mon Nov 16 17:40:55 2026 :: exegol.pl
+Mon Nov 16 17:40:55 2026 :: lothal.pl
+Mon Nov 16 17:40:55 2026 :: dathomir.pl
+Mon Nov 16 17:40:55 2026 :: mandalore.pl
+Mon Nov 16 17:40:55 2026 :: ryloth.pl
+Mon Nov 16 17:40:55 2026 :: kessel.pl
+Mon Nov 16 17:40:55 2026 :: ilum.pl
+Mon Nov 16 17:40:55 2026 :: malachor.pl
+Mon Nov 16 17:40:55 2026 :: onderon.pl
+Mon Nov 16 17:40:55 2026 :: dantooine.pl
+Mon Nov 16 17:40:55 2026 :: kuat.pl
+Mon Nov 16 17:40:55 2026 :: sullust.pl
+Mon Nov 16 17:40:55 2026 :: eriadu.pl
+Mon Nov 16 17:40:55 2026 :: bothawui.pl
+Mon Nov 16 17:40:55 2026 :: rodia.pl
+Mon Nov 16 17:40:55 2026 :: umbara.pl
+Mon Nov 16 17:40:55 2026 :: fondor.pl
+Mon Nov 16 17:40:55 2026 :: florrum.pl
+Mon Nov 16 17:40:55 2026 :: kalee.pl
+Mon Nov 16 17:40:55 2026 :: $
+Mon Nov 16 17:40:55 2026 ::  Done planets 
+Mon Nov 16 17:40:55 2026 :: Loading charted space
+Mon Nov 16 17:40:55 2026 :: Resetting areas
+Resetting: limbo.are
+Resetting: omni_complex
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Read_object: vnum 108 bad type.
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: ------------------------>     
+Resetting: misc.are
+Resetting: newbie.are
+Resetting: byss.are
+Resetting: OrdMantell.are
+Resetting: korriban.are
+Resetting: bespin.are
+Resetting: shipvnum.are
+Resetting: pubtrans.are
+Resetting: prison.are
+Resetting: endor.are
+Resetting: nalhutta.are
+Resetting: sith.are
+Resetting: Tatooine.are
+Resetting: kashyyyk.are
+Resetting: calamari.are
+Resetting: bakura.are
+Resetting: Corellia.are
+Resetting: coruscant.are
+Resetting: coruscant2.are
+Resetting: coruscant3.are
+Resetting: Yavin.are
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Affect_modify: unknown location 53.
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Affect_modify: unknown location 53.
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Affect_modify: unknown location 53.
+Mon Nov 16 17:40:55 2026 :: [*****] BUG: Affect_modify: unknown location 53.
+Resetting: asteroid1.are
+Resetting: asteroid2.are
+Resetting: silenceindustries.are
+Resetting: narshaddaa.are
+Resetting: Honoghr.are
+Resetting: Bilbringi.are
+Resetting: naboo.are
+Resetting: kamino.are
+Resetting: geonosis.are
+Resetting: mustafar.are
+Resetting: utapau.are
+Resetting: felucia.are
+Resetting: mygeeto.are
+Resetting: christophsis.are
+Resetting: saleucami.are
+Resetting: polismassa.are
+Resetting: catoneimoidia.are
+Resetting: hoth.are
+Resetting: dagobah.are
+Resetting: alderaan.are
+Resetting: scarif.are
+Resetting: jedha.are
+Resetting: eadu.are
+Resetting: jakku.are
+Resetting: takodana.are
+Resetting: ahchto.are
+Resetting: crait.are
+Resetting: exegol.are
+Resetting: lothal.are
+Resetting: dathomir.are
+Resetting: mandalore.are
+Resetting: ryloth.are
+Resetting: kessel.are
+Resetting: ilum.are
+Resetting: malachor.are
+Resetting: onderon.are
+Resetting: dantooine.are
+Resetting: kuat.are
+Resetting: sullust.are
+Resetting: eriadu.are
+Resetting: bothawui.are
+Resetting: rodia.are
+Resetting: umbara.are
+Resetting: fondor.are
+Resetting: florrum.are
+Resetting: kalee.are
+Mon Nov 16 17:40:55 2026 :: Making new blackmarket list.
+Mon Nov 16 17:40:55 2026 :: Initializing socket
+Mon Nov 16 17:40:55 2026 :: SWRotS ready on port 1111.
+Resetting: newbie.are
